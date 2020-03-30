@@ -1,0 +1,1963 @@
+[{
+  "objectID": 1,
+  "exponent": -24,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 2,
+  "exponent": -21,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 3,
+  "exponent": -18,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 4,
+  "exponent": -15,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 5,
+  "exponent": -12,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 6,
+  "exponent": -9,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 7,
+  "exponent": -6,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 8,
+  "exponent": -3,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 9,
+  "exponent": 0,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 10,
+  "exponent": 3,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 11,
+  "exponent": 6,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 12,
+  "exponent": 9,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 13,
+  "exponent": 12,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 14,
+  "exponent": 15,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 15,
+  "exponent": 18,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 16,
+  "exponent": 21,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 17,
+  "exponent": 24,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 18,
+  "exponent": -34,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 19,
+  "exponent": -33,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 20,
+  "exponent": -32,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 21,
+  "exponent": -31,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 22,
+  "exponent": -30,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 23,
+  "exponent": -29,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 24,
+  "exponent": -28,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 25,
+  "exponent": -27,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 26,
+  "exponent": -26,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 27,
+  "exponent": -25,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 28,
+  "exponent": -23,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 29,
+  "exponent": -13,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 30,
+  "exponent": -4,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 31,
+  "exponent": 3,
+  "coeff": 8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 32,
+  "exponent": -24,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 33,
+  "exponent": -20,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 34,
+  "exponent": -2,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 35,
+  "exponent": -2,
+  "coeff": 5.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 36,
+  "exponent": -2,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 37,
+  "exponent": -2,
+  "coeff": 2.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 38,
+  "exponent": -2,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 39,
+  "exponent": -2,
+  "coeff": 4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 40,
+  "exponent": 10,
+  "coeff": 9.7,
+  "cullFac": 0.7,
+  "realRatio": 1
+}, {
+  "objectID": 41,
+  "exponent": 6,
+  "coeff": 4.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 42,
+  "exponent": 7,
+  "coeff": 1.27,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 43,
+  "exponent": 11,
+  "coeff": 3.1,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 44,
+  "exponent": 12,
+  "coeff": 2.4,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 45,
+  "exponent": 11,
+  "coeff": 5.2,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 46,
+  "exponent": 10,
+  "coeff": 6,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 47,
+  "exponent": 10,
+  "coeff": 1.1,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 48,
+  "exponent": 10,
+  "coeff": 3.6,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 49,
+  "exponent": 9,
+  "coeff": 1.4,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 50,
+  "exponent": 9,
+  "coeff": 1.5,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 51,
+  "exponent": 9,
+  "coeff": 1,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 52,
+  "exponent": 8,
+  "coeff": 2,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 53,
+  "exponent": 9,
+  "coeff": 2.5,
+  "cullFac": 0.7,
+  "realRatio": 1
+}, {
+  "objectID": 54,
+  "exponent": 7,
+  "coeff": 2,
+  "cullFac": 0.7,
+  "realRatio": 1
+}, {
+  "objectID": 55,
+  "exponent": 9,
+  "coeff": 3.8,
+  "cullFac": 0.7,
+  "realRatio": 1
+}, {
+  "objectID": 56,
+  "exponent": 9,
+  "coeff": 5.8,
+  "cullFac": 0.3,
+  "realRatio": 1
+}, {
+  "objectID": 57,
+  "exponent": 9,
+  "coeff": 9.6,
+  "cullFac": 0.7,
+  "realRatio": 1
+}, {
+  "objectID": 58,
+  "exponent": 10,
+  "coeff": 8.4,
+  "cullFac": 0.2,
+  "realRatio": 1
+}, {
+  "objectID": 59,
+  "exponent": 11,
+  "coeff": 1.6,
+  "cullFac": 0.7,
+  "realRatio": 1
+}, {
+  "objectID": 60,
+  "exponent": 7,
+  "coeff": 5.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 61,
+  "exponent": 7,
+  "coeff": 4.9,
+  "cullFac": 0.85,
+  "realRatio": 1
+}, {
+  "objectID": 62,
+  "exponent": 8,
+  "coeff": 1.5,
+  "cullFac": 0.85,
+  "realRatio": 1
+}, {
+  "objectID": 63,
+  "exponent": 8,
+  "coeff": 9.6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 64,
+  "exponent": 8,
+  "coeff": 1.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 65,
+  "exponent": 8,
+  "coeff": 1.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 66,
+  "exponent": 8,
+  "coeff": 1.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 67,
+  "exponent": 8,
+  "coeff": 2.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 68,
+  "exponent": 7,
+  "coeff": 1.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 69,
+  "exponent": 6,
+  "coeff": 6.8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 70,
+  "exponent": 6,
+  "coeff": 4.9,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 71,
+  "exponent": 6,
+  "coeff": 5.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 72,
+  "exponent": 6,
+  "coeff": 4.8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 73,
+  "exponent": 6,
+  "coeff": 3.6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 74,
+  "exponent": 6,
+  "coeff": 3.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 75,
+  "exponent": 6,
+  "coeff": 5.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 76,
+  "exponent": 6,
+  "coeff": 3.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 77,
+  "exponent": 6,
+  "coeff": 2.7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 78,
+  "exponent": 6,
+  "coeff": 2.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 79,
+  "exponent": 6,
+  "coeff": 1.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 80,
+  "exponent": 6,
+  "coeff": 2.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 81,
+  "exponent": 5,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 82,
+  "exponent": 6,
+  "coeff": 1.8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 83,
+  "exponent": 6,
+  "coeff": 1.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 84,
+  "exponent": 5,
+  "coeff": 9.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 85,
+  "exponent": 10,
+  "coeff": 4,
+  "cullFac": 0.5,
+  "realRatio": 1
+}, {
+  "objectID": 86,
+  "exponent": 11,
+  "coeff": 9.7,
+  "cullFac": 0.85,
+  "realRatio": 1
+}, {
+  "objectID": 87,
+  "exponent": 9,
+  "coeff": 2.6,
+  "cullFac": 0.7,
+  "realRatio": 1
+}, {
+  "objectID": 88,
+  "exponent": 11,
+  "coeff": 4.2,
+  "cullFac": 0.86,
+  "realRatio": 1
+}, {
+  "objectID": 89,
+  "exponent": 11,
+  "coeff": 4.7,
+  "cullFac": 0.4,
+  "realRatio": 1
+}, {
+  "objectID": 90,
+  "exponent": 11,
+  "coeff": 7.7,
+  "cullFac": 0.75,
+  "realRatio": 1
+}, {
+  "objectID": 91,
+  "exponent": 11,
+  "coeff": 2.1,
+  "cullFac": 0.85,
+  "realRatio": 1
+}, {
+  "objectID": 92,
+  "exponent": 12,
+  "coeff": 1.9,
+  "cullFac": 0.85,
+  "realRatio": 1
+}, {
+  "objectID": 93,
+  "exponent": 12,
+  "coeff": 2,
+  "cullFac": 0.8,
+  "realRatio": 1
+}, {
+  "objectID": 94,
+  "exponent": 12,
+  "coeff": 2.1,
+  "cullFac": 0.8,
+  "realRatio": 1
+}, {
+  "objectID": 95,
+  "exponent": 12,
+  "coeff": 2.8,
+  "cullFac": 0.8,
+  "realRatio": 1
+}, {
+  "objectID": 96,
+  "exponent": 12,
+  "coeff": 3,
+  "cullFac": 0.8,
+  "realRatio": 1
+}, {
+  "objectID": 97,
+  "exponent": 12,
+  "coeff": 1.3,
+  "cullFac": 0.85,
+  "realRatio": 1
+}, {
+  "objectID": 98,
+  "exponent": 10,
+  "coeff": 2.2,
+  "cullFac": 0.8,
+  "realRatio": 1
+}, {
+  "objectID": 99,
+  "exponent": 8,
+  "coeff": 4.2,
+  "cullFac": 0.85,
+  "realRatio": 1
+}, {
+  "objectID": 100,
+  "exponent": 8,
+  "coeff": 3.3,
+  "cullFac": 0.85,
+  "realRatio": 1
+}, {
+  "objectID": 101,
+  "exponent": 9,
+  "coeff": 2.9,
+  "cullFac": 0.5,
+  "realRatio": 1
+}, {
+  "objectID": 102,
+  "exponent": 6,
+  "coeff": 8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 103,
+  "exponent": 6,
+  "coeff": 1.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 104,
+  "exponent": 5,
+  "coeff": 1.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 105,
+  "exponent": 5,
+  "coeff": 2.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 106,
+  "exponent": 6,
+  "coeff": 1.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 107,
+  "exponent": 5,
+  "coeff": 4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 108,
+  "exponent": 4,
+  "coeff": 2.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 109,
+  "exponent": 4,
+  "coeff": 1.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 110,
+  "exponent": 4,
+  "coeff": 7.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 111,
+  "exponent": 0,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 112,
+  "exponent": 5,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 113,
+  "exponent": 4,
+  "coeff": 8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 114,
+  "exponent": 3,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 115,
+  "exponent": 8,
+  "coeff": 3.8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 116,
+  "exponent": 11,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 117,
+  "exponent": 12,
+  "coeff": 4.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 118,
+  "exponent": 2,
+  "coeff": 4.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 119,
+  "exponent": 3,
+  "coeff": 8.8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 120,
+  "exponent": 13,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 121,
+  "exponent": 13,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 122,
+  "exponent": 16,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 123,
+  "exponent": 16,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 124,
+  "exponent": 16,
+  "coeff": 4.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 125,
+  "exponent": 14,
+  "coeff": 8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 126,
+  "exponent": 15,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 127,
+  "exponent": 15,
+  "coeff": 2.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 128,
+  "exponent": 16,
+  "coeff": 2,
+  "cullFac": 0.55,
+  "realRatio": 1
+}, {
+  "objectID": 129,
+  "exponent": 15,
+  "coeff": 4.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 130,
+  "exponent": 16,
+  "coeff": 2.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 131,
+  "exponent": 16,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 132,
+  "exponent": 2,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 133,
+  "exponent": 21,
+  "coeff": 4.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 134,
+  "exponent": 15,
+  "coeff": 2.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 135,
+  "exponent": 15,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 136,
+  "exponent": 16,
+  "coeff": 1.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 137,
+  "exponent": 13,
+  "coeff": 2.6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 138,
+  "exponent": 13,
+  "coeff": 1.7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 139,
+  "exponent": 14,
+  "coeff": 1.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 140,
+  "exponent": 13,
+  "coeff": 5.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 141,
+  "exponent": 4,
+  "coeff": 1.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 142,
+  "exponent": 16,
+  "coeff": 1.7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 143,
+  "exponent": 16,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 144,
+  "exponent": 16,
+  "coeff": 7,
+  "cullFac": 0.8,
+  "realRatio": 1
+}, {
+  "objectID": 145,
+  "exponent": 16,
+  "coeff": 8,
+  "cullFac": 0.65,
+  "realRatio": 1
+}, {
+  "objectID": 146,
+  "exponent": 17,
+  "coeff": 1,
+  "cullFac": 0.65,
+  "realRatio": 1
+}, {
+  "objectID": 147,
+  "exponent": 17,
+  "coeff": 7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 148,
+  "exponent": 17,
+  "coeff": 1.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 149,
+  "exponent": 17,
+  "coeff": 2.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 150,
+  "exponent": 17,
+  "coeff": 4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 151,
+  "exponent": 17,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 152,
+  "exponent": 16,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 153,
+  "exponent": 18,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 154,
+  "exponent": 17,
+  "coeff": 6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 155,
+  "exponent": 17,
+  "coeff": 7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 156,
+  "exponent": 10,
+  "coeff": 1.7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 157,
+  "exponent": 18,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 158,
+  "exponent": 18,
+  "coeff": 1.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 159,
+  "exponent": 18,
+  "coeff": 6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 160,
+  "exponent": 16,
+  "coeff": 3.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 161,
+  "exponent": 25,
+  "coeff": 3.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 162,
+  "exponent": 27,
+  "coeff": 1.6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 163,
+  "exponent": 26,
+  "coeff": 9.34,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 164,
+  "exponent": 25,
+  "coeff": 1.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 165,
+  "exponent": 24,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 166,
+  "exponent": 20,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 167,
+  "exponent": 19,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 168,
+  "exponent": 21,
+  "coeff": 1.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 169,
+  "exponent": 21,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 170,
+  "exponent": 19,
+  "coeff": 7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 171,
+  "exponent": 20,
+  "coeff": 1.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 172,
+  "exponent": 20,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 173,
+  "exponent": 20,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 174,
+  "exponent": 25,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 175,
+  "exponent": 24,
+  "coeff": 1.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 176,
+  "exponent": 23,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 177,
+  "exponent": 23,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 178,
+  "exponent": 23,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 179,
+  "exponent": 22,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 180,
+  "exponent": 22,
+  "coeff": 6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 181,
+  "exponent": 21,
+  "coeff": 1.8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 182,
+  "exponent": 21,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 183,
+  "exponent": 21,
+  "coeff": 1.7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 184,
+  "exponent": 21,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 185,
+  "exponent": 21,
+  "coeff": 2.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 186,
+  "exponent": 18,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 187,
+  "exponent": 18,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 188,
+  "exponent": 21,
+  "coeff": 2.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 189,
+  "exponent": 21,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 190,
+  "exponent": 19,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 191,
+  "exponent": 19,
+  "coeff": 6.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 192,
+  "exponent": 20,
+  "coeff": 2.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 193,
+  "exponent": 2,
+  "coeff": 2.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 194,
+  "exponent": 5,
+  "coeff": 4.5,
+  "cullFac": 1,
+  "realRatio": 0.6
+}, {
+  "objectID": 195,
+  "exponent": 24,
+  "coeff": 2.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 196,
+  "exponent": 24,
+  "coeff": 6.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 197,
+  "exponent": 22,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 198,
+  "exponent": 10,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 199,
+  "exponent": -11,
+  "coeff": 3.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 200,
+  "exponent": -11,
+  "coeff": 2.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 201,
+  "exponent": -15,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 202,
+  "exponent": -15,
+  "coeff": 6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 203,
+  "exponent": -14,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 204,
+  "exponent": -2,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 205,
+  "exponent": 0,
+  "coeff": 1.7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 206,
+  "exponent": 0,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 207,
+  "exponent": 2,
+  "coeff": 3.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 208,
+  "exponent": -1,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 209,
+  "exponent": -15,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 210,
+  "exponent": -15,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 211,
+  "exponent": -10,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 212,
+  "exponent": -10,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 213,
+  "exponent": -36,
+  "coeff": 9.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 214,
+  "exponent": -35,
+  "coeff": 1.6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 215,
+  "exponent": -1,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 216,
+  "exponent": 0,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 217,
+  "exponent": 2,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 218,
+  "exponent": 1,
+  "coeff": 6.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 219,
+  "exponent": 1,
+  "coeff": 1.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 220,
+  "exponent": 1,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 221,
+  "exponent": -1,
+  "coeff": 2.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 222,
+  "exponent": 0,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 223,
+  "exponent": 2,
+  "coeff": 9.8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 224,
+  "exponent": 2,
+  "coeff": 8.28,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 225,
+  "exponent": 3,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 226,
+  "exponent": 3,
+  "coeff": 8.6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 227,
+  "exponent": 3,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 228,
+  "exponent": 2,
+  "coeff": 2.7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 229,
+  "exponent": 2,
+  "coeff": 8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 230,
+  "exponent": 1,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 231,
+  "exponent": -12,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 2
+}, {
+  "objectID": 232,
+  "exponent": -10,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 2
+}, {
+  "objectID": 233,
+  "exponent": -8,
+  "coeff": 6,
+  "cullFac": 1,
+  "realRatio": 2
+}, {
+  "objectID": 234,
+  "exponent": -7,
+  "coeff": 4,
+  "cullFac": 1,
+  "realRatio": 2
+}, {
+  "objectID": 235,
+  "exponent": -7,
+  "coeff": 7.5,
+  "cullFac": 1,
+  "realRatio": 2
+}, {
+  "objectID": 236,
+  "exponent": -5,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 2
+}, {
+  "objectID": 237,
+  "exponent": -2,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 2
+}, {
+  "objectID": 238,
+  "exponent": 0,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 2
+}, {
+  "objectID": 239,
+  "exponent": 3,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 2
+}, {
+  "objectID": 240,
+  "exponent": -9,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 2
+}, {
+  "objectID": 241,
+  "exponent": -5,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 242,
+  "exponent": -6,
+  "coeff": 7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 243,
+  "exponent": -4,
+  "coeff": 1.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 244,
+  "exponent": -4,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 245,
+  "exponent": -4,
+  "coeff": 7,
+  "cullFac": 0.5,
+  "realRatio": 7
+}, {
+  "objectID": 246,
+  "exponent": -4,
+  "coeff": 7.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 247,
+  "exponent": -1,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 248,
+  "exponent": -8,
+  "coeff": 9,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 249,
+  "exponent": -4,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 250,
+  "exponent": -5,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 251,
+  "exponent": -6,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 252,
+  "exponent": -10,
+  "coeff": 2.8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 253,
+  "exponent": -1,
+  "coeff": 2.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 254,
+  "exponent": 7,
+  "coeff": 6.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 255,
+  "exponent": -18,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 256,
+  "exponent": -18,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 257,
+  "exponent": -19,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 258,
+  "exponent": -19,
+  "coeff": 4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 259,
+  "exponent": -22,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 260,
+  "exponent": -20,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 261,
+  "exponent": -11,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 262,
+  "exponent": -16,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 263,
+  "exponent": 26,
+  "coeff": 1.27,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 264,
+  "exponent": 3,
+  "coeff": 4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 265,
+  "exponent": 4,
+  "coeff": 4.22,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 266,
+  "exponent": 0,
+  "coeff": 2.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 267,
+  "exponent": -4,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 268,
+  "exponent": -3,
+  "coeff": 4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 269,
+  "exponent": 1,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 270,
+  "exponent": 0,
+  "coeff": 6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 271,
+  "exponent": 0,
+  "coeff": 7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 272,
+  "exponent": 1,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 273,
+  "exponent": -1,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 274,
+  "exponent": 0,
+  "coeff": 9,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 275,
+  "exponent": 2,
+  "coeff": 1.097,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 276,
+  "exponent": 2,
+  "coeff": 1.92,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 277,
+  "exponent": 2,
+  "coeff": 1.69,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 278,
+  "exponent": 2,
+  "coeff": 1.1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 279,
+  "exponent": 2,
+  "coeff": 1.08,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 280,
+  "exponent": 1,
+  "coeff": 9.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 281,
+  "exponent": 6,
+  "coeff": 8.8,
+  "cullFac": 1,
+  "realRatio": 0.34
+}, {
+  "objectID": 282,
+  "exponent": 4,
+  "coeff": 1.09,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 283,
+  "exponent": -3,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 284,
+  "exponent": -1,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 285,
+  "exponent": -3,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 286,
+  "exponent": -1,
+  "coeff": 8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 287,
+  "exponent": 0,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 288,
+  "exponent": -2,
+  "coeff": 1.9,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 289,
+  "exponent": -4,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 290,
+  "exponent": -36,
+  "coeff": 9.3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 291,
+  "exponent": -9,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 292,
+  "exponent": 0,
+  "coeff": 2.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 293,
+  "exponent": -6,
+  "coeff": 4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 294,
+  "exponent": -6,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 295,
+  "exponent": -10,
+  "coeff": 8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 296,
+  "exponent": -9,
+  "coeff": 2.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 297,
+  "exponent": -9,
+  "coeff": 5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 298,
+  "exponent": -3,
+  "coeff": 7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 299,
+  "exponent": -5,
+  "coeff": 3.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 300,
+  "exponent": -4,
+  "coeff": 3.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 301,
+  "exponent": -6,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 302,
+  "exponent": -4,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 303,
+  "exponent": -3,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 304,
+  "exponent": -5,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 305,
+  "exponent": -4,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 306,
+  "exponent": -8,
+  "coeff": 2.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 307,
+  "exponent": -7,
+  "coeff": 4.4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 308,
+  "exponent": -7,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 309,
+  "exponent": -17,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 310,
+  "exponent": -7,
+  "coeff": 4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 311,
+  "exponent": -7,
+  "coeff": 2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 312,
+  "exponent": -4,
+  "coeff": 3,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 313,
+  "exponent": -5,
+  "coeff": 1.76,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 314,
+  "exponent": -5,
+  "coeff": 2.54,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 315,
+  "exponent": -5,
+  "coeff": 1.5,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 316,
+  "exponent": 4,
+  "coeff": 2.4,
+  "cullFac": 0.5,
+  "realRatio": 1
+}, {
+  "objectID": 317,
+  "exponent": -6,
+  "coeff": 8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 318,
+  "exponent": -6,
+  "coeff": 7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 319,
+  "exponent": 6,
+  "coeff": 1.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 320,
+  "exponent": -15,
+  "coeff": 5.64,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 321,
+  "exponent": -9,
+  "coeff": 1,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 322,
+  "exponent": -10,
+  "coeff": 8,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 323,
+  "exponent": -8,
+  "coeff": 4.2,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 324,
+  "exponent": -8,
+  "coeff": 1.7,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 325,
+  "exponent": -6,
+  "coeff": 4,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 326,
+  "exponent": -10,
+  "coeff": 1.6,
+  "cullFac": 1,
+  "realRatio": 1
+}, {
+  "objectID": 327,
+  "exponent": 6,
+  "coeff": 2.6,
+  "cullFac": 1,
+  "realRatio": 1
+}]

@@ -1,0 +1,11 @@
+{
+  "files": [
+      "src/ts/main.ts"
+  ],
+  "compilerOptions": {
+      "noImplicitAny": false,
+      "target": "es2015",
+      "sourceMap": true,
+      "baseUrl": "."
+  }
+}
