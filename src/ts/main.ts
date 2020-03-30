@@ -13,7 +13,7 @@ import {Howl, Howler} from 'howler';
 
 // PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 // PIXI.settings.RESOLUTION = 2;
-const staticHostingURL = 'http://scaleoftheuniverse.s3-website.us-east-2.amazonaws.com/';
+const staticHostingURL = 'http://scaleoftheuniverse.s3-website.us-east-2.amazonaws.com';
 
 const frozenStar = new Howl({
   src: [`${staticHostingURL}/frozen_star.webm`, `${staticHostingURL}/frozen_star.mp3`],
@@ -57,9 +57,9 @@ loader.add('lightBG', `${staticHostingURL}/light_background.png`);
 //   loader.add(i.toString(), url);
 // }
 
-loader.add('main1', `${staticHostingURL}/item_textures_0_V1.json`);
-loader.add('main2', `${staticHostingURL}/item_textures_1_V1.json`);
-loader.add('main3', `${staticHostingURL}/item_textures_2_V1.json`);
+loader.add('main1', `${staticHostingURL}/item_textures_0_v1.json`);
+loader.add('main2', `${staticHostingURL}/item_textures_1_v1.json`);
+loader.add('main3', `${staticHostingURL}/item_textures_2_v1.json`);
 
 loader.add('assetsLow', `${staticHostingURL}/quarter_items-0-main.json`);
 
