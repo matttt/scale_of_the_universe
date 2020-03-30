@@ -75,6 +75,7 @@ export function getGraphics (visualLocation, textDatum, sizeData) {
 
     const totalTextHeight = titleText.height + descriptionText.height + scaleText.height;
     
+    
     graphics.drawRoundedRect(x, y, w, totalTextHeight, 15);
     graphics.endFill();
     graphics.alpha = .9;
