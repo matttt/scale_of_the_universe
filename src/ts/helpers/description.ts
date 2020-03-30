@@ -43,19 +43,24 @@ export function getGraphics (visualLocation, textDatum, sizeData) {
     const titleText = new PIXI.Text(textDatum.title, titleStyle);
     const scaleText = new PIXI.Text(`${sizeData.coeff} x 10`, scaleStyle);
     const exponentText = new PIXI.Text(`${sizeData.exponent}`, exponentStyle);
+    const unitText = new PIXI.Text(`meters`, scaleStyle);
     const descriptionText = new PIXI.Text(textDatum.description, descriptionStyle);
 
     titleText.x = x + margin;
     titleText.y = y + margin;
     titleText.roundPixels = true;
 
-    scaleText.x = x + margin + 10;
+    scaleText.x = x + margin;
     scaleText.y = y + titleText.height - 10;
     scaleText.roundPixels = true;
 
-    exponentText.x = x + margin + 2.5 + scaleText.width + 10;
+    exponentText.x = x + margin + 2.5 + scaleText.width;
     exponentText.y = y + titleText.height - 15;
     exponentText.roundPixels = true;
+
+    unitText.x = x + margin + 2.5 + scaleText.width + exponentText.width + 5;
+    unitText.y = y + titleText.height - 10;
+    unitText.roundPixels = true;
 
     descriptionText.x = x + margin;
     descriptionText.y = y + titleText.height + scaleText.height;
@@ -79,7 +84,7 @@ export function getGraphics (visualLocation, textDatum, sizeData) {
     descriptionContainer.y -= h/2;
     
     descriptionContainer.addChild(graphics);
-    descriptionContainer.addChild(titleText, descriptionText, scaleText, exponentText);
+    descriptionContainer.addChild(titleText, descriptionText, scaleText, exponentText, unitText);
 
     // return descriptionContainer;
     return descriptionContainer;
