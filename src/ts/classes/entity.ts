@@ -39,8 +39,8 @@ export class Entity {
 
     // default visibility
     this.sprite.visible = true;
-    this.spriteLow.visible = false;
-    this.spriteMedium.visible = false;
+    this.spriteLow.visible = true;
+    this.spriteMedium.visible = true;
 
     this.container.addChild(this.spriteLow, this.spriteMedium, this.sprite);
     

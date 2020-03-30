@@ -9,45 +9,94 @@ import { pad } from "./helpers/pad";
 import { E } from "./helpers/e";
 import { map } from "./helpers/map";
 
-import {Howl, Howler} from 'howler';
+import { Tweenable } from "shifty";
 
+import { Howl, Howler } from "howler";
+import { create } from "domain";
+
+const dialogPolyfill = require("dialog-polyfill");
 // PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 // PIXI.settings.RESOLUTION = 2;
-const staticHostingURL = 'http://scaleoftheuniverse.s3-website.us-east-2.amazonaws.com';
+const staticHostingURL = "https://d1w6pmjy03071n.cloudfront.net";
 
 const frozenStar = new Howl({
-  src: [`${staticHostingURL}/frozen_star.webm`, `${staticHostingURL}/frozen_star.mp3`],
-  autoplay: true,
+  src: [
+    `${staticHostingURL}/frozen_star.webm`,
+    `${staticHostingURL}/frozen_star.mp3`
+  ],
   loop: true,
   volume: 0.5
 });
 
-
-
-
-const frame = document.getElementById('frame');
-
-// PIXI.WebGLRenderer.batchSize = 100
-// PIXI.WebGLRenderer.batchMode = PIXI.WebGLRenderer.BATCH_SIMPLE; 
-
-let app = new PIXI.Application({
-  width: frame.offsetWidth,
-  height: frame.offsetHeight,
-  backgroundColor: 0xffffff,
-  antialias: true,
-  autoDensity: true,
-  powerPreference: 'high-performance'
+const fadeInApp = new Tweenable();
+fadeInApp.setConfig({
+  from: { opacity: 0 },
+  to: { opacity: 1 },
+  easing: "easeInOutSine",
+  duration: 500,
+  step: state => (frame.style.opacity = state.opacity)
 });
 
-frame.appendChild(app.view);
+const titleEl = document.getElementById("title");
 
-const w: number = app.renderer.width;
-const h: number = app.renderer.height;
+const titles = [
+  "Scale of the Universe",
+  `Scala dell'Universo`,
+  `مقياس الكون`,
+  `宇宙规模`,
+  "La Escala del Universo",
+  "De schaal van het Universum",
+  `Skaal van die heelal`,
+  `Мащаб на Вселената`,
+  `Échelle de l'univers`,
+  `우주의 규모`,
+  `Evrenin Ölçeği`,
+  `宇宙规模`,
+  `宇宙規模`
+];
+
+let n = 0;
+const fadeOut = new Tweenable();
+fadeOut.setConfig({
+  from: { opacity: 1 },
+  to: { opacity: 0 },
+  easing: "easeInOutSine",
+  duration: 500,
+  step: state => (titleEl.style.opacity = state.opacity)
+});
+
+const fadeIn = new Tweenable();
+fadeIn.setConfig({
+  from: { opacity: 0 },
+  to: { opacity: 1 },
+  easing: "easeInOutSine",
+  duration: 500,
+  step: state => (titleEl.style.opacity = state.opacity)
+});
+
+function titleCarosel() {
+  titleEl.textContent = titles[n++ % (titles.length - 1)];
+  fadeIn.tween().then(
+    setTimeout(() => {
+      fadeOut.tween().then();
+    }, 2000)
+  );
+}
+
+titleCarosel();
+const titleCaroselInterval = setInterval(titleCarosel, 3000);
+
+const frame = document.getElementById("frame");
+
+const langWrapper = document.getElementById("langWrapper");
+
+// PIXI.WebGLRenderer.batchSize = 100
+// PIXI.WebGLRenderer.batchMode = PIXI.WebGLRenderer.BATCH_SIMPLE;
 
 const loader = new PIXI.Loader();
 
-loader.add('darkBG', `${staticHostingURL}/dark_background.png`);
-loader.add('lightBG', `${staticHostingURL}/light_background.png`);
+loader.add("darkBG", `${staticHostingURL}/dark_background.png`);
+loader.add("lightBG", `${staticHostingURL}/light_background.png`);
 // for (let i = 0; i <= 9; i++) {
 //   const url = `img/items_sheet/item_textures-${i}.json`;
 //   loader.add(url);
@@ -57,65 +106,98 @@ loader.add('lightBG', `${staticHostingURL}/light_background.png`);
 //   loader.add(i.toString(), url);
 // }
 
-loader.add('main1', `${staticHostingURL}/item_textures_0_v1.json`);
-loader.add('main2', `${staticHostingURL}/item_textures_1_v1.json`);
-loader.add('main3', `${staticHostingURL}/item_textures_2_v1.json`);
+loader.add("main1", `${staticHostingURL}/item_textures_0_v1.json`);
+loader.add("main2", `${staticHostingURL}/item_textures_1_v1.json`);
+loader.add("main3", `${staticHostingURL}/item_textures_2_v1.json`);
 
-loader.add('assetsLow', `${staticHostingURL}/quarter_items-0-main.json`);
+loader.add("assetsLow", `${staticHostingURL}/quarter_items-0-main.json`);
 
-loader.add('assetsMedium', `${staticHostingURL}/half_items-0-main.json`);
+loader.add("assetsMedium", `${staticHostingURL}/half_items-0-main.json`);
 
 // loader.add('assets1', '/img/new/item_textures_0_quarter.json')
-
-
+const modal: any = document.getElementById("modal");
+dialogPolyfill.registerDialog(modal);
 
 loader.load(async (loader, resources) => {
+  modal.showModal();
 
-  
-  let slider = new Slider(app, w, h, onChange, onHandleClicked);
-  slider.init();
+  // await universe.createItems(resources, Number(prompt('Enter language index (0-16)')))
 
-  let universe = new Universe(0, slider, app, loader);
-  await universe.createItems(resources, Number(prompt('Enter language index (0-16)')))
-  // await universe.createItems(resources, 0)
-  
-  let scaleText = new ScaleText(w * 0.90, slider.topY - 40, "0");
+  window["setLang"] = async langIdx => {
+    let app = new PIXI.Application({
+      width: frame.offsetWidth,
+      height: frame.offsetHeight,
+      backgroundColor: 0xffffff,
+      antialias: true,
+      autoDensity: true,
+      powerPreference: "high-performance"
+    });
 
-  let background = new Background(w, h, loader);
+    const w: number = app.renderer.width;
+    const h: number = app.renderer.height;
 
+    let slider = new Slider(app, w, h, onChange, onHandleClicked);
+    slider.init();
 
-  // start us at scale 0 
-  slider.setPercent(map(0, -35, 27, 0, 1))
-  // let maskGfx = new PIXI.Graphics();
+    let universe = new Universe(0, slider, app, loader);
 
-  // maskGfx.beginFill(0xffffff)
-  // maskGfx.drawRoundedRect(0, 0, w / 2, h, 50);
-  // app.stage.mask = maskGfx;
+    let scaleText = new ScaleText(w * 0.9, slider.topY - 40, "0");
 
-  // app.stage.addChild(maskGfx);
+    let background = new Background(w, h, loader);
 
-  app.stage.addChild(
-                      background.bgContainer, 
-                      universe.container, 
-                      universe.displayContainer, 
-                      slider.container, 
-                      scaleText.container
-  );
+    // start us at scale 0
+    slider.setPercent(map(0.1, -35, 27, 0, 1));
+    // let maskGfx = new PIXI.Graphics();
 
-  function onChange(x: number, percent: number) {
-    let scaleExp = percent * 62 - 35; //range of 10^-35 to 10^27
+    // maskGfx.beginFill(0xffffff)
+    // maskGfx.drawRoundedRect(0, 0, w / 2, h, 50);
+    // app.stage.mask = maskGfx;
 
-    background.setColor(scaleExp)
-    scaleText.setColor(scaleExp)
+    // app.stage.addChild(maskGfx);
 
-    universe.update(scaleExp);
+    app.stage.addChild(
+      background.bgContainer,
+      universe.container,
+      universe.displayContainer,
+      slider.container,
+      scaleText.container
+    );
 
-    scaleText.setText(`${Math.round(scaleExp * 10) / 10}`);
-  }
+    function onChange(x: number, percent: number) {
+      let scaleExp = percent * 62 - 35; //range of 10^-35 to 10^27
 
-  function onHandleClicked() {
-    universe.onHandleClicked();
-  }
+      background.setColor(scaleExp);
+      scaleText.setColor(scaleExp);
+
+      universe.update(scaleExp);
+
+      scaleText.setText(`${Math.round(scaleExp * 10) / 10}`);
+    }
+
+    function onHandleClicked() {
+      universe.onHandleClicked();
+    }
+
+    frame.appendChild(app.view);
+
+    langWrapper.style.visibility = "hidden";
+
+    const createItemsProg:any = document.getElementById("createItemsProgress");
+    createItemsProg.style.visibility = "visible";
+    await universe.createItems(resources, langIdx, progress => {
+
+    });
+
+    slider.setPercent(map(0, -35, 27, 0, 1));
+
+    frame.style.visibility = "visible";
+    fadeInApp.tween();
+
+    clearInterval(titleCaroselInterval);
+
+    modal.close();
+    frozenStar.play();
+  };
 
   // document.body.addEventListener("keydown", event => {
   //   if (event.keyCode === 229) {
@@ -155,10 +237,8 @@ loader.load(async (loader, resources) => {
 
   //       frame.appendChild(app.view);
 
-
   //       const w: number = app.renderer.width;
   //       const h: number = app.renderer.height;
-
 
   //       slider = new Slider(app, w, h, onChange, onHandleClicked);
   //       slider.init()
@@ -170,15 +250,12 @@ loader.load(async (loader, resources) => {
 
   //       background = new Background(w, h, loader);
 
-
   //       app.stage.addChild(background.bgContainer, universe.container, slider.container, scaleText.container);
   //     }).catch(err => {
   //       alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
   //     });
 
   //     document.addEventListener("fullscreenerror", function (e) { console.log(e) });
-
-
 
   //   }
   //   // do something
@@ -188,5 +265,5 @@ loader.load(async (loader, resources) => {
 // const prog = document.querySelector('progress');
 // loader.onLoad.add(() => {
 //   console.log(loader.progress)
-//   prog.value = loader.progress
+//   prog.setAttribute('value', loader.progress.toString())
 // });

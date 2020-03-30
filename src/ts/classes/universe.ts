@@ -70,12 +70,8 @@ export class Universe {
   }
 
   update(scaleExp: number) {
-    // this.app.renderer.backgroundColor = map(scaleExp, -35, 27, 255, 125);
-
-    const adjScale = scaleExp + 0;
-
-    for (const ring of this.rings) ring.setZoom(adjScale);
-    for (const item of this.items) item.setZoom(adjScale);
+    for (const ring of this.rings) ring.setZoom(scaleExp);
+    for (const item of this.items) item.setZoom(scaleExp);
   }
 
   onHandleClicked() {
@@ -134,6 +130,8 @@ export class Universe {
         otherItem.hideDescription();
         // otherItem.container.alpha = .5
       }
+    } else {
+      this.unHideItems()
     }
   }
 
@@ -152,7 +150,7 @@ export class Universe {
     this.slider.setAnimationTargetPercent(percent + 0.003);
   }
 
-  async createItems(textures: any, languageIndex: number) {
+  async createItems(textures: any, languageIndex: number, cb: Function) {
     let allFullTextures: any = {};
     for (let key of Object.keys(textures)) {
       if (key.includes("main")) {
@@ -181,6 +179,8 @@ export class Universe {
     this.itemCount = itemSizes.length;
 
     for (let idx = 0; idx < itemSizes.length; idx++) {
+      cb(idx / itemSizes.length);
+
       let textDatum = {
         title: "",
         description: ""
