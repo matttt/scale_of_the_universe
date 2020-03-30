@@ -13,15 +13,15 @@ import {Howl, Howler} from 'howler';
 
 // PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 // PIXI.settings.RESOLUTION = 2;
+const staticHostingURL = 'http://scaleoftheuniverse.s3-website.us-east-2.amazonaws.com/';
 
 const frozenStar = new Howl({
-  src: ['/sound/frozen_star.webm', '/sound/frozen_star.mp3'],
+  src: [`${staticHostingURL}/frozen_star.webm`, `${staticHostingURL}/frozen_star.mp3`],
   autoplay: true,
   loop: true,
   volume: 0.5
 });
 
-const staticHostingURL = 'http://scaleoftheuniverse.s3-website.us-east-2.amazonaws.com/';
 
 
 
