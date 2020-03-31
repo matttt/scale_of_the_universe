@@ -1,4 +1,4 @@
-tx=Pixel de LCD
+Pixel de LCD
 Apesar de variar muito, o tamanho médio de um pixel é de 300 micrômetros. Um pixel contém três subpixels de cores vermelha, verde e azul. Pixels são legais, mas voxels são ainda mais legais. Eles são pixels tridimensionais.
 Palm Jebel Ali
 Palm Jebel Ali é a maior ilha feita pelo homem (sem incluir ilhas como Flevopolder, onde uma região da Holanda foi drenada para que houvesse mais espaço). Palm Jebel Ali ainda não está completa. Ela faz parte das Palm Islands (Ilhas Palmeira), cujo planejamento é de abrigar 250.000 pessoas!

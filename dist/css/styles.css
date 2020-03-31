@@ -15,6 +15,7 @@ dialog[open] {
   animation: appear .15s cubic-bezier(0, 1.8, 1, 1.8);
 }
 
+
 /* dialog::backdrop {
   background: linear-gradient(45deg, rgba(0,143,104,.5), rgba(250,224,66,.5));
 } */

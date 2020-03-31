@@ -14,6 +14,10 @@ import { Tweenable } from "shifty";
 import { Howl, Howler } from "howler";
 import { create } from "domain";
 
+declare var ldBar: any;
+
+
+
 const dialogPolyfill = require("dialog-polyfill");
 // PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 // PIXI.settings.RESOLUTION = 2;
@@ -32,8 +36,8 @@ const fadeInApp = new Tweenable();
 fadeInApp.setConfig({
   from: { opacity: 0 },
   to: { opacity: 1 },
-  easing: "easeInOutSine",
-  duration: 500,
+  easing: "easeOutSine",
+  duration: 2500,
   step: state => (frame.style.opacity = state.opacity)
 });
 
@@ -51,8 +55,7 @@ const titles = [
   `Échelle de l'univers`,
   `우주의 규모`,
   `Evrenin Ölçeği`,
-  `宇宙规模`,
-  `宇宙規模`
+  `宇宙规模`
 ];
 
 let n = 0;
@@ -114,36 +117,69 @@ loader.add("assetsLow", `${staticHostingURL}/quarter_items-0-main.json`);
 
 loader.add("assetsMedium", `${staticHostingURL}/half_items-0-main.json`);
 
+
+
 // loader.add('assets1', '/img/new/item_textures_0_quarter.json')
 const modal: any = document.getElementById("modal");
 dialogPolyfill.registerDialog(modal);
 
 loader.load(async (loader, resources) => {
+  // document.getElementById('loadingBar').style.visibility = 'hidden';
+  const loadingSpin:any = document.getElementById("loadingSpin");
+  loadingSpin.style.visibility = "hidden";
+
   modal.showModal();
+
+  let app = new PIXI.Application({
+    width: frame.offsetWidth,
+    height: frame.offsetHeight,
+    backgroundColor: 0xffffff,
+    antialias: true,
+    autoDensity: true,
+    powerPreference: "high-performance"
+  });
+  
+  const w: number = app.renderer.width;
+  const h: number = app.renderer.height;
+  
+  let slider = new Slider(app, w, h, onChange, onHandleClicked);
+  slider.init();
+  
+  let universe = new Universe(0, slider, app);
+  
+  let scaleText = new ScaleText(w * 0.9, slider.topY - 40, "0");
+  
+  let background = new Background(w, h, loader);
+  
+  function onChange(x: number, percent: number) {
+    let scaleExp = percent * 62 - 35; //range of 10^-35 to 10^27
+  
+    background.setColor(scaleExp);
+    scaleText.setColor(scaleExp);
+  
+    universe.update(scaleExp);
+  
+    scaleText.setText(`${Math.round(scaleExp * 10) / 10}`);
+  }
+  
+  function onHandleClicked() {
+    universe.onHandleClicked();
+  }
+
 
   // await universe.createItems(resources, Number(prompt('Enter language index (0-16)')))
 
-  window["setLang"] = async langIdx => {
-    let app = new PIXI.Application({
-      width: frame.offsetWidth,
-      height: frame.offsetHeight,
-      backgroundColor: 0xffffff,
-      antialias: true,
-      autoDensity: true,
-      powerPreference: "high-performance"
-    });
+  window["setLang"] = async (btnClass, langIdx) => {
+    const btns:any = document.querySelectorAll('button.box');
 
-    const w: number = app.renderer.width;
-    const h: number = app.renderer.height;
+    for (const button of btns) {
+      if (button.classList[1] !== btnClass) {
+        button.style.visibility = 'hidden';
+      }
+    }
 
-    let slider = new Slider(app, w, h, onChange, onHandleClicked);
-    slider.init();
 
-    let universe = new Universe(0, slider, app, loader);
 
-    let scaleText = new ScaleText(w * 0.9, slider.topY - 40, "0");
-
-    let background = new Background(w, h, loader);
 
     // start us at scale 0
     slider.setPercent(map(0.1, -35, 27, 0, 1));
@@ -163,39 +199,27 @@ loader.load(async (loader, resources) => {
       scaleText.container
     );
 
-    function onChange(x: number, percent: number) {
-      let scaleExp = percent * 62 - 35; //range of 10^-35 to 10^27
-
-      background.setColor(scaleExp);
-      scaleText.setColor(scaleExp);
-
-      universe.update(scaleExp);
-
-      scaleText.setText(`${Math.round(scaleExp * 10) / 10}`);
-    }
-
-    function onHandleClicked() {
-      universe.onHandleClicked();
-    }
+    
 
     frame.appendChild(app.view);
 
-    langWrapper.style.visibility = "hidden";
+    // langWrapper.style.visibility = "hidden";
 
-    const createItemsProg:any = document.getElementById("createItemsProgress");
-    createItemsProg.style.visibility = "visible";
+
     await universe.createItems(resources, langIdx, progress => {
 
     });
 
     slider.setPercent(map(0, -35, 27, 0, 1));
+    universe.prevZoom = 0;
 
     frame.style.visibility = "visible";
-    fadeInApp.tween();
+    modal.close();
+
+    fadeInApp.tween().then();
 
     clearInterval(titleCaroselInterval);
 
-    modal.close();
     frozenStar.play();
   };
 
@@ -262,8 +286,8 @@ loader.load(async (loader, resources) => {
   // });
 });
 
-// const prog = document.querySelector('progress');
+// let loadingBar = new ldBar("#loadingBar");
+
 // loader.onLoad.add(() => {
-//   console.log(loader.progress)
-//   prog.setAttribute('value', loader.progress.toString())
+//   loadingBar.set(loader.progress)
 // });

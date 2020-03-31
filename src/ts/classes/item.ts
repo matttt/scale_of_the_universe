@@ -1,32 +1,34 @@
-import * as PIXI from 'pixi.js';
-import { Entity } from './entity';
+import * as PIXI from "pixi.js";
+import { Entity } from "./entity";
 import { E } from "../helpers/e";
-import { getGraphics } from "../helpers/description"
-
+import { map } from "../helpers/map";
+import { getGraphics } from "../helpers/description";
+import { MotionBlurFilter } from "@pixi/filter-motion-blur";
 
 interface visualLocation {
-  "boundX": number,
-  "boundY": number,
-  "boundW": number,
-  "boundH": number,
-  "titleX": number,
-  "titleY": number,
-  "titleScale": number,
-  "titleWrap": boolean,
-  "descriptionX": number,
-  "descriptionY": number
+  boundX: number;
+  boundY: number;
+  boundW: number;
+  boundH: number;
+  titleX: number;
+  titleY: number;
+  titleScale: number;
+  titleWrap: boolean;
+  descriptionX: number;
+  descriptionY: number;
 }
 interface sizeData {
-  "objectID": number,
-  "exponent": number,
-  "coeff": number,
-  "cullFac": number,
-  "realRatio": number
+  objectID: number;
+  exponent: number;
+  coeff: number;
+  cullFac: number;
+  realRatio: number;
 }
 
 interface textDatum {
-  "title": string,
-  "description": string
+  title: string;
+  description: string;
+  metersPlural: string;
 }
 
 export class Item extends Entity {
@@ -42,7 +44,15 @@ export class Item extends Entity {
   private onClick: Function;
   private description: PIXI.Container;
 
-  constructor(sizeData: sizeData, textures: PIXI.Texture[], visualLocation: visualLocation, textDatum: textDatum, onClick: Function) {
+  private centerVec: PIXI.Point;
+
+  constructor(
+    sizeData: sizeData,
+    textures: PIXI.Texture[],
+    visualLocation: visualLocation,
+    textDatum: textDatum,
+    onClick: Function
+  ) {
     super(sizeData.exponent, textures);
 
     this.coeff = sizeData.coeff;
@@ -51,6 +61,17 @@ export class Item extends Entity {
     this.textDatum = textDatum;
     this.sizeData = sizeData;
 
+    const dX =
+      window.innerWidth / 2 - this.texture.trim.x + this.texture.trim.width / 2;
+    const dY =
+      window.innerHeight / 2 -
+      this.texture.trim.y +
+      this.texture.trim.height / 2;
+
+    var c = Math.sqrt(dX * dX + dY * dY);
+
+    this.centerVec = new PIXI.Point(dX / c, dY / c);
+
     this.onClick = onClick;
 
     const scale = E(this.scaleExp) * this.coeff * this.realRatio;
@@ -58,11 +79,15 @@ export class Item extends Entity {
 
     this.createClickableRegion();
     this.createText();
-    this.cull(scale, this.sizeData)
+    this.cull(scale, this.sizeData);
   }
 
   showDescription() {
-    const descriptionGfx = getGraphics(this.visualLocation, this.textDatum, this.sizeData);
+    const descriptionGfx = getGraphics(
+      this.visualLocation,
+      this.textDatum,
+      this.sizeData
+    );
 
     this.container.addChild(descriptionGfx);
 
@@ -71,25 +96,45 @@ export class Item extends Entity {
 
   hideDescription() {
     if (this.description) {
-      this.container.removeChild(this.description)
+      this.container.removeChild(this.description);
     }
   }
 
-  setZoom(globalZoomExp: number) {
-    const scaleExp = this.scaleExp - globalZoomExp;
+  enableMotionBlur() {}
 
-    if (!this.culled) {
-      this.cull(scaleExp, this.sizeData)
-      
-      const scale = E(scaleExp) * this.coeff * this.realRatio;
-      this.container.scale = new PIXI.Point(scale, scale)
-      this.currentScale = scale;
-      } else {
-      const scaleExp = this.scaleExp - globalZoomExp;
-      this.cull(scaleExp, this.sizeData)
+  setZoom(globalZoomExp: number, deltaZoom: number) {
+    const scaleExp = this.scaleExp - globalZoomExp;
+    if (Math.abs(deltaZoom) > 0.05) {
+      const x = this.centerVec.x;
+      const y = this.centerVec.y;
+      const MOTION_BLUR_FACTOR = 100;
+      // console.log(x,y)
+      const mult = new PIXI.Point(
+        x * deltaZoom * MOTION_BLUR_FACTOR,
+        y * deltaZoom * MOTION_BLUR_FACTOR
+      );
+
+      const motionFilter = new MotionBlurFilter(mult, 3, 0);
+      this.container.filters = [motionFilter];
+    } else {
+      this.container.filters = [];
     }
 
+    if (!this.culled) {
+      const scale = E(scaleExp) * this.coeff * this.realRatio;
 
+      this.text.alpha = map(scale, 0.1, 0.2, 0, 1);
+      this.text.visible = this.text.alpha !== 0;
+
+      this.cull(scaleExp, this.sizeData);
+      this.container.scale = new PIXI.Point(scale, scale);
+      this.currentScale = scale;
+
+      // this.text.opacity = Math.min(0, scaleExp);
+    } else {
+      const scaleExp = this.scaleExp - globalZoomExp;
+      this.cull(scaleExp, this.sizeData);
+    }
   }
 
   getScale() {
@@ -97,23 +142,22 @@ export class Item extends Entity {
   }
 
   createText() {
-    const textStyle = { 
-      fontSize: 48 * this.visualLocation.titleScale, 
-      fill: 0x000000, 
-      align: 'center', 
-      wordWrap: this.visualLocation.titleWrap, 
-      wordWrapWidth: 400 
+    const textStyle = {
+      fontSize: 48 * this.visualLocation.titleScale,
+      fill: 0x000000,
+      align: "center",
+      wordWrap: this.visualLocation.titleWrap,
+      wordWrapWidth: 400
     };
 
     const scale = E(this.scaleExp) * this.coeff * this.realRatio;
 
     if (scale > E(5)) {
-      textStyle.fill = 0xDDDDDD
+      textStyle.fill = 0xdddddd;
     }
 
-
     this.text = new PIXI.Text(this.textDatum.title, textStyle);
-    this.text.anchor.set(.5, 0)
+    this.text.anchor.set(0.5, 0);
 
     this.text.position.x = this.visualLocation.titleX;
     this.text.position.y = this.visualLocation.titleY;
@@ -122,8 +166,7 @@ export class Item extends Entity {
     //   // this.text.cacheAsBitmap = true;
     // }, 500)
 
-    this.container.addChild(this.text)
-
+    this.container.addChild(this.text);
   }
 
   createClickableRegion() {
@@ -132,7 +175,12 @@ export class Item extends Entity {
     const bX2 = bX1 + this.visualLocation.boundW;
     const bY2 = bY1 + this.visualLocation.boundH;
 
-    const points = [new PIXI.Point(bX1, bY1), new PIXI.Point(bX2, bY1), new PIXI.Point(bX2, bY2), new PIXI.Point(bX1, bY2)];
+    const points = [
+      new PIXI.Point(bX1, bY1),
+      new PIXI.Point(bX2, bY1),
+      new PIXI.Point(bX2, bY2),
+      new PIXI.Point(bX1, bY2)
+    ];
     this.sprite.hitArea = new PIXI.Polygon(points);
     this.sprite.buttonMode = true; //false makes mouse cursor not change when on item
     this.sprite.interactive = true;
@@ -140,25 +188,20 @@ export class Item extends Entity {
     // this.spriteLow.hitArea = new PIXI.Polygon(points);
     // this.spriteLow.buttonMode = true; //false makes mouse cursor not change when on item
     // this.spriteLow.interactive = true;
-    
+
     this.spriteMedium.hitArea = new PIXI.Polygon(points);
     this.spriteMedium.buttonMode = true; //false makes mouse cursor not change when on item
     this.spriteMedium.interactive = true;
     const here = this;
-    function onButtonDown ()  {
-      here.onClick(here)
+    function onButtonDown() {
+      here.onClick(here);
       // alert(this.textDatum.description)
 
       // here.();
     }
 
-    this.sprite.on('mousedown', onButtonDown)
-      .on('touchstart', onButtonDown)
+    this.sprite.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
 
-    this.spriteLow.on('mousedown', onButtonDown)
-      .on('touchstart', onButtonDown)
+    this.spriteLow.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
   }
-
-
-  
 }

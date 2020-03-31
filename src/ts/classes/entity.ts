@@ -50,7 +50,7 @@ export class Entity {
     return this.container;
   }
 
-  setZoom (globalZoomExp: number) {
+  setZoom (globalZoomExp: number, deltaZoom: number) {
     const scale = E(this.scaleExp - globalZoomExp);
 
     this.container.scale = new PIXI.Point(scale,scale)

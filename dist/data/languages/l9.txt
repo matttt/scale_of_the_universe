@@ -1,4 +1,4 @@
-tx=LCD-Pixel
+LCD-Pixel
 Obwohl sich die Größe der Pixel je nach Verwendung stark voneinander unterscheidet, liegt der Durchschnitt um die 300 Mikrometer. Ein Pixel beinhaltet drei verschiedene Unterpixel, das sind rot, grün und blau. Wenn du denkst, dass Pixel schon cool sind, dann solltest du einmal Voxel sehen! Das sind dreidimensionale Pixel.
 Palm Jebel Ali
 Palm Jebel Ali ist die größte menschengemachte Insel (ausgenommen Inseln wie Flevopolder, eine Region der Niederlande, die durch Trockenlegung entstanden ist). Palm Jebel Ali ist noch nicht fertiggestellt. Es ist Teil der Palm Islands und soll einmal 250.000 Personen beherbergen!

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@pixi/filter-motion-blur": "^3.1.1",
     "@types/node": "^13.5.0",
     "@types/pixi.js": "^5.0.0",
     "compression": "^1.7.4",

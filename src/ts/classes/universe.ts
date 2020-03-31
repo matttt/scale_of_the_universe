@@ -17,6 +17,8 @@ export class Universe {
   public displayContainer: PIXI.Container;
   public selectedItem: Item;
 
+  public prevZoom: number;
+
   private items: Array<Item> = [];
   private rings: Array<Ring> = [];
 
@@ -27,10 +29,10 @@ export class Universe {
   constructor(
     startingZoom: number,
     slider: Slider,
-    app: PIXI.Application,
-    loader: PIXI.Loader
+    app: PIXI.Application
   ) {
     this.currentZoomExp = startingZoom;
+    this.prevZoom = startingZoom;
     this.container = new PIXI.Container();
     this.displayContainer = new PIXI.Container();
 
@@ -70,8 +72,12 @@ export class Universe {
   }
 
   update(scaleExp: number) {
-    for (const ring of this.rings) ring.setZoom(scaleExp);
-    for (const item of this.items) item.setZoom(scaleExp);
+    const delta = this.prevZoom - scaleExp;
+
+    for (const ring of this.rings) ring.setZoom(scaleExp, delta);
+    for (const item of this.items) item.setZoom(scaleExp, delta);
+
+    this.prevZoom = scaleExp;
   }
 
   onHandleClicked() {
@@ -146,8 +152,23 @@ export class Universe {
 
     this.hideAllItemsBut(item);
     // this.container.setChildIndex(item.container, this.items.length + this.rings.length - 2);
+      const titlebarheight = -100;
 
-    this.slider.setAnimationTargetPercent(percent + 0.003);
+    if (window.innerHeight < 750 + titlebarheight) { // 720p
+      this.slider.setAnimationTargetPercent(percent + 0.006);
+    } else if (window.innerHeight < 1100 + titlebarheight) {// 1080p
+      this.slider.setAnimationTargetPercent(percent + 0.003);
+    } else if (window.innerHeight < 1500 + titlebarheight) {// 1440p
+      this.slider.setAnimationTargetPercent(percent + 0.000);
+    } else if (window.innerHeight < 2200 + titlebarheight) {// 4k
+      this.slider.setAnimationTargetPercent(percent - 0.003);
+    } else if (window.innerHeight < 4400 + titlebarheight) {// 8k
+      this.slider.setAnimationTargetPercent(percent - 0.007);
+    } else {
+      this.slider.setAnimationTargetPercent(percent + 0.009);
+    }
+
+    
   }
 
   async createItems(textures: any, languageIndex: number, cb: Function) {
@@ -158,12 +179,12 @@ export class Universe {
       }
     }
 
-    const itemSizes = await (await fetch("/data/sizes.json")).json();
+    const itemSizes = await (await fetch("data/sizes.json")).json();
     const visualLocations = await (
-      await fetch("/data/visualLocations.json")
+      await fetch("data/visualLocations.json")
     ).json();
     const textData = (
-      await (await fetch(`/data/languages/l${languageIndex}.txt`)).text()
+      await (await fetch(`data/languages/l${languageIndex}.txt`)).text()
     ).split("\n");
 
     // const visualLocations = (await request.get("/data/visualLocations.json").set("accept", "json")).body;
@@ -183,7 +204,8 @@ export class Universe {
 
       let textDatum = {
         title: "",
-        description: ""
+        description: "",
+        metersPlural: meterPluralText
       };
 
       let sizeData = itemSizes[idx];
