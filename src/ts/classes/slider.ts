@@ -18,11 +18,11 @@ const HANDLE_WIDTH_PERCENT = 0.04;
 const BORDER_RADIUS = 15;
 const SCROLL_SPEED = -1.5; 
 let MAX_SCROLL_SPEED = 3; // TODO: FIX: this is modified in runtime to speed up the onclick animation
-let EASING_CONSTANT = 0.025;
+let EASING_CONSTANT = 0.005;
 
 var stats = new Stats();
 stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
-document.body.appendChild(stats.dom);
+// document.body.appendChild(stats.dom);
 
 
 // slider should go from -35 to 27
@@ -194,6 +194,7 @@ export class Slider {
       this.alpha = 0.75;
       this.dragging = true;
 
+
       here.onHandleClicked();
 
       here.dragging = true;
@@ -305,7 +306,7 @@ export class Slider {
     let prevDX = 0;
     this.app.ticker.add((deltaTime: number) => {
       if (!this.animating) {
-        
+              stats.end()
               stats.begin()
               // difference between current pos and targetX pos
               
@@ -343,6 +344,11 @@ export class Slider {
                 newPosition = newX;
                 this.currentX = newX;
               }
+
+              if (adjX > rightBound + 5) {
+                newPosition = rightBound - 1 - handleWidthPixels / 2;
+                this.currentX =  rightBound -1 - handleWidthPixels / 2;
+              }
               
         
         
@@ -358,11 +364,12 @@ export class Slider {
         
               if (changed) {
                 this.onChange(newPosition, percent);
-              } else this.animStopped()
+              } else  {
+                this.animStopped() 
+              }
         
               prevDX = dXScaled; //
-              stats.end()
-
+            
       }
     });
   }

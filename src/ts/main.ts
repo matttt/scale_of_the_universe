@@ -86,6 +86,11 @@ function titleCarosel() {
   );
 }
 
+const muteToggle:any = document.getElementById('muteToggle');
+muteToggle.onclick = function (ev) {
+  Howler.mute(muteToggle.checked)
+}
+
 titleCarosel();
 const titleCaroselInterval = setInterval(titleCarosel, 3000);
 
@@ -156,6 +161,19 @@ loader.load(async (loader, resources) => {
   
     background.setColor(scaleExp);
     scaleText.setColor(scaleExp);
+    scaleText.setColor(scaleExp);
+
+    // for (const item of universe.items) {
+    //   if (item.videoSrc) {
+    //       const scale = (scaleExp+1)*10
+    //       const bounded = 16 - Math.max(Math.min(scale, 16), 0)
+    //       // console.log(bounded)
+    //       item.videoSrc.update({position: bounded});
+          
+        
+    //   }
+    // }
+
   
     universe.update(scaleExp);
   
@@ -164,7 +182,7 @@ loader.load(async (loader, resources) => {
   
   function onHandleClicked() {
     universe.onHandleClicked();
-  }
+  } 
 
 
   // await universe.createItems(resources, Number(prompt('Enter language index (0-16)')))

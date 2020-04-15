@@ -182,3 +182,64 @@ body {
         grid-row-start: 5;
         grid-row-end: 6;
     }
+
+
+
+
+    .wrap {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: calc(100% - 75px);
+      top: 0px;
+      z-index: 5;
+      transform: scale(0.4);
+   }
+    input:before, input:after {
+      content: '';
+      position: absolute;
+      cursor: pointer;
+   }
+    input:before {
+      height: 0;
+      width: 0;
+      border-right: solid 20px #34495e;
+      border-top: solid 20px transparent;
+      border-bottom: solid 20px transparent;
+      border-left: solid 20px transparent;
+      border-radius: 4px;
+      left: -8px;
+      top: -9px;
+   }
+    input:after {
+      width: 18px;
+      height: 16px;
+      border-radius: 3px;
+      background: #34495e;
+   }
+    input[type="checkbox"]:checked ~ span {
+      transform: rotate(-45deg) translateY(4px);
+      left: 45px;
+      height: 26px;
+      background: #e74c3c;
+   }
+    input[type="checkbox"]:checked + span {
+      transform: rotate(45deg) translateY(-4px);
+   }
+    span {
+      width: 5px;
+      background: #34495e;
+      position: absolute;
+      transition: all 0.3s ease-in-out;
+      border-radius: 5px;
+   }
+    span.first {
+      height: 20px;
+      left: 37px;
+   }
+    span.second {
+      height: 32px;
+      left: 46px;
+      top: -6px;
+   }
+    

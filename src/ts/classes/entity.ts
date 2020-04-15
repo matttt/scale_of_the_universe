@@ -7,9 +7,12 @@ export class Entity {
   protected textureLow: PIXI.Texture;
   protected textureMedium: PIXI.Texture;
   protected sprite: PIXI.Sprite;
+  protected video: PIXI.Sprite;
+  public videoStream: any;
   protected spriteLow: PIXI.Sprite;
   protected spriteMedium: PIXI.Sprite;
   public culled: boolean = false;
+  public hiddenSprites: boolean = false;
 
   public container: PIXI.Container;
 
@@ -42,6 +45,7 @@ export class Entity {
     this.spriteLow.visible = true;
     this.spriteMedium.visible = true;
 
+    
     this.container.addChild(this.spriteLow, this.spriteMedium, this.sprite);
     
   } 
@@ -62,12 +66,13 @@ export class Entity {
     this.spriteLow.visible = qualityIndex === 0;
   }
 
-  cull(scaleExp: number, sizeData: any) {
+  cull(scale: number, sizeData: any) {
+
 
     //E(3) => 10^3
     // basic culling :)
-    // if (scaleExp < -3 || scaleExp > 1) {
-    if (scaleExp < (-3.5 / sizeData.cullFac) || scaleExp > 1) {
+    if (scale < -3 || scale > 1.5) {
+    // if (scale < (E(-6)) || scale > E(1)) {
       this.container.visible = false;
       this.culled = true;
     } else {
@@ -75,13 +80,23 @@ export class Entity {
       this.culled = false;
     }
 
+
     // low-res for distant objects. Hacked into cull :) 
-    if (scaleExp < -0.5 && scaleExp > -1) {
+    if (scale < E(-1) && scale > E(-1.5)) {
       this.setQuality(1);
-    } else if (scaleExp < -1) {
+    } else if (scale < E(-1.5)) {
       this.setQuality(0);
     } {
       this.setQuality(2);
+    }
+
+
+
+    if (this.hiddenSprites) {
+      if (this.videoStream && !this.culled) {
+        this.videoStream.getTracks()[0].requestFrame()
+      }
+      this.setQuality(4)
     }
   }
 }

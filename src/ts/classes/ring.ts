@@ -79,21 +79,21 @@ export class Ring extends Entity {
   setZoom(globalZoomExp: number, deltaZoom: number) {
     const scaleExp = this.scaleExp - globalZoomExp;
     if (!this.culled) {
-      if (Math.abs(deltaZoom) > 0.05) {
-        const x = this.centerVec.x;
-        const y = this.centerVec.y;
-        const MOTION_BLUR_FACTOR = 100;
-        // console.log(x,y)
-        const mult = new PIXI.Point(
-          x * deltaZoom * MOTION_BLUR_FACTOR,
-          y * deltaZoom * MOTION_BLUR_FACTOR
-        );
+      // if (Math.abs(deltaZoom) > 0.05) {
+      //   const x = this.centerVec.x;
+      //   const y = this.centerVec.y;
+      //   const MOTION_BLUR_FACTOR = 100;
+      //   // console.log(x,y)
+      //   const mult = new PIXI.Point(
+      //     x * deltaZoom * MOTION_BLUR_FACTOR,
+      //     y * deltaZoom * MOTION_BLUR_FACTOR
+      //   );
 
-        const motionFilter = new MotionBlurFilter(mult, 3, 0);
-        this.container.filters = [motionFilter];
-      } else {
-        this.container.filters = [];
-      }
+      //   const motionFilter = new MotionBlurFilter(mult, 3, 0);
+      //   this.container.filters = [motionFilter];
+      // } else {
+      //   this.container.filters = [];
+      // }
 
       this.cull(scaleExp, this.sizeData);
 
@@ -113,6 +113,7 @@ export class Ring extends Entity {
   createText() {
     //make method
     let textStyle = {
+      fontFamily: 'Roboto',
       fontSize: 60,
       fill: 0x777777,
       align: "center",
@@ -120,6 +121,7 @@ export class Ring extends Entity {
       breakWords: false
     };
     let descriptionStyle = {
+      fontFamily: 'Roboto',
       fontSize: 40,
       fill: 0x777777,
       align: "center",

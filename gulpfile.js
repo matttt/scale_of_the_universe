@@ -27,7 +27,7 @@ const watchedBrowserify = watchify(browserify({
   project: 'tsconfig.json',
   cache: {},
   packageCache: {}
-}).plugin(tsify, { "baseUrl": "." }).on('error', console.log))
+}).plugin(tsify, {}).on('error', console.log))
   
 
 

@@ -1,4 +1,5 @@
 import * as PIXI from 'pixi.js';
+import { descriptionSplitter } from '../helpers/descriptionSplitter'
 
 export function getGraphics (visualLocation, textDatum, sizeData) {
     const w = 450;
@@ -7,44 +8,42 @@ export function getGraphics (visualLocation, textDatum, sizeData) {
     const y = visualLocation.descriptionY;
     const margin = 20;
 
+    
+    const baseStyle = {
+      fontFamily: 'Roboto',
+      align: 'left', 
+      fill: 0x000000, 
+      wordWrapWidth: w - (margin * 2) ,
+      wordWrap: true
+    }
+    
     const titleStyle = { 
       fontSize: 40, 
-      fill: 0x000000, 
-      align: 'left', 
-      wordWrap: true, 
-      wordWrapWidth: w - (margin * 2) 
+      ...baseStyle
     };
-
+    
     const scaleStyle = { 
       fontSize: 24, 
-      fill: 0x000000, 
-      align: 'left', 
-      wordWrap: true, 
-      wordWrapWidth: w - (margin * 2) 
+      ...baseStyle
     };
-
+    
     const exponentStyle = { 
-      fontSize: 16, 
-      fill: 0x000000, 
-      align: 'left', 
-      wordWrap: true, 
-      wordWrapWidth: w - (margin * 2) 
+      fontSize: scaleStyle.fontSize-8, 
+      ...baseStyle
     };
-
+    
     const descriptionStyle = { 
-      fontSize: 24, 
-      fill: 0x000000, 
-      align: 'left', 
-      wordWrap: true, 
-      wordWrapWidth: w - (margin * 2)
+      fontSize: 32, 
+      ...baseStyle
     };
-
-
+    
+    const splitDescription = descriptionSplitter(textDatum.description);
+    
     const titleText = new PIXI.Text(textDatum.title, titleStyle);
     const scaleText = new PIXI.Text(`${sizeData.coeff} x 10`, scaleStyle);
     const exponentText = new PIXI.Text(`${sizeData.exponent}`, exponentStyle);
     const unitText = new PIXI.Text(textDatum.metersPlural, scaleStyle);
-    const descriptionText = new PIXI.Text(textDatum.description, descriptionStyle);
+    const descriptionText = new PIXI.Text(sizeData.objectID + ' ' + splitDescription, descriptionStyle);
 
     titleText.x = x + margin;
     titleText.y = y + margin;
@@ -63,7 +62,7 @@ export function getGraphics (visualLocation, textDatum, sizeData) {
     unitText.roundPixels = true;
 
     descriptionText.x = x + margin;
-    descriptionText.y = y + titleText.height + scaleText.height;
+    descriptionText.y = y + titleText.height + scaleText.height + 10;
     descriptionText.roundPixels = true;
 
     const descriptionContainer = new PIXI.Container();
@@ -73,7 +72,7 @@ export function getGraphics (visualLocation, textDatum, sizeData) {
     graphics.lineStyle(2, 0xaaaaaa, 1);
     graphics.beginFill(0x999999, 1);
 
-    const totalTextHeight = titleText.height + descriptionText.height + scaleText.height;
+    const totalTextHeight = titleText.height + descriptionText.height + scaleText.height + 10;
     
     
     graphics.drawRoundedRect(x, y, w, totalTextHeight, 15);
@@ -85,6 +84,7 @@ export function getGraphics (visualLocation, textDatum, sizeData) {
     descriptionContainer.y -= h/2;
     
     descriptionContainer.addChild(graphics);
+    // descriptionContainer.addChild(titleText, descriptionText);
     descriptionContainer.addChild(titleText, descriptionText, scaleText, exponentText, unitText);
 
     // return descriptionContainer;

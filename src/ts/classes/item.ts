@@ -3,7 +3,8 @@ import { Entity } from "./entity";
 import { E } from "../helpers/e";
 import { map } from "../helpers/map";
 import { getGraphics } from "../helpers/description";
-import { MotionBlurFilter } from "@pixi/filter-motion-blur";
+// import { MotionBlurFilter } from "@pixi/filter-motion-blur";
+
 
 interface visualLocation {
   boundX: number;
@@ -16,6 +17,7 @@ interface visualLocation {
   titleWrap: boolean;
   descriptionX: number;
   descriptionY: number;
+  zoomOffset?: number
 }
 interface sizeData {
   objectID: number;
@@ -38,7 +40,10 @@ export class Item extends Entity {
   public sizeData: sizeData;
   public realRatio: number = 1;
   public currentScale: number = 1;
-  private visualLocation: visualLocation;
+  public visualLocation: visualLocation;
+  public video: PIXI.Sprite;
+  public app: PIXI.Application;
+  public videoSrc: any;
   private textDatum: textDatum;
   private text: PIXI.Text;
   private onClick: Function;
@@ -51,7 +56,8 @@ export class Item extends Entity {
     textures: PIXI.Texture[],
     visualLocation: visualLocation,
     textDatum: textDatum,
-    onClick: Function
+    onClick: Function,
+    app: PIXI.Application
   ) {
     super(sizeData.exponent, textures);
 
@@ -69,6 +75,12 @@ export class Item extends Entity {
       this.texture.trim.height / 2;
 
     var c = Math.sqrt(dX * dX + dY * dY);
+
+    if (sizeData.objectID === 208) {
+      this.hiddenSprites = true;
+      this.app = app
+      this.setScreenImage()
+    }
 
     this.centerVec = new PIXI.Point(dX / c, dY / c);
 
@@ -102,23 +114,51 @@ export class Item extends Entity {
 
   enableMotionBlur() {}
 
+  async setScreenImage() {
+    try {
+          // create a new Sprite using the video texture (yes it's that easy)
+      const texture = PIXI.Texture.from('img/miniScreen.mp4');
+      const videoSprite = new PIXI.Sprite(texture);
+
+      const videoResource: any = texture.baseTexture.resource;
+      const canv:any = this.app.renderer.view;
+      this.videoStream = canv.captureStream(0);
+
+      console.log(this.videoStream.getTracks()[0])
+
+      videoResource.source.srcObject = this.videoStream;
+
+      videoSprite.position.x = -430;
+      videoSprite.position.y = 125;
+      videoSprite.width = this.texture.trim.width;
+      videoSprite.height = this.texture.trim.height;
+
+      this.video = videoSprite;
+      this.container.addChild(videoSprite);
+    } catch (err) {
+      console.log('stream failed')
+      this.hiddenSprites = false;
+    }
+    
+  }
+
   setZoom(globalZoomExp: number, deltaZoom: number) {
     const scaleExp = this.scaleExp - globalZoomExp;
-    if (Math.abs(deltaZoom) > 0.05) {
-      const x = this.centerVec.x;
-      const y = this.centerVec.y;
-      const MOTION_BLUR_FACTOR = 100;
-      // console.log(x,y)
-      const mult = new PIXI.Point(
-        x * deltaZoom * MOTION_BLUR_FACTOR,
-        y * deltaZoom * MOTION_BLUR_FACTOR
-      );
+    // if (Math.abs(deltaZoom) > 0.05) {
+    //   const x = this.centerVec.x;
+    //   const y = this.centerVec.y;
+    //   const MOTION_BLUR_FACTOR = 100;
+    //   // console.log(x,y)
+    //   const mult = new PIXI.Point(
+    //     x * deltaZoom * MOTION_BLUR_FACTOR,
+    //     y * deltaZoom * MOTION_BLUR_FACTOR
+    //   );
 
-      const motionFilter = new MotionBlurFilter(mult, 3, 0);
-      this.container.filters = [motionFilter];
-    } else {
-      this.container.filters = [];
-    }
+    //   const motionFilter = new MotionBlurFilter(mult, 3, 0);
+    //   this.container.filters = [motionFilter];
+    // } else {
+    //   this.container.filters = [];
+    // }
 
     if (!this.culled) {
       const scale = E(scaleExp) * this.coeff * this.realRatio;
@@ -143,6 +183,7 @@ export class Item extends Entity {
 
   createText() {
     const textStyle = {
+      fontFamily: 'Roboto',
       fontSize: 48 * this.visualLocation.titleScale,
       fill: 0x000000,
       align: "center",
@@ -181,6 +222,8 @@ export class Item extends Entity {
       new PIXI.Point(bX2, bY2),
       new PIXI.Point(bX1, bY2)
     ];
+
+
     this.sprite.hitArea = new PIXI.Polygon(points);
     this.sprite.buttonMode = true; //false makes mouse cursor not change when on item
     this.sprite.interactive = true;
@@ -192,6 +235,13 @@ export class Item extends Entity {
     this.spriteMedium.hitArea = new PIXI.Polygon(points);
     this.spriteMedium.buttonMode = true; //false makes mouse cursor not change when on item
     this.spriteMedium.interactive = true;
+
+    if (this.sizeData.objectID === 208 && this.video) {
+      this.video.hitArea = new PIXI.Polygon(points);
+      this.video.interactive = true;
+      this.video.buttonMode = true;
+    }
+
     const here = this;
     function onButtonDown() {
       here.onClick(here);
@@ -203,5 +253,6 @@ export class Item extends Entity {
     this.sprite.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
 
     this.spriteLow.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
+    if (this.video) this.video.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
   }
 }

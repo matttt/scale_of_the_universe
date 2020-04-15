@@ -1,11 +1,12 @@
 {
-  "files": [
-      "src/ts/main.ts"
+  "include": [
+    "src/**/*"
   ],
   "compilerOptions": {
       "noImplicitAny": false,
       "target": "es2015",
       "sourceMap": true,
-      "baseUrl": "."
+      "baseUrl": ".",
+      "rootDir": "src"
   }
 }

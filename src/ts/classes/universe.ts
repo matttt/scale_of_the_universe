@@ -16,10 +16,12 @@ export class Universe {
   public container: PIXI.Container;
   public displayContainer: PIXI.Container;
   public selectedItem: Item;
+  private screenCap: String;
+  
 
   public prevZoom: number;
 
-  private items: Array<Item> = [];
+  public items: Array<Item> = [];
   private rings: Array<Ring> = [];
 
   private itemCount = 0;
@@ -84,6 +86,10 @@ export class Universe {
     this.unHideItems();
   }
 
+  setLanguage() {
+    // for (this.items) this.slider.createText();
+  }
+
   unHideItems() {
     for (const item of this.items) item.hideDescription();
     // for (const otherItem of [...this.items, ...this.rings]) {
@@ -142,32 +148,22 @@ export class Universe {
   }
 
   itemClicked(item: Item) {
-    const percent = map(
-      item.scaleExp + Math.log10(item.coeff) + Math.log10(item.realRatio),
-      -35,
-      27,
-      0,
-      1
-    );
+    const zoomOffset = item.visualLocation.zoomOffset || 0
+    const absoluteZoom = item.scaleExp + Math.log10(item.coeff * item.realRatio);
+
+    const percent = map(absoluteZoom + zoomOffset, -35, 27, 0, 1);
 
     this.hideAllItemsBut(item);
     // this.container.setChildIndex(item.container, this.items.length + this.rings.length - 2);
-      const titlebarheight = -100;
 
-    if (window.innerHeight < 750 + titlebarheight) { // 720p
-      this.slider.setAnimationTargetPercent(percent + 0.006);
-    } else if (window.innerHeight < 1100 + titlebarheight) {// 1080p
-      this.slider.setAnimationTargetPercent(percent + 0.003);
-    } else if (window.innerHeight < 1500 + titlebarheight) {// 1440p
-      this.slider.setAnimationTargetPercent(percent + 0.000);
-    } else if (window.innerHeight < 2200 + titlebarheight) {// 4k
-      this.slider.setAnimationTargetPercent(percent - 0.003);
-    } else if (window.innerHeight < 4400 + titlebarheight) {// 8k
-      this.slider.setAnimationTargetPercent(percent - 0.007);
-    } else {
-      this.slider.setAnimationTargetPercent(percent + 0.009);
+    let percentFinal = 0;
+    if (window.innerHeight < 750) { // 720p
+      percentFinal = percent + 0.0065;
+    } else if (window.innerHeight < 1100) {// 1080p
+      percentFinal = percent + 0.004;
     }
 
+    this.slider.setAnimationTargetPercent(percentFinal);
     
   }
 
@@ -220,13 +216,18 @@ export class Universe {
         textDatum.title = textData[(idx - 29) * 2];
         textDatum.description = textData[(idx - 29) * 2 + 1];
 
+        
+
         let item = new Item(
           sizeData,
           [texture, textureLow, textureMedium],
           visualLocation,
           textDatum,
-          onClick
+          onClick,
+          this.app
         );
+
+
         this.items.push(item);
         this.container.addChild(item.getContainer());
       } else if (idx < 17) {
@@ -276,7 +277,6 @@ export class Universe {
           textData[602].substring(0, textData[602].length - 1) +
           textData[597] +
           " ";
-        console.log(textData[602]);
 
         if (idx === 28) {
           const femptoVal = getScaleText(sizeData.exponent + 15);
@@ -286,6 +286,8 @@ export class Universe {
             textData[605].substring(0, textData[602].length - 1) +
             textData[597];
         }
+
+     
 
         let ring = new Ring(
           idx,
@@ -297,6 +299,10 @@ export class Universe {
         this.rings.push(ring);
         this.container.addChild(ring.getContainer());
       }
+      
+      
+      
+
     }
   }
 }
