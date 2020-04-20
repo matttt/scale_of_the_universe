@@ -617,3 +617,9 @@ peta
 exa
 zetta
 yotta
+The Scale of the Universe 2
+Use the scroll bar to zoom in and out.
+Click on objects to learn more.
+Descriptions written by Cary Huang
+English
+English

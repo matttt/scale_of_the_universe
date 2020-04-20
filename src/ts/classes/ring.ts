@@ -95,9 +95,9 @@ export class Ring extends Entity {
       //   this.container.filters = [];
       // }
 
-      this.cull(scaleExp, this.sizeData);
-
+      
       const scale = E(scaleExp) * this.coeff * this.realRatio;
+      this.cull(scale, this.sizeData);
 
       this.textContainer.alpha = map(scale, 0.1, 0.2, 0, 1);
       this.textContainer.visible = this.textContainer.alpha !== 0;
@@ -106,7 +106,9 @@ export class Ring extends Entity {
       this.container.scale = new PIXI.Point(scale, scale);
     } else {
       const scaleExp = this.scaleExp - globalZoomExp;
-      this.cull(scaleExp, this.sizeData);
+      const scale = E(scaleExp) * this.coeff * this.realRatio;
+
+      this.cull(scale, this.sizeData);
     }
   }
 

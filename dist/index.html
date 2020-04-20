@@ -26,6 +26,18 @@
       top: 0;
       left: 0;
     }
+
+    #startBtn {
+      text-align: center;
+      line-height: 50%;
+      padding-right: 5px;
+      position: absolute;
+      background-color: blue;
+      right: 5% !important;
+      bottom: 5% !important;
+      font-size: 48px;
+      border-radius: 40px;
+    }
   </style>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -68,27 +80,56 @@
   <dialog class="my-modal" style="font-family: 'Roboto', sans-serif;" id="modal">
     <!-- <progress max="100" value="0"></progress> -->
     <h1 id="title" style="position: absolute; top: 0%">Scale of the Universe</h1>
+    <h1 id="hoverTitle" style="position: absolute; top: 0%; display: none;" ></h1>
     <div class="wrapper" id="langWrapper">
-      <button class="box a" onclick="setLang('a', 0)">English (US)</button>
-      <button class="box b" onclick="setLang('b', 3)">English (British)</button>
-      <button class="box c" onclick="setLang('c', 10)">中文 (简体)</button>
-      <button class="box d" onclick="setLang('d', 3)">中文</button>
-      <button class="box e" onclick="setLang('e', 8)">Español</button>
-      <button class="box f" onclick="setLang('f', 15)">العربية</button>
-      <button class="box g" onclick="setLang('g', 6)">Português</button>
-      <button class="box h" onclick="setLang('h', 9)">Deustsch</button>
-      <button class="box i" onclick="setLang('i', 11)">Français</button>
-      <button class="box j" onclick="setLang('j', 16)">한국어</button>
-      <button class="box k" onclick="setLang('k', 19)">Türkçe</button>
-      <button class="box l" onclick="setLang('l', 7)">Polski</button>
-      <button class="box m" onclick="setLang('m', 18)">فارسی</button>
-      <button class="box n" onclick="setLang('n', 14)">Українська</button>
-      <button class="box o" onclick="setLang('o', 13)">Româna</button>
-      <button class="box p" onclick="setLang('p', 5)">Nederlands</button>
-      <button class="box q" onclick="setLang('q', 6)">Svenska</button>
-      <button class="box r" onclick="setLang('r', 5)">unknown</button>
-      <button class="box s" onclick="setLang('s', 12)">Esperanto</button>
-      <button class="box t" onclick="setLang('t', 17)">Eesti</button>
+      <button class="box a" onclick="setLang('a', 0)" onmouseover="setTitle(0)" onmouseout="revealTitle()">English (US)</button>
+      <button class="box b" onclick="setLang('b', 3)" onmouseover="setTitle(3)" onmouseout="revealTitle()">English (British)</button>
+      <button class="box c" onclick="setLang('c', 4)" onmouseover="setTitle(4)" onmouseout="revealTitle()">中文 (简体)</button>
+      <button class="box d" onclick="setLang('d', 10)" onmouseover="setTitle(10)" onmouseout="revealTitle()">中文</button>
+      <button class="box e" onclick="setLang('e', 5)" onmouseover="setTitle(5)" onmouseout="revealTitle()">Español</button>
+      <button class="box f" onclick="setLang('f', 15)" onmouseover="setTitle(15)" onmouseout="revealTitle()">العربية</button>
+      <button class="box g" onclick="setLang('g', 8)" onmouseover="setTitle(8)" onmouseout="revealTitle()">Português</button>
+      <button class="box h" onclick="setLang('h', 9)" onmouseover="setTitle(9)" onmouseout="revealTitle()">Deustsch</button>
+      <button class="box i" onclick="setLang('i', 11)" onmouseover="setTitle(11)" onmouseout="revealTitle()">Français</button>
+      <button class="box j" onclick="setLang('j', 16)" onmouseover="setTitle(16)" onmouseout="revealTitle()">한국어</button>
+      <button class="box k" onclick="setLang('k', 19)" onmouseover="setTitle(19)" onmouseout="revealTitle()">Türkçe</button>
+      <button class="box l" onclick="setLang('l', 7)" onmouseover="setTitle(7)" onmouseout="revealTitle()">Polski</button>
+      <button class="box m" onclick="setLang('m', 18)" onmouseover="setTitle(18)" onmouseout="revealTitle()">فارسی</button>
+      <button class="box n" onclick="setLang('n', 14)" onmouseover="setTitle(14)" onmouseout="revealTitle()">Українська</button>
+      <button class="box o" onclick="setLang('o', 13)" onmouseover="setTitle(13)" onmouseout="revealTitle()">Româna</button>
+      <button class="box p" onclick="setLang('p', 2)" onmouseover="setTitle(2)" onmouseout="revealTitle()">Nederlands</button>
+      <button class="box q" onclick="setLang('q', 6)" onmouseover="setTitle(6)" onmouseout="revealTitle()">Svenska</button>
+      <button class="box r" onclick="setLang('r', 1)" onmouseover="setTitle(1)" onmouseout="revealTitle()">עברית</button>
+      <button class="box s" onclick="setLang('s', 12)" onmouseover="setTitle(12)" onmouseout="revealTitle()">Esperanto</button>
+      <button class="box t" onclick="setLang('t', 17)" onmouseover="setTitle(17)" onmouseout="revealTitle()">Eesti</button>
+    </div>
+
+    <div id="startWrapper" style="display: none">
+      <button onclick="startSOTU()" id="startBtn">
+        <svg class="bi bi-play-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 010 1.393z"/>
+        </svg>
+      </button>
+
+      <div id="startGrid">
+        
+
+      
+          <div class="tutBox nw">
+            <img style="max-width: 80%;" src="img/slider.png">
+          </div>
+          <div class="tutBox sw">
+            <h2 id="moveSliderText"></h2>
+          </div>
+          <div class="tutBox ne">
+            <img style="max-width: 80%;" src="img/object.png">
+          </div>
+          <div class="tutBox se">
+            <h2 id="clickObjectText"></h2>
+          </div>
+
+
+      </div>
     </div>
 
     
@@ -96,6 +137,9 @@
 
   <!-- <script text="javascript" src="https://webtiming.github.io/timingsrc/lib/timingsrc-v2.js"></script>
   <script text="javascript" src="https://mcorp.no/lib/mediasync.js"></script> -->
+
+  <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+  <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
   <script src="js/bundle.js"></script>
 </body>
 

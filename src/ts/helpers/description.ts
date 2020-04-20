@@ -43,7 +43,8 @@ export function getGraphics (visualLocation, textDatum, sizeData) {
     const scaleText = new PIXI.Text(`${sizeData.coeff} x 10`, scaleStyle);
     const exponentText = new PIXI.Text(`${sizeData.exponent}`, exponentStyle);
     const unitText = new PIXI.Text(textDatum.metersPlural, scaleStyle);
-    const descriptionText = new PIXI.Text(sizeData.objectID + ' ' + splitDescription, descriptionStyle);
+    const descriptionText = new PIXI.Text('    ' + splitDescription, descriptionStyle);
+    // const descriptionText = new PIXI.Text(sizeData.objectID + ' ' + splitDescription, descriptionStyle);
 
     titleText.x = x + margin;
     titleText.y = y + margin;

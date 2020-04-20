@@ -67,11 +67,9 @@ export class Entity {
   }
 
   cull(scale: number, sizeData: any) {
-
-
     //E(3) => 10^3
     // basic culling :)
-    if (scale < -3 || scale > 1.5) {
+    if (scale < .001 || scale > 8) {
     // if (scale < (E(-6)) || scale > E(1)) {
       this.container.visible = false;
       this.culled = true;
@@ -80,23 +78,22 @@ export class Entity {
       this.culled = false;
     }
 
-
     // low-res for distant objects. Hacked into cull :) 
-    if (scale < E(-1) && scale > E(-1.5)) {
+    if (scale < .5 && scale > .1) {
       this.setQuality(1);
-    } else if (scale < E(-1.5)) {
+    } else if (scale < .1) {
       this.setQuality(0);
     } {
       this.setQuality(2);
     }
 
+    // if (this.videoStream && !this.culled) {
+    //   this.videoStream.getTracks()[0].requestFrame()
+    // }
 
 
-    if (this.hiddenSprites) {
-      if (this.videoStream && !this.culled) {
-        this.videoStream.getTracks()[0].requestFrame()
-      }
-      this.setQuality(4)
-    }
+    // if (this.hiddenSprites) {
+    //   this.setQuality(4)
+    // }
   }
 }

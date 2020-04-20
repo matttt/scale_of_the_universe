@@ -2560,7 +2560,7 @@
   "titleY": 348.3,
   "titleScale": 1,
   "titleWrap": true,
-  "descriptionX": 122.85,
+  "descriptionX": 175.85,
   "descriptionY": 303,
   "zoomOffset": 0.05
 }, {
@@ -2893,7 +2893,8 @@
   "titleScale": 1,
   "titleWrap": true,
   "descriptionX": 651.45,
-  "descriptionY": 302.55
+  "descriptionY": 302.55,
+  "zoomOffset": 0.05
 }, {
   "objectID": 236,
   "boundX": -266.4,
@@ -3733,7 +3734,8 @@
   "titleScale": 1,
   "titleWrap": true,
   "descriptionX": 565.95,
-  "descriptionY": 350.85
+  "descriptionY": 350.85,
+  "zoomOffset": 0.1
 }, {
   "objectID": 303,
   "boundX": -700.5,

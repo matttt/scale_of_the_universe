@@ -115,30 +115,30 @@ export class Item extends Entity {
   enableMotionBlur() {}
 
   async setScreenImage() {
-    try {
-          // create a new Sprite using the video texture (yes it's that easy)
-      const texture = PIXI.Texture.from('img/miniScreen.mp4');
-      const videoSprite = new PIXI.Sprite(texture);
+    // try {
+    //   //     // create a new Sprite using the video texture (yes it's that easy)
+    //   // const texture = PIXI.Texture.from('img/miniScreen.mp4');
+    //   // const videoSprite = new PIXI.Sprite(texture);
 
-      const videoResource: any = texture.baseTexture.resource;
-      const canv:any = this.app.renderer.view;
-      this.videoStream = canv.captureStream(0);
+    //   // const videoResource: any = texture.baseTexture.resource;
+    //   // const canv:any = this.app.renderer.view;
+    //   // this.videoStream = canv.captureStream(30);
 
-      console.log(this.videoStream.getTracks()[0])
+    //   // // console.log(this.videoStream.getTracks()[0])
 
-      videoResource.source.srcObject = this.videoStream;
+    //   // videoResource.source.srcObject = this.videoStream;
 
-      videoSprite.position.x = -430;
-      videoSprite.position.y = 125;
-      videoSprite.width = this.texture.trim.width;
-      videoSprite.height = this.texture.trim.height;
+    //   // videoSprite.position.x = -430;
+    //   // videoSprite.position.y = 125;
+    //   // videoSprite.width = this.texture.trim.width;
+    //   // videoSprite.height = this.texture.trim.height;
 
-      this.video = videoSprite;
-      this.container.addChild(videoSprite);
-    } catch (err) {
-      console.log('stream failed')
-      this.hiddenSprites = false;
-    }
+    //   // this.video = videoSprite;
+    //   // this.container.addChild(videoSprite);
+    // } catch (err) {
+    //   console.log('stream failed')
+    //   this.hiddenSprites = false;
+    // }
     
   }
 
@@ -166,14 +166,19 @@ export class Item extends Entity {
       this.text.alpha = map(scale, 0.1, 0.2, 0, 1);
       this.text.visible = this.text.alpha !== 0;
 
-      this.cull(scaleExp, this.sizeData);
+      this.cull(scale, this.sizeData);
       this.container.scale = new PIXI.Point(scale, scale);
       this.currentScale = scale;
 
       // this.text.opacity = Math.min(0, scaleExp);
-    } else {
+    } else {      
       const scaleExp = this.scaleExp - globalZoomExp;
-      this.cull(scaleExp, this.sizeData);
+      if (scaleExp > 2 || scaleExp < -4) {
+        this.cull(E(-4), this.sizeData);
+      } else {
+        const scale = E(scaleExp) * this.coeff * this.realRatio;
+        this.cull(scale, this.sizeData);
+      }
     }
   }
 
@@ -236,11 +241,12 @@ export class Item extends Entity {
     this.spriteMedium.buttonMode = true; //false makes mouse cursor not change when on item
     this.spriteMedium.interactive = true;
 
-    if (this.sizeData.objectID === 208 && this.video) {
-      this.video.hitArea = new PIXI.Polygon(points);
-      this.video.interactive = true;
-      this.video.buttonMode = true;
-    }
+    // if (this.sizeData.objectID === 208 && this.video) {
+    //   console.log('video box set')
+    //   this.video.hitArea = new PIXI.Polygon(points);
+    //   this.video.interactive = true;
+    //   this.video.buttonMode = true;
+    // }
 
     const here = this;
     function onButtonDown() {
