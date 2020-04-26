@@ -7,6 +7,8 @@ const tsify = require("tsify");
 const gutil = require("gulp-util");
 const pipeline = require('readable-stream').pipeline;
 const fancy_log = require('fancy-log');
+const closureCompiler = require('google-closure-compiler').gulp();
+
 
 
 const uglifyjs = require('uglify-es'); 
@@ -43,9 +45,18 @@ gulp.task("copy-data", function (done) {
 
 gulp.task('compress', function () {
   return pipeline(
-    gulp.src('dist/js/bundle.js'),
-    minify(),
-    gulp.dest('dist/js/bundle.min.js')
+      gulp.src('dist/js/bundle.js'),
+      closureCompiler({
+        compilation_level: 'SIMPLE',
+        language_in: 'ECMASCRIPT6_STRICT',
+        language_out: 'ECMASCRIPT5_STRICT',
+        // output_wrapper: '(function(){\n%output%\n}).call(this)',
+        js_output_file: 'bundle.min.js'
+      }, {
+        platform: ['native', 'java', 'javascript']
+      }),
+      minify(),
+      gulp.dest('dist/js')
     );
   });
   

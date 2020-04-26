@@ -53,14 +53,19 @@ export class Slider {
   public handleWidthPixels: number;
   public scaleWidthPixels: number;
 
-  constructor(app: Application, w: number, h: number, onChange: Function, onHandleClicked: Function) {
+  constructor(app: Application, 
+              w: number, 
+              h: number, 
+              globalRes: number,
+              onChange: Function, 
+              onHandleClicked: Function) {
     this.app = app;
     this.onChange = onChange;
     this.onHandleClicked = onHandleClicked;
-    // this.w = w / window.devicePixelRatio;
-    // this.h = h / window.devicePixelRatio;
-    this.w = w;
-    this.h = h;
+    this.w = w / globalRes;
+    this.h = h / globalRes;
+    // this.w = w;
+    // this.h = h;
 
     this.tweenable = new Tweenable();
 
@@ -365,6 +370,7 @@ export class Slider {
               if (changed) {
                 this.onChange(newPosition, percent);
               } else  {
+                // this.app.stop();
                 this.animStopped() 
               }
         

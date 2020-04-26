@@ -1,4 +1,4 @@
-Pixel di uno schermo LCD
+tx=Pixel di uno schermo LCD
 Nonostante la dimensione di un pixel sia molto variabile, quella media è di 300 micrometri. I pixel sono composti da 3 parti e ognuna di esse determina un colore primario: il rosso, il verde e il blu. I pixel sono fantastici, ma i voxel sono ancora meglio: si tratta di pixel tridimensionali.
 Palma Jebel Ali
 Palma Jebel Ali è la più grande isola artificiale del mondo (escluse isole come Flevepolder, una regione dell’Olanda prosciugata per ampliare la superficie). Palma Jebel Ali non è ancora completa. Fa parte delle Isole delle Palme ed è progettata per ospitare 250.000 persone!
@@ -617,3 +617,9 @@ peta
 exa
 zetta
 yotta
+La Scala dell’Universo 2
+Usa la barra di scorrimento per zoomare.
+Clicca su un oggetto per avere ulteriori informazioni.
+Tradotto da: Tommaso Borrelli (to.borrelli@gmail.com), Pasquale Trotta, Andrea Vai (andrea.vai@unipv.it), Francesco Saverio De Angelis, Roberto Montaruli (rmontaruli@gmail.com), Paolo Marcoz, Piero Ronco, Gianluca Pivotto (gianluca.pivotto@slacky.it), Fabio Reghellin (fabio@reghellin.it), Paolo Galassi (paologalassi.it@gmail.com)
+Italiano
+Italian

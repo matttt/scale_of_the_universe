@@ -17,7 +17,6 @@ export class Universe {
   public displayContainer: PIXI.Container;
   public selectedItem: Item;
   private screenCap: String;
-  
 
   public prevZoom: number;
 
@@ -100,6 +99,7 @@ export class Universe {
     this.container.filters = null;
 
     if (this.selectedItem) {
+      this.selectedItem.text.visible = true;
       this.displayContainer.removeChildAt(0);
       this.container.addChild(this.selectedItem.getContainer());
       this.selectedItem = undefined;
@@ -126,9 +126,11 @@ export class Universe {
       
 
       item.showDescription();
+      item.text.visible = false;
       this.displayContainer.addChild(item.getContainer());
 
       this.selectedItem = item;
+      this.selectedItem.text.visible = false;
 
       // TweenMax.to(this.container, 2, { pixi: { blurFilter: 15 } });
       const filter = new PIXI.filters.BlurFilter(4, 4, 1, 5);
@@ -167,7 +169,7 @@ export class Universe {
     
   }
 
-  async createItems(textures: any, languageIndex: number, cb: Function) {
+  async createItems(textures: any, textData: Array<string>) {
     let allFullTextures: any = {};
     for (let key of Object.keys(textures)) {
       if (key.includes("main")) {
@@ -179,9 +181,6 @@ export class Universe {
     const visualLocations = await (
       await fetch("data/visualLocations.json")
     ).json();
-    const textData = (
-      await (await fetch(`data/languages/l${languageIndex}.txt`)).text()
-    ).split("\n");
 
     // const visualLocations = (await request.get("/data/visualLocations.json").set("accept", "json")).body;
     // const textData = (await request.get(`/data/languages/l${languageIndex}.txt`)).text.split('\n');
@@ -196,7 +195,6 @@ export class Universe {
     this.itemCount = itemSizes.length;
 
     for (let idx = 0; idx < itemSizes.length; idx++) {
-      cb(idx / itemSizes.length);
 
       let textDatum = {
         title: "",
@@ -210,7 +208,6 @@ export class Universe {
       const padded = pad(idx + 1, 3);
       const texture = allFullTextures[padded + ""];
       const textureLow = textures.assetsLow.textures[padded + "_quarter"];
-      const textureMedium = textures.assetsMedium.textures[padded + "_half"];
 
       if (idx >= 29) {
         textDatum.title = textData[(idx - 29) * 2];
@@ -220,7 +217,7 @@ export class Universe {
 
         let item = new Item(
           sizeData,
-          [texture, textureLow, textureMedium],
+          [texture, textureLow],
           visualLocation,
           textDatum,
           onClick,
@@ -240,7 +237,7 @@ export class Universe {
         let ring = new Ring(
           idx,
           sizeData,
-          [texture, textureLow, textureMedium],
+          [texture, textureLow],
           visualLocation,
           textDatum
         );
@@ -292,7 +289,7 @@ export class Universe {
         let ring = new Ring(
           idx,
           sizeData,
-          [texture, textureLow, textureMedium],
+          [texture, textureLow],
           visualLocation,
           textDatum
         );
