@@ -154,13 +154,13 @@ loader.add("main3", `${staticHostingURL}/item_textures_2_v1.json`);
 
 loader.add("assetsLow", `${staticHostingURL}/quarter_items-0-main.json`);
 
-loader.add("assetsMedium", `${staticHostingURL}/half_items-0-main.json`);
-
 
 
 // loader.add('assets1', '/img/new/item_textures_0_quarter.json')
 const modal: any = document.getElementById("modal");
 dialogPolyfill.registerDialog(modal);
+
+const globalResolution = 1;
 
 loader.load(async (loader, resources) => {
   // document.getElementById('loadingBar').style.visibility = 'hidden';
@@ -175,18 +175,19 @@ loader.load(async (loader, resources) => {
     backgroundColor: 0xffffff,
     antialias: true,
     autoDensity: true,
-    powerPreference: "high-performance"
+    powerPreference: "high-performance",
+    resolution: globalResolution
   });
   
   const w: number = app.renderer.width;
   const h: number = app.renderer.height;
   
-  let slider = new Slider(app, w, h, onChange, onHandleClicked);
+  let slider = new Slider(app, w, h, globalResolution, onChange, onHandleClicked);
   slider.init();
   
   let universe = new Universe(0, slider, app);
   
-  let scaleText = new ScaleText(w * 0.9, slider.topY - 40, "0");
+  let scaleText = new ScaleText((w * 0.9) / globalResolution, (slider.topY - 40), "0");
   
   let background = new Background(w, h, loader);
   
@@ -229,6 +230,8 @@ loader.load(async (loader, resources) => {
         button.style.visibility = 'hidden';
       }
     }
+
+
 
 
     langWrapper.style.display = 'none';
@@ -283,7 +286,11 @@ loader.load(async (loader, resources) => {
     universe.prevZoom = 0;
 
     
-    
+    document.onkeydown = e => {
+      if (e.key === 'r') {
+        app.renderer.resolution = 1
+      }
+    }
     
     window["startSOTU"] = () => {
       

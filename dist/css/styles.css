@@ -15,10 +15,20 @@ dialog[open] {
   animation: appear .15s cubic-bezier(0, 1.8, 1, 1.8);
 }
 
+#google{
+  position:absolute;
+  bottom:0px;
+  left: 50%;
+  width: 728px;
+  height: 91px !important;
+  margin-left: -364px; /* Half the width of the leaderboard ad. */
+  z-index: 1000;
+}
+
 #startGrid {
   display: grid;
-  width: 80%
-  left: 10%
+  width: 80%;
+  left: 10%;
   grid-template-columns: 40.5% 40.5%;
   grid-gap: 3%;
 }

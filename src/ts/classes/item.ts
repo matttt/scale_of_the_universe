@@ -45,7 +45,7 @@ export class Item extends Entity {
   public app: PIXI.Application;
   public videoSrc: any;
   private textDatum: textDatum;
-  private text: PIXI.Text;
+  public text: PIXI.Text;
   private onClick: Function;
   private description: PIXI.Container;
 
@@ -95,6 +95,8 @@ export class Item extends Entity {
   }
 
   showDescription() {
+    this.text.visible = false;
+
     const descriptionGfx = getGraphics(
       this.visualLocation,
       this.textDatum,
@@ -107,6 +109,7 @@ export class Item extends Entity {
   }
 
   hideDescription() {
+    this.text.visible = true;
     if (this.description) {
       this.container.removeChild(this.description);
     }
@@ -237,10 +240,6 @@ export class Item extends Entity {
     // this.spriteLow.buttonMode = true; //false makes mouse cursor not change when on item
     // this.spriteLow.interactive = true;
 
-    this.spriteMedium.hitArea = new PIXI.Polygon(points);
-    this.spriteMedium.buttonMode = true; //false makes mouse cursor not change when on item
-    this.spriteMedium.interactive = true;
-
     // if (this.sizeData.objectID === 208 && this.video) {
     //   console.log('video box set')
     //   this.video.hitArea = new PIXI.Polygon(points);
@@ -258,7 +257,6 @@ export class Item extends Entity {
 
     this.sprite.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
 
-    this.spriteLow.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
     if (this.video) this.video.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
   }
 }
