@@ -28,6 +28,7 @@ dialog[open] {
 #startGrid {
   display: grid;
   left: 10%;
+  grid-template-columns: 50% 50%;
   grid-gap: 3%;
 }
 
