@@ -1,8 +1,9 @@
+import 'pixi.js-legacy';
 import { 
   Container,
   Sprite,
   Loader
- } from 'pixi.js';
+ } from 'pixi.js-legacy';
 import {background} from "../helpers/background";
 import {map} from "../helpers/map";
 

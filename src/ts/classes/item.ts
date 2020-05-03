@@ -1,4 +1,4 @@
-import * as PIXI from "pixi.js";
+import * as PIXI from "pixi.js-legacy";
 import { Entity } from "./entity";
 import { E } from "../helpers/e";
 import { map } from "../helpers/map";
@@ -48,6 +48,7 @@ export class Item extends Entity {
   public text: PIXI.Text;
   private onClick: Function;
   private description: PIXI.Container;
+  private units: Array<string>;
 
   private centerVec: PIXI.Point;
 
@@ -56,6 +57,7 @@ export class Item extends Entity {
     textures: PIXI.Texture[],
     visualLocation: visualLocation,
     textDatum: textDatum,
+    units: Array<string>,
     onClick: Function,
     app: PIXI.Application
   ) {
@@ -66,6 +68,7 @@ export class Item extends Entity {
     this.visualLocation = visualLocation;
     this.textDatum = textDatum;
     this.sizeData = sizeData;
+    this.units = units;
 
     const dX =
       window.innerWidth / 2 - this.texture.trim.x + this.texture.trim.width / 2;
@@ -100,6 +103,7 @@ export class Item extends Entity {
     const descriptionGfx = getGraphics(
       this.visualLocation,
       this.textDatum,
+      this.units,
       this.sizeData
     );
 
@@ -236,9 +240,9 @@ export class Item extends Entity {
     this.sprite.buttonMode = true; //false makes mouse cursor not change when on item
     this.sprite.interactive = true;
 
-    // this.spriteLow.hitArea = new PIXI.Polygon(points);
-    // this.spriteLow.buttonMode = true; //false makes mouse cursor not change when on item
-    // this.spriteLow.interactive = true;
+    this.spriteLow.hitArea = new PIXI.Polygon(points);
+    this.spriteLow.buttonMode = true; //false makes mouse cursor not change when on item
+    this.spriteLow.interactive = true;
 
     // if (this.sizeData.objectID === 208 && this.video) {
     //   console.log('video box set')
@@ -256,6 +260,7 @@ export class Item extends Entity {
     }
 
     this.sprite.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
+    this.spriteLow.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
 
     if (this.video) this.video.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
   }

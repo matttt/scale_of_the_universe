@@ -1,4 +1,5 @@
-import * as PIXI from "pixi.js";
+import * as PIXI from 'pixi.js-legacy'
+import 'pixi.js-legacy';
 
 import { Slider } from "./classes/slider";
 import { Universe } from "./classes/universe";
@@ -13,6 +14,8 @@ import { Tweenable } from "shifty";
 
 import { Howl, Howler } from "howler";
 import { create } from "domain";
+
+
 
 declare var ldBar: any;
 
@@ -169,15 +172,31 @@ loader.load(async (loader, resources) => {
 
   modal.showModal();
 
-  let app = new PIXI.Application({
-    width: frame.offsetWidth,
-    height: frame.offsetHeight,
-    backgroundColor: 0xffffff,
-    antialias: true,
-    autoDensity: true,
-    powerPreference: "high-performance",
-    resolution: globalResolution
-  });
+  let app
+
+  try {
+    app = new PIXI.Application({
+      width: frame.offsetWidth,
+      height: frame.offsetHeight,
+      backgroundColor: 0xffffff,
+      antialias: true,
+      // autoDensity: true,
+      powerPreference: "high-performance",
+      resolution: globalResolution
+    });
+
+  } catch (err) {
+    app = new PIXI.Application({
+      width: frame.offsetWidth,
+      height: frame.offsetHeight,
+      backgroundColor: 0xffffff,
+      antialias: true,
+      // autoDensity: true,
+      forceCanvas: true,
+      resolution: globalResolution
+    });
+
+  }
   
   const w: number = app.renderer.width;
   const h: number = app.renderer.height;
@@ -251,8 +270,8 @@ loader.load(async (loader, resources) => {
     app.stage.addChild(
       background.bgContainer,
       universe.container,
-      universe.displayContainer,
       slider.container,
+      universe.displayContainer,
       scaleText.container
     );
 

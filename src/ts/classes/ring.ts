@@ -1,7 +1,8 @@
-import * as PIXI from "pixi.js";
+import 'pixi.js-legacy';
+import * as PIXI from "pixi.js-legacy";
 import { Entity } from "./entity";
 import { E } from "../helpers/e";
-import { MotionBlurFilter } from "@pixi/filter-motion-blur";
+// import { MotionBlurFilter } from "@pixi/filter-motion-blur";
 import { map } from "../helpers/map";
 
 interface visualLocation {

@@ -6,8 +6,8 @@ import { pad } from "../helpers/pad";
 import { map } from "../helpers/map";
 import { getScaleText } from "../helpers/getScaleText";
 import { Slider } from "./slider";
-import * as PIXI from "pixi.js";
-
+import 'pixi.js-legacy';
+import * as PIXI from "pixi.js-legacy";
 // import * as sizes from '../../data/sizes.json';
 
 export class Universe {
@@ -187,6 +187,8 @@ export class Universe {
 
     let meterText = textData[596];
     let meterPluralText = textData[597];
+    let units = textData.slice(602,618).map(x => x.replace(/\r?\n|\r/g, ''))
+
 
     let onClick = (item: Item) => {
       this.itemClicked(item);
@@ -220,6 +222,7 @@ export class Universe {
           [texture, textureLow],
           visualLocation,
           textDatum,
+          units,
           onClick,
           this.app
         );

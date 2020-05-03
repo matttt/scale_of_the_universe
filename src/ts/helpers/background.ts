@@ -1,8 +1,9 @@
+import 'pixi.js-legacy';
 import { 
   Container, 
   Graphics,
   Point
-} from 'pixi.js';
+} from 'pixi.js-legacy';
 
 export function background(bgSize:any, inputSprite:any, type:any, forceSize:any) {
   let sprite = inputSprite;

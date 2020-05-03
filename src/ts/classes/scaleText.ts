@@ -1,4 +1,5 @@
-import * as PIXI from "pixi.js";
+import 'pixi.js-legacy';
+import * as PIXI from "pixi.js-legacy";
 import {map} from '../helpers/map';
 
 export class ScaleText {
