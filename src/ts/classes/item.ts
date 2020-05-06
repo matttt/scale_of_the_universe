@@ -4,9 +4,9 @@ import { E } from "../helpers/e";
 import { map } from "../helpers/map";
 import { getGraphics } from "../helpers/description";
 // import { MotionBlurFilter } from "@pixi/filter-motion-blur";
+import { ExtraText } from '../helpers/powToUnit';
 
-
-interface visualLocation {
+interface VisualLocation {
   boundX: number;
   boundY: number;
   boundW: number;
@@ -19,7 +19,7 @@ interface visualLocation {
   descriptionY: number;
   zoomOffset?: number
 }
-interface sizeData {
+export interface SizeData {
   objectID: number;
   exponent: number;
   coeff: number;
@@ -31,16 +31,17 @@ interface textDatum {
   title: string;
   description: string;
   metersPlural: string;
+  meterSingular: string;
 }
 
 export class Item extends Entity {
   public descriptionGraphics: PIXI.Container;
 
   public coeff: number = 1;
-  public sizeData: sizeData;
+  public sizeData: SizeData;
   public realRatio: number = 1;
   public currentScale: number = 1;
-  public visualLocation: visualLocation;
+  public visualLocation: VisualLocation;
   public video: PIXI.Sprite;
   public app: PIXI.Application;
   public videoSrc: any;
@@ -49,19 +50,23 @@ export class Item extends Entity {
   private onClick: Function;
   private description: PIXI.Container;
   private units: Array<string>;
+  private extraText: ExtraText;
 
   private centerVec: PIXI.Point;
 
   constructor(
-    sizeData: sizeData,
+    sizeData: SizeData,
     textures: PIXI.Texture[],
-    visualLocation: visualLocation,
+    visualLocation: VisualLocation,
     textDatum: textDatum,
+    extraText: ExtraText,
     units: Array<string>,
     onClick: Function,
     app: PIXI.Application
   ) {
     super(sizeData.exponent, textures);
+
+    this.extraText = extraText;
 
     this.coeff = sizeData.coeff;
     this.realRatio = sizeData.realRatio;
@@ -103,6 +108,7 @@ export class Item extends Entity {
     const descriptionGfx = getGraphics(
       this.visualLocation,
       this.textDatum,
+      this.extraText,
       this.units,
       this.sizeData
     );

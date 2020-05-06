@@ -3,7 +3,7 @@ import * as PIXI from 'pixi.js-legacy';
 import { descriptionSplitter } from '../helpers/descriptionSplitter'
 import { powToUnit } from '../helpers/powToUnit'
 
-export function getGraphics (visualLocation, textDatum, units: string[], sizeData) {
+export function getGraphics (visualLocation, textDatum, extraText, units: string[], sizeData) {
     const w = 450;
     const h = 500;
     const x = visualLocation.descriptionX;
@@ -25,28 +25,33 @@ export function getGraphics (visualLocation, textDatum, units: string[], sizeDat
     };
     
     const scaleStyle = { 
-      fontSize: 24, 
-      ...baseStyle
+      ...baseStyle,
+      fontSize: 32, 
+      fill: 0x333333,
     };
 
     const unitFriendlyStyle = { 
-      fontSize: 24, 
+      ...baseStyle,
+      fontSize: 32, 
       wordWrapWidth: 500,
+      fill: 0x333333,
       wordWrap: false,
-      ...baseStyle
     };
     
     const exponentStyle = { 
+      ...baseStyle,
       fontSize: scaleStyle.fontSize-8, 
-      ...baseStyle
+      fill: 0x333333
     };
     
     const descriptionStyle = { 
-      fontSize: 32, 
-      ...baseStyle
+      ...baseStyle,
+      fontSize: 32 
     };
 
-    const {unitText, multiplier} = powToUnit(sizeData.exponent, units)
+    console.log(extraText)
+
+    const friendly = powToUnit(sizeData, units, extraText)
     
     const splitDescription = descriptionSplitter(textDatum.description);
     
@@ -54,7 +59,7 @@ export function getGraphics (visualLocation, textDatum, units: string[], sizeDat
     const scaleText = new PIXI.Text(`${sizeData.coeff} x 10`, scaleStyle);
     const exponentText = new PIXI.Text(`${sizeData.exponent}`, exponentStyle);
     const meterText = new PIXI.Text(textDatum.metersPlural, scaleStyle);
-    const unitFriendlyText = new PIXI.Text(`${sizeData.coeff * multiplier} ${unitText}${textDatum.metersPlural}`, unitFriendlyStyle);
+    const unitFriendlyText = new PIXI.Text(friendly, unitFriendlyStyle);
     const descriptionText = new PIXI.Text('    ' + splitDescription, descriptionStyle);
     // const descriptionText = new PIXI.Text(sizeData.objectID + ' ' + splitDescription, descriptionStyle);
 
@@ -62,24 +67,28 @@ export function getGraphics (visualLocation, textDatum, units: string[], sizeDat
     titleText.y = y + margin;
     titleText.roundPixels = true;
 
+    // ------------------
+
     scaleText.x = x + margin;
-    scaleText.y = y + titleText.height - 10;
+    scaleText.y = y + titleText.height + unitFriendlyText.height - 5;
     scaleText.roundPixels = true;
 
     exponentText.x = x + margin + 2.5 + scaleText.width;
-    exponentText.y = y + titleText.height - 15;
+    exponentText.y = y + titleText.height + unitFriendlyText.height - 12;
     exponentText.roundPixels = true;
 
     meterText.x = x + margin + 2.5 + scaleText.width + exponentText.width + 5;
-    meterText.y = y + titleText.height - 10;
+    meterText.y = y + titleText.height + unitFriendlyText.height - 5;
     meterText.roundPixels = true;
 
+    // -----------------
+
     unitFriendlyText.x = x + margin;
-    unitFriendlyText.y = y + titleText.height + scaleText.height - 10;
+    unitFriendlyText.y = y + titleText.height - 10;
     unitFriendlyText.roundPixels = true;
 
     descriptionText.x = x + margin;
-    descriptionText.y = y + titleText.height + scaleText.height + unitFriendlyText.height;
+    descriptionText.y = y + titleText.height + scaleText.height + unitFriendlyText.height + 10;
     descriptionText.roundPixels = true;
 
     const descriptionContainer = new PIXI.Container();

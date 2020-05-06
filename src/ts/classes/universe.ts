@@ -90,7 +90,10 @@ export class Universe {
   }
 
   unHideItems() {
-    for (const item of this.items) item.hideDescription();
+    for (const item of this.items) {
+      item.hideDescription();
+      item.text.renderable = true
+    }
     // for (const otherItem of [...this.items, ...this.rings]) {
     //   // hide all other descriptions
     //   otherItem.container.alpha = 1;
@@ -99,7 +102,7 @@ export class Universe {
     this.container.filters = null;
 
     if (this.selectedItem) {
-      this.selectedItem.text.visible = true;
+      this.selectedItem.text.renderable = true;
       this.displayContainer.removeChildAt(0);
       this.container.addChild(this.selectedItem.getContainer());
       this.selectedItem = undefined;
@@ -126,11 +129,10 @@ export class Universe {
       
 
       item.showDescription();
-      item.text.visible = false;
+      item.text.renderable = false
       this.displayContainer.addChild(item.getContainer());
 
       this.selectedItem = item;
-      this.selectedItem.text.visible = false;
 
       // TweenMax.to(this.container, 2, { pixi: { blurFilter: 15 } });
       const filter = new PIXI.filters.BlurFilter(4, 4, 1, 5);
@@ -142,6 +144,7 @@ export class Universe {
       for (const otherItem of this.items.filter(x => x !== item)) {
         // hide all other descriptions
         otherItem.hideDescription();
+        otherItem.text.renderable = true
         // otherItem.container.alpha = .5
       }
     } else {
@@ -187,6 +190,16 @@ export class Universe {
 
     let meterText = textData[596];
     let meterPluralText = textData[597];
+
+    const extraText = {
+      centimeter: textData[598],
+      centimeters: textData[599],
+      lightyear: textData[600],
+      lightyears: textData[601],
+      meter: meterText,
+      meters: meterPluralText
+    }
+
     let units = textData.slice(602,618).map(x => x.replace(/\r?\n|\r/g, ''))
 
 
@@ -201,7 +214,8 @@ export class Universe {
       let textDatum = {
         title: "",
         description: "",
-        metersPlural: meterPluralText
+        metersPlural: meterPluralText,
+        meterSingular: meterText
       };
 
       let sizeData = itemSizes[idx];
@@ -222,6 +236,7 @@ export class Universe {
           [texture, textureLow],
           visualLocation,
           textDatum,
+          extraText,
           units,
           onClick,
           this.app
