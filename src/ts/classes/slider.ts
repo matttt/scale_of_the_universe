@@ -2,12 +2,14 @@ import {
   Graphics, 
   Application, 
   Container, 
-  Point  
+  Point,
+  Ticker
 } from "pixi.js-legacy";
 import { map } from "../helpers/map";
 import { E } from "../helpers/e";
 import { Tweenable } from 'shifty';
 import { start } from "repl";
+import { animate } from '../helpers/variableAnimation'
 
 const Stats = require( 'stats-js');
 
@@ -34,12 +36,14 @@ export class Slider {
   private onChange: Function;
   private onHandleClicked: Function;
   public dragging: Boolean = false;
- 
+  private fpsTarget: number = 200;
   private margin: number;
   private targetX: number; 
   private currentX: number;
   private currentPercent: number;
   private animating: boolean = false; 
+  private interaction: boolean = false; 
+  private mouseDown: boolean = false; 
   public topY: number;
   private w: number;
   private h: number;
@@ -80,11 +84,15 @@ export class Slider {
     // const oppWidth = ((this.w * (1 - WIDTH_PERCENT)) / 2);
     this.margin = (this.w - this.widthPixels) / 2; // left/right margin for slider bg
 
+    this.interaction = false;
+
 
     document.addEventListener("mousewheel", (e: any) => {
       var e = window.event || e; // old IE support
       var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
       this.startOffset = 0;
+
+      this.interaction = true;
 
       this.moveTarget(delta * SCROLL_SPEED)
     }, false);
@@ -154,6 +162,7 @@ export class Slider {
     graphics.lineStyle(0, 0xaaaaaa, 0);
     graphics.beginFill(0xffffff, 1);
 
+
     const w = this.w * HANDLE_WIDTH_PERCENT;
     this.handleW = w;
     const h = this.h * HEIGHT_PERCENT;
@@ -194,11 +203,14 @@ export class Slider {
 
     function onDragStart(event: any) {
       this.startOffset = event.data.global.x - here.handleGfx.position.x
+
+      this.interaction = true;
       
       this.data = event.data;
       this.alpha = 0.75;
       this.dragging = true;
 
+      this.fpsTarget = 200;
 
       here.onHandleClicked();
 
@@ -309,7 +321,9 @@ export class Slider {
 
     let frameCount = 0;
     let prevDX = 0;
-    this.app.ticker.add((deltaTime: number) => {
+    let ticker = Ticker.shared;
+
+    ticker.add((deltaTime: number) => {
       if (!this.animating) {
               stats.end()
               stats.begin()
@@ -367,10 +381,26 @@ export class Slider {
               this.currentPercent = percent;
               // console.log(newPosition, percent, 'adjx:', adjX, 'rightBound', rightBound, insideRight)
         
+              // console.log(this.interaction)
               if (changed) {
+                // ticker.speed = 1;
+                // ticker.start();
                 this.onChange(newPosition, percent);
+                // this.fpsTarget = 200
+
               } else  {
-                // this.app.stop();
+                // if (this.interaction) {
+                // }
+                // ticker.stop();
+                // ticker.speed = .01;
+
+                // if (this.interaction === false) {
+                if (!this.dragging) {
+                  // this.fpsTarget = 1;
+
+                }
+                // }
+                
                 this.animStopped() 
               }
         
@@ -378,5 +408,44 @@ export class Slider {
             
       }
     });
+
+
+    // const getFps = () => this.fpsTarget;
+
+    // // animate(getFps, () => {
+    // //   ticker.update()
+    // //   console.log('tick')
+    // // })
+    // let then = Date.now();
+    // const animate = () => {
+    //   let fpsInterval = 1000 / this.fpsTarget;
+    
+    // // request another frame
+  
+    //   requestAnimationFrame(() => animate());
+  
+    //   // calc elapsed time since last loop
+  
+    //   const now = Date.now();
+    //   let elapsed = now - then;
+  
+    //   // if enough time has elapsed, draw the next frame
+  
+    //   if (elapsed > fpsInterval) {
+  
+    //     // Get ready for next frame by setting then=now, but...
+    //     // Also, adjust for fpsInterval not being multiple of 16.67
+    //     then = now - (elapsed % fpsInterval);
+    
+    //     // draw stuff here
+    //     ticker.update()
+    //   }
+
   }
+
+  // animate()
+
+    // ticker.update(time);
+
 }
+

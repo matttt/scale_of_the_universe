@@ -1,5 +1,6 @@
 import {E} from './e'
 import { SizeData } from '../classes/item';
+import * as numeral from 'numeral';
 export interface ExtraText {
   centimeter: string;
   centimeters: string;
@@ -37,6 +38,7 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
     return `${val} ${unit.replace(/\r?\n|\r/g, '')}`
   }
 
+  // single centimeters
   if (sizeData.exponent === -2) {
     const val = sizeData.coeff;
 
@@ -45,7 +47,29 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
     return `${val} ${unit.replace(/\r?\n|\r/g, '')}`
   }
 
-  const val = E(multiplierPow) * sizeData.coeff;
+  if (sizeData.exponent >= 3 && sizeData.exponent <= 14) {
+    const kiloIndex = 9;
+    const kilo = units[kiloIndex];
+    const val = sizeData.coeff;
+
+    const numKilos = Math.floor((sizeData.coeff * Math.pow(10, sizeData.exponent - 3)));
+
+    const formattedVal = numeral(numKilos).format('0,0');
+
+    return `${formattedVal} ${kilo}${extra.meters}`.replace(/\r?\n|\r/g, '')
+  }
+
+  if (sizeData.exponent >= 16) {
+    const val = sizeData.coeff;
+
+    const numLYS = Math.floor((sizeData.coeff * Math.pow(10, sizeData.exponent - 16)));
+
+    const formattedVal = numeral(numLYS).format('0,0');
+
+    return `${formattedVal} ${sizeData.coeff === 1 ? extra.lightyear : extra.lightyears}`.replace(/\r?\n|\r/g, '')
+  }
+
+  const val = Number((E(multiplierPow) * sizeData.coeff).toFixed(3));
 
   const suffix = val === 1 ? extra.meter : extra.meters
 

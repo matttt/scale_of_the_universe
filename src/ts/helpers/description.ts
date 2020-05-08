@@ -49,13 +49,13 @@ export function getGraphics (visualLocation, textDatum, extraText, units: string
       fontSize: 32 
     };
 
-    console.log(extraText)
-
     const friendly = powToUnit(sizeData, units, extraText)
     
     const splitDescription = descriptionSplitter(textDatum.description);
     
-    const titleText = new PIXI.Text(textDatum.title, titleStyle);
+    // DEBUG MODE: object id beside description title VVVV
+    // const titleText = new PIXI.Text(textDatum.title.replace(/\r?\n|\r/g, ' ') + sizeData.objectID, titleStyle);
+    const titleText = new PIXI.Text(textDatum.title.replace(/\r?\n|\r/g, ''), titleStyle);
     const scaleText = new PIXI.Text(`${sizeData.coeff} x 10`, scaleStyle);
     const exponentText = new PIXI.Text(`${sizeData.exponent}`, exponentStyle);
     const meterText = new PIXI.Text(textDatum.metersPlural, scaleStyle);
@@ -70,40 +70,47 @@ export function getGraphics (visualLocation, textDatum, extraText, units: string
     // ------------------
 
     scaleText.x = x + margin;
-    scaleText.y = y + titleText.height + unitFriendlyText.height - 5;
+    scaleText.y = y + titleText.height + unitFriendlyText.height - 5 + 35;
     scaleText.roundPixels = true;
 
     exponentText.x = x + margin + 2.5 + scaleText.width;
-    exponentText.y = y + titleText.height + unitFriendlyText.height - 12;
+    exponentText.y = y + titleText.height + unitFriendlyText.height - 12 + 35;
     exponentText.roundPixels = true;
 
     meterText.x = x + margin + 2.5 + scaleText.width + exponentText.width + 5;
-    meterText.y = y + titleText.height + unitFriendlyText.height - 5;
+    meterText.y = y + titleText.height + unitFriendlyText.height - 5 + 35;
     meterText.roundPixels = true;
 
     // -----------------
 
     unitFriendlyText.x = x + margin;
-    unitFriendlyText.y = y + titleText.height - 10;
+    unitFriendlyText.y = y + titleText.height - 10 + 35;
     unitFriendlyText.roundPixels = true;
 
     descriptionText.x = x + margin;
-    descriptionText.y = y + titleText.height + scaleText.height + unitFriendlyText.height + 10;
+    descriptionText.y = y + titleText.height + scaleText.height + unitFriendlyText.height + 10 + 35;
     descriptionText.roundPixels = true;
 
     const descriptionContainer = new PIXI.Container();
     const graphics = new PIXI.Graphics();
+    const totalTextHeight = titleText.height + descriptionText.height + scaleText.height + unitFriendlyText.height + 10 + 35;
+    //shadow
+    graphics.beginFill(0x000000, .2);
 
+
+    graphics.drawRoundedRect(x + 5, y + 5, w, totalTextHeight, 15);
+    graphics.endFill();
     // set a fill and a line style again and draw a rectangle
     graphics.lineStyle(2, 0xaaaaaa, 1);
-    graphics.beginFill(0x999999, 1);
+    // graphics.beginFill(0x999999, 1);
+    graphics.beginFill(0xFFFFFF, 1);
 
-    const totalTextHeight = titleText.height + descriptionText.height + scaleText.height + unitFriendlyText.height + 10;
     
     
     graphics.drawRoundedRect(x, y, w, totalTextHeight, 15);
     graphics.endFill();
     graphics.alpha = .9;
+
 
     
     descriptionContainer.x -= w/2;
@@ -111,7 +118,12 @@ export function getGraphics (visualLocation, textDatum, extraText, units: string
     
     descriptionContainer.addChild(graphics);
     // descriptionContainer.addChild(titleText, descriptionText);
-    descriptionContainer.addChild(titleText, descriptionText, scaleText, exponentText, meterText, unitFriendlyText);
+    descriptionContainer.addChild(titleText, 
+                                  descriptionText, 
+                                  scaleText, 
+                                  exponentText, 
+                                  meterText, 
+                                  unitFriendlyText);
 
     // return descriptionContainer;
     return descriptionContainer;
