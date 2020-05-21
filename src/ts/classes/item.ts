@@ -17,6 +17,7 @@ interface VisualLocation {
   titleWrap: boolean;
   descriptionX: number;
   descriptionY: number;
+  descriptionScale?: number;
   zoomOffset?: number
 }
 export interface SizeData {
@@ -112,6 +113,11 @@ export class Item extends Entity {
       this.units,
       this.sizeData
     );
+
+    const s = this.visualLocation.descriptionScale;
+    if (s) {
+      descriptionGfx.scale = new PIXI.Point(s, s);
+    }
 
     this.container.addChild(descriptionGfx);
 

@@ -271,8 +271,8 @@ loader.load(async (loader, resources) => {
       background.bgContainer,
       universe.container,
       slider.container,
-      universe.displayContainer,
-      scaleText.container
+      scaleText.container,
+      universe.displayContainer
     );
 
     

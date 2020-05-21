@@ -47,6 +47,7 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
     return `${val} ${unit.replace(/\r?\n|\r/g, '')}`
   }
 
+  // kilometers
   if (sizeData.exponent >= 3 && sizeData.exponent <= 14) {
     const kiloIndex = 9;
     const kilo = units[kiloIndex];
@@ -59,10 +60,9 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
     return `${formattedVal} ${kilo}${extra.meters}`.replace(/\r?\n|\r/g, '')
   }
 
+  //light years
   if (sizeData.exponent >= 16) {
-    const val = sizeData.coeff;
-
-    const numLYS = Math.floor((sizeData.coeff * Math.pow(10, sizeData.exponent - 16)));
+    const numLYS = sizeData.coeff * (Math.pow(10, sizeData.exponent - 16));
 
     const formattedVal = numeral(numLYS).format('0,0');
 

@@ -10,6 +10,8 @@ import { E } from "../helpers/e";
 import { Tweenable } from 'shifty';
 import { start } from "repl";
 import { animate } from '../helpers/variableAnimation'
+// import hotkeys from 'hotkeys-js';
+
 
 const Stats = require( 'stats-js');
 
@@ -86,6 +88,13 @@ export class Slider {
 
     this.interaction = false;
 
+    // hotkeys('ctrl-g', function(event, handler){
+    //   // Prevent the default refresh event under WINDOWS system
+    //   event.preventDefault() 
+    //   const target = Number(prompt('Jump to percent'));
+    //   this.setTargetPercent(target)
+    // });
+    
 
     document.addEventListener("mousewheel", (e: any) => {
       var e = window.event || e; // old IE support

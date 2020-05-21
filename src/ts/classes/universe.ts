@@ -129,7 +129,9 @@ export class Universe {
       
 
       item.showDescription();
-      item.text.renderable = false
+      if (item.sizeData.objectID !== 163) {
+        item.text.renderable = false
+      }
       this.displayContainer.addChild(item.getContainer());
 
       this.selectedItem = item;
@@ -257,7 +259,8 @@ export class Universe {
           sizeData,
           [texture, textureLow],
           visualLocation,
-          textDatum
+          textDatum,
+          meterPluralText
         );
         this.rings.push(ring);
         this.container.addChild(ring.getContainer());
@@ -309,7 +312,8 @@ export class Universe {
           sizeData,
           [texture, textureLow],
           visualLocation,
-          textDatum
+          textDatum,
+          meterPluralText
         );
         this.rings.push(ring);
         this.container.addChild(ring.getContainer());

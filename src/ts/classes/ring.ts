@@ -42,13 +42,15 @@ export class Ring extends Entity {
   private sizeData: sizeData;
   private textContainer: PIXI.Container;
   private centerVec: PIXI.Point;
+  private meterPlural: string;
 
   constructor(
     idx: number,
     sizeData: sizeData,
     textures: PIXI.Texture[],
     visualLocation: visualLocation,
-    textDatum: textDatum
+    textDatum: textDatum,
+    metersText: string
   ) {
     super(sizeData.exponent, textures);
 
@@ -58,6 +60,8 @@ export class Ring extends Entity {
     this.visualLocation = visualLocation;
     this.textDatum = textDatum;
     this.sizeData = sizeData;
+
+    this.meterPlural = metersText;
 
     const dX =
       window.innerWidth / 2 - this.texture.trim.x + this.texture.trim.width / 2;
@@ -114,36 +118,66 @@ export class Ring extends Entity {
   }
 
   createText() {
-    //make method
-    let textStyle = {
-      fontFamily: 'Roboto',
-      fontSize: 60,
-      fill: 0x777777,
-      align: "center",
-      wordWrap: false,
-      breakWords: false
-    };
-    let descriptionStyle = {
+    let baseStyle = {
       fontFamily: 'Roboto',
       fontSize: 40,
       fill: 0x777777,
       align: "center",
       wordWrap: false,
+      wordWrapWidth: 1000,
       breakWords: false
+    }
+    //make method
+    let textStyle = {
+      ...baseStyle,
+      fontSize: 60
+    };
+    let descriptionStyle = {
+      ...baseStyle
+    };
+    let expStyle = {
+      ...baseStyle,
+      fontSize: 30,
+      align: "left"
     };
     const scale = E(this.scaleExp) * this.coeff * this.realRatio;
 
     if (scale > E(5)) {
       textStyle.fill = 0xdddddd;
+      expStyle.fill = 0xdddddd;
       descriptionStyle.fill = 0xdddddd;
     }
+    
+    //literally done. users will run a couple regexes. 
+    const titleNoNewLine = this.textDatum.title.replace(/(\r\n|\n|\r)/gm, '');
 
-    this.text = new PIXI.Text(this.textDatum.title, textStyle);
+    const tenText = new PIXI.Text('10', textStyle);
+    const expText = new PIXI.Text(this.sizeData.exponent.toString(), expStyle);
+    const unitText = new PIXI.Text(this.meterPlural, textStyle);
+
+    this.text = new PIXI.Text(titleNoNewLine, textStyle);
     this.text.anchor.set(0.5, 0);
     // this.text.cacheAsBitmap = true;
 
+    const offset = 10;
+    tenText.position.x = -100 + offset;
+    tenText.position.y = -250;
+    tenText.anchor.set(0.5, 0);
+
+    expText.position.x = -50 + offset;
+    expText.position.y = -250;
+    expText.anchor.set(0.5, 0);
+
+    unitText.position.x = 45 + offset + expText.width;
+    unitText.position.y = -250;
+    unitText.anchor.set(0.5, 0);
+
+    tenText.position.x -= expText.width
+    expText.position.x -= expText.width
+    unitText.position.x -= expText.width
+
     this.text.position.x = 0;
-    this.text.position.y = -250;
+    this.text.position.y = -325;
 
     this.descriptionText = new PIXI.Text(
       this.textDatum.description,
@@ -156,7 +190,7 @@ export class Ring extends Entity {
     this.descriptionText.position.y = 175;
 
     this.textContainer = new PIXI.Container();
-    this.textContainer.addChild(this.text, this.descriptionText);
+    this.textContainer.addChild(this.text, this.descriptionText, tenText, expText, unitText);
 
     this.container.addChild(this.textContainer);
   }

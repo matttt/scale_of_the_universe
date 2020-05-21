@@ -72,6 +72,7 @@ gulp.task("default", gulp.parallel(["copy-html", "copy-data"], () =>{
   gulp.watch('src/index.html', gulp.parallel(['copy-html']))
   gulp.watch(paths.data, gulp.parallel(['copy-data']))
   
+  require('./serve');
   bundle()
 }));
 
