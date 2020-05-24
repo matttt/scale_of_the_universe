@@ -8,7 +8,7 @@ dialog {
   box-shadow: 0 0 40px rgba(0,0,0,0.1), 0 0 10px rgba(0,0,0,0.25);
   width: 40vw !important;
   top: 10vh;
-  min-height: 50vh !important;
+  min-height: 45vh !important;
 }
 
 dialog[open] {
@@ -75,6 +75,7 @@ body {
   color: rgb(0, 0, 0);
   border-radius: 5px;
   font-size: 100%;
+  padding: 5%
 }
 
 .nw {
@@ -104,11 +105,12 @@ body {
 
 .box {
   background-color: rgb(168, 168, 168, 0);
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
   border-radius: 5px;
   padding: 20px;
   font-size: 100%;
   box-shadow: 0 0 20px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.25);
+  border: 0px
 }
 
 
@@ -249,6 +251,17 @@ body {
       z-index: 5;
       transform: scale(0.4);
    }
+
+   .lang {
+    width: 20px;
+      height: 20px;
+      position: absolute;
+      left: calc(100% - 75px);
+      top: 25px;
+      z-index: 5;
+   }
+
+
     input:before, input:after {
       content: '';
       position: absolute;
@@ -270,6 +283,10 @@ body {
       height: 16px;
       border-radius: 3px;
       background: #34495e;
+   }
+   #muteToggle {
+     width: 15px;
+     height: 15px;
    }
     input[type="checkbox"]:checked ~ span {
       transform: rotate(-45deg) translateY(4px);

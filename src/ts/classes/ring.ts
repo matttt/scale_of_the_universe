@@ -30,6 +30,18 @@ interface textDatum {
   description: string;
 }
 
+function supFromDig (dig: string) {
+  const num = Number(dig);
+  return "⁰¹²³⁴⁵⁶⁷⁸⁹".charAt(num);
+}
+
+function numToSup (num: number) {
+  const str = num.toString();
+
+  return str.replace(/[0123456789]/g, supFromDig)
+            .replace(/-/g, '⁻');
+}
+
 export class Ring extends Entity {
   private coeff: number = 1;
   private realRatio: number = 1;
@@ -132,52 +144,47 @@ export class Ring extends Entity {
       ...baseStyle,
       fontSize: 60
     };
+    let expTextStyle = {
+      ...baseStyle,
+      fontSize: 40
+    };
     let descriptionStyle = {
       ...baseStyle
-    };
-    let expStyle = {
-      ...baseStyle,
-      fontSize: 30,
-      align: "left"
     };
     const scale = E(this.scaleExp) * this.coeff * this.realRatio;
 
     if (scale > E(5)) {
       textStyle.fill = 0xdddddd;
-      expStyle.fill = 0xdddddd;
+      expTextStyle.fill = 0xdddddd;
       descriptionStyle.fill = 0xdddddd;
     }
     
     //literally done. users will run a couple regexes. 
     const titleNoNewLine = this.textDatum.title.replace(/(\r\n|\n|\r)/gm, '');
 
-    const tenText = new PIXI.Text('10', textStyle);
-    const expText = new PIXI.Text(this.sizeData.exponent.toString(), expStyle);
-    const unitText = new PIXI.Text(this.meterPlural, textStyle);
+    // const expText = this.sizeData.exponent;
+    // const expTextFmtd = numToSup(expText);
+
+    const exponentText = new PIXI.Text(`10^${this.sizeData.exponent} ${this.meterPlural}`, expTextStyle);
+
+    
+    const expTextContainer = new PIXI.Container();
 
     this.text = new PIXI.Text(titleNoNewLine, textStyle);
     this.text.anchor.set(0.5, 0);
     // this.text.cacheAsBitmap = true;
-
-    const offset = 10;
-    tenText.position.x = -100 + offset;
-    tenText.position.y = -250;
-    tenText.anchor.set(0.5, 0);
-
-    expText.position.x = -50 + offset;
-    expText.position.y = -250;
-    expText.anchor.set(0.5, 0);
-
-    unitText.position.x = 45 + offset + expText.width;
-    unitText.position.y = -250;
-    unitText.anchor.set(0.5, 0);
-
-    tenText.position.x -= expText.width
-    expText.position.x -= expText.width
-    unitText.position.x -= expText.width
+    
+    exponentText.position.x = 0;
+    exponentText.position.y = -225;
+    // exponentText.anchor.set(0.5, 0);
+    
+      
+    expTextContainer.addChild(exponentText)
+    // expTextContainer.addChild(exponentText, expText, unitText)
+    expTextContainer.position.x -= expTextContainer.width /2
 
     this.text.position.x = 0;
-    this.text.position.y = -325;
+    this.text.position.y = -300;
 
     this.descriptionText = new PIXI.Text(
       this.textDatum.description,
@@ -190,7 +197,7 @@ export class Ring extends Entity {
     this.descriptionText.position.y = 175;
 
     this.textContainer = new PIXI.Container();
-    this.textContainer.addChild(this.text, this.descriptionText, tenText, expText, unitText);
+    this.textContainer.addChild(this.text, this.descriptionText, expTextContainer);
 
     this.container.addChild(this.textContainer);
   }
