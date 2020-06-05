@@ -8,5 +8,3 @@
 
 `gulp`
 
-`node serve.js`
-
