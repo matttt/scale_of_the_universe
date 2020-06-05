@@ -41,7 +41,7 @@ El Sol es lo que le da a la Tierra la energía que hace posible tener vida. ¡El
 Alpha Centauri A
 Alpha Centauri A es la estrella más grande del sistema estelar Alpha Centauri (compuesto por tres estrellas), el cual es el sistema estelar más cercano a nosotros. También es la cuarta estrella más brillante en el cielo nocturno.
 Alpha Centauri B
-Alpha Centauri B es la segunda estrella más grande del sistema estelar Alpha Centauri. Su diámetro es aproximadamente un millón de kilómetros, por lo tanto es un poco más pequeña que el Sol. Alpha Centauri A %26 B están tan cerca entre sí que parecen una sola estrella para nosotros los terrícolas.
+Alpha Centauri B es la segunda estrella más grande del sistema estelar Alpha Centauri. Su diámetro es aproximadamente un millón de kilómetros, por lo tanto es un poco más pequeña que el Sol. Alpha Centauri A & B están tan cerca entre sí que parecen una sola estrella para nosotros los terrícolas.
 Proxima Centauri
 Proxima Centauri es conocida como la estrella más cercana a la Tierra después del Sol. Su nombre proviene de la palabra “proximidad”. Proxima Centauri es una estrella roja pequeña. Desafortunadamente, es tan difusa que necesitas un telescopio para verla.
 Sirius A
@@ -51,7 +51,7 @@ Sirius B es una enana blanca. ¡Es apenas más grande que la Tierra! Generalment
 Vega
 Vega se encuentra en la constelación de Lyra. También es parte del Triángulo de Verano, compuesto por Vega, Altair, y Deneb. Vega gira tan rápido que se ensancha. Sin embargo, la vemos desde un polo, así que luce circular.
 Regulus
-Regulus gira tan rápido que se ensancha, al igual que Altair y Vega. Si Regulus girara 16% más rápido, ¡se despedazaría! Regulus también es la estrella más brillante en la constelación de Leo. También hay Regulus B %26 C.
+Regulus gira tan rápido que se ensancha, al igual que Altair y Vega. Si Regulus girara 16% más rápido, ¡se despedazaría! Regulus también es la estrella más brillante en la constelación de Leo. También hay Regulus B & C.
 Espiga
 Espiga es la decimoquinta estrella más brillante en el cielo nocturno y se encuentra en la constelación de Virgo. En realidad es un sistema de estrellas binario. Las dos estrellas están muy cerca, y orbitan cada cuatro días.
 Alnitak
@@ -63,7 +63,7 @@ Urano es el séptimo planeta del Sistema Solar y es un gigante gaseoso. Al igual
 Neptuno
 Actualmente, Neptuno es el planeta más lejano del Sol del Sistema Solar. Le toma 164,8 años de la Tierra para orbitar el Sol. Nunca verás a Neptuno completar una órbita en toda tu vida, a menos que aumenten las expectativas de vida.
 Wolf 359
-Wolf 359 es una pequeña enana roja, empequeñecida por estrellas normales. Es la sexta estrella más cercana a la Tierra, después del Sol, Proxima Centauri, Alpha Centauri A %26 B y la estrella de Barnard. Aún así, su magnitud es un difuso +13.5.
+Wolf 359 es una pequeña enana roja, empequeñecida por estrellas normales. Es la sexta estrella más cercana a la Tierra, después del Sol, Proxima Centauri, Alpha Centauri A & B y la estrella de Barnard. Aún así, su magnitud es un difuso +13.5.
 Gliese 229A
 Gliese 229A es una estrella enana roja. Es un poco más pequeña que el Sol. La estrella enana roja también es denominada como GJ 229 o GI 229. Es parte de un sistema binario, la segunda estrella es Gliese 229B.
 Gliese 229B
@@ -191,7 +191,7 @@ Proxima Centauri es la estrella más cercana al Sol. Sin embargo, sigue estando 
 Nebulosa Mantarraya
 La Nebulosa Mantarraya es una nebulosa planetaria. Es relativamente joven, y está constantemente creciendo. Quien haya puesto el nombre a esta nebulosa debe haber pensado que lucía como una mantarraya. ¿Y tú?
 Distancia de Proxima Centauri a Alpha Centauri A
-Proxima Centauri está muy lejos de Alpha Centauri A %26 B.
+Proxima Centauri está muy lejos de Alpha Centauri A & B.
 Nebulosa Ojo de gato
 La Nebulosa Ojo de gato es una de las nebulosas más complejas conocidas. ¿Sabías que la Nebulosa Ojo de gato está a 8.000 °C? ¡Eso es bastante caliente! El halo exterior es incluso más caliente, a 15.000 °C.
 Nebulosa de la Hormiga

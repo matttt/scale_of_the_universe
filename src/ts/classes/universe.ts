@@ -149,7 +149,7 @@ export class Universe {
       this.selectedItem.text.visible = false;
 
       // TweenMax.to(this.container, 2, { pixi: { blurFilter: 15 } });
-      const filter = new KawaseBlurFilter(4, 5, true);
+      const filter = new KawaseBlurFilter(1, 3, true);
 
       this.container.filters = [filter];
 

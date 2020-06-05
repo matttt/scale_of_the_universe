@@ -76,7 +76,7 @@ export class Entity {
     // basic culling :)
     if ((scale < .001 || scale > 12) && !this.cachePeriod) {
     // if (scale < (E(-6)) || scale > E(1)) {
-      this.container.visible = true;
+      this.container.visible = false;
       this.culled = true;
     } else {
       this.container.visible = true;

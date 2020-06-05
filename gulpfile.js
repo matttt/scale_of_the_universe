@@ -10,6 +10,9 @@ const fancy_log = require('fancy-log');
 const closureCompiler = require('google-closure-compiler').gulp();
 const replace = require('gulp-replace');
 
+const shell = require('gulp-shell')
+
+
 
 
 const uglifyjs = require('uglify-es'); 
@@ -47,6 +50,8 @@ gulp.task("copy-data", function (done) {
 gulp.task("serve", function (done) {
   return require('./serve');
 });
+
+gulp.task('ghio-deploy', shell.task('sh ghio_deploy.sh'))
 
 gulp.task('compress', function () {
   gulp.src(['dist/index.html'])
