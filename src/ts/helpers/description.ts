@@ -54,8 +54,8 @@ export function getGraphics (visualLocation, textDatum, extraText, units: string
     const splitDescription = descriptionSplitter(textDatum.description).replace(/",/g, '');
     
     // DEBUG MODE: object id beside description title VVVV
-    const titleText = new PIXI.Text(textDatum.title.replace(/\r?\n|\r/g, ' ') + sizeData.objectID, titleStyle);
-    // const titleText = new PIXI.Text(textDatum.title.replace(/\r?\n|\r/g, ''), titleStyle);
+    // const titleText = new PIXI.Text(textDatum.title.replace(/\r?\n|\r/g, ' ') + sizeData.objectID, titleStyle);
+    const titleText = new PIXI.Text(textDatum.title.replace(/\r?\n|\r/g, ''), titleStyle);
     const scaleText = new PIXI.Text(`${sizeData.coeff} x 10`, scaleStyle);
     const exponentText = new PIXI.Text(`${sizeData.exponent}`, exponentStyle);
     const meterText = new PIXI.Text(textDatum.metersPlural, scaleStyle);

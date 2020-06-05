@@ -2,49 +2,14 @@
 <html>
 
 <head>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      height: 100%;
-    }
 
-    .frameStyle {
-      position: fixed;
-      /* border: 1px black solid; */
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    .fullStyle {
-      /* position: fixed; */
-      /* border: 1px black solid; */
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-    }
-
-    #startBtn {
-      text-align: center;
-      line-height: 50%;
-      padding-right: 5px;
-      position: absolute;
-      background-color: blue;
-      right: 5% !important;
-      bottom: 5% !important;
-      font-size: 48px;
-      border-radius: 40px;
-    }
-  </style>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>sotu 2.1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/spin.css">
   <link rel="stylesheet" type="text/css" href="css/dialog-polyfill.css">
@@ -68,13 +33,18 @@
 
 
   <div id="frame" style="visibility: hidden;" class="frameStyle">
-    <a href=".">
-      <img src="img/lang.svg" class="lang">
-    </a>
-
-    <a href="#" id="muteToggle" class="speaker">
-      <span></span>
-    </a>
+    <div id="buttons">
+      <a href=".">
+        <img src="img/lang.svg" class="lang">
+      </a>
+      <div id="muteToggle">
+        <a href="#" class="speaker">
+            <span></span>
+        </a>
+      </div>
+      <div class="hd hd-click" id="hqToggle">HQ</div>
+    </div>
+  </div>
 
     <!-- <div class="wrap">
       <input id="muteToggle" type="checkbox">
@@ -85,10 +55,11 @@
   <!-- <div id="frame" style="display: none;" class="frameStyle"></div> -->
 
 
-  <dialog class="my-modal" style="font-family: 'Roboto', sans-serif;" id="modal">
+  <dialog class="my-modal" style="font-family: 'Roboto', sans-serif; height: 40%" id="modal" >
     <!-- <progress max="100" value="0"></progress> -->
-    <h1 id="title" style="position: absolute; top: 0%">Scale of the Universe</h1>
+    <h1 id="title" style="position: absolute; top: 0%; max-width: 65%">Scale of the Universe</h1>
     <h1 id="hoverTitle" style="position: absolute; top: 0%; display: none;" ></h1>
+    
     <div class="wrapper" id="langWrapper">
       <button class="box a" onclick="setLang('a', 0)" onmouseover="setTitle(0)" onmouseout="revealTitle()">English (US)</button>
       <button class="box b" onclick="setLang('b', 3)" onmouseover="setTitle(3)" onmouseout="revealTitle()">English (British)</button>
@@ -113,31 +84,36 @@
     </div>
 
     <div id="startWrapper" style="display: none">
-      <button onclick="startSOTU()" id="startBtn">
-        <svg class="bi bi-play-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
-          <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 010 1.393z"/>
-        </svg>
-      </button>
+      <div id="credits">
+        <p>Created by Cary Huang</p>
+        <p>Implemented by Matthew Martori</p>
+        <p id="translationCredit"></p>
+      </div>
 
       <div id="startGrid">
         
-
+          
       
           <div class="tutBox nw">
-            <img style="max-width: 80%;" src="img/slider.png">
+            <img style="height: 75px" src="img/slider.png">
           </div>
           <div class="tutBox sw">
-            <h2 id="moveSliderText"></h2>
+            <h2 id="moveSliderText" style="height: 25px"></h2>
           </div>
           <div class="tutBox ne">
-            <img style="max-width: 80%;" src="img/object.png">
+            <img style="height: 75px" src="img/object.png">
           </div>
           <div class="tutBox se">
-            <h2 id="clickObjectText"></h2>
+            <h2 id="clickObjectText" style="height: 25px"></h2>
           </div>
-
+         
 
       </div>
+      <button onclick="startSOTU()" id="startBtn">
+        <!-- <svg class="bi bi-play-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 010 1.393z"/>
+        </svg> -->
+      </button>
     </div>
 
     
@@ -149,7 +125,7 @@
   <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
   <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
   <!-- <script src="js/bundle.min.js"></script> -->
-  <script src="js/bundle.js"></script>
+  <script src="js/bundle.min.js"></script>
   
   <div style="position: absolute; width: 728px; height: 90px; left: calc(50vw - 364px); bottom: 0px; z-index: 1000">
     <script data-ad-client="ca-pub-8441223715044524" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

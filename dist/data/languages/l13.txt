@@ -1,4 +1,4 @@
-Pixel LCD
+tx=Pixel LCD
 Desi dimensiunea unui pixel nu este fixa, 300 de micrometri este media. Pixelii contin trei subpixeli; fiecare fiind rosu, verde si albastru. Pixelii sunt interesanti, voxelii însa sunt pixeli tridimensionali!
 Palm Jebel Ali
 Palm Jebel Ali este cel mai mare insula creata de om (neincluzând insule precum Flevopolder, o regiune a Olandei care a fost drenata astfel încît sa poata avea mai mult teren). Palm Jebel Ali nu este completa. Este o parte a Insulelor Palm, si în final va gazdui 250.000 de persoane
@@ -51,7 +51,7 @@ Sirius B este o pitica alba. E cu putin mai mare decît Pamîntul! Este, de obic
 Vega
 Vega se afla în constelatia Lyra. Ea compune - alaturi de  Altair si Deneb - Triunghiul de Vara. Vega se învîrte atît de repede încît este bombata! Cu toate acestea, noi o vedem de la poli, asa ca pentru noi pare circulara
 Regulus
-Regulus se învîrte atât de repede încît este bombat, la fel ca Altair si Vega. Daca Regulus s-ar roti doar 16% mai repede, ar exploda! Regulus este, de asemenea, cea mai stralucitoare stea din constelatia Leului. Exista, de asemenea, Regulus B si C
+Regulus se învîrte atât de repede încît este bombat, la fel ca Altair si Vega. Daca Regulus s-ar roti doar 16%25 mai repede, ar exploda! Regulus este, de asemenea, cea mai stralucitoare stea din constelatia Leului. Exista, de asemenea, Regulus B si C
 Spica
 Spica este dupa stralucire a cinsprezecea stea de pe cerul noptii si se afla în constelatia Fecioara. Este de fapt un sistem stelar binar. Cele doua stele sunt foarte apropiate, orbiteaza la fiecare patru zile
 Alnitak
@@ -63,7 +63,7 @@ Uranus
 Neptun
 În prezent, Neptun este cea mai îndepartata planeta din Sistemul Solar. Neptun are nevoie de 164,8 ani pamîntesti pentru a orbita Soarele. În întreaga ta viata, Neptun nu va finaliza o orbita completa, asta cîta vreme speranta de viata nu creste drastic
 Wolf 359
-Wolf 359 este o pitica mica rosie, eclipsata de alte stele. Este a sasea cea mai apropiata stea de Pamînt, dupa Soare, Proxima Centauri, Alpha Centauri, A & B si steaua lui Barnard. Cu toate acestea, marirea sa este doar +13.5
+Wolf 359 este o pitica mica rosie, eclipsata de alte stele. Este a sasea cea mai apropiata stea de Pamînt, dupa Soare, Proxima Centauri, Alpha Centauri, A %26 B si steaua lui Barnard. Cu toate acestea, marirea sa este doar +13.5
 Gliese 229A
 Gliese 229A este o pitica rosie; cu putin mai mica decît Soarele. Un alt nume ar fi GJ 229 sau GI 229. Este parte a unui sistem binar de stele, stele, a doua stea fiind Gliese 229B
 Gliese 229B
@@ -221,7 +221,7 @@ La distanta maxima de Soare, Sedna este foarte departe! Acest punct se numeste "
 Distanta de la Cometa Hale-Bopp la Soare (cea mai îndepartata)
 Cometa Hale-Bopp se poate îndeparta foarte mult de Soare, avînd nevoie de 2500 de ani pentru a completa o orbita
 Cometa Halley
-În realitate cometa Halley este destul de mica. Coada ei are însa milioane de kilometri! Cometa pierde 10% din masa ei la fiecare o mie de orbite
+În realitate cometa Halley este destul de mica. Coada ei are însa milioane de kilometri! Cometa pierde 10%25 din masa ei la fiecare o mie de orbite
 Nebuloasa Inel
 Nebuloasa Inel (Ring Nebula) seamana foarte mult cu un inel. Se credea mai demult ca toate nebuloasele planetare au o forma similara, între timp însa s-a dovedit ca nu e asa.
 Nebuloasa Helix
@@ -311,7 +311,7 @@ Astronomii cred Galaxy Cartwheel a avut o coliziune cu doua galaxii din apropier
 NGC 1232
 NGC 1232 este o galaxie marisoara. E mai mare decît a noastra. Dar nu e cea mai mare. Probabil nici IC 1101 nu este cel mai mare galaxie, e doar cea mai mare galaxie cunoscuta. Exista, probabil, galaxii mult mai mari!
 Omega Centauri
-Omega Centauri este un cluster globular, cel mai luminos. Centrul este foarte aglomerat, stelele acolo se afla doar la 0,1 ani-lumina distanta una de alta, cam 2% din distanta de la Soarele nostru la cea mai apropiata stea. (Deci foarte aproape!) 
+Omega Centauri este un cluster globular, cel mai luminos. Centrul este foarte aglomerat, stelele acolo se afla doar la 0,1 ani-lumina distanta una de alta, cam 2%25 din distanta de la Soarele nostru la cea mai apropiata stea. (Deci foarte aproape!) 
 Messier 54
 Messier 54, sau M54, sau NGC 6715, este un alt cluster globular , situat în Galaxia pitica Sagetator, fiind si primul cluster globular descoperit în afara Caii Lactee.
 Fecioara A
@@ -433,9 +433,9 @@ Oamenii folosesc mult creionul. Apropo, aici este vîrful unui creion mecanic. S
 Ce mai mare bacterie
 Cea mai mare bacterie este Namibiensis Thiomargarita, are aproape un milimetru lungime Traieste în ocean, pe coasta Namibiei. Te imaginezi înnotînd în ocean, si vazînd aceste lucruri? Sunt foarte vizibile!
 Scorpionul
-Scorpionii sunt niste animalute uimitoare! Rata metabolismului lor este atît de mare încît trebuie sa-si manînce greutatea lor corporala în fiecare zi! 10% din greutatea corpului lor este creier! E cea mai mare proportie la un animal, inclusiv la oameni!
+Scorpionii sunt niste animalute uimitoare! Rata metabolismului lor este atît de mare încît trebuie sa-si manînce greutatea lor corporala în fiecare zi! 10%25 din greutatea corpului lor este creier! E cea mai mare proportie la un animal, inclusiv la oameni!
 HIV
-HIV a infectat 0,6% din populatia lumii si provoaca SIDA. Desi un singur virus HIV este atît de mic încît nici o fiinta umana nu îl poate vedea cu ochiul lor liber, este un virus mortal.
+HIV a infectat 0,6%25 din populatia lumii si provoaca SIDA. Desi un singur virus HIV este atît de mic încît nici o fiinta umana nu îl poate vedea cu ochiul lor liber, este un virus mortal.
 Firul de nisip
 Desigur, nu toate firele de nisip sunt de aceeasi dimensiune. Pot varia foarte mult.. Arenophilii sunt oameni care colecteaza probe de nisip. Stiai ca Plaja Papakolea are nisip verde? Acest lucru se datoreaza cristalelor din nisip.
 Namolul
@@ -475,7 +475,7 @@ Albatrosul calator este pasarea cu cea mai mare anvergura a aripilor. Ei zboara 
 Grosimea parului uman
 Parul uman este uimitor: parul tinut drept este aproape perfect cilindric. Pe de alta parte, parul ondulat este plat, care permite sa se îndoaie, ca o panglica. Stiai ca ai între 50.000 si 200.000 de fire de par de pe cap? Poti începe numaratul! 
 Furnicile
-Probabil ca nici tie nu-ti prea plac furnicile. Destul de rau, avînd în vedere ca 15-25% din toate animalele terestre sunt furnici! Fiecarui om îi corespund mai mult de un milion de furnici!
+Probabil ca nici tie nu-ti prea plac furnicile. Destul de rau, avînd în vedere ca 15-25%25 din toate animalele terestre sunt furnici! Fiecarui om îi corespund mai mult de un milion de furnici!
 O casa medie în SUA
 Casele din Statele Unite devenit tot mai mari în ultimii 40 de ani, suprafata aproape s-a dublat! Aceste case sunt atît de mari încît ar încapea 1.000 de oameni în ele! Destul de inghesuiti, nu?
 Girafa
@@ -583,7 +583,7 @@ Electronii sunt atît de mici ca marimea lor nu poate fi masurata cu precizie. D
 Nanotub-ul de carbon
 Nanotuburile de carbon sunt cel mai puternic material descoperit vreodata, în plus sunt si usoare! Ca rezultat, nanotuburile au o multime de potentiale aplicatii, inclusiv cladiril, panouri solare, eventual chiar si un lift spatial.
 Alpha Helix
-Helix alfa este una dintre structurile secundare ale proteinelor.Hemoglobina si mioglobina sunt proteine ??care sunt facute aproximativ 70% din spirale alfa!
+Helix alfa este una dintre structurile secundare ale proteinelor.Hemoglobina si mioglobina sunt proteine ??care sunt facute aproximativ 70%25 din spirale alfa!
 Virusul hepatitei B
 Hepatita B infecteaza o multime de oameni. De fapt aproape o treime din populatia lumii a fost la un anumit moment infectata. Acest virus provoaca varsaturi, inflamarea ficatului, eventual chiar moartea.
 Circovirusul porcin
@@ -620,6 +620,7 @@ yotta
 Scala Universului
 Utilizaţi bara de defilare pentru zoom in si out.
 Click pe obiecte pentru a afla mai multe.
+Începe
 Tradus de Calin Uioreanu
 Română
 Romanian

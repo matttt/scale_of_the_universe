@@ -26,7 +26,7 @@ let EASING_CONSTANT = 0.005;
 
 var stats = new Stats();
 stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
-document.body.appendChild(stats.dom);
+// document.body.appendChild(stats.dom);
 
 
 // slider should go from -35 to 27
@@ -86,8 +86,6 @@ export class Slider {
     // const oppWidth = ((this.w * (1 - WIDTH_PERCENT)) / 2);
     this.margin = (this.w - this.widthPixels) / 2; // left/right margin for slider bg
 
-    this.interaction = false;
-
     // hotkeys('ctrl-g', function(event, handler){
     //   // Prevent the default refresh event under WINDOWS system
     //   event.preventDefault() 
@@ -101,7 +99,8 @@ export class Slider {
       var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
       this.startOffset = 0;
 
-      this.interaction = true;
+      this.interact();
+      
 
       this.moveTarget(delta * SCROLL_SPEED)
     }, false);
@@ -213,7 +212,7 @@ export class Slider {
     function onDragStart(event: any) {
       this.startOffset = event.data.global.x - here.handleGfx.position.x
 
-      this.interaction = true;
+      here.interact();
       
       this.data = event.data;
       this.alpha = 0.75;
@@ -232,6 +231,8 @@ export class Slider {
       this.dragging = false;
       here.dragging = false;
 
+      here.interact();
+
       let diff = here.currentX - here.targetX;
       let dir = diff/Math.abs(diff);
 
@@ -248,6 +249,8 @@ export class Slider {
     let width = this.w;
     let that = this;
     function onDragMove() {
+      here.interact();
+
       if (this.dragging) {
         var newX = this.data.getLocalPosition(this.parent).x;
 
@@ -284,22 +287,28 @@ export class Slider {
   }
 
  
+  interact():void {
+    this.interaction = true;
+
+    Ticker.shared.start();
+  }
   setAnimationTargetPercent(targetPercent: number) {
-    this.animating = true;
-    console.log()
-    const deltaPercent = Math.abs(this.currentPercent - targetPercent);
-    const duration = Math.max(50000 * deltaPercent, 250)
-
     
-    this.tweenable.setConfig({
-      from: { pos: this.currentPercent  },
-      to: { pos: targetPercent },
-      easing: 'easeInOutSine',
-      duration,
-      step: state => this.setPercent(state.pos)
-    });
-
-    this.tweenable.tween().then(() => this.animating = false);
+    if (!this.tweenable.isPlaying()) {
+      this.animating = true;
+      const deltaPercent = Math.abs(this.currentPercent - targetPercent);
+      const duration = Math.max(50000 * deltaPercent, 250)
+      this.tweenable.setConfig({
+        from: { pos: this.currentPercent  },
+        to: { pos: targetPercent },
+        easing: 'easeInOutSine',
+        duration,
+        step: state => this.setPercent(state.pos)
+      });
+  
+      this.tweenable.tween().then(() => this.animating = false);
+    }
+    
   }
 
   animStopped() {
@@ -334,8 +343,8 @@ export class Slider {
 
     ticker.add((deltaTime: number) => {
       if (!this.animating) {
-              stats.end()
-              stats.begin()
+              // stats.end()
+              // stats.begin()
               // difference between current pos and targetX pos
               
               let dX = (this.targetX - this.currentX) * deltaTime; //
@@ -398,9 +407,9 @@ export class Slider {
                 // this.fpsTarget = 200
 
               } else  {
-                // if (this.interaction) {
-                // }
-                // ticker.stop();
+                if (this.interaction) {
+                  ticker.stop();
+                }
                 // ticker.speed = .01;
 
                 // if (this.interaction === false) {

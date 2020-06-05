@@ -1,4 +1,4 @@
-LCD Pixel
+tx=LCD Pixel
 Although the size of pixels differs greatly, 300 micrometres is about the average.  Pixels contain three subpixels that are red, green, and blue.  Pixels are pretty cool, but voxels are even better.  They are three-dimensional pixels.
 Palm Jebel Ali
 Palm Jebel Ali is the largest man-made island (not including islands like Flevopolder, where a region of the Netherlands was drained so there could be more land).  Palm Jebel Ali is not complete.  It is part of thePalm Islands and is planned to house 250,000 people!
@@ -41,7 +41,7 @@ Also known as Sol, the Sun is what gives Earth the energy that makes it able to 
 Alpha Centauri A
 Alpha Centauri A is the largest star of the Alpha Centauri star system (composed of three stars), which is the closest star system to us.  It is also the fourth brightest star in the night sky.
 Alpha Centauri B
-Alpha Centauri B is the second largest star in the Alpha Centauri star system.  Its diameter is approximately one million kilometres, so it is slightly smaller than the Sun.  Alpha Centuari A & B are so close they appear as a single star to us Earthlings.
+Alpha Centauri B is the second largest star in the Alpha Centauri star system.  Its diameter is approximately one million kilometres, so it is slightly smaller than the Sun.  Alpha Centuari A %26 B are so close they appear as a single star to us Earthlings.
 Proxima Centauri
 Proxima Centauri is known as being the closest star  to Earth other than the Sun.  Its name comes from the word "proximity".  Proxima Centauri is a small red star.  Unfortunately, it is so dim, you need a telescope to see it.
 Sirius A
@@ -51,7 +51,7 @@ Sirius B is a white dwarf.  It's barely bigger than the Earth!  It's usually pre
 Vega
 Vega is found in the Lyra constellation.  It is also part of the Summer Triangle, composed of Vega, Altair, and Deneb.  Vega spins so quickly it bulges.  However, we see it pole-on, so it looks circular.
 Regulus
-Regulus spins so quickly it bulges, just like Altair and Vega.  If Regulus were to spin 16% faster, it would rip apart!  Regulus is also the brightest star in the constellation Leo.  There's also Regulus B & C.
+Regulus spins so quickly it bulges, just like Altair and Vega.  If Regulus were to spin 16%25 faster, it would rip apart!  Regulus is also the brightest star in the constellation Leo.  There's also Regulus B %26 C.
 Spica
 Spica is the fifteenth brightest star in the night sky and lies in the constellation Virgo.  It's actually a binary star system.  The two stars are very close, and they orbit every four days.
 Alnitak
@@ -63,7 +63,7 @@ Uranus
 Neptune
 Currently, Neptune is the farthest planet in the Solar System from the Sun.  It takes 164.8 Earth years for it to orbit the Sun.  You'll never see Neptune complete a single orbit in your whole life, unless life expectancies increase.
 Wolf 359
-Wolf 359 is a small red dwarf, dwarfed by normal stars.  It is the sixth closest star to Earth, after the Sun, Proxima Centauri, Alpha Centauri A & B and Barnard's star.  Still, its magnitude is a dim +13.5.
+Wolf 359 is a small red dwarf, dwarfed by normal stars.  It is the sixth closest star to Earth, after the Sun, Proxima Centauri, Alpha Centauri A %26 B and Barnard's star.  Still, its magnitude is a dim +13.5.
 Gliese 229A
 Gliese 229A is a red dwarf star.  It is a bit smaller than the Sun.  The red dwarf star is also written as GJ 229 or GI 229.  It is part of a binary star system, the second star being Gliese 229B.
 Gliese 229B
@@ -191,7 +191,7 @@ Proxima Centauri is the closest star to the Sun. However, it is still quite far 
 Stingray Nebula
 The Sting Ray Nebula is a planetary nebula.  It is relatively young, and it constantly growing.  Whoever named this nebula must have thought it looked like a stingray.  Do you?
 Distance from Proxima Centauri to Alpha Centauri A
-Proxima Centauri is very far away from Alpha Centauri A & B.
+Proxima Centauri is very far away from Alpha Centauri A %26 B.
 Cat's Eye Nebula
 The Cat's Eye Nebula is one of the most complex nebulae known.  Did you know that the Cat's Eye Nebula is 8,000° C?  That's pretty hot!  The outer halo is even hotter, at 15,000° C.
 Ant Nebula
@@ -221,7 +221,7 @@ When Sedna is the farthest from the Sun, it is very far away.  This point is cal
 Distance from Comet Hale-Bopp to Sun (farthest)
 The comet Hale-Bopp gets very far from the Sun.  It takes 2,500 years to orbit once.
 Halley's Comet
-The actual size of Halley's Comet is quite small.  The tail that it forms can be millions of kilometers in length!  Halley's comet loses 10% of its mass for every thousand orbits.
+The actual size of Halley's Comet is quite small.  The tail that it forms can be millions of kilometers in length!  Halley's comet loses 10%25 of its mass for every thousand orbits.
 Ring Nebula
 The Ring Nebula looks a lot like a ring.  The old belief was that all planetary nebulae were ring-shaped like this one, but that is now known to not be true.  There are other shapes planetary nebulae can be.
 Helix Nebula
@@ -311,7 +311,7 @@ Astronomers think the Cartwheel Galaxy had a collision with two nearby galaxies 
 NGC 1232
 NGC 1232 is a pretty big galaxy.  It's bigger than ours, but it's not the biggest.  Of course, IC 1101 is not the biggest galaxy, it's only the biggest galaxy we know of.  There are probably many more!
 Omega Centauri
-Omega Centauri is a globular cluster.  It is the brightest globular cluster.  The center is very crowded. Stars there are 0.1 light-years apart, which is 2% of the distance from our Sun to the nearest star.  (That is really close!)
+Omega Centauri is a globular cluster.  It is the brightest globular cluster.  The center is very crowded. Stars there are 0.1 light-years apart, which is 2%25 of the distance from our Sun to the nearest star.  (That is really close!)
 Messier 54
 Messier 54, or M54, or NGC 6715, is another globular cluster.  It is in the Sagittarius Dwarf Galaxy, which would mean it's the first globular cluster outside of the Milky Way to be discovered.
 Virgo A
@@ -433,9 +433,9 @@ People use pencil lead a lot.  Oh, by the way, this is mechanical pencil lead.  
 Largest Bacteria
 The largest bacteria, which is Thiomargarita namibiensis, is almost one millimeter in length.  It lives in the ocean off the coast of Namibia.  Can you imagine being in the ocean, and seeing these things?  They're very visible!
 Shrew
-Shrews are great little thingies.  Their metabolism rate is so high  they must eat their body weight every single day!  Also, 10% of their body weight is their brain.  That's the highest of any animal's, including humans!
+Shrews are great little thingies.  Their metabolism rate is so high  they must eat their body weight every single day!  Also, 10%25 of their body weight is their brain.  That's the highest of any animal's, including humans!
 HIV
-HIV, which stands for Human Immunodeficiency Virus, infects 0.6% of the world's population and causes AIDS, which stands for Acquired Immune Deficiency Syndrome.  About 5 million new infections happen every year.
+HIV, which stands for Human Immunodeficiency Virus, infects 0.6%25 of the world's population and causes AIDS, which stands for Acquired Immune Deficiency Syndrome.  About 5 million new infections happen every year.
 Grain of Sand
 Of course, not all grains of sand are the same size.  They vary a lot.  Arenophiles are people who collect sand samples.  Also, did you know that Papakolea Beach has green sand?  This is because of crystals in the sand.  Whatever.
 Silt Particle
@@ -475,7 +475,7 @@ The Wandering Albatross is the bird with the largest wingspan!  They fly almost 
 Width of Human Hair
 Human hair is amazing.  Straight hair is almost perfectly cylindrical.  On the other hand, curly hair is flatter, which allows to to curl, like a ribbon.  Did you know that you probably have 50,000 to 200,000 strands of hair on your head?  You can count!
 Ant
-You probably don't like ants.  That's too bad.  15-25% of all land animals are ants!  Whoa!  That's a lot of ants!  For every person on Earth, there are over one million ants!
+You probably don't like ants.  That's too bad.  15-25%25 of all land animals are ants!  Whoa!  That's a lot of ants!  For every person on Earth, there are over one million ants!
 Average U.S. House
 These houses of the United States have been getting larger.  In the last 40 years, the average house has almost doubled in area!  These houses are so large, you could fit 1,000 people in them!  It would be pretty cramped, though.
 Giraffe
@@ -537,7 +537,7 @@ Cell membranes are made of phospholipid bilayers.  Phospholipid bilayers can for
 Sunflower Seed
 Sunflower seeds are exhilaratingly delicious.  They are so yummy, they can be made into "sunflower seed bread"!  Sunflower seeds are not real seeds.  They are the fruits of the sunflower!  They are only called "seeds" because they resemble other seeds.
 Skin Cell
-The outermost layer of skin, which is also the only visible layer of skin, is made up of dead cells.  That's because dead cells are the strongest, and stronger skin provides more protection!  These cells continuously fall off.  In fact, dust is 95% dead skin cells!
+The outermost layer of skin, which is also the only visible layer of skin, is made up of dead cells.  That's because dead cells are the strongest, and stronger skin provides more protection!  These cells continuously fall off.  In fact, dust is 95%25 dead skin cells!
 Amoeba
 Amoeba are unicellular, which means there is only one cell. Some amoebae can grow to an incredible 700 micrometres, which is almost an entire millimetre.
 E. coli
@@ -583,7 +583,7 @@ Electrons are so small that their size can't accurately be measured. The size of
 Carbon Nanotube
 Carbon nanotubes are the strongest material yet discovered.  As another bonus, they're lightweight.  As a result, nanotubes have a lot of potential applications, including buildings, batteries, solar panels, and possibly even a space elevator.
 Alpha Helix
-The alpha helix is one of the secondary structures of proteins. Many proteins have alpha helixes within them.  Hemoglobin and myglobin are proteins that are made of about 70% alpha helixes! 
+The alpha helix is one of the secondary structures of proteins. Many proteins have alpha helixes within them.  Hemoglobin and myglobin are proteins that are made of about 70%25 alpha helixes! 
 Hepatitis B Virus
 Hepatitis B infects a lot of humans.  In fact, almost one third of the world population has been infected at some point.  This virus causes vomiting, liver inflammation, and possibly death.
 Porcine circovirus
@@ -620,6 +620,7 @@ yotta
 The Scale of the Universe 2
 Use the scroll bar to zoom in and out.
 Click on objects to learn more.
+Start
 Unknown Translator
 British English
 British English

@@ -2,6 +2,7 @@ import 'pixi.js-legacy';
 import * as PIXI from "pixi.js-legacy";
 import {E} from "../helpers/e";
 
+
 export class Entity {
   public scaleExp: number;
   protected texture: PIXI.Texture;
@@ -12,6 +13,7 @@ export class Entity {
   protected spriteLow: PIXI.Sprite;
   protected spriteMedium: PIXI.Sprite;
   public culled: boolean = false;
+  public cachePeriod: boolean = true;
   public hiddenSprites: boolean = false;
   public isHighQuality: boolean = true;
 
@@ -50,9 +52,6 @@ export class Entity {
     return this.container;
   }
 
-  setItemQuality(isHigh: boolean) {
-    this.isHighQuality = isHigh;
-  }
 
   setZoom (globalZoomExp: number, deltaZoom: number) {
     const scale = E(this.scaleExp - globalZoomExp);
@@ -65,10 +64,17 @@ export class Entity {
     this.spriteLow.visible = qualityIndex === 0;
   }
 
+  setItemQuality(isHigh: boolean): void {
+    this.isHighQuality = isHigh;
+
+    this.sprite.visible = this.isHighQuality;
+    this.spriteLow.visible = !this.isHighQuality;
+  }
+
   cull(scale: number, sizeData: any) {
     //E(3) => 10^3
     // basic culling :)
-    if (scale < .001 || scale > 12) {
+    if ((scale < .001 || scale > 12) && !this.cachePeriod) {
     // if (scale < (E(-6)) || scale > E(1)) {
       this.container.visible = true;
       this.culled = true;
@@ -78,7 +84,7 @@ export class Entity {
     }
 
     // low-res for distant objects. Hacked into cull :) 
-    if (scale < .075) {
+    if (scale < .075 || !this.isHighQuality) {
       this.setQuality(0);
     } else {
       this.setQuality(1);

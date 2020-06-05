@@ -37,6 +37,12 @@ export class Universe {
     this.container = new PIXI.Container();
     this.displayContainer = new PIXI.Container();
 
+    setTimeout(() => {
+      for (let e of [...this.items, ...this.rings]) {
+        e.cachePeriod = false;
+      }
+    }, 1000)
+
     this.slider = slider;
     this.app = app;
 
@@ -90,7 +96,7 @@ export class Universe {
   }
 
   setQuality(isHigh: boolean) {
-    for (let item of this.items) item.setItemQuality(isHigh);
+    for (let e of [...this.items, ...this.rings]) e.setItemQuality(isHigh);
   }
 
   unHideItems() {
@@ -141,16 +147,16 @@ export class Universe {
       this.selectedItem = item;
 
       // TweenMax.to(this.container, 2, { pixi: { blurFilter: 15 } });
-      const filter = new PIXI.filters.BlurFilter(4, 4, 1, 5);
+      const filter = new PIXI.filters.BlurFilter(8, 4, 1, 5);
 
-      this.container.filters = [filter];
+      // this.container.filters = [filter];
 
       this.displayContainer.visible = true;
 
       for (const otherItem of this.items.filter(x => x !== item)) {
         // hide all other descriptions
         otherItem.hideDescription();
-        otherItem.text.renderable = true
+        otherItem.text.renderable = true;
         // otherItem.container.alpha = .5
       }
     } else {

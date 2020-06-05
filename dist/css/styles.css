@@ -1,3 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.frameStyle {
+  position: fixed;
+  /* border: 1px black solid; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.fullStyle {
+  /* position: fixed; */
+  /* border: 1px black solid; */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#startBtn {
+  /* text-align: center; */
+  /* line-height: 100%; */
+  width: 250px; 
+  padding: 10px;
+  font-size: 24px;
+  color: #E9F1F7;
+  background-color: #5C7AFF;
+  right: 25px !important;
+  bottom: 25px !important;
+  position: absolute;
+  /* font-size: 48px; */
+  border-radius: 40px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.25);
+}
+
 dialog {
   background-color: var(--bg);
   color: var(--text-color);
@@ -27,7 +67,7 @@ dialog[open] {
 
 #startGrid {
   display: grid;
-  height: 60%;
+  height: 150px;
   left: 10%;
   grid-template-columns: 50% 50%;
   grid-gap: 3%;
@@ -59,6 +99,15 @@ body {
   margin: 40px;
 }
 
+#credits {
+  right: 25px;
+  top: 15px;
+  position: absolute;
+  text-align: right;
+  font-size: .8rem;
+  line-height: .4;
+}
+
 .wrapper {
   display: grid;
   /* grid-template-columns: 20% 20% 20% 20%; */
@@ -75,7 +124,7 @@ body {
   background-color: rgb(168, 168, 168, 0);
   color: rgb(0, 0, 0);
   border-radius: 5px;
-  font-size: 100%;
+  font-size: 12px;
   padding: 30px;
   height: 30%;
 }
@@ -85,24 +134,31 @@ body {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+  height: 20%
 }
 .ne {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  height: 20%
+
 }
 .sw {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-end: 4;
+  height: 20%
+
 }
 .se {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-end: 4;
+  height: 20%
+
 }
 
 .box {
@@ -246,7 +302,9 @@ body {
     .speaker {
       height: 30px;
       width: 30px;
-      position: relative;
+      text-align: center;
+      font-family: arial, sans-sarif;
+      position: relative !important;
       overflow: hidden;
       display: inline-block;
    }
@@ -254,7 +312,7 @@ body {
       display: block;
       width: 8px;
       height: 8px;
-      background: #fff;
+      background:#333;
       margin: 11px 0 0 2px;
    }
     .speaker span:after {
@@ -263,7 +321,7 @@ body {
       width: 0;
       height: 0;
       border-style: solid;
-      border-color: transparent #fff transparent transparent;
+      border-color: transparent #333 transparent transparent;
       border-width: 10px 14px 10px 15px;
       left: -13px;
       top: 5px;
@@ -276,7 +334,7 @@ body {
       width: 5px;
       height: 5px;
       border-style: double;
-      border-color: #fff;
+      border-color: #333;
       border-width: 7px 7px 0 0;
       left: 18px;
       top: 9px;
@@ -293,13 +351,63 @@ body {
   
     
    .lang {
-    width: 20px;
+      width: 20px;
       height: 20px;
       position: absolute;
-      left: calc(100% - 75px);
+      left: calc(100% - 110px);
       top: 25px;
       z-index: 5;
+      color: #333;
    }
+
+   #muteToggle {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: calc(100% - 85px);
+      top: 20px;
+      /* z-index: 5; */
+   }
+
+   .hd {
+    margin: 50px auto;
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  position: absolute;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  -webkit-text-stroke: 1px #333;
+  text-stroke: 1.5px #333;
+  color: transparent;
+  font-size: 24px;
+  font-style: italic;
+  /* letter-spacing: -10px; */
+  background: linear-gradient(
+    to bottom,  
+    transparent 0%,
+    transparent 49%,
+    #333 50%,
+    #333 100%
+  );
+  background-size: 100% 205%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: background .75s;
+  cursor: pointer;
+   right: -5px;
+   top: -30px;
+    z-index: 5;
+  }
+  
+  .hd-click {
+    background-position: 100% 100%;
+  }
+
+  .hd-click:hover {
+    background-position: 100% 75%;
+  }
 
 
     input:before, input:after {
@@ -324,11 +432,8 @@ body {
       border-radius: 3px;
       background: #34495e;
    }
-   #muteToggle {
-     width: 15px;
-     height: 15px;
-   }
-    input[type="checkbox"]:checked ~ span {
+
+    /* input[type="checkbox"]:checked ~ span {
       transform: rotate(-45deg) translateY(4px);
       left: 45px;
       height: 26px;
@@ -352,5 +457,5 @@ body {
       height: 32px;
       left: 46px;
       top: -6px;
-   }
+   } */
     

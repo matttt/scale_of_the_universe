@@ -131,10 +131,6 @@ export class Item extends Entity {
     }
   }
 
-  setItemQuality(isHigh: boolean): void {
-    this.isHighQuality = isHigh;
-  }
-
   enableMotionBlur() {}
 
   async setScreenImage() {
@@ -187,7 +183,20 @@ export class Item extends Entity {
       const scale = E(scaleExp) * this.coeff * this.realRatio;
 
       // this.text.alpha = map(scale, 0.1, 0.2, 0, 1);
-      // this.text.visible = this.text.alpha !== 0;
+
+      if (scale > 0.05 && scale < 0.1) {
+        this.text.alpha = .5
+      } else if (scale > 0.1) {
+        this.text.alpha = 1;
+      } else if (this.text.alpha !== 0) {
+        this.text.alpha = 0;
+      }
+
+      if (this.cachePeriod) {
+        this.text.alpha = 1;
+      }
+
+      this.text.visible = this.text.alpha !== 0;
 
       this.cull(scale, this.sizeData);
       this.container.scale = new PIXI.Point(scale, scale);
@@ -197,7 +206,7 @@ export class Item extends Entity {
     } else {      
       const scaleExp = this.scaleExp - globalZoomExp;
       if (scaleExp > 2 || scaleExp < -4) {
-        this.cull(E(-4), this.sizeData);
+        this.cull(E(-8), this.sizeData);
       } else {
         const scale = E(scaleExp) * this.coeff * this.realRatio;
         this.cull(scale, this.sizeData);
@@ -231,8 +240,9 @@ export class Item extends Entity {
     this.text.position.x = this.visualLocation.titleX;
     this.text.position.y = this.visualLocation.titleY;
 
+    this.text.cacheAsBitmap = true;
+
     // setTimeout(()=> {
-    //   // this.text.cacheAsBitmap = true;
     // }, 500)
 
     this.container.addChild(this.text);

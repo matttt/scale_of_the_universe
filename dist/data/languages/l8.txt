@@ -1,4 +1,4 @@
-Pixel de LCD
+tx=Pixel de LCD
 Apesar de variar muito, o tamanho médio de um pixel é de 300 micrômetros. Um pixel contém três subpixels de cores vermelha, verde e azul. Pixels são legais, mas voxels são ainda mais legais. Eles são pixels tridimensionais.
 Palm Jebel Ali
 Palm Jebel Ali é a maior ilha feita pelo homem (sem incluir ilhas como Flevopolder, onde uma região da Holanda foi drenada para que houvesse mais espaço). Palm Jebel Ali ainda não está completa. Ela faz parte das Palm Islands (Ilhas Palmeira), cujo planejamento é de abrigar 250.000 pessoas!
@@ -21,7 +21,7 @@ Você ama essas minhocas pegajosas e grudentas, não ama? Contrário às lendas 
 Rigel
 Rigel é uma estrela azul escaldante, a mais brilhante da constelação de Órion. No céu, ela pode ser vista próxima da linha do Equador, por isso é possível vê-la de quase qualquer lugar na Terra.
 Estados Unidos da América
-Os Estados Unidos ficam na América do Norte, é o quarto maior país do mundo, sendo 12% maior que o Brasil em extensão territorial. Apesar de parecer aqui maior que Plutão, este possui uma face oculta atrás, o que significa que Plutão possui maior área de superfície!
+Os Estados Unidos ficam na América do Norte, é o quarto maior país do mundo, sendo 12%25 maior que o Brasil em extensão territorial. Apesar de parecer aqui maior que Plutão, este possui uma face oculta atrás, o que significa que Plutão possui maior área de superfície!
 Terra
 A Terra é nossa única casa. Enquanto nós vivemos nela, podemos considerá-la gigante, mas ainda assim é importante cuidar dela. Quando ela for destruída, não terá mais nenhum outro lugar para nós irmos.
 Deneb
@@ -51,7 +51,7 @@ Sirius B é uma anã branca. Ela é, por muito pouco, maior que a Terra! Visuali
 Vega
 Vega é encontrada na constelação de Lira. Ela também faz parte do Triângulo de Verão, composta de Vega, Altair e Deneb. Vega possui uma rotação tão rápida que é capaz de fazer uma protuberância. Porém, nós a visualizamos a partir de seu pólo, então ela aparenta ser circular.
 Regulus
-Regulus gira tão rapidamente que faz protuberâncias, assim como Altair e Vega. Se Regulus girasse com uma velocidade 16% maior, ela iria se dilacerar! Regulus também é a estrela mais brilhante da constelação de Leão. Também existem Regulus B e C.
+Regulus gira tão rapidamente que faz protuberâncias, assim como Altair e Vega. Se Regulus girasse com uma velocidade 16%25 maior, ela iria se dilacerar! Regulus também é a estrela mais brilhante da constelação de Leão. Também existem Regulus B e C.
 Spica
 Spica é a décima quinta estrela mais brilhante no céu à noite e está na constelação de Virgem. Na verdade, ela é uma estrela binária. As duas estrelas estão bem próximas uma da outra, e elas se orbitam a cada quatro dias.
 Alnitak
@@ -221,7 +221,7 @@ Quando Sedna está sobre o ponto mais distante de sua órbita em torno do Sol, e
 Distância do cometa Hale-Bopp ao Sol (ponto mais distante)
 O cometa Hale-Bopp consegue ir bem longe do Sol. Ele leva 2.500 anos terrestres para completar uma órbita.
 Cometa Halley
-O tamanho verdadeiro do cometa Halley é bem pequeno. A cauda que ele forma, porém, mede milhões de quilômetros de comprimento! O cometa Halley perde 10% de sua massa a cada mil órbitas.
+O tamanho verdadeiro do cometa Halley é bem pequeno. A cauda que ele forma, porém, mede milhões de quilômetros de comprimento! O cometa Halley perde 10%25 de sua massa a cada mil órbitas.
 Nebulosa do Anel
 A Nebulosa do Anel parece muito como um anel. Acreditava-se que toda nebulosa planetária tinha o formato de anel como essa aqui, mas hoje sabemos que não é verdade. Existem outras formas que uma nebulosa planetária pode adquirir.
 Nebulosa de Hélix
@@ -311,7 +311,7 @@ Os astrónomos pensam que o Galáxia Cartwheel teve uma colisão com duas galáx
 NGC 1232
 NGC 1232 é uma galáxia muito grande. É maior que a nossa, mas não é a maior. Claro, IC 1101 não é a maior galáxia, é apenas a maior galáxia que conhecemos. Há provavelmente muitos mais!
 Omega Centauri
-Omega Centauri é um aglomerado globular. É o mais brilhante aglomerado globular. O centro é muito lotado. Há estrelas que estão á distância de 0,1 anos-luz uma das outras, que é 2% da distância do nosso Sol à estrela mais próxima. (O que é realmente perto!)
+Omega Centauri é um aglomerado globular. É o mais brilhante aglomerado globular. O centro é muito lotado. Há estrelas que estão á distância de 0,1 anos-luz uma das outras, que é 2%25 da distância do nosso Sol à estrela mais próxima. (O que é realmente perto!)
 Messier 54
 Messier 54, M54, ou NGC 6715, é outro aglomerado globular. Está localizada na galáxia anã de Sagitário, o que significa que este é o primeiro de seu tipo a ser descoberto fora da Via Láctea.
 Messier 87
@@ -433,9 +433,9 @@ As pessoas usam muito grafite. Ah, e este é um grafite de lapiseira, na verdade
 Maiores bactérias
 As maiores bactérias, que são as Thiomargarita namibiensis, têm quase um milímetro de comprimento. Ela vive no oceano ao largo da costa da Namíbia. Você pode imaginar estar no oceano, e vendo essas coisas? Elas são muito visíveis!
 Musaranho
-Musaranhos são grandes coisinhas pequenas. Sua taxa de metabolismo é tão alta que eles devem comer o equivalente a seu peso corporal todos os dias! Além disso, 10% do seu peso corporal é o seu cérebro. Isso é o mais alto de qualquer animal, incluindo os seres humanos!
+Musaranhos são grandes coisinhas pequenas. Sua taxa de metabolismo é tão alta que eles devem comer o equivalente a seu peso corporal todos os dias! Além disso, 10%25 do seu peso corporal é o seu cérebro. Isso é o mais alto de qualquer animal, incluindo os seres humanos!
 HIV
-O HIV infecta 0,6% da população mundial e causa a AIDS. Um vírus HIV é muito pequeno, na verdade, tão pequeno que nenhum ser humano na face deste planeta pode ver a olho nu, ainda assim, pode matar. 
+O HIV infecta 0,6%25 da população mundial e causa a AIDS. Um vírus HIV é muito pequeno, na verdade, tão pequeno que nenhum ser humano na face deste planeta pode ver a olho nu, ainda assim, pode matar. 
 Grão de Areia
 Claro, nem todos os grãos de areia são do mesmo tamanho. Eles variam muito. Arenófilos são pessoas que coletam amostras de areia. Além disso, você sabia que  a praia de Papakolea  tem areia verde? Isto por causa dos cristais na areia.
 Partículas de lodo
@@ -475,7 +475,7 @@ O albatroz-errante é a ave com maior envergadura nas asas! Eles voam quase todo
 Largura de cabelo humano
 O cabelo humano é incrível. O cabelo liso é quase perfeitamente cilíndrico. Por outro lado, o cabelo cacheado é mais achatado, o que permite ser enrolado, tal qual um laço. Você sabia que, provavelmente, tens de 50.000 a 200.000 fios de cabelo na sua cabeça? você pode contar!
 Formiga
-Você provavelmente não gosta de formigas. Que pena. 15-25% de todos os animais terrestres são formigas! Uau! Isso é um monte de formigas! Para cada pessoa na Terra, há mais de um milhão de formigas!
+Você provavelmente não gosta de formigas. Que pena. 15-25%25 de todos os animais terrestres são formigas! Uau! Isso é um monte de formigas! Para cada pessoa na Terra, há mais de um milhão de formigas!
 Casa média dos EUA
 As casas dos Estados Unidos foram ficando maiores. Nos últimos 40 anos, a média quase dobrou em área! Estas casas são tão grandes, que poderiam abrigar 1.000 pessoas nelas! Porém, seria muito apertado." ,
 Girafa
@@ -537,7 +537,7 @@ As membranas celulares são feitas de bicamadas de fosfolípidos. Bicamadas fosf
 Semente de Girassol
 Sementes de girassol são alegremente deliciosas. Elas são tão saborosas, que delas pode ser feito o "pão de semente de girassol"! Sementes de girassol não são sementes reais. Elas são os frutos do girassol! Elas só são chamadas de "sementes" porque se assemelham a outras sementes . 
 Célula da pele
-A camada mais externa da pele, que é também a única camada visível da pele, é constituída por células mortas. Isso porque as células mortas são mais fortes, e pele mais forte proporciona uma protecção maior! Estas células continuamente iram cair. De facto, a poeira é 95% de células mortas da pele! 
+A camada mais externa da pele, que é também a única camada visível da pele, é constituída por células mortas. Isso porque as células mortas são mais fortes, e pele mais forte proporciona uma protecção maior! Estas células continuamente iram cair. De facto, a poeira é 95%25 de células mortas da pele! 
 Amebas
 Amebas são unicelulares, o que significa que há apenas uma célula em sua constituição. Algumas amebas podem crescer até incríveis 700 micrômetros, o que é quase um milímetro inteiro.
 E. coli
@@ -583,7 +583,7 @@ Elétrons são tão pequenos que seu tamanho não pode ser medido com precisão.
 Nanotubo de carbono
 Nanotubos de carbono são o material mais forte já descoberto. Além disso, eles são muito leves. Por isso, eles tem muitas aplicações em potencial, incluindo construções, baterias, painéis solares, e possivelmente até mesmo um elevador espacial.", 
 Alfa-hélice
-A alfa-hélice é uma das estruturas secundárias das proteínas. Muitas proteínas possuem alfa-hélices em sua composição. A hemoglobina e a mioglobina são proteínas feitas de aproximadamente 70% de alfa-hélices!
+A alfa-hélice é uma das estruturas secundárias das proteínas. Muitas proteínas possuem alfa-hélices em sua composição. A hemoglobina e a mioglobina são proteínas feitas de aproximadamente 70%25 de alfa-hélices!
 Vírus da hepatite B
 A hepatite B infecta milhões de pessoas todo o ano. Inclusive, quase um terço da população mundial foi infectada por esse vírus em algum estágio de sua vida. Este vírus causa vômito, cirrose hepática e, possivelmente, até mesmo morte.
 Circovírus suíno
@@ -620,6 +620,7 @@ yotta
 A Escala do Universo
 Use a barra de rolagem para ampliar ou diminuir o zoom.
 Clique nos objetos para saber mais.
+Começar
 Traduzido por Guto Souza, Arthur Kemmer, Alex Amorim, Rodolfo Ferraz, Vinicius CB  (escaladouniverso@googlegroups.com)
 Português (Brasileiro)
 Brazilian Portuguese

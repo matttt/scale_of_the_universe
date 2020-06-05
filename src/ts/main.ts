@@ -1,6 +1,7 @@
 import * as PIXI from 'pixi.js-legacy'
 import 'pixi.js-legacy';
 
+
 import { Slider } from "./classes/slider";
 import { Universe } from "./classes/universe";
 import { ScaleText } from "./classes/scaleText";
@@ -14,8 +15,6 @@ import { Tweenable } from "shifty";
 
 import { Howl, Howler } from "howler";
 import { create } from "domain";
-
-
 
 declare var ldBar: any;
 
@@ -90,6 +89,14 @@ fadeInApp.setConfig({
   step: state => (frame.style.opacity = state.opacity)
 });
 
+console.log(`
+  Scale of the Universe 2.1
+
+  Created by Cary Huang
+  Implemented by Matthew Martori @matttt on github
+  
+  Made with ♥️
+`)
 
 
 let n = 0;
@@ -122,12 +129,16 @@ function titleCarosel() {
   );
 }
 
-const muteToggle:any = document.getElementById('muteToggle');
+const muteToggle:any = document.querySelector('.speaker');
 let isMuted = false;
 muteToggle.onclick = function (ev) {
+  ev.preventDefault();
   isMuted = !isMuted;
+  muteToggle.classList.toggle('mute')
   Howler.mute(isMuted)
 }
+
+
 
 titleCarosel();
 const titleCaroselInterval = setInterval(titleCarosel, 3000);
@@ -213,13 +224,29 @@ loader.load(async (loader, resources) => {
   let scaleText = new ScaleText((w * 0.9) / globalResolution, (slider.topY - 40), "0");
   
   let background = new Background(w, h, loader);
+
+  let buttons = document.getElementById('buttons');
+
+  
   
   function onChange(x: number, percent: number) {
     let scaleExp = percent * 62 - 35; //range of 10^-35 to 10^27
   
     background.setColor(scaleExp);
     scaleText.setColor(scaleExp);
-    scaleText.setColor(scaleExp);
+
+
+      if(scaleExp > 5) {
+        let opacity = map(scaleExp, 5,7, 0.1, 100);
+  
+        buttons.style.filter = `invert(${opacity}%)`;
+      } else {
+        if (buttons.style.filter)
+          delete buttons.style.filter;
+      }
+  
+      
+
 
     // for (const item of universe.items) {
     //   if (item.videoSrc) {
@@ -242,10 +269,24 @@ loader.load(async (loader, resources) => {
     universe.onHandleClicked();
   } 
 
+  
+
 
   // await universe.createItems(resources, Number(prompt('Enter language index (0-16)')))
 
   window["setLang"] = async (btnClass, langIdx) => {
+    const textData = (
+      await (await fetch(`data/languages/l${langIdx}.txt`)).text()
+    ).split("\n");
+
+    const hqToggle:any = document.querySelector('#hqToggle');
+      let isHQ = true;
+      hqToggle.onclick = function (ev) {
+        ev.preventDefault();
+        isHQ = !isHQ;
+        hqToggle.classList.toggle('hd-click')
+        universe.setQuality(isHQ)
+      }
     const btns:any = document.querySelectorAll('button.box');
 
     for (const button of btns) {
@@ -285,9 +326,7 @@ loader.load(async (loader, resources) => {
 
     // langWrapper.style.visibility = "hidden";
 
-    const textData = (
-      await (await fetch(`data/languages/l${langIdx}.txt`)).text()
-    ).split("\n");
+
 
     clearInterval(titleCaroselInterval);
     clearTimeout(titleCaroselTimeout);
@@ -296,6 +335,14 @@ loader.load(async (loader, resources) => {
     titleEl.innerHTML = textData[619]
     titleEl.style.opacity = '1';
 
+    const startButtonText = textData[622].replace(/\r?\n|\r/g, '');
+    const translationCreditText = textData[623];
+
+    const startButton = document.querySelector('#startBtn');
+    const translationCredit = document.querySelector('#translationCredit');
+
+    startButton.innerHTML = startButtonText;
+    translationCredit.innerHTML = translationCreditText;
 
     // document.getElementById('startBtn').innerHTML = textData[619]
     document.getElementById('moveSliderText').innerHTML = textData[620]

@@ -1,4 +1,4 @@
-LCD pixel
+tx=LCD pixel
 Hoewel de grootte van pixels sterk verschilt, is 300 micrometer ongeveer het gemiddelde. Pixels bevatten drie subpixels: rode, groene en blauwe. Pixels zijn wel cool, maar voxels zijn beter. Het zijn drie-dimensionale pixels.
 Palm Jebel Ali
 Palm Jebel Ali is een kunstmatige eiland voor de kust van Dubai. Bijna zo groot als de binnenstad van Amsterdam. De buitenste ring is vergelijkbaar met de A10, de snelweg rond Amsterdam. Palm Jebel Ali is nog niet af. Het is onderdeel van de Palm-eilanden waar straks in totaal 250.000 mensen wonen!
@@ -51,7 +51,7 @@ Sirius B is een witte dwerg, een ster aan het einde van haar levenscyclus. Nauwe
 Vega
 Vega is te vinden in het sterrenbeeld Lier. Het is ook onderdeel van de Zomerdriehoek (onofficieel sterrenbeeld), bestaande uit Vega, Altair en Deneb. Vega draait zo snel dat ze uitstulpt. Maar we kijken tegen de pool, dus ze lijkt rond.
 Regulus
-Regulus draait zo snel dat ze uitstulpt, net zoals Altair en Vega. Als Regulus 16% sneller zou draaien, zou het uit elkaar scheuren! Regulus is de helderste ster in het sterrenbeeld Leeuw. Er is ook een Regulus B en C.
+Regulus draait zo snel dat ze uitstulpt, net zoals Altair en Vega. Als Regulus 16%25 sneller zou draaien, zou het uit elkaar scheuren! Regulus is de helderste ster in het sterrenbeeld Leeuw. Er is ook een Regulus B en C.
 Spica
 Spica is de vijftiende helderste ster aan de nachtelijke hemel en ligt in het sterrenbeeld Maagd. Het is eigenlijk een dubbel zonnestelsel. De twee sterren staan zeer dicht op elkaar, en draaien in vier dagen een rondje om elkaar.
 Alnitak
@@ -63,7 +63,7 @@ Deze ijsreus kun je met het blote oog net niet zien. Ook met een verrekijker is 
 Neptunus
 Op dit moment is Neptunus de verste planeet in ons zonnestelsel. Ze draait in 164,8 aardse jaren in een baan om de zon. Neptunus zie je dus nooit van je leven een heel rondje om de aarde maken, tenzij mensen nog wat ouder worden.
 Wolf 359
-Wolf 359 is een kleine rode dwerg, overschaduwd door de normale sterren. Het is de zesde meest nabije ster bij de aarde, na de zon, Proxima Centauri, Alpha Centauri A & B en Barnard's ster. De helderheid van sterren wordt uitgedrukt in magnitude (mag). Wolf 359 heeft een helderheid van +13.5 mag.
+Wolf 359 is een kleine rode dwerg, overschaduwd door de normale sterren. Het is de zesde meest nabije ster bij de aarde, na de zon, Proxima Centauri, Alpha Centauri A %26 B en Barnard's ster. De helderheid van sterren wordt uitgedrukt in magnitude (mag). Wolf 359 heeft een helderheid van +13.5 mag.
 Gliese 229 A
 Gliese 229 A is een rode dwergster. Ze is een beetje kleiner dan de zon. De rode dwergster wordt ook geschreven als GJ 229 of GI 229. Het maakt deel uit van een dubbel zonnestelsel, samen met de tweede ster Gliese 229b.
 Gliese 229b
@@ -149,7 +149,7 @@ Italië was de thuishaven van Leonardo Da Vinci (1452-1509) die uitvinder, wisku
 Brunei
 Brunei is een land in Zuidoost-Azië. Het wordt volledig omringd door Maleisië en de Zuid-Chinese Zee. er wonen bijna 400.000 mensen in dit land. Ze rijden aan de linkerkant van de weg.
 Rwanda
-Rwanda is een land in Oost-Centraal-Afrika en staat bekend als "Het land van Duizend Heuvels". Meer dan 60% van de bevolking leeft onder de armoedegrens. De Wereldbank hanteert een definitie van armoedegrens van 1,25 dollar per dag.
+Rwanda is een land in Oost-Centraal-Afrika en staat bekend als "Het land van Duizend Heuvels". Meer dan 60%25 van de bevolking leeft onder de armoedegrens. De Wereldbank hanteert een definitie van armoedegrens van 1,25 dollar per dag.
 Californië
 Californië heeft als bijnaam "The Golden State". Daarom is het hier goudkleurig. Californië is de thuisbasis van 37 miljoen mensen, wat minder is dan een procent van de wereldbevolking.
 West Virginia
@@ -221,7 +221,7 @@ Sedna staat het verst van de zon. Het punt in de baan om de zon waarbij de ster 
 Maximale afstand van komeet Hale-Bopp tot de zon
 De komeet Hale-Bopp staat erg ver van de zon. Het duurt 2.500 jaar om een keer een baan te ronden.
 De komeet van Halley
-De komeet van Halley zelf is vrij klein. Maar de staart heeft een afmeting van miljoenen kilometers in lengte! De komeet van Halley verliest 10% van de massa per duizend banen.
+De komeet van Halley zelf is vrij klein. Maar de staart heeft een afmeting van miljoenen kilometers in lengte! De komeet van Halley verliest 10%25 van de massa per duizend banen.
 Ringnevel
 De Ringnevel lijkt veel op een ring. Vroeger geloofde men dat alle planetaire nevels ringvormig waren zoals deze, maar nu is bekend dat dat niet zo is. Er zijn andere vormen planetaire nevels mogelijk.
 Helixnevel
@@ -311,7 +311,7 @@ Astronomen denken dat het Wagenwielstelsel 200 miljoen jaar gelden is gebotst me
 NGC 1232
 NGC 1232 is een vrij groot melkwegstelsel. Het is groter dan de onze, maar niet het grootste. Natuurlijk is IC 1101 ook niet het grootste sterrenstelsel, alleen is het wel het grootste sterrenstelsel dat we kennen. Er zijn er waarschijnlijk nog veel meer!
 Omega Centauri
-Omega Centauri is een bolvormige sterrenhoop. Het is de helderste bolvormige sterrenhoop. Het centrum is erg vol. Sterren staan er 0,1 lichtjaren uit elkaar, dat is 2% van de afstand van de zon naar de dichtstbijzijnde ster. (Dat is echt vlakbij elkaar!)
+Omega Centauri is een bolvormige sterrenhoop. Het is de helderste bolvormige sterrenhoop. Het centrum is erg vol. Sterren staan er 0,1 lichtjaren uit elkaar, dat is 2%25 van de afstand van de zon naar de dichtstbijzijnde ster. (Dat is echt vlakbij elkaar!)
 Messier 54
 Messier 54, of M54 of NGC 6715, is een andere bolvormige sterrenhoop. Het is te vinden in het Boogschutter dwergstelsel, de eerste bolvormige sterrenhoop ontdekt buiten de Melkweg.
 Virgo A
@@ -433,9 +433,9 @@ Mensen gebruiken veel potloodstift. De grootste potlood bevat 2.000 kilogram gra
 Grootste bacterie
 De grootste bacterie, de Thiomargarita namibiensis, is bijna één millimeter in de lengte. Het leeft in de oceaan voor de kust van Namibië. Kun je je voorstellen dat je ze ziet in de oceaan? Ze zijn goed zichtbaar!
 Spitsmuis
-Spitsmuizen zijn geweldige kleine dingetjes. Hun stofwisseling is zo hoog dat ze elke dag net zoveel moeten eten als hun eigen lichaamsgewicht. Hersenen verhouden zich als 10% van hun lichaamsgewicht. Die verhouding is hoger dan bij welk dier dan ook, inclusief de mens!
+Spitsmuizen zijn geweldige kleine dingetjes. Hun stofwisseling is zo hoog dat ze elke dag net zoveel moeten eten als hun eigen lichaamsgewicht. Hersenen verhouden zich als 10%25 van hun lichaamsgewicht. Die verhouding is hoger dan bij welk dier dan ook, inclusief de mens!
 HIV
-0,6% van de wereldbevolking is HIV positief. HIV kan uiteindelijk aids veroorzaken. Hoewel één enkel HIV-virus zeer klein is, in feite zo klein dat geen enkel mens het met het blote oog kan zien, kan het nog steeds dodelijk zijn. 
+0,6%25 van de wereldbevolking is HIV positief. HIV kan uiteindelijk aids veroorzaken. Hoewel één enkel HIV-virus zeer klein is, in feite zo klein dat geen enkel mens het met het blote oog kan zien, kan het nog steeds dodelijk zijn. 
 Zandkorrel
 Natuurlijk zijn niet alle zandkorrels even groot. Ze variëren veel. Arenophiles zijn mensen die zandmonsters verzamelen. Wist je dat Papakolea Beach groen zand heeft? Dit komt door kristallen in het zand. Whatever...
 Slibdeeltje
@@ -475,7 +475,7 @@ De Reuzenalbatros is met een spanwijdte van meer dan 3 meter (!) de grootste zee
 Dikte van één menselijke haar
 Menselijk haar is verbazingwekkend. Steil haar is bijna perfect cilindrisch. Krullend haar is platter wat het mogelijk maakt om te krullen als een lint. Wist je dat je waarschijnlijk 50.000 tot 200.000 haren op je hoofd hebt? Wow!
 Mier
-Mogelijk ben je geen grote mieren-vriend. Dat is jammer want het zijn nuttige insecten. Bovendien zijn 15-25% van alle landdieren mieren! Whoa! Dat zijn veel mieren, want voor ieder mens op aarde, zijn er meer dan een miljoen mieren! Mieren zijn er al miljoenen jaren.
+Mogelijk ben je geen grote mieren-vriend. Dat is jammer want het zijn nuttige insecten. Bovendien zijn 15-25%25 van alle landdieren mieren! Whoa! Dat zijn veel mieren, want voor ieder mens op aarde, zijn er meer dan een miljoen mieren! Mieren zijn er al miljoenen jaren.
 Gemiddelde grootte Amerikaans huis
 Huizen in de Verenigde Staten worden steeds groter. In de afgelopen 40 jaar is de grootte van een gemiddeld huis bijna verdubbeld in oppervlakte!
 Giraffe
@@ -537,7 +537,7 @@ Celmembranen zijn gemaakt van fosfolipiden. Deze dubbele lagen fosfolipiden word
 Zonnebloempit
 Zonnebloempitten zijn buitengewoon lekker. Je kunt er zonnebloempittenbrood van maken. Zonnebloempitten zijn geen echte zaden. Het zijn de vruchten van de zonnebloem! Ze worden alleen "zaden" genoemd, omdat ze lijken op andere zaden.
 Huidcel
-De buitenste laag van de huid (de zichtbare laag van de huid) bestaat uit dode cellen. Dat komt omdat dode cellen de sterkste zijn, en een sterkere huid biedt meer bescherming! Deze cellen vallen continu van je af. In feite bestaat stof uit 95% dode huidcellen!
+De buitenste laag van de huid (de zichtbare laag van de huid) bestaat uit dode cellen. Dat komt omdat dode cellen de sterkste zijn, en een sterkere huid biedt meer bescherming! Deze cellen vallen continu van je af. In feite bestaat stof uit 95%25 dode huidcellen!
 Amoebe
 Amoeben zijn eencelligen, wat betekent dat ze uit slechts één cel bestaan. Sommige amoeben groeien tot een ongelooflijke 700 micrometer, bijna één hele millimeter.
 E. coli
@@ -583,7 +583,7 @@ Elektronen zo klein zijn dat de grootte niet nauwkeurig kan worden gemeten. De g
 Koolstofnanobuis
 De koolstofnanobuis is het sterkste materiaal nu bekend. Vooral de trekkracht is gigantisch, zelfs veel sterker dan staal. Ander voordeel is dat ze licht van gewicht zijn. Koolstofnanobuis heeft daardoor veel mogelijke toepassingen zoals in gebouwen, batterijen, zonnepanelen, en mogelijk zelfs om een ruimtelift te maken.
 Alpha Helix
-Een helix is een speciale vorm van een drie-dimensionale spiraal, met constante straal en spoed. Er bestaan rechts- en linksdraaiende helices. Hemoglobine en myglobin zijn eiwitten die bestaan uit ongeveer 70% alfa helices.
+Een helix is een speciale vorm van een drie-dimensionale spiraal, met constante straal en spoed. Er bestaan rechts- en linksdraaiende helices. Hemoglobine en myglobin zijn eiwitten die bestaan uit ongeveer 70%25 alfa helices.
 Hepatitis B Virus
 Hepatitis B infecteert een hoop mensen en is een belangrijk gezondheidsprobleem in de hele wereld. Bijna een derde van de wereldbevolking is er op enig moment mee in aanraking gekomen, geïnfecteerd. Dit virus veroorzaakt braken, leverontsteking en je kunt er zelfs dood aan gaan.
 Porcine circovirus
@@ -620,6 +620,7 @@ yotta
 De schaal van het Universum
 Gebruik de schuifbalk voor het in- en uitzoomen.
 Klik op een afbeelding om meer te leren.
+Beginnen
 Vertaald door eduscience.nl  (www.eduscience.nl)
 Nederlands
 Dutch

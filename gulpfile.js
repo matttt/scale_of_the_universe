@@ -8,6 +8,7 @@ const gutil = require("gulp-util");
 const pipeline = require('readable-stream').pipeline;
 const fancy_log = require('fancy-log');
 const closureCompiler = require('google-closure-compiler').gulp();
+const replace = require('gulp-replace');
 
 
 
@@ -43,7 +44,15 @@ gulp.task("copy-data", function (done) {
       .pipe(dest("dist/data"))
 });
 
+gulp.task("serve", function (done) {
+  return require('./serve');
+});
+
 gulp.task('compress', function () {
+  gulp.src(['dist/index.html'])
+    .pipe(replace('js/bundle.js', 'js/bundle.min.js'))
+    .pipe(gulp.dest('dist/'));
+
   return pipeline(
       gulp.src('dist/js/bundle.js'),
       closureCompiler({
@@ -68,11 +77,11 @@ function bundle() {
     dest(paths.bundle)
   );
 }
-gulp.task("default", gulp.parallel(["copy-html", "copy-data"], () =>{
+gulp.task("default", gulp.parallel(["copy-html", "copy-data", "serve"], () =>{
   gulp.watch('src/index.html', gulp.parallel(['copy-html']))
   gulp.watch(paths.data, gulp.parallel(['copy-data']))
   
-  require('./serve');
+  
   bundle()
 }));
 

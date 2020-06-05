@@ -116,8 +116,18 @@ export class Ring extends Entity {
       const scale = E(scaleExp) * this.coeff * this.realRatio;
       this.cull(scale, this.sizeData);
 
-      // this.textContainer.alpha = map(scale, 0.1, 0.2, 0, 1);
-      // this.textContainer.visible = this.textContainer.alpha !== 0;
+      if (scale > 0.05 && scale < 0.1) {
+        this.textContainer.alpha = .5
+      } else if (scale > 0.1) {
+        this.textContainer.alpha = 1;
+      } else if (this.text.alpha !== 0) {
+        this.textContainer.alpha = 0;
+      }
+
+      if (this.cachePeriod) {
+        this.textContainer.alpha = 1;
+      }
+      this.textContainer.visible = this.textContainer.alpha !== 0;
 
 
       this.container.scale = new PIXI.Point(scale, scale);
@@ -176,7 +186,7 @@ export class Ring extends Entity {
 
     this.text = new PIXI.Text(titleNoNewLine, textStyle);
     this.text.anchor.set(0.5, 0);
-    // this.text.cacheAsBitmap = true;
+    this.text.cacheAsBitmap = true;
     
     exponentText.position.x = 0;
     exponentText.position.y = -225;
@@ -195,7 +205,7 @@ export class Ring extends Entity {
       descriptionStyle
     );
     this.descriptionText.anchor.set(0.5, 0);
-    // this.descriptionText.cacheAsBitmap = true;
+    this.descriptionText.cacheAsBitmap = true;
 
     this.descriptionText.position.x = 0;
     this.descriptionText.position.y = 175;

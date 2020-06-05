@@ -620,6 +620,7 @@ yotta
 La Scala dell’Universo 2
 Usa la barra di scorrimento per zoomare.
 Clicca su un oggetto per avere ulteriori informazioni.
+Inizio
 Tradotto da: Tommaso Borrelli (to.borrelli@gmail.com), Pasquale Trotta, Andrea Vai (andrea.vai@unipv.it), Francesco Saverio De Angelis, Roberto Montaruli (rmontaruli@gmail.com), Paolo Marcoz, Piero Ronco, Gianluca Pivotto (gianluca.pivotto@slacky.it), Fabio Reghellin (fabio@reghellin.it), Paolo Galassi (paologalassi.it@gmail.com)
 Italiano
 Italian

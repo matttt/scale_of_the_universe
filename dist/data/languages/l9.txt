@@ -1,4 +1,4 @@
-LCD-Pixel
+tx=LCD-Pixel
 Obwohl sich die Größe der Pixel je nach Verwendung stark voneinander unterscheidet, liegt der Durchschnitt um die 300 Mikrometer. Ein Pixel beinhaltet drei verschiedene Unterpixel, das sind rot, grün und blau. Wenn du denkst, dass Pixel schon cool sind, dann solltest du einmal Voxel sehen! Das sind dreidimensionale Pixel.
 Palm Jebel Ali
 Palm Jebel Ali ist die größte menschengemachte Insel (ausgenommen Inseln wie Flevopolder, eine Region der Niederlande, die durch Trockenlegung entstanden ist). Palm Jebel Ali ist noch nicht fertiggestellt. Es ist Teil der Palm Islands und soll einmal 250.000 Personen beherbergen!
@@ -41,7 +41,7 @@ Auch bekannt als Sol; die Sonne gibt der Erde ihre Energie und ermöglicht ihr, 
 Alpha Centauri A
 Alpha Centauri A ist der größte Stern im Alpha-Centauri-Sternsystem (das aus drei Sternen zusammengesetzt ist), das uns am nächsten stehende Sternsystem. Er ist außerdem der vierthellste Stern am Nachthimmel.
 Alpha Centauri B
-Alpha Centauri B ist der zweitgrößte Stern im Alpha-Centauri-Sternsystem. Sein Durchmesser beträgt etwa eine Million Kilometer, womit er etwas kleiner als die Sonne ist. Alpha Centauri A & B stehen so nah beieinander, dass sie uns Erdlingen als ein einzelner Stern erscheinen.
+Alpha Centauri B ist der zweitgrößte Stern im Alpha-Centauri-Sternsystem. Sein Durchmesser beträgt etwa eine Million Kilometer, womit er etwas kleiner als die Sonne ist. Alpha Centauri A %26 B stehen so nah beieinander, dass sie uns Erdlingen als ein einzelner Stern erscheinen.
 Proxima Centauri
 Proxima Centauri ist dafür bekannt, der der Erde am nächsten stehende Stern nach der Sonne zu sein. Sein Name kommt vom Wort Proximität (Nähe). Proxima Centauri ist ein kleiner roter Stern. Leider ist er so dunkel, dass man ein Teleskop benötigt, um ihn sehen zu können.
 Sirius A
@@ -51,7 +51,7 @@ Sirius B ist ein weißer Zwerg. Er ist kaum größer als die Erde! Er ist gewöh
 Wega
 Wega findet sich im Sternbild Leier (Lyra). Sie ist auch Teil des Sommerdreiecks, das sich aus Wega, Altair und Deneb zusammensetzt. Wega dreht sich so schnell, dass sie sich abplattet. Wir schauen jedoch auf ihren Pol, so dass sie uns kreisförmig erscheint.
 Regulus
-Regulus dreht sich so schnell, dass er sich abplattet, genau wie Altair und Wega. Würde Regulus nur 16% schneller rotieren, würde es ihn zerreißen! Regulus ist außerdem der hellste Stern des Sternbilds Löwe (Leo). Es gibt auch noch Regulus B & C.
+Regulus dreht sich so schnell, dass er sich abplattet, genau wie Altair und Wega. Würde Regulus nur 16%25 schneller rotieren, würde es ihn zerreißen! Regulus ist außerdem der hellste Stern des Sternbilds Löwe (Leo). Es gibt auch noch Regulus B %26 C.
 Spica
 Spica ist der fünfzehnthellste Stern am Nachthimmel und liegt im Sternbild Jungfrau (Virgo). Eigentlich ist er ein Doppelsternsystem. Die beiden Sterne sind sich sehr nah und umkreisen sich in nur vier Tagen.
 Alnitak
@@ -63,7 +63,7 @@ Viele Leute glauben, die englische Aussprache von Uranus gleiche „your anus“
 Neptun
 Neptun ist derzeit der am weitesten von der Sonne entfernte Planet unseres Sternsystems. Er braucht 164,8 Erdenjahre, um einmal die Sonne zu umrunden. Man kann keinen kompletten Umlauf in einem Menschenleben beobachten, es sei denn, die Lebenserwartung steigt.
 Wolf 359
-Wolf 359 ist ein kleiner Roter Zwerg, deutlich kleiner als normale Sterne. Er ist der sechstnächste Stern von der Erde aus, nach der Sonne, Proxima Centauri, Alpha Centauri A & B und Barnards Pfeilstern. Dennoch beträgt seine Größenordnung nur dunkle +13,5 mag.
+Wolf 359 ist ein kleiner Roter Zwerg, deutlich kleiner als normale Sterne. Er ist der sechstnächste Stern von der Erde aus, nach der Sonne, Proxima Centauri, Alpha Centauri A %26 B und Barnards Pfeilstern. Dennoch beträgt seine Größenordnung nur dunkle +13,5 mag.
 Gliese 229A
 Gliese 229A ist ein Roter Zwerg. Er ist ein wenig kleiner als die Sonne. Dieser Rote Zwerg wird auch GJ 229 oder GI 229 geschrieben. Er ist Teil eines Doppelsternsystems, dessen zweiter Stern Gliese 229B heißt.
 Gliese 229B
@@ -191,7 +191,7 @@ Proxima Centauri ist der der Sonne am nächsten stehende Stern. Aber auch dieser
 Stingray-Nebel
 Der Stingray-Nebel („Stachelrochen-Nebel“) ist ein planetarer Nebel. Er ist relativ jung und wächst beständig. Wer auch immer den Nebel benannt hat, dachte wohl, dass er einem Rochen ähnelt. Was meinst du?
 Die Entfernung Proxima Centauri – Alpha Centauri A
-Proxima Centauri ist sehr weit von Alpha Centauri A & B entfernt.
+Proxima Centauri ist sehr weit von Alpha Centauri A %26 B entfernt.
 Katzenaugen- nebel
 Der Katzenaugennebel ist einer der komplexesten bekannten Nebel. Wusstest du, dass der Katzenaugennebel 8.000 °C heiß ist? Das ist ganz schön heiß! Sein äußerer Halo ist sogar noch heißer bei etwa 15.000 °C.
 Ameisennebel
@@ -221,7 +221,7 @@ Wenn Sedna am weitesten von der Sonne entfernt ist, ist sie sehr weit weg. Diese
 Maximale Entfernung Komet Hale-Bopp – Sonne
 Der Komet Hale-Bopp entfernt sich sehr weit von der Sonne. Er braucht 2.500 Jahre für einen Umlauf.
 Halleyscher Komet
-Die eigentliche Größe des Halleyschen Kometen ist eher gering. Der Schweif, der sich an ihm bildet, kann jedoch Millionen Kilometer lang werden. Der Halleysche Komet verliert 10% seiner Masse mit jeweils tausend Umläufen.
+Die eigentliche Größe des Halleyschen Kometen ist eher gering. Der Schweif, der sich an ihm bildet, kann jedoch Millionen Kilometer lang werden. Der Halleysche Komet verliert 10%25 seiner Masse mit jeweils tausend Umläufen.
 Ringnebel
 Der Ringnebel sieht sehr nach einem Ring aus. Früher glaubte man, dass alle planetaren Nebel ringförmig seien, doch jetzt weiß man, dass das nicht stimmt. Planetare Nebel können auch andere Formen haben.
 Helixnebel
@@ -311,7 +311,7 @@ Astronomen glauben, dass die Wagenrad-Galaxie vor 200 Millionen Jahren eine Koll
 NGC 1232
 NGC 1232 ist eine ziemlich große Galaxie. Sie ist größer als unsere, aber nicht die größte. IC 1101 ist natürlich auch nicht die größte Galaxie, sondern nur die größte, von der wir wissen. Vermutlich gibt es noch viel mehr!
 Omega Centauri
-Omega Centauri ist der hellste Kugelsternhaufen. In seinem Zentrum stehen die Sterne sehr dicht beieinander. Sie sind dort 0,1 Lichtjahre voneinander entfernt, das ist 2% des Abstandes der Sonne zum nächsten Stern. (Das ist wirklich nah!)
+Omega Centauri ist der hellste Kugelsternhaufen. In seinem Zentrum stehen die Sterne sehr dicht beieinander. Sie sind dort 0,1 Lichtjahre voneinander entfernt, das ist 2%25 des Abstandes der Sonne zum nächsten Stern. (Das ist wirklich nah!)
 Messier 54
 Messier 54, auch M54 oder NGC 6715 genannt, ist ein Kugelsternhaufen. Er ist in der Sagittarius-Zwerggalaxie anzutreffen, was bedeutet, dass er der erste entdeckte Kugelsternhaufen außerhalb der Milchstraße ist.
 Virgo A
@@ -433,9 +433,9 @@ Bleistiftminen sind viel in Gebrauch. Oh, nebenbei, das hier sind Minen von Druc
 Größte Bakterie
 Die größte Bakterie, die Thiomargarita Namibiensis heißt, ist fast einen Millimeter lang. Sie lebt im Ozean vor der Küste Namibias. Kannst du dir vorstellen im Ozean zu schwimmen und solche Dinger zu sehen? Die sind doch unsichtbar!
 Spitzmaus
-Spitzmäuse sind großartige kleine Biester. Ihr Stoffwechsel ist derart hoch, dass sie jeden Tag ihr eigenes Gewicht an Nahrung zu sich nehmen müssen! Zudem macht ihr Gehirn 10% ihres Körpergewichtes aus. Das ist die höchste Quote bei allen Tieren, inklusive dem Menschen!
+Spitzmäuse sind großartige kleine Biester. Ihr Stoffwechsel ist derart hoch, dass sie jeden Tag ihr eigenes Gewicht an Nahrung zu sich nehmen müssen! Zudem macht ihr Gehirn 10%25 ihres Körpergewichtes aus. Das ist die höchste Quote bei allen Tieren, inklusive dem Menschen!
 HIV
-0,6% der Weltbevölkerung sind mit HIV infiziert, also mit dem Virus, das AIDS auslöst. Ein einzelnes Virus ist sehr klein, tatsächlich so klein, dass kein Mensch auf diesem Planeten es mit bloßem Auge sehen kann, und dennoch kann es töten.
+0,6%25 der Weltbevölkerung sind mit HIV infiziert, also mit dem Virus, das AIDS auslöst. Ein einzelnes Virus ist sehr klein, tatsächlich so klein, dass kein Mensch auf diesem Planeten es mit bloßem Auge sehen kann, und dennoch kann es töten.
 Sandkorn
 Natürlich sind nicht alle Sandkörner gleich groß. Sie unterscheiden sich stark. Arenophile sind Menschen, die Sandproben sammeln. Wusstest du zum Beispiel, dass am Papakolea-Strand grüner Sand liegt? Das liegt an Kristallen im Sand. Oder so.
 Schluffkorn
@@ -475,7 +475,7 @@ Der Wanderalbatross ist der Vogel mit der größten Flügelspannweite. Sie flieg
 Breite eines Menschenhaares
 Menschliches Haar ist faszinierend. Glattes Haar ist fast perfekt zylindrisch. Lockiges Haar hingegen ist flacher, wodurch es sich kringeln kann wie Geschenkband. Wusstest du, dass du vermutlich 50.000 bis 200.000 Haare auf dem Kopf hast? Du kannst ja mal zählen!
 Ameise
-Vermutlich magst du keine Ameisen. Schade. 15-25% aller Landtiere sind Ameisen! Wow! Das sind viele Ameisen! Für jede Person auf der Erde gibt es mehr als eine Million Ameisen!
+Vermutlich magst du keine Ameisen. Schade. 15-25%25 aller Landtiere sind Ameisen! Wow! Das sind viele Ameisen! Für jede Person auf der Erde gibt es mehr als eine Million Ameisen!
 Amerikanisches Durchschnittshaus
 Die Häuser in den Vereinigten Staaten sind gewachsen. In den letzten 40 Jahren sind die Häuser fast doppelt so groß geworden! Diese Häuser sind so groß, dass man 1.000 Personen in ihnen unterbringen könnte. Es wäre allerdings ziemlich gedrängt.
 Giraffe
@@ -537,7 +537,7 @@ Zellmembranen bestehen aus einer Doppellipidschicht. Doppellipidschichten bilden
 Sonnenblumen- kern
 Sonnenblumenkerne sind geradezu köstlich. Sie sind derart lecker, dass man daraus „Sonnenblumenkernbrot“ machen kann! Sonnenblumenkerne sind keine richtigen Samen, sie sind die Früchte der Sonnenblume! Sie werden nur Kerne genannt, weil sie anderen Kernen ähneln.
 Hautzelle
-Die äußerste Schicht der Haut, die auch die einzige sichtbare Hautschicht ist, besteht aus toten Zellen. Tote Zellen sind am robustesten, und robuste Haut bietet besseren Schutz! Diese Zellen lösen sich ständig von unserer Haut. Staub besteht tatsächlich zu 95% aus toten Hautzellen!
+Die äußerste Schicht der Haut, die auch die einzige sichtbare Hautschicht ist, besteht aus toten Zellen. Tote Zellen sind am robustesten, und robuste Haut bietet besseren Schutz! Diese Zellen lösen sich ständig von unserer Haut. Staub besteht tatsächlich zu 95%25 aus toten Hautzellen!
 Amöbe
 Amöben sind Einzeller, sie bestehen also nur aus einer Zelle. Einige Amöben können beinahe 700 Mikrometer groß werden, das ist fast ein ganzer Millimeter.
 E. coli
@@ -583,7 +583,7 @@ Elektronen sind so klein, dass ihre Größe nicht genau gemessen werden kann. Di
 Kohlenstoffnanoröhren
 Die Kohlenstoffnanoröhre (CNT) ist das stärkste bisher entdeckte Material. Ein weiterer Vorteil ist, dass sie sehr leicht sind. Somit gibt es eine Menge von Anwendungsmöglichkeiten für Kohlenstoffnanoröhren, zum Beispiel in Gebäuden, Batterien, Sonnenkollektoren und möglicherweise sogar in einem Fahrstuhl in den Weltraum.
 Alpha-Helix
-Die Alpha-Helix ist ein häufig auftretendes Motiv der Sekundärstruktur eines Polypeptids bzw. Proteins. Viele Proteine besitzen Alpha-Helixe. Hämoglobin und Myoglobin sind Proteine, die zu mehr als 70% aus Alpha-Helixen bestehen.
+Die Alpha-Helix ist ein häufig auftretendes Motiv der Sekundärstruktur eines Polypeptids bzw. Proteins. Viele Proteine besitzen Alpha-Helixe. Hämoglobin und Myoglobin sind Proteine, die zu mehr als 70%25 aus Alpha-Helixen bestehen.
 Hepatitis-B-Virus
 Hepatitis B infiziert viele Menschen. Tatsächlich sind fast ein drittel der gesamten Weltbevölkerung infiziert. Die Folgen des Virus sind Erbrechen, Leberentzündung und sogar Tod.
 Porcines Circovirus
@@ -620,6 +620,7 @@ Yottameter
 Die Proportionen des Universums
 Benutze die Scrollleiste um hinein oder hinaus zu zoomen.
 Klicke auf ein Objekt, um mehr zu erfahren.
+Starten
 Übersetzt von Alfe
 Deutsch
 German
