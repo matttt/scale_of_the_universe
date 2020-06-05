@@ -51,7 +51,7 @@ Sirius B är en vit dvärg. Den är knappt större än jorden! Den är oftast ga
 Vega
 Vega finns i stjärnbilden Lyran. Den är också en del av sommartriangeln som består av Vega, Altair och Deneb. Vega snurrar så snabbt att den buktar. Vega pekar sin ena pol mot oss så den ser rund ut sedd från jorden.
 Regulus A
-Regulus A snurrar så snabbt att den buktar precis som Altair och Vega. Om Regulus A skulle snurra 16%25 snabbare skulle det slitas sönder! Regulus A är den ljusstarkaste stjärnan i stjärnbilden Lejonet. Förutom Regulus A har stjärnsytemet två andra stjärnor: Regulus B och C.
+Regulus A snurrar så snabbt att den buktar precis som Altair och Vega. Om Regulus A skulle snurra 16% snabbare skulle det slitas sönder! Regulus A är den ljusstarkaste stjärnan i stjärnbilden Lejonet. Förutom Regulus A har stjärnsytemet två andra stjärnor: Regulus B och C.
 Spica
 Spica är den femtonde ljusstarkaste stjärnan på natthimlen och ligger i stjärnbilden Jungfrun. Den är ett binärt stjärnsystem. De två stjärnorna är väldigt nära, och de kretsar runt varandra på fyra dygn.
 Alnitak
@@ -63,7 +63,7 @@ På svenska uttalas Uranus precis så roligt som många tycker. Precis som det f
 Neptunus
 Neptunus är den yttersta planeten i solsystemet. Det tar 164,8 jordår för den att kretsa ett varv runt solen. Du kommer aldrig se Neptunus slutföra en varv i ditt liv om inte den förväntade livslängden ökar.
 Wolf 359
-Wolf 359 är en liten röd dvärgstjärna mycket mindre än normala stjärnor. Den är den sjätte närmaste stjärnan till jorden efter solen, Proxima Centauri, Alpha Centauri A %26 B och Barnards stjärna. Ändå är den alldeles för svag att ses med ögat eller kikare.
+Wolf 359 är en liten röd dvärgstjärna mycket mindre än normala stjärnor. Den är den sjätte närmaste stjärnan till jorden efter solen, Proxima Centauri, Alpha Centauri A & B och Barnards stjärna. Ändå är den alldeles för svag att ses med ögat eller kikare.
 Gliese 229A
 Gliese 229A är en röd dvärgstjärna. Det är lite mindre än solen. Den kallas också GJ 229 eller GI 229. Det är en del av ett binärt stjärnsystem, den andra stjärnan är.
 Gliese 229B
@@ -137,7 +137,7 @@ Betelguese ålder är troligen bara tio miljoner år. Betelguese är så ung fö
 Albireo
 Albireo består av tre stjärnor. Här visar vi bara den största. Två av stjärnorna är gula och ligger nära varandra. Den tredje är blå och längre bort. Den blå stjärnan och de två gula stjärnorna är så långt ifrån varandra att omloppsbanan är 100 000 år.
 Kapteyns stjärna
-Kapteyns Stjärna är bara tretton ljusår bort. Men eftersom den är en röd dvärg och diametern är bara 30%25 av solens så du behöver kikare för att se den. För 10 000 år sedan var Kapteyns stjärna bara sju ljusår bort!
+Kapteyns Stjärna är bara tretton ljusår bort. Men eftersom den är en röd dvärg och diametern är bara 30% av solens så du behöver kikare för att se den. För 10 000 år sedan var Kapteyns stjärna bara sju ljusår bort!
 Luytens stjärna
 Luytens stjärna är en röd dvärgstjärna 12 ljusår bort. Den är så nära Procyon att Procyon är 10 gånger ljusare än Sirius är på vår natthimmel.
 Procyon
@@ -221,7 +221,7 @@ När Sedna är längst bort från solen är den mycket långt borta. Denna punkt
 Längsta avståndet mellan kometen Hale-Bopp och solen
 Kometen Hale-Bopp var synlig med bästa ögat under 1,5 år 1996-1997. Tyvärr kommer ingen av oss kunna se den igen eftersom som det tar kometen 2500 år att komma tillbaka.
 Halleys komet
-Halleys komet är ganska liten. Svansen som bildas när den är nära solen kan vara miljoner kilometer lång! Kometen förlorar 10%25 av sin massa per tusen varv.
+Halleys komet är ganska liten. Svansen som bildas när den är nära solen kan vara miljoner kilometer lång! Kometen förlorar 10% av sin massa per tusen varv.
 Ringnebulosan
 Ringnebulosan ser ut som en ring. Förr trodde man att alla planetariska nebulosor var ringformad som denna, men planetariska nebulosor kan ha andra former.
 Helixnebulosan
@@ -311,7 +311,7 @@ Astronomer tror att Vagnhjulsgalaxen kolliderade med två närliggande galaxer 2
 NGC 1232
 NGC 1232 är en ganska stor galax som ligger 60 miljoner ljusår bort. Den är större än Vintergatan. 
 Omega Centauri
-Omega Centauri är den ljusaste klotformiga stjärnhopen. I dess centrum är det mycket trångt. Stjärnorna där ligger ca 0,1 ljusår från varandra, vilket är 2%25 av avståndet från vår sol till närmaste stjärna.
+Omega Centauri är den ljusaste klotformiga stjärnhopen. I dess centrum är det mycket trångt. Stjärnorna där ligger ca 0,1 ljusår från varandra, vilket är 2% av avståndet från vår sol till närmaste stjärna.
 Messier 54
 Messier 54, M54 eller NGC 6715, är en klotformig stjärnhop. Det ligger i Sagittarius Dwarf Galaxy, vilket innebär att det är den första klotformiga stjärnhopen utanför Vintergatan att bli upptäckt.
 Virgo A
@@ -433,7 +433,7 @@ Blyertspenna är världens kanske billigaste och bästa skriv- och teckningsreds
 Största bakterien
 De största bakterierna, Thiomargarita namibiensis, är nästan en millimeter långa. De lever i havet utanför Namibia. Kan du tänka dig att vara i havet och att se dessa saker? De är mycket synliga.
 Näbbmus
-Deras ämnesomsättning är så hög att de måste äta sin kroppsvikt varje dag! Dessutom är hjärnan 10%25 av kroppsvikten. Det är störst av alla djurs inklusive människan!
+Deras ämnesomsättning är så hög att de måste äta sin kroppsvikt varje dag! Dessutom är hjärnan 10% av kroppsvikten. Det är störst av alla djurs inklusive människan!
 HIV
 Cirka 33 miljoner människor världen över beräknas vara smittade, och viruset har alltsedan sitt utbrott skördat runt 30 miljoner människoliv. Omkring 7 000 beräknas smittas varje dag och mer än 5 700 dör varje dag i HIV-relaterade sjukdomar.
 Sandkorn
@@ -475,7 +475,7 @@ Vandringsalbatrossen har det största vingspannet av alla fåglar! De flyger nä
 Bredden av ett människohår
 Hårstrå är fantastiskt. Rakt hår är nästan perfekt cylindriskt. Å andra sidan är lockigt hår plattare vilket tillåter det att böja sig som ett presentband. Visste du att du förmodligen har mellan 50 000 till 200 000 hårstrån på huvudet?
 Myra
-Du tycker förmodligen inte om myror. Det är synd, 15-25%25 av alla landlevande djur är myror! Många myror blir det! För varje person på jorden finns det över en miljon myror!
+Du tycker förmodligen inte om myror. Det är synd, 15-25% av alla landlevande djur är myror! Många myror blir det! För varje person på jorden finns det över en miljon myror!
 Medelstort amerikanskt hus
 Under de senaste 40 åren har den genomsnittliga huset nästan fördubblades i yta! Dessa hus är så stora att du kan få in 1 000 personer i dem! Det skulle dock vara ganska trångt.
 Giraff
@@ -515,7 +515,7 @@ Badbollar uppfanns 1938. En badboll är en uppblåsbar boll i mjuk plast som fra
 Rafflesia
 Rafflesia är den enskilt största blomman i världen. Den kan väga upp till 10 kg. Blomman luktar ruttet kött för att locka flugor som kommer för att pollinera den.
 U.S. Penny
-Den svenska 10 kronan är ca 1 mm större i diameter. 10 kronan består av 89%25 koppar, 5%25 aluminium, 5%25 zink och 1%25 tenn.
+Den svenska 10 kronan är ca 1 mm större i diameter. 10 kronan består av 89% koppar, 5% aluminium, 5% zink och 1% tenn.
 Saltkorn
 Saltet är en förening av en reaktiv metall och en giftig gas. Äter du mer än en tusendel av din kroppsvikt vid ett tillfälle dör du. 
 Strängar
@@ -537,7 +537,7 @@ Cellmembran är tillverkade av dubbellager av fosfolipider. Det kan bildas natur
 Solrosfrö
 Solrosfrön är läckra. Man kan använda solrosfrön i bröd. Solrosfrön är inte riktiga frön de är frukter. De kallas bara för frö eftersom de liknar andra fröer.
 Hudcell
-Det yttersta lagret av huden som också är det enda synliga lagret av huden består av döda celler. Det beror på att döda celler är de starkaste och starkare hud ger mer skydd! Dessa celler faller kontinuerligt av. I själva verket är damm till 95%25 döda hudceller!
+Det yttersta lagret av huden som också är det enda synliga lagret av huden består av döda celler. Det beror på att döda celler är de starkaste och starkare hud ger mer skydd! Dessa celler faller kontinuerligt av. I själva verket är damm till 95% döda hudceller!
 Amöba
 Amöbor är encelliga vilket betyder att de bara har en cell. Vissa amöbor kan bli otroliga 700 mikrometer vilket är nästan en hel millimeter.
 E. coli
@@ -583,7 +583,7 @@ Elektroner är så små att deras storlek inte kan mätas noggrant. Storleken p�
 Nonorör
 Kolnanorör är det starkaste materialet man upptäckt. Dessutom de är lätta. Nanorör har många potentiella tillämpningar: byggnader, batterier, solpaneler och möjligen även en rymdhiss.
 Alfahelix
-Alfahelixen är en av de sekundära strukturerna hos proteiner. Alfahelixar bildas när vissa typer av aminosyror bildar spiralstruktur. Hemoglobin och myglobin är proteiner som är gjorda av ca 70%25 alfahelixar!
+Alfahelixen är en av de sekundära strukturerna hos proteiner. Alfahelixar bildas när vissa typer av aminosyror bildar spiralstruktur. Hemoglobin och myglobin är proteiner som är gjorda av ca 70% alfahelixar!
 Hepatit B-virus
 Hepatit B smittar många människor. I själva verket har nästan en tredjedel av världens befolkning varit smittad vid något tillfälle. Detta virus orsakar kräkningar, leverinflammation och leder ibland till döden.
 Porcine circovirus

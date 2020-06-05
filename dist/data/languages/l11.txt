@@ -51,7 +51,7 @@ Sirius B est une naine blanche. Elle est à peine plus grande que la Terre ! Ell
 Véga
 Véga se situe dans la constellation de la Lyre. Elle est un sommet du triangle d'été, composé de Véga, Deneb et Altaïr. Véga tourne si vite sur elle-même qu'elle présente un renflement à l'équateur. Mais, comme on l'observe dans l'axe de ses pôles, elle apparait ronde.
 Régulus
-Régulus tourne sur elle-même si rapidement qu'elle a une forme d’une ellipse, comme Véga et Altaïr. Si Régulus tournait 16%25 plus rapidement, elle exploserait ! Régulus est aussi l'étoile la plus brillante de la constellation du Lion, qui comprend aussi Régulus B %26 C.
+Régulus tourne sur elle-même si rapidement qu'elle a une forme d’une ellipse, comme Véga et Altaïr. Si Régulus tournait 16% plus rapidement, elle exploserait ! Régulus est aussi l'étoile la plus brillante de la constellation du Lion, qui comprend aussi Régulus B & C.
 Spica
 Spica est la 15ème étoile la plus brillante dans le ciel, et se situe dans la constellation de la Vierge. C'est en fait une étoile binaire à éclipses. Les deux étoiles sont très proches, et elles orbitent tous les 4 jours
 Alnitak
@@ -63,7 +63,7 @@ Beaucoup de gens trouve que "Uranus" rime avec "anus". Certes, mais il existe au
 Neptune
 Actuellement, Neptune est la planète la plus éloignée du Soleil dans notre système solaire. Il lui faut 164,8 années pour décrire une orbite autour du Soleil. Vous ne verrez jamais Neptune faire une révolution complète dans votre vie, à moins que l'espérance de vie augmente considérablement.
 Wolf 359
-Wolf 359 est une naine rouge, naine par rapport à une étoile normale. C'est la sixième étoile la plus proche de la Terre, après le Soleil, Proxima Centauri, Alpha Centauri A %26 B et l’étoile de Barnard. Pour autant, sa magnitude apparente est de +13,5.
+Wolf 359 est une naine rouge, naine par rapport à une étoile normale. C'est la sixième étoile la plus proche de la Terre, après le Soleil, Proxima Centauri, Alpha Centauri A & B et l’étoile de Barnard. Pour autant, sa magnitude apparente est de +13,5.
 Gliese 229A
 Gliese 229 A est une naine rouge. Elle est un peu plus petite que le Soleil. Elle peut aussi s'écrire GJ 229 ou GI 229. Elle fait partie d'un système stellaire binaire, la seconde étoile étant Gliese 229B.
 Gliese 229B
@@ -151,7 +151,7 @@ Brunei est un pays d'Asie du Sud-Est. Il est enclavé dans la Malaisie, et borde
 Rwanda
 Le Rwanda est un pays à l'est de l'Afrique centrale, connu comme "le Pays des milles collines". Le Rwanda est classé 148ème de part sa superficie, ce qui signifie qu'il y a 147 pays plus grands.
 Californie
-La Californie est surnommée "L'état doré (Golden State)". C'est pourquoi on l'a colorié en jaune. 37 millions de personnes y habitent, soit moins d'1%25 de la population globale mondiale.
+La Californie est surnommée "L'état doré (Golden State)". C'est pourquoi on l'a colorié en jaune. 37 millions de personnes y habitent, soit moins d'1% de la population globale mondiale.
 Virginie Occidentale
 La Virginie Occidentale faisait partie de l'état de Virginie. Elle en a été séparé en 1863 à cause de la guerre de Sécession. L'état est réputé pour ses billes de verre.
 Phobos
@@ -191,7 +191,7 @@ La Proxima du Centaure est la plus proche étoile du Soleil. Mais ça fait quand
 Nébuleuse Stingray
 La Nébuleuse Stingray ("raie" en français) est une nébuleuse planétaire. Elle est relativement jeune, et continue de croître. Quiconque a donné ce nom à cette nébuleuse devait trouver qu'elle ressemblait à une raie.
 Distance de la Proxima du Centaure à Alpha Centauri A
-Comme vous le constatez, la Proxima du Centaure est très, très éloignée de Alpha Centauri A %26 B.
+Comme vous le constatez, la Proxima du Centaure est très, très éloignée de Alpha Centauri A & B.
 Nébuleuse de l'Oeil de Chat
 La Nébuleuse de l'Oeil de Chat est l'une des plus complexe connue. Sa température est de 8 000 ° C ! Et son halo externe est encore plus chaud : 15 000 °C !
 Nébuleuse de la Fourmi
@@ -221,7 +221,7 @@ Lorsque Sedna est la plus éloignée du Soleil, elle est vraiment loin. On appel
 Distance de la Comète Hale-Bopp au Soleil (la plus éloignée)
 La Comète Hale-Bopp s'éloigne beaucoup du Soleil. Il lui faut 2 500 années pour en faire le tour.
 Comète de Halley
-La taille réelle de la Comète de Halley est finalement assez petite. Par contre, sa queue peut faire plusieurs millions de kilomètres ! La comète perd 10%25 de sa masse toutes les cent révolutions.
+La taille réelle de la Comète de Halley est finalement assez petite. Par contre, sa queue peut faire plusieurs millions de kilomètres ! La comète perd 10% de sa masse toutes les cent révolutions.
 Nébuleuse de l'Anneau
 La Nébuleuse de l'Anneau ressemble à... un anneau ! On croyait à l'époque que toutes les nébuleuses planétaires avaient cette forme. Aujourd'hui, on sait que les nébuleuses peuvent en avoir bien d'autres.
 Nébuleuse de l'Hélice
@@ -311,7 +311,7 @@ Les astronomes pensent que la Galaxie Cartwheel (de la roue de charette) est ent
 NGC 1232
 NGC 1232 est une assez grosse galaxie. Plus grande que la nôtre, mais ce n'est pas la plus grande. IC 1101 est la plus grande connue, mais ce n'est pas la plus grande de l'Univers. Il y en probablement d'autres !
 Omega Centauri
-Omega Centauri est un amas globulaire, le plus lumineux. Son centre est très concentré, avec des étoiles distantes de 0,1 année-lumière, soit 2%25 de la distance de notre Soleil à la plus proche étoile.
+Omega Centauri est un amas globulaire, le plus lumineux. Son centre est très concentré, avec des étoiles distantes de 0,1 année-lumière, soit 2% de la distance de notre Soleil à la plus proche étoile.
 Messier 54
 Messier 54, ou M64, ou encore NGC 6715, est un amas globulaire, situé dans la galaxie naine du Sagittaire. C'est le premier de la sorte à avoir été découvert en dehors de la Voie Lactée.
 Virgo A
@@ -433,9 +433,9 @@ Celui que nous avons représenté est un crayon à mine automatique, ou portemin
 Plus Grande Bactérie
 La plus grande bactérie découverte, la Thiomargarita namibiensis, fait environ 1 mm de long. Elle vit dans l'océan proche des côtes de la Namibie. Vous imaginez vous baignant, et croisant cette chose ? Elles sont visibles !
 Musaraigne
-Les musaraignes sont des grandes petites choses. Leur métabolisme est si élevé qu'elles doivent ingurgiter l'équivalent du poids de leur corps tous les jours ! Et leur cerveau atteint 10%25 de leur masse corporelle. C'est plus important que n'importe quel autre animal, y compris l'humain !
+Les musaraignes sont des grandes petites choses. Leur métabolisme est si élevé qu'elles doivent ingurgiter l'équivalent du poids de leur corps tous les jours ! Et leur cerveau atteint 10% de leur masse corporelle. C'est plus important que n'importe quel autre animal, y compris l'humain !
 HIV
-Le virus HIV infecte aujourd'hui 0,6%25 de la population mondiale  et est la cause du SIDA. Bien que le virus seul HIV soit très petit, si petit qu'aucun être humain au monde ne puisse le voir de ses yeux, il peut pourtant tuer.
+Le virus HIV infecte aujourd'hui 0,6% de la population mondiale  et est la cause du SIDA. Bien que le virus seul HIV soit très petit, si petit qu'aucun être humain au monde ne puisse le voir de ses yeux, il peut pourtant tuer.
 Grain de Sable
 Bien sûr, tous les grains de sable n'ont pas la même taille. Un arénophile est une personne qui collectionne les échantillons de sable. Saviez-vous que le sable de la plage Papakoela à Hawaii est vert ? Cela est dû aux cristaux présents dans le sable.
 Particule de Limon
@@ -475,7 +475,7 @@ L'albatross hurleur est l'oiseau avec la plus grande envergure de tous les oisea
 Largeur d'un Cheveu
 Les cheveux sont quelque chose de fascinant. Les cheveux raides sont presque parfaitement cylindriques. A l'inverse, les cheveux frisés sont plus plats, ce qui leur permet de faire des boucles. Savez-vous que vous avez entre 50 000 et 200 000 mèches de cheveux sur votre tête ? Allez-y, vous pouvez compter.
 Fourmis
-Vous n'aimez probablement pas les fourmis. C'est dommage, car elles représentent de 15 à 25%25 des animaux terrestres ! Pour chaque être humain sur Terre, il y a plus d'un million de fourmis...
+Vous n'aimez probablement pas les fourmis. C'est dommage, car elles représentent de 15 à 25% des animaux terrestres ! Pour chaque être humain sur Terre, il y a plus d'un million de fourmis...
 Maison Américaine Typique
 Les maisons aux USA sont devenues plus grandes. En moins de 40 ans, la maison moyenne américaine a presque doublé de superficie ! Elles sont tellement grandes que vous pourriez y mettre 1 000 personnes ! Bon, on serait un peu serrés quand même.
 Girafe
@@ -537,7 +537,7 @@ Une membrane cellulaire est composée d'une bicouche de phospholipides. Ces bico
 Graine de Tournesol
 Les graines de tournesol sont absolument délicieuses. Ce ne sont pas réellement des graines, ce sont les fruits du tournesol. On les appelles graines car elles y ressemblent.
 Cellule de la Peau
-La couche extérieure de la peau, la seule visible, est faite de cellules mortes. Car ce sont les cellules les plus fortes, nous protégeant mieux. Ces cellules tombent au fur et à mesure, au point que 95%25 de la poussière est faite de cellules de peau mortes !
+La couche extérieure de la peau, la seule visible, est faite de cellules mortes. Car ce sont les cellules les plus fortes, nous protégeant mieux. Ces cellules tombent au fur et à mesure, au point que 95% de la poussière est faite de cellules de peau mortes !
 Amibe
 Les amibes sont des êtres unicellulaire, juste composés d'une seule cellule. Certaines amibes peuvent grandir jusqu'à atteindre 700 micromètres (soit presque 1 mm).
 E. coli
@@ -583,7 +583,7 @@ Les électrons sont des éléments si petits que leur taille ne peut pas être m
 Nanotube de Carbone
 Les nanotubes de carbone sont le matériau le plus solide découvert. Et en plus, ils sont très légers. Les nanotubes sont donc utilisés dans de nombreuses applications, comme les bâtiments, les batteries, les panneaux solaires...
 Hélice Alpha
-L'hélice alpha est l'une des deux structures secondaires des protéines. De nombreuses protéines possèdent des hélices alpha, l'hémoglobine en contient ainsi près de 70%25 !
+L'hélice alpha est l'une des deux structures secondaires des protéines. De nombreuses protéines possèdent des hélices alpha, l'hémoglobine en contient ainsi près de 70% !
 Virus de l'Hépatite B
 L'Hépatite B infecte de nombreux êtres humains. En fait, presque un tiers de la population mondiale. Ce virus cause des vomissements, des inflammations du foie, et parfois la mort.
 Circovirus Porcin

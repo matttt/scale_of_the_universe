@@ -51,7 +51,7 @@ Siirius B on valge kääbus. See on natuke suurem kui Maa! Tavaliselt on seda ü
 Veega
 Veega asub Lüüra tähtkujus. See on samuti osa Lõunakolmnurgast, mis koosneb Veegast, Altairist ja Deenebist. Veega on kumerdunud oma kiire pöörlemise tõttu, aga me näeme seda kerakujulisena, sest selle poolus on suunatud meie poole.
 Regulus
-Regulus on oma kiire pöörlemise tõttu kumerdunud täpselt nagu Altair ja Veega. Kui Regulus pöörleks 16%25 kiiremini, siis see puruneks. Regulus on ka Lõvi tähtkuju heledaim täht. Regulusele lisaks on veel Regulus B ja C.
+Regulus on oma kiire pöörlemise tõttu kumerdunud täpselt nagu Altair ja Veega. Kui Regulus pöörleks 16% kiiremini, siis see puruneks. Regulus on ka Lõvi tähtkuju heledaim täht. Regulusele lisaks on veel Regulus B ja C.
 Spiika
 Spiika on tähistaeva heleduselt viieteistkümnes täht ja asub Neitsi tähtkujus. See on tegelikult kaksik tähesüsteem. Kaks tähte asuvad väga lähestikku ja teevad ühe tiiru nelja päevaga.
 Alnitak
@@ -221,7 +221,7 @@ Kui Sedna on Päikesest kõige kaugemal, siis see on päris kaugusel. Seda punkt
 Hale'i-Boppi komeedi ja Päikese vaheline kaugus (suurim)
 Hale'i-Boppi komeet lendab Päikesest väga kaugele. Sel võtab 2500 aastat ühe tiiru tegemiseks.
 Halley komeet
-Halley komeedi tegelik suurus on üpris väike. Moodustuva saba pikkus võib olla aga miljoneid kilomeetreid! Halley komeedi mass väheneb 10%25 iga tuhande tiiruga.
+Halley komeedi tegelik suurus on üpris väike. Moodustuva saba pikkus võib olla aga miljoneid kilomeetreid! Halley komeedi mass väheneb 10% iga tuhande tiiruga.
 Rõngas udukogu
 Rõngas udukogu on sõrmuse kujuga. Vana uskumuse kohaselt olid kõik planetaarudukogud sarnased rõnga kujulised, kuid praeguseks on see väide ümber lükatud. Planetaarudu võib ka teise kujuga olla.
 Helixi udukogu
@@ -311,7 +311,7 @@ Astronoomid arvavad, Cartwheel galaktika põrkus kahe lähedase galaktikaga 200 
 NGC 1232
 NGC 1232 on üpris suur galaktika. See on suurem kui meie oma, aga ei ole suurim. Muidugi ei ole suurim galaktika ka IC 1101, see on ainult suurim, millest me teadlikud oleme. Tõenäoliselt on seal veel palju selliseid!
 Omega Centauri
-Omega Centauri on kerasparv. See on heledaim kerasparv. Selle keskosa on väga ülerahvastatud. Tähed on seal üksteisest 0,1 valgusaasta kaugusel, see on 2%25 vahemaast Päikesele lähima täheni. (See on tõepoolest lähedal!)
+Omega Centauri on kerasparv. See on heledaim kerasparv. Selle keskosa on väga ülerahvastatud. Tähed on seal üksteisest 0,1 valgusaasta kaugusel, see on 2% vahemaast Päikesele lähima täheni. (See on tõepoolest lähedal!)
 Messier 54
 Messier 54 ehk M54 ehk NGC 6715 on järjekordne kerasparv. See asub Sagittariuse kääbusgalaktikas, mis tähendab, et see on esimene kerasparv avastatud väljaspool Linnuteed.
 Virgo A
@@ -433,9 +433,9 @@ Pliiatsisütt kasutatakse palju. Muide, see on mehaanilise pliiatsi süsi. Suuri
 Suurim bakter
 Suurim bakter Thiomargarita namibiensis on peaaegu ühe millimeetri pikkune. Ta elab Namiibia ranniku lähedal ookeanis. Suudad sa ette kujutada olukorda, kus ujudes vees näed midagi sellest. Nad on täiesti märgatavad.
 Karihiir
-Karihiired on suurepärased väiksed tegelased. Nende ainevahetuse kiirus on nii suur, et nad peavad iga päev sööma oma kehakaaluga võrdse koguse toitu. Samuti moodustab aju 10%25 kogu nende kehakaalust. See on suurim protsent loomade hulgas, kuhu kuuluvad ka inimesed.
+Karihiired on suurepärased väiksed tegelased. Nende ainevahetuse kiirus on nii suur, et nad peavad iga päev sööma oma kehakaaluga võrdse koguse toitu. Samuti moodustab aju 10% kogu nende kehakaalust. See on suurim protsent loomade hulgas, kuhu kuuluvad ka inimesed.
 HIV
-HIV-sse on haigestunud 0,6%25 maailma elanikkonnast ja see põhjustab AIDSi. Kuigi üksik HIV viirus on nii väike, et ükski inimene terves maailmas ei näeks seda palja silmaga, suudab see tappa nii palju.
+HIV-sse on haigestunud 0,6% maailma elanikkonnast ja see põhjustab AIDSi. Kuigi üksik HIV viirus on nii väike, et ükski inimene terves maailmas ei näeks seda palja silmaga, suudab see tappa nii palju.
 Liivatera
 Loomulikult ei ole kõik liivaterad ühe suurused. Suurused varieeruvad palju. Arenofiilid on inimesed, kes koguvad liiva näidiseid. Kas teadsid, et Papakolea rannas on roheline liiv? See on põhjustatud liivas olevatest kristallidest.
 Tolmuosake
@@ -475,7 +475,7 @@ Valgete tiibadega albatrossid on kõige suurema tiivaulatusega linnud. Nad lenda
 Inimese juuksekarva laius
 Sirged juuksed on peaaegu täiuslikud silindrid. Lokkis juuksed on lamedamad, mis võimaldab juustel ka lokki minna. Kas teadsid, et sul on tõenäoliselt peas 50 000 kuni 200 000 juuksekarva? Proovi lugeda!
 Sipelgas
-15-25%25 kõigist maismaa loomadest on sipelgad. Iga inimese kohta eksisteerib üle miljoni sipelga.
+15-25% kõigist maismaa loomadest on sipelgad. Iga inimese kohta eksisteerib üle miljoni sipelga.
 Keskmine maja USA-s
 Keskmine maja USA-s on pindalalt muutunud suuremaks ja suuremaks. Viimase 40 aasta joooksul on keskmise maja pindala kahekordistunud. Praegu mahub keskmisesse majasse üle 1000 inimese!
 Kaelkirjak
@@ -537,7 +537,7 @@ Rakumembraanid koosnevad kahekihilistest fosfolipiididest. Fosfolipiidide kaheki
 Päevalilleseemned
 Päevalilleseemned on väga maitsvad: nendest tehakse magusroogasid ja süüakse niisama. Päevalilleseemned ei ole tegelikult päris seemned. Nad on tegelikult päevalille viljad. Neid kutsutakse seemneteks, sest nad meenutavad seemneid.
 Naharakk
-Naha kõige pealmine kiht koosneb surnud rakkudest. Surnud rakud on tugevamad elusrakkudest ja tugevam rakk pakub rohkem kaitset. Tolm koosneb 95%25 võrra surnud naharakkudest!
+Naha kõige pealmine kiht koosneb surnud rakkudest. Surnud rakud on tugevamad elusrakkudest ja tugevam rakk pakub rohkem kaitset. Tolm koosneb 95% võrra surnud naharakkudest!
 Amööb
 Amööb on üherakuline, mis tähendab, et ta koosneb ainult ühest rakust. Mõned amööbid võivad kasvada peaaegu 1 millimeetri suuruseks (0,7mm tegelikult), seega on silmaga nähtavad.
 Soolekepike
@@ -583,7 +583,7 @@ Elektronide suurust täpselt ei oska teadlased veel mõõta. On olemas kaks põh
 Süsiniknanotoru
 Süsiniknanotorud on kõige tugevam avastatud materjal. Kogu selle tugevuse juures on hea omadus, et nad on kerged. Nende omaduste tõttu nähakse palju potentsiaalseid kasutusi neile, nagu näiteks hoone ehitus, patareid, päikesepaneelid ja võib olla isegi kosmoselift.
 Alfa heeliks
-Alfa heeliks on üks teisejärguline valgu struktuur. Hemoglobiini valgud sisaldavad 70%25 alfa heelikseid.
+Alfa heeliks on üks teisejärguline valgu struktuur. Hemoglobiini valgud sisaldavad 70% alfa heelikseid.
 B-hepatiidi viirus
 See viirus põhjustab oksendamist, maksa põletikku ja halvemal korral surma. Inimkonna seas on see viirus üsna laialt levinud - umbes kolmandik inimestest on elu jooksul olnud nakatunud B-hepatiiti rohkemal või vähemal määral.
 Sigade tsirkoviirus

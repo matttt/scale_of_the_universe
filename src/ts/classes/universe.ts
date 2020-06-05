@@ -8,6 +8,7 @@ import { getScaleText } from "../helpers/getScaleText";
 import { Slider } from "./slider";
 import 'pixi.js-legacy';
 import * as PIXI from "pixi.js-legacy";
+const {KawaseBlurFilter } = require('pixi-filters');
 // import * as sizes from '../../data/sizes.json';
 
 export class Universe {
@@ -145,11 +146,12 @@ export class Universe {
       this.displayContainer.addChild(item.getContainer());
 
       this.selectedItem = item;
+      this.selectedItem.text.visible = false;
 
       // TweenMax.to(this.container, 2, { pixi: { blurFilter: 15 } });
-      const filter = new PIXI.filters.BlurFilter(8, 4, 1, 5);
+      const filter = new KawaseBlurFilter(4, 5, true);
 
-      // this.container.filters = [filter];
+      this.container.filters = [filter];
 
       this.displayContainer.visible = true;
 

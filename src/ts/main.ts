@@ -327,7 +327,6 @@ loader.load(async (loader, resources) => {
     // langWrapper.style.visibility = "hidden";
 
 
-
     clearInterval(titleCaroselInterval);
     clearTimeout(titleCaroselTimeout);
     fadeIn.stop(true);

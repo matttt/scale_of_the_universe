@@ -41,7 +41,7 @@ El Sol es lo que le da a la Tierra la energía que hace posible tener vida. ¡El
 Alpha Centauri A
 Alpha Centauri A es la estrella más grande del sistema estelar Alpha Centauri (compuesto por tres estrellas), el cual es el sistema estelar más cercano a nosotros. También es la cuarta estrella más brillante en el cielo nocturno.
 Alpha Centauri B
-Alpha Centauri B es la segunda estrella más grande del sistema estelar Alpha Centauri. Su diámetro es aproximadamente un millón de kilómetros, por lo tanto es un poco más pequeña que el Sol. Alpha Centauri A %2526 B están tan cerca entre sí que parecen una sola estrella para nosotros los terrícolas.
+Alpha Centauri B es la segunda estrella más grande del sistema estelar Alpha Centauri. Su diámetro es aproximadamente un millón de kilómetros, por lo tanto es un poco más pequeña que el Sol. Alpha Centauri A %26 B están tan cerca entre sí que parecen una sola estrella para nosotros los terrícolas.
 Proxima Centauri
 Proxima Centauri es conocida como la estrella más cercana a la Tierra después del Sol. Su nombre proviene de la palabra “proximidad”. Proxima Centauri es una estrella roja pequeña. Desafortunadamente, es tan difusa que necesitas un telescopio para verla.
 Sirius A
@@ -51,7 +51,7 @@ Sirius B es una enana blanca. ¡Es apenas más grande que la Tierra! Generalment
 Vega
 Vega se encuentra en la constelación de Lyra. También es parte del Triángulo de Verano, compuesto por Vega, Altair, y Deneb. Vega gira tan rápido que se ensancha. Sin embargo, la vemos desde un polo, así que luce circular.
 Regulus
-Regulus gira tan rápido que se ensancha, al igual que Altair y Vega. Si Regulus girara 16%25 más rápido, ¡se despedazaría! Regulus también es la estrella más brillante en la constelación de Leo. También hay Regulus B %2526 C.
+Regulus gira tan rápido que se ensancha, al igual que Altair y Vega. Si Regulus girara 16% más rápido, ¡se despedazaría! Regulus también es la estrella más brillante en la constelación de Leo. También hay Regulus B %26 C.
 Espiga
 Espiga es la decimoquinta estrella más brillante en el cielo nocturno y se encuentra en la constelación de Virgo. En realidad es un sistema de estrellas binario. Las dos estrellas están muy cerca, y orbitan cada cuatro días.
 Alnitak
@@ -63,7 +63,7 @@ Urano es el séptimo planeta del Sistema Solar y es un gigante gaseoso. Al igual
 Neptuno
 Actualmente, Neptuno es el planeta más lejano del Sol del Sistema Solar. Le toma 164,8 años de la Tierra para orbitar el Sol. Nunca verás a Neptuno completar una órbita en toda tu vida, a menos que aumenten las expectativas de vida.
 Wolf 359
-Wolf 359 es una pequeña enana roja, empequeñecida por estrellas normales. Es la sexta estrella más cercana a la Tierra, después del Sol, Proxima Centauri, Alpha Centauri A %2526 B y la estrella de Barnard. Aún así, su magnitud es un difuso +13.5.
+Wolf 359 es una pequeña enana roja, empequeñecida por estrellas normales. Es la sexta estrella más cercana a la Tierra, después del Sol, Proxima Centauri, Alpha Centauri A %26 B y la estrella de Barnard. Aún así, su magnitud es un difuso +13.5.
 Gliese 229A
 Gliese 229A es una estrella enana roja. Es un poco más pequeña que el Sol. La estrella enana roja también es denominada como GJ 229 o GI 229. Es parte de un sistema binario, la segunda estrella es Gliese 229B.
 Gliese 229B
@@ -191,7 +191,7 @@ Proxima Centauri es la estrella más cercana al Sol. Sin embargo, sigue estando 
 Nebulosa Mantarraya
 La Nebulosa Mantarraya es una nebulosa planetaria. Es relativamente joven, y está constantemente creciendo. Quien haya puesto el nombre a esta nebulosa debe haber pensado que lucía como una mantarraya. ¿Y tú?
 Distancia de Proxima Centauri a Alpha Centauri A
-Proxima Centauri está muy lejos de Alpha Centauri A %2526 B.
+Proxima Centauri está muy lejos de Alpha Centauri A %26 B.
 Nebulosa Ojo de gato
 La Nebulosa Ojo de gato es una de las nebulosas más complejas conocidas. ¿Sabías que la Nebulosa Ojo de gato está a 8.000 °C? ¡Eso es bastante caliente! El halo exterior es incluso más caliente, a 15.000 °C.
 Nebulosa de la Hormiga
@@ -221,7 +221,7 @@ Cuando Sedna está más lejos del Sol, está muy lejos. ¡Este punto es llamado 
 Distancia del cometa Hale-Bopp al Sol (la más lejana)
 El cometa Hale-Bopp se aleja mucho del Sol. Le toma 2.500 años orbitar una vez.
 Cometa Halley
-El tamaño real del cometa Halley es bastante pequeño. ¡La cola que forma puede tener un millón de kilómetros de largo! El cometa Halley pierde 10%25 de su masa por cada mil orbitas.
+El tamaño real del cometa Halley es bastante pequeño. ¡La cola que forma puede tener un millón de kilómetros de largo! El cometa Halley pierde 10% de su masa por cada mil orbitas.
 Nebulosa del Anillo
 La Nebulosa del Anillo luce como un anillo. La vieja creencia era que todas las nebulosas planetarias tenían forma de anillo como esta, pero ahora se sabe que no es así. Hay otras formas que las nebulosas planetarias pueden tener.
 Nebulosa de la Hélice
@@ -311,7 +311,7 @@ Los astrónomos creen que la galaxia Rueda de Carreta tuvo una colisión con dos
 NGC 1232
 NGC 1232 es una galaxia bastante grande. Es más grande que la nuestra, pero no es la más grande. Por supuesto, la IC 1101 no es la galaxia más grande, es sólo la galaxia más grande que conocemos. ¡Probablemente haya muchas más!
 Omega Centauro
-Omega Centauro es un cúmulo globular. Es el cúmulo globular más brillante. El centro está muy poblado. Las estrellas allí están separadas por 0,1 años luz, lo cual es 2%25 de la distancia de nuestro Sol a la estrella más cercana. (¡Eso es bastante cerca!)
+Omega Centauro es un cúmulo globular. Es el cúmulo globular más brillante. El centro está muy poblado. Las estrellas allí están separadas por 0,1 años luz, lo cual es 2% de la distancia de nuestro Sol a la estrella más cercana. (¡Eso es bastante cerca!)
 Messier 54
 Messier 54, o M54, o NGC 6715, es otro cúmulo globular. Está en la galaxia enana de Sagitario, lo cual significaría que es el primer cúmulo globular afuera de la Vía Láctea en ser descubierto.
 Virgo A
@@ -433,9 +433,9 @@ La gente usa mucho los lápices. Oh, por cierto, esta es la mina de un portamina
 Bacteria más grande
 La bacteria más grande, que es la Thiomargarita namibiensis, mide casi un milímetro de longitud. Vive en el océano en la costa de Namibia. ¿Puedes imaginarte estando en el océano, y ver una de estas cosas? ¡Son muy visibles!
 Musaraña
-Las musarañas son cositas grandiosas. ¡Su tasa de metabolismo es tan alta que deben comer el equivalente a su peso corporal cada día! Además, su cerebro es el 10%25 del peso de su cuerpo. Ese es el más alto de cualquier animal, ¡incluyendo al humano!
+Las musarañas son cositas grandiosas. ¡Su tasa de metabolismo es tan alta que deben comer el equivalente a su peso corporal cada día! Además, su cerebro es el 10% del peso de su cuerpo. Ese es el más alto de cualquier animal, ¡incluyendo al humano!
 VIH
-El VIH infecta al 0,6%25 de la población mundial y causa el SIDA. Aunque un solo virus del VIH es muy pequeño, de hecho, tan pequeño que ningún humano sobre la faz del planeta puede verlo a simple vista, aún así puede matar.
+El VIH infecta al 0,6% de la población mundial y causa el SIDA. Aunque un solo virus del VIH es muy pequeño, de hecho, tan pequeño que ningún humano sobre la faz del planeta puede verlo a simple vista, aún así puede matar.
 Grano de arena
 Por supuesto, no todos los granos de arena tienen el mismo tamaño. Varían mucho. Arenophiles son personas que coleccionan muestras de arena. Además, ¿sabías que la playa Papakolea tiene arena verde? Esto se debe a cristales en la arena. Como sea.
 Particular de cieno 
@@ -475,7 +475,7 @@ Albatros errante
 Ancho del cabello humano
 El cabello humano es asombroso. El cabello lacio es casi perfectamente cilíndrico. Por otro lado, el cabello rizado es más plano, lo que le permite curvarse, como un lazo. ¿Sabías que probablemente tienes de 50.000 a 200.000 hebras de cabello en tu cabeza? ¡Puedes contarlas!
 Hormiga
-Probablemente no te gusten las hormigas. Que mal. ¡Entre el 15 y el 25%25 de todos los animales terrestres son hormigas! ¡Wow! ¡Esas son bastantes hormigas! ¡Por cada persona en la Tierra, hay más de un millón de hormigas!
+Probablemente no te gusten las hormigas. Que mal. ¡Entre el 15 y el 25% de todos los animales terrestres son hormigas! ¡Wow! ¡Esas son bastantes hormigas! ¡Por cada persona en la Tierra, hay más de un millón de hormigas!
 Casa promedio de EE.UU.
 Estas casa en los Estados Unidos han estado volviéndose cada vez más grandes. En los últimos 40 años, ¡el área de la casa promedio se ha duplicado! Estas casas son tan grandes, ¡que podrías meter 1.000 personas en ellas! Aunque estarían bastante apretadas.
 Jirafa
@@ -537,7 +537,7 @@ Las membranas de las células están hechas de bicapas fosfolipídicas. Las bica
 Semillas de girasol
 Las semillas de girasol son increíblemente deliciosas. Son tan sabrosas, ¡que se les puede convertir en “pan de semillas de girasol”! Las semillas de girasol no son semillas de verdad. ¡Son las frutas del girasol! Se les llama “semillas” sólo porque se parecen a otras semillas.", 
 Célula de la piel
-La capa externa de la piel, la cual es también la única capa visible de la piel, está compuesta de células de piel muertas. Esto se debe a que las células de piel muertas son las más fuertes, ¡y una piel más fuerte provee más protección! Estas células se desprenden continuamente. De hecho, ¡el polvo es un 95%25 células muertas!
+La capa externa de la piel, la cual es también la única capa visible de la piel, está compuesta de células de piel muertas. Esto se debe a que las células de piel muertas son las más fuertes, ¡y una piel más fuerte provee más protección! Estas células se desprenden continuamente. De hecho, ¡el polvo es un 95% células muertas!
 Ameba
 Las amebas son unicelulares, lo cual significa que sólo hay una célula. Algunas amebas pueden crecer hasta unos increíbles 700 micrómetros, lo cual es casi un milímetro.
 E. coli
@@ -583,7 +583,7 @@ Los electrones son tan pequeños que su tamaño no puede ser medido con precisi�
 Nanotubos de carbono
 Los nanotubos de carbono son el material más fuerte descubierto hasta ahora. Además, son ligeros. Como resultado, los nanotubos tienen muchas aplicaciones potenciales, incluyendo la construcción, baterías, paneles solares, e incluso posiblemente hasta un elevador espacial.
 Hélice alfa
-La hélice alfa es una de las estructuras secundarias de las proteínas. Muchas proteínas tienen hélices alfa en ellas. ¡La hemoglobina y la mioglobina son proteínas hechas aproximadamente de un 70%25 de hélices alfa!
+La hélice alfa es una de las estructuras secundarias de las proteínas. Muchas proteínas tienen hélices alfa en ellas. ¡La hemoglobina y la mioglobina son proteínas hechas aproximadamente de un 70% de hélices alfa!
 Virus de la hepatitis B
 La hepatitis B infecta a muchos humanos. De hecho, casi un tercio de la población mundial ha sido infectada en algún momento. Este virus causa vómitos, inflamación del hígado y posiblemente la muerte.
 Circovirus porcino

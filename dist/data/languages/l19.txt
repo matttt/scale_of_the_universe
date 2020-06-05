@@ -41,7 +41,7 @@ Güneþ, Yeryüzü’nde yaþamýn var olabilmesi için gerekli enerjiyi saðlar
 Alpha Centauri A
 Alpha Centauri A, bize en yakýn yýldýz sistemi olan (üç yýldýzdan oluþan) Alpha Centauri yýldýz sisteminin en büyük yýldýzýdýr. Ayrýca geceleyin gökyüzündeki en parlak dördüncü yýldýzdýr.
 Alpha Centauri B
-Alpha Centauri B Alpha Centauri yýldýz sistemindeki en büyük ikinci yýldýzdýr. Çapý yaklaþýk bir milyon kilometredir, dolayýsýyla güneþten biraz daha küçüktür. Alpha Centauri A %26 B birbirlerine çok yakýn olduklarý için biz dünyalýlara tek bir yýldýz gibi görünürler.
+Alpha Centauri B Alpha Centauri yýldýz sistemindeki en büyük ikinci yýldýzdýr. Çapý yaklaþýk bir milyon kilometredir, dolayýsýyla güneþten biraz daha küçüktür. Alpha Centauri A & B birbirlerine çok yakýn olduklarý için biz dünyalýlara tek bir yýldýz gibi görünürler.
 Proxima Centauri
 Proxima Centauri, Dünya’ya Güneþ’ten sonra en yakýn yýldýz olarak bilinir. Ýsmi “yakýnlýk”tan gelmektedir. Proxima Centauri küçük kýrmýzý bir yýldýzdýr. Ne yazýk ki, çok sönük bir yýldýzdýr ve onu görebilmek için bir teleskopa ihtiyacýnýz vardýr
 Sirius A
@@ -51,7 +51,7 @@ Sirius B bir beyaz cücedir. Dünya’dan biraz büyüktür. Sirius A’nýn par
 Vega
 Vega, Çalgý takýmyýldýzýnda yer alýr. Ayrýca Vega, Deneb ve Altair’den oluþan Yaz Üçgeni’nin bir parçasýdýr. Vega merkezi etrafýnda çok hýzlý döner. Yine de, onu üst tarafýndan gördüðümüz için, dairesel görünmektedir.
 Regulus
-Regulus’ta Altair ve Vega gibi kendi çevresinde oldukça hýzlý dönmektedir. Eðer %25 16 oranýnda daha hýzlý dönseydi, parçalanýrdý! Regulus ayný zamanda Aslan takýmyýldýzýndaki en parlak yýldýzdýr. Ayrýca Regulus B ve C yýldýzlarý da vardýr.
+Regulus’ta Altair ve Vega gibi kendi çevresinde oldukça hýzlý dönmektedir. Eðer % 16 oranýnda daha hýzlý dönseydi, parçalanýrdý! Regulus ayný zamanda Aslan takýmyýldýzýndaki en parlak yýldýzdýr. Ayrýca Regulus B ve C yýldýzlarý da vardýr.
 Spica
 Spica geceleyin gökyüzündeki en parlak on beþinci yýldýzdýr ve Baþak takýmyýldýzýnda bulunur. Gerçekte bir çift yýldýz sistemidir. Ýki yýldýz birbirlerine çok yakýndýr ve yörüngelerini dört günde tamamlarlar.
 Alnitak
@@ -63,7 +63,7 @@ Uranüs
 Neptün
 Þu anda Neptün, Güneþ Sistemi’nde Güneþ’ten en uzakta bulunan gezegendir. Güneþ’in etrafýndaki bir turu 164.6 Dünya yýlý sürmektedir. Yaþam beklentileri artmadýkça, tüm hayatýnýz boyunca Neptün’ün bir turunu tamamlamasýný hiçbir þekilde göremezsiniz. 
 Wolf 359
-Wolf 359 normal yýldýzlar tarafýndan gölgede býrakýlan, küçük bir kýrmýzý cücedir. Güneþ, Proxima Centauri, Alpha Centauri A %26 B, ve Bernard yýldýzýndan sonra Dünya’ya en yakýn altýncý yýldýzdýr. Parlaklýðý düþük olup +13.5 kadirdir.
+Wolf 359 normal yýldýzlar tarafýndan gölgede býrakýlan, küçük bir kýrmýzý cücedir. Güneþ, Proxima Centauri, Alpha Centauri A & B, ve Bernard yýldýzýndan sonra Dünya’ya en yakýn altýncý yýldýzdýr. Parlaklýðý düþük olup +13.5 kadirdir.
 Gliese 229A
 Gliese 229A bir kýrmýzý cüce yýldýzdýr. Güneþ’ten biraz daha küçüktür. Kýrmýzý cüce yýldýz ayný zamanda GJ 229 ya da GI 229 olarak da yazýlýr. Bir çift yýldýz sisteminde bulunur, ikinci yýldýz Gliese 229B’dir.
 Gliese 229B
@@ -311,7 +311,7 @@ Gökbilimciler Araba Tekerleði Gökadasý’nýn 200 milyon yýl önce iki yak�
 NGC 1232
 NGC 1232 oldukça büyük bir gökada. Bizimkinden büyük, ama en büyük deðil. Tabi ki, IC 1101’de en büyük gökada deðil, sadece þimdilik bilinen en büyük gökada. Büyük olasýlýkla daha fazlasý var!
 Omega Centauri
-Omega Centauri bir küresel kümedir. Ve en parlak olanýdýr. Merkezi oldukça kalabalýktýr. Yýldýzlarýn birbirlerine olan uzaklýðý 0.1 ýþýk-yýlýdýr, yani Güneþ’imizden en yakýn yýldýza olan uzaklýðýn %252’si kadar. (Gerçekten çok yakýn!)
+Omega Centauri bir küresel kümedir. Ve en parlak olanýdýr. Merkezi oldukça kalabalýktýr. Yýldýzlarýn birbirlerine olan uzaklýðý 0.1 ýþýk-yýlýdýr, yani Güneþ’imizden en yakýn yýldýza olan uzaklýðýn %2’si kadar. (Gerçekten çok yakýn!)
 Messier 54
 Messier 54, ya da M54, veya NGC 6715, baþka bir küresel kümedir. Yay Cüce Gökadasý’nýn içerisindedir, yani Samanyolu’nun dýþýnda keþfedilen ilk küresel kümedir.
 Virgo A
@@ -433,9 +433,9 @@ Kurþunkalem Ucu
 En Büyük Bakteri
 En büyük bakteri Thiomargarita namibiensis neredeyse bir milimetre boyundadýr.  Güney Afrika okyanus sahillerinde yaþar. Okyanusta bu þeyleri gördüðünüzü düþünebiliyor musunuz? Oldukça görünürler!
 Kýr faresi
-Kýr fareleri küçük harika þeylerdir. Vücut metabolizmalarý o kadar hýzlýdýr ki, her gün kendileri kadar yiyecek tüketirler! Ayrýca, aðýrlýklarýnýn %2510’unu beyinleri oluþturur. Bu hayvanlar ve insanlar arasýndaki en yüksek oran!
+Kýr fareleri küçük harika þeylerdir. Vücut metabolizmalarý o kadar hýzlýdýr ki, her gün kendileri kadar yiyecek tüketirler! Ayrýca, aðýrlýklarýnýn %10’unu beyinleri oluþturur. Bu hayvanlar ve insanlar arasýndaki en yüksek oran!
 HIV
-HIV dünya nüfusunun %250.6’sýný etkilemiþ ve AIDS’e neden olmuþtur. Tek bir HIV virüsü küçük olsa da, aslýnda, dünya üzerindeki tek bir insan bile onu çýplak gözle göremiyorken, hala öldürebilmektedir.
+HIV dünya nüfusunun %0.6’sýný etkilemiþ ve AIDS’e neden olmuþtur. Tek bir HIV virüsü küçük olsa da, aslýnda, dünya üzerindeki tek bir insan bile onu çýplak gözle göremiyorken, hala öldürebilmektedir.
 Kum Tanesi
 Tabi ki, tüm kum taneleri ayný boyutta deðil. Oldukça farklýlar. Kum tanesi örneklerini toplayan kiþilere Arenofil denir. Ayrýca Papakolea Sahili’nin yeþil kumlarý olduðunu biliyor muydunuz? Kum taneciklerindeki kristaller yüzünden. Her neyse.
 Ýnce Kum Parçacýðý
@@ -475,7 +475,7 @@ Gezgin Albatros, kanat geniþliði en büyük olan kuþtur! Sürekli uçarlar, s
 Ýnsan Saçýnýn Geniþliði
 Ýnsan saçý harikadýr. Düz saçlar neredeyse mükemmel silindir þeklindedir. Diðer yandan kývýrcýk olanlar daha basýktýr, bu nedenle kurdele benzeri kývrýmlara yol açar. Baþýnýzda muhtemelen 50,000 ila 200,000 saç teli olduðunu biliyor muydunuz? Sayabilirsiniz!
 Karýnca
-Büyük olasýlýkla karýncalardan hoþlanmýyorsunuz! Bu çok kötü. Tüm kara hayvanlarýnýn %25 15-25’i karýncalardýr. Bu çok fazla karýnca demektir! Yeryüzündeki her bir insana, bir milyonun üzerinde karýnca düþmektedir!
+Büyük olasýlýkla karýncalardan hoþlanmýyorsunuz! Bu çok kötü. Tüm kara hayvanlarýnýn % 15-25’i karýncalardýr. Bu çok fazla karýnca demektir! Yeryüzündeki her bir insana, bir milyonun üzerinde karýnca düþmektedir!
 Ortalama Amerikan Evi
 Birleþik Devletler’deki bu evler gittikçe büyümektedir. Son 40 yýlda, ortalama evlerin alanlarý ikiye katlanmýþtýr! Bu evler çok büyüktür, içine 1000 kiþi sýðdýrabilirsiniz! Gerçi bu biraz sýkýþýk olabilir.
 Zürafa
@@ -537,7 +537,7 @@ Hücre zarlarý çift katlý fosfolipidlerden yapýlmýþtýr. Bu katmanlar doð
 Ayçiçeði Tohumu
 Ayçiçeði tohumlarýnýn güzel bir tadý vardýr. Çok lezzetlidirler, “ayçiçeði tanesi ekmeði” yapýlabilirler. Ayçiçeði tohumlarý gerçek tohumlar deðildir. Onlar ayçiçeðinin meyveleridir! Sadece diðer tohumlara benzedikleri için onlara “tohum” denir.
 Deri Hücresi
-Derinin en dýþ kýsmý olup, ayný zamanda derinin görünür katmanýdýr, ve ölü hücrelerden oluþmaktadýr. Çünkü ölü hücreler en güçlü olanlardýr, ve daha güçlü deri daha iyi koruma saðlar! Bu hücreler sürekli dökülür. Aslýnda, toz %25 95 ölü deri hücrelerinden oluþmaktadýr!
+Derinin en dýþ kýsmý olup, ayný zamanda derinin görünür katmanýdýr, ve ölü hücrelerden oluþmaktadýr. Çünkü ölü hücreler en güçlü olanlardýr, ve daha güçlü deri daha iyi koruma saðlar! Bu hücreler sürekli dökülür. Aslýnda, toz % 95 ölü deri hücrelerinden oluþmaktadýr!
 Amip
 Amipler tek hücrelidir, yani sadece bir hücresi vardýr. Bazý amipler inanýlmaz bir þekilde 700 mikrometreye kadar uzarlar, yani neredeyse bir milimetre kadar.
 E. coli
@@ -583,7 +583,7 @@ Elektronlar çok küçük olduklarý için boyutlarý tam olarak ölçülemiyor.
 Karbon Nanotüp
 Karbon nanotüp þimdiye kadar keþfedilen en güçlü malzemedir. Baþka bir özellikleri hafif olmalarý. Sonuç olarak, nanotüplerin birçok potansiyel uygulamalarý vardýr, binalar, piller, güneþ pilleri, ve hatta muhtemelen bir uzay asansörü. 
 Alfa Sarmalý
-Alfa sarmalý proteinlerin ikincil yapýlarýndan bir tanesidir. Çoðu protein bünyesinde alfa sarmalý barýndýrýr. Hemoglobin ve miyoglobin proteinlerinin %25 70’i alfa sarmallarýndan oluþur! ",
+Alfa sarmalý proteinlerin ikincil yapýlarýndan bir tanesidir. Çoðu protein bünyesinde alfa sarmalý barýndýrýr. Hemoglobin ve miyoglobin proteinlerinin % 70’i alfa sarmallarýndan oluþur! ",
 Hepatit B Virüsü
 Hepatit B birçok insaný etkilemiþtir. Aslýnda, dünya nüfusunun üçte biri bir þekilde etkilenmiþtir. Bu virüs kusmaya, karaciðer iltihabýna ve muhtemelen ölüme sebep olmaktadýr.
 Domuz sirkovirüsü

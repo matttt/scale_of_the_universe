@@ -51,7 +51,7 @@ Syriusz B to bialy karzel.  Jest tylko odrobine wiekszy od Ziemi!  Zazwyczaj tru
 Wega
 Wega lezy w gwiazdozbiorze Lutni.  Tworzy tzw. trójkat letni skladajacy sie z Altaira, Deneb i oczywiscie Wegi.  Wega obraca sie tak predko, ze az sie wybrzusza.  My widzimy ja od strony bieguna wiec wyglada jak okrag.
 Regulus
-Regulus obraca sie tak predko, ze sie wybrzusza - zupelnie jak Altair i Wega.  Regulus rozpadlby sie gdyby jego obroty wzrosly o 16%25!  Regulus jest najjasniejsza gwiazda w gwiazdozbiorze Lwa.  Posiada dwa skladniki: B i C.
+Regulus obraca sie tak predko, ze sie wybrzusza - zupelnie jak Altair i Wega.  Regulus rozpadlby sie gdyby jego obroty wzrosly o 16%!  Regulus jest najjasniejsza gwiazda w gwiazdozbiorze Lwa.  Posiada dwa skladniki: B i C.
 Spica
 Spica jest pietnasta pod wzgledem jasnosci gwiazda na nocnym niebie i lezy w gwiazdozbiorze Panny.  W rzeczywistosci jest to podwójny system gwiazdowy.  Obie gwiazdy sa od siebie blisko polozone, a ich orbita ma cztery dni.
 Alnitak
@@ -151,7 +151,7 @@ Brunei jest krajem polozonym w Poludniowo-Wschodniej Azji.  Jest calkowicie otoc
 Ruanda
 Ruanda jest krajem polozonym w centralnej Afryce i jest znana jako "kraj tysiaca wzgórz".  Czy wiedziales, ze Ruanda jest 148 krajem co do wielkosci?  To oznacza, ze jest tylko 147 krajów wiekszych od Ruandy.
 Kalifornia
-Kalifornia jest nazywana "The Golden State" (zloty stan).  To dlatego ma we fladze kolor zloty.  Kalifornie zamieszkuje ok. 37 milionów ludzi, co stanowi 1%25 swiatowej populacji.
+Kalifornia jest nazywana "The Golden State" (zloty stan).  To dlatego ma we fladze kolor zloty.  Kalifornie zamieszkuje ok. 37 milionów ludzi, co stanowi 1% swiatowej populacji.
 Zachodznia Wirginia
 Zachodnia Wirginia byla czescia Wirginii.  W 1863r oddzielila sie na skutek wojny secesyjnej.  Teraz Zachodnia Wirginia jest nadal Stanem! Duzo plyt marmurowych jest produkowanych w Zachodniej Wirginii
 Phobos
@@ -191,7 +191,7 @@ Proxima Centauri to gwiazda znajdujaca sie najblizej Slonca. Nie mniej jednak od
 Mglawica Henize 3-1357
 Mglawica Henize 3-1357 to mglawica planetarna. Jest relatywnie mloda i ciagle sie rozszerza. Angielska nazwa tej mglawicy brzmi plaszczka – czy ty tez uwazasz, ze mglawica przypomina plaszczke?
 Odleglosc od Proxima Centauri do Alfa Centauri A
-Proxima Centauri znajduje sie w dalekiej odleglosci od Alfa Centauri A %26 B.
+Proxima Centauri znajduje sie w dalekiej odleglosci od Alfa Centauri A & B.
 Mglawica Kocie Oko
 Mglawica Kocie Oko to jedna z najbardziej skomplikowanych znanych mglawic. Czy wiesz, ze temperatura Mglawicy wynosi 8 000°C? To dosc goraco, nieprawdaz? Zewnetrzne halo jest jeszcze goretsze - 15,000° C.
 Mglawica Mrówka
@@ -221,7 +221,7 @@ Punkt, w którym Sedna znajduje sie najdalej od Slonca, to naprawde bardzo dalek
 Odleglosc od Komety Hale’a- Boppa do Slonca (najdalsza)
 Kometa Hale’a-Boppa bardzo oddala sie od Slonca. Pokonanie pelnej orbity zajmuje jej 2,5 tys. lat.
 Kometa Halleya
-Rzeczywisty rozmiar Komety Halleya jest raczej niewielki. Ogon komety moze miec miliony kilometrów dlugosci! Kometa Halleya traci 10%25 swojej masy na kazdy tysiac orbit.
+Rzeczywisty rozmiar Komety Halleya jest raczej niewielki. Ogon komety moze miec miliony kilometrów dlugosci! Kometa Halleya traci 10% swojej masy na kazdy tysiac orbit.
 Mglawica Pierscien
 Mglawica Pierscien bardzo pierscien przypomina. Stare przekonanie glosi, ze wszystkie mglawice planetarne mialy ksztalt pierscieni, ale nie wiadomo, czy to prawda; znane sa takze inne ksztalty mglawic planetarnych.
 Mglawica Slimak
@@ -311,7 +311,7 @@ Wedlug astronomów Galaktyka Kolo wozu zderzyla sie z dwoma pobliskimi galaktyka
 NGC 1232
 NGC 1232 to calkiem spora galaktyka. Jest wieksza od naszej, ale nie najwieksza. Oczywiscie, IC 1101 to nie jest najwieksza galaktyka w ogóle, tylko najwieksza nam znana. Prawdopodobnie jest ich duzo wiecej!
 Omega Centauri
-Omega Centauri to najjasniejsza znana gromada kulista. Jej centrum jest bardzo zatloczone, gwiazdy sa tam oddalone od siebie o 0,1 roku swietlnego, co stanowi 2%25 odleglosci miedzy Sloncem a najblizsza gwiazde. (Z punktu widzenia kosmosu to bardzo blisko!)
+Omega Centauri to najjasniejsza znana gromada kulista. Jej centrum jest bardzo zatloczone, gwiazdy sa tam oddalone od siebie o 0,1 roku swietlnego, co stanowi 2% odleglosci miedzy Sloncem a najblizsza gwiazde. (Z punktu widzenia kosmosu to bardzo blisko!)
 Messier 54
 Messier 54, lub M54, lub NGC 6715, to kolejna gromada kulista. Znajduje sie w galaktyce karlowatej gwiazdozbioru Strzelca. Jest pierwsza gromada kulista odkryta poza Droga Mleczna.
 Panna A
@@ -433,9 +433,9 @@ Ludzie czesto korzystaja z olówków. Aha, a tak przy okazji to olówek automaty
 Najwieksza bakteria
 Najwieksza bakteria to Thiomargarita namibiensis ma prawie 1mm. Zyje w oceanie przy wybrzezach Namibii. Wyobraz sobie, ze plywasz w oceanie i widzisz te stwory? Bardzo latwo je zobaczyc!
 Ryjówka
-Ryjówki to takie niewielkie stworzonka, których poziom metabolizmu jest tak wysoki, ze kazdego dnia musza zjesc tyle, ile waza! A, takze 10%25 wagi to mózg. To najwyzszy wskaznik wsród zwierzat, lacznie z ludzmi!
+Ryjówki to takie niewielkie stworzonka, których poziom metabolizmu jest tak wysoki, ze kazdego dnia musza zjesc tyle, ile waza! A, takze 10% wagi to mózg. To najwyzszy wskaznik wsród zwierzat, lacznie z ludzmi!
 HIV
-Wirusem HIV zarazone jest 0.6%25 populacji swiata; ten wirus wywoluje AIDS. Chociaz pojedynczy wirus HIV jest bardzo maly, tak maly, ze zaden czlowiek nie móglby do dostrzec golym okiem, jest smiertelnie niebezpieczny i moze zabic.
+Wirusem HIV zarazone jest 0.6% populacji swiata; ten wirus wywoluje AIDS. Chociaz pojedynczy wirus HIV jest bardzo maly, tak maly, ze zaden czlowiek nie móglby do dostrzec golym okiem, jest smiertelnie niebezpieczny i moze zabic.
 Ziarnko piasku
 Oczywiscie nie wszystkie ziarnka piasku maja te sama wielkosc. Bardzo sie od siebie róznia. Kolekcjonerzy ziaren piasku wiedza wiecej na ten temat. Czy wiesz, ze piasek z plaz Papakolea jest zielony? To ze wzgledu na obecnosc krysztalu w piasku. Niewazne.
 Czasteczka mulu
@@ -475,7 +475,7 @@ Albatros Wedrowny to ptak o najszerszej rozpietosci skrzydel! Prawie caly czas l
 Szerokosc wlosa ludzkiego
 Wlosy czlowieka sa niesamowite. Wlosy proste sa prawie idealnie walcowate, a krecone sa bardziej plaskie, co pozwala im skrecac sie jak wstazka. Czy wiesz, ze na glowie masz od 50 tys. do 200 tys. wlosów? Nie wierzysz, to sam policz!.
 Mrówki
-Pewnie nie przepadasz za mrówkami. To szkoda. Od 15-25%25 zwierzat ladowych to mrówki! Wow! To oznacza mnóstwo mrówek! Na kazda osobe na Ziemi przypada jeden mln mrówek!
+Pewnie nie przepadasz za mrówkami. To szkoda. Od 15-25% zwierzat ladowych to mrówki! Wow! To oznacza mnóstwo mrówek! Na kazda osobe na Ziemi przypada jeden mln mrówek!
 Przecietny dom w USA
 Domy w Ameryce sa coraz wieksze. W ciagu 40 lat przecietny dom powiekszyl sie dwukrotnie! W takim domu mozna byloby zmiescic 1000 ludzi! Ale tlok bylby niesamowity!
 Zyrafa
@@ -537,7 +537,7 @@ Blony komórkowe sa zbudowane z dwuwarstw fosfolipidów. Te dwuwarstwy tworza si
 Nasiona slonecznika
 Nasiona slonecznika sa przepyszne. Sa tak smaczne, ze mozna z nich upiec chleb! Nasiona slonecznika to nie sa prawdziwe nasiona, tylko owoce. A ich nazwa wziela sie z tego, ze przypominaja nasiona.
 Naskórek
-Najbardziej wierzchnia warstwe skóry, a takze jedyna widoczna warstwe skóry, tworza martwe komórki. A to dlatego, ze martwe komórki sa najmocniejsze i zapewniaja najlepsza ochrone! Te komórki ciagle sie luszcza. Dlatego tez kurz sklada sie z 95%25 z martwych komórek naskórka!
+Najbardziej wierzchnia warstwe skóry, a takze jedyna widoczna warstwe skóry, tworza martwe komórki. A to dlatego, ze martwe komórki sa najmocniejsze i zapewniaja najlepsza ochrone! Te komórki ciagle sie luszcza. Dlatego tez kurz sklada sie z 95% z martwych komórek naskórka!
 Ameba
 Ameby to organizmy jednokomórkowe. Niektóre z nich moga osiagac rozmiary 700 mikrometrów, czyli prawie caly centymetr.
 Bakteria E. coli
@@ -583,7 +583,7 @@ Elektrony sa tak male, nie mozna ich dokladnie zmierzyc, a ich rozmiar rózni si
 Nanorurki weglowe
 Nanorurki weglowe to obecnie najbardziej wytrzymaly odkryty material. Do tego bardzo lekki. W rezultacie nanorurki maja wiele potencjalnych zastosowan lacznie z budownictwem, solarami, bateriami, a nawet windami kosmicznymi.
 Helisa alfa
-Helisa alfa to jedna z dwóch struktur drugorzedowych bialka. Wiele bialek zawiera helisy alfa. Hemoglobina i mioglobina to bialka, w których strukturze przewazaja helisy alfa (70%25)!
+Helisa alfa to jedna z dwóch struktur drugorzedowych bialka. Wiele bialek zawiera helisy alfa. Hemoglobina i mioglobina to bialka, w których strukturze przewazaja helisy alfa (70%)!
 Wirus zóltaczki typu B
 Wielu ludzi zaraza sie wirusem zóltaczki typu B. Tak naprawde jedna trzecia populacji swiata jest zarazona tym wirusem. Wirus wywoluje wymioty, zapalenie watroby i moze grozic smiercia.
 Cirkowirus swin
