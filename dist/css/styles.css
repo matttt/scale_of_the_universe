@@ -27,6 +27,7 @@ dialog[open] {
 
 #startGrid {
   display: grid;
+  height: 60%;
   left: 10%;
   grid-template-columns: 50% 50%;
   grid-gap: 3%;
@@ -75,7 +76,8 @@ body {
   color: rgb(0, 0, 0);
   border-radius: 5px;
   font-size: 100%;
-  padding: 5%
+  padding: 30px;
+  height: 30%;
 }
 
 .nw {
@@ -241,17 +243,55 @@ body {
 
 
 
-
-    .wrap {
-      width: 100px;
-      height: 100px;
+    .speaker {
+      height: 30px;
+      width: 30px;
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+   }
+    .speaker span {
+      display: block;
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      margin: 11px 0 0 2px;
+   }
+    .speaker span:after {
+      content: '';
       position: absolute;
-      left: calc(100% - 75px);
-      top: 0px;
-      z-index: 5;
-      transform: scale(0.4);
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: transparent #fff transparent transparent;
+      border-width: 10px 14px 10px 15px;
+      left: -13px;
+      top: 5px;
+   }
+    .speaker span:before {
+      transform: rotate(45deg);
+      border-radius: 0 50px 0 0;
+      content: '';
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      border-style: double;
+      border-color: #fff;
+      border-width: 7px 7px 0 0;
+      left: 18px;
+      top: 9px;
+      transition: all 0.2s ease-out;
+   }
+    .speaker:hover span:before {
+      transform: scale(.8) translate(-3px,0) rotate(42deg);
+   }
+    .speaker.mute span:before {
+      transform: scale(.5) translate(-15px,0) rotate(36deg);
+      opacity: 0;
    }
 
+  
+    
    .lang {
     width: 20px;
       height: 20px;

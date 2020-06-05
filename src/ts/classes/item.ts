@@ -131,6 +131,10 @@ export class Item extends Entity {
     }
   }
 
+  setItemQuality(isHigh: boolean): void {
+    this.isHighQuality = isHigh;
+  }
+
   enableMotionBlur() {}
 
   async setScreenImage() {
@@ -182,8 +186,8 @@ export class Item extends Entity {
     if (!this.culled) {
       const scale = E(scaleExp) * this.coeff * this.realRatio;
 
-      this.text.alpha = map(scale, 0.1, 0.2, 0, 1);
-      this.text.visible = this.text.alpha !== 0;
+      // this.text.alpha = map(scale, 0.1, 0.2, 0, 1);
+      // this.text.visible = this.text.alpha !== 0;
 
       this.cull(scale, this.sizeData);
       this.container.scale = new PIXI.Point(scale, scale);

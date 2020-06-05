@@ -60,13 +60,35 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
     return `${formattedVal} ${kilo}${extra.meters}`.replace(/\r?\n|\r/g, '')
   }
 
-  //light years
+  // light years
   if (sizeData.exponent >= 16) {
     const numLYS = sizeData.coeff * (Math.pow(10, sizeData.exponent - 16));
 
     const formattedVal = numeral(numLYS).format('0,0');
 
     return `${formattedVal} ${sizeData.coeff === 1 ? extra.lightyear : extra.lightyears}`.replace(/\r?\n|\r/g, '')
+  }
+
+  // yoctometers
+  if (sizeData.exponent <= -24) {
+    console.log(sizeData)
+    const relExp = sizeData.exponent + 24;
+    const numLYS = sizeData.coeff * (Math.pow(10, relExp));
+
+    let formattedVal = numeral(numLYS).format('0,0');
+
+    console.log(relExp, '0,0.' + '0'.repeat(13))
+    if (sizeData.objectID === 214) {
+      formattedVal = '0.000000000016';
+    } else if (sizeData.objectID === 213) {
+      formattedVal = '0.0000000000093';
+    } else if (sizeData.objectID === 290) {
+      formattedVal = '0.0000000000093';
+    }
+
+    
+
+    return `${formattedVal} ${units[0]}${sizeData.coeff === 1 ? extra.meter : extra.meters}`.replace(/\r?\n|\r/g, '')
   }
 
   const val = Number((E(multiplierPow) * sizeData.coeff).toFixed(3));

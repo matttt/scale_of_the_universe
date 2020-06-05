@@ -123,8 +123,10 @@ function titleCarosel() {
 }
 
 const muteToggle:any = document.getElementById('muteToggle');
+let isMuted = false;
 muteToggle.onclick = function (ev) {
-  Howler.mute(muteToggle.checked)
+  isMuted = !isMuted;
+  Howler.mute(isMuted)
 }
 
 titleCarosel();
@@ -151,9 +153,11 @@ loader.add("lightBG", `${staticHostingURL}/light_background.png`);
 //   loader.add(i.toString(), url);
 // }
 
-loader.add("main1", `${staticHostingURL}/item_textures_0_v1.json`);
-loader.add("main2", `${staticHostingURL}/item_textures_1_v1.json`);
-loader.add("main3", `${staticHostingURL}/item_textures_2_v1.json`);
+for (let i = 0; i <= 5; i++) {
+  // console.log(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
+  loader.add(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
+  // loader.add(`main${i}`, `img/new_textures/new_items_${i}.json`);
+}
 
 loader.add("assetsLow", `${staticHostingURL}/quarter_items-0-main.json`);
 

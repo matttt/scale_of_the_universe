@@ -51,11 +51,11 @@ export function getGraphics (visualLocation, textDatum, extraText, units: string
 
     const friendly = powToUnit(sizeData, units, extraText)
     
-    const splitDescription = descriptionSplitter(textDatum.description);
+    const splitDescription = descriptionSplitter(textDatum.description).replace(/",/g, '');
     
     // DEBUG MODE: object id beside description title VVVV
-    // const titleText = new PIXI.Text(textDatum.title.replace(/\r?\n|\r/g, ' ') + sizeData.objectID, titleStyle);
-    const titleText = new PIXI.Text(textDatum.title.replace(/\r?\n|\r/g, ''), titleStyle);
+    const titleText = new PIXI.Text(textDatum.title.replace(/\r?\n|\r/g, ' ') + sizeData.objectID, titleStyle);
+    // const titleText = new PIXI.Text(textDatum.title.replace(/\r?\n|\r/g, ''), titleStyle);
     const scaleText = new PIXI.Text(`${sizeData.coeff} x 10`, scaleStyle);
     const exponentText = new PIXI.Text(`${sizeData.exponent}`, exponentStyle);
     const meterText = new PIXI.Text(textDatum.metersPlural, scaleStyle);
@@ -106,8 +106,14 @@ export function getGraphics (visualLocation, textDatum, extraText, units: string
     graphics.beginFill(0xFFFFFF, 1);
 
     
-    
-    graphics.drawRoundedRect(x, y, w, totalTextHeight, 15);
+    let widthToUse = w;
+
+    if (unitFriendlyText.width + 30 >= widthToUse) {
+
+      widthToUse = unitFriendlyText.width + 40
+    }
+
+    graphics.drawRoundedRect(x, y, widthToUse, totalTextHeight, 15);
     graphics.endFill();
     graphics.alpha = .9;
 

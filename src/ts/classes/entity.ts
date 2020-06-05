@@ -13,6 +13,7 @@ export class Entity {
   protected spriteMedium: PIXI.Sprite;
   public culled: boolean = false;
   public hiddenSprites: boolean = false;
+  public isHighQuality: boolean = true;
 
   public container: PIXI.Container;
 
@@ -49,6 +50,10 @@ export class Entity {
     return this.container;
   }
 
+  setItemQuality(isHigh: boolean) {
+    this.isHighQuality = isHigh;
+  }
+
   setZoom (globalZoomExp: number, deltaZoom: number) {
     const scale = E(this.scaleExp - globalZoomExp);
 
@@ -63,9 +68,9 @@ export class Entity {
   cull(scale: number, sizeData: any) {
     //E(3) => 10^3
     // basic culling :)
-    if (scale < .001 || scale > 8) {
+    if (scale < .001 || scale > 12) {
     // if (scale < (E(-6)) || scale > E(1)) {
-      this.container.visible = false;
+      this.container.visible = true;
       this.culled = true;
     } else {
       this.container.visible = true;

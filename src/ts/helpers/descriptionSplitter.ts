@@ -17,8 +17,8 @@ export function descriptionSplitter (desc: string) {
   const out = [];
 
   for (const word of words) { 
-    if (word.length > 20) {
-      chunkSubstr(word,20).forEach(x => out.push(x));
+    if (word.length > 13) {
+      chunkSubstr(word,13).forEach(x => out.push(x));
     } else out.push(word)
   }
 

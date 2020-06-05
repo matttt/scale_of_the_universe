@@ -89,6 +89,10 @@ export class Universe {
     // for (this.items) this.slider.createText();
   }
 
+  setQuality(isHigh: boolean) {
+    for (let item of this.items) item.setItemQuality(isHigh);
+  }
+
   unHideItems() {
     for (const item of this.items) {
       item.hideDescription();
@@ -187,7 +191,7 @@ export class Universe {
       await fetch("data/visualLocations.json")
     ).json();
 
-    // const visualLocations = (await request.get("/data/visualLocations.json").set("accept", "json")).body;
+    // const visualLocationslp = (await request.get("/data/visualLocations.json").set("accept", "json")).body;
     // const textData = (await request.get(`/data/languages/l${languageIndex}.txt`)).text.split('\n');
 
     let meterText = textData[596];
@@ -226,6 +230,8 @@ export class Universe {
       const padded = pad(idx + 1, 3);
       const texture = allFullTextures[padded + ""];
       const textureLow = textures.assetsLow.textures[padded + "_quarter"];
+
+      // console.log(texture.textureCacheIds, padded + "")
 
       if (idx >= 29) {
         textDatum.title = textData[(idx - 29) * 2];
@@ -288,7 +294,11 @@ export class Universe {
 
         textDatum.title = "";
 
-        const yoctoVal = getScaleText(sizeData.exponent + 24);
+        let yoctoVal = getScaleText(sizeData.exponent + 24);
+
+        if (yoctoVal === '1') {
+          yoctoVal = '10';
+        }
         textDatum.description =
           yoctoVal +
           " " +
@@ -297,7 +307,10 @@ export class Universe {
           " ";
 
         if (idx === 28) {
-          const femptoVal = getScaleText(sizeData.exponent + 15);
+          let femptoVal = getScaleText(sizeData.exponent + 15);
+          if (femptoVal === '1') {
+            femptoVal = '100';
+          }
           textDatum.description =
             femptoVal +
             " " +
