@@ -186,7 +186,7 @@ export class Ring extends Entity {
 
     this.text = new PIXI.Text(titleNoNewLine, textStyle);
     this.text.anchor.set(0.5, 0);
-    this.text.cacheAsBitmap = true;
+    this.text.cacheAsBitmap = false;
     
     exponentText.position.x = 0;
     exponentText.position.y = -225;
@@ -205,7 +205,7 @@ export class Ring extends Entity {
       descriptionStyle
     );
     this.descriptionText.anchor.set(0.5, 0);
-    this.descriptionText.cacheAsBitmap = true;
+    this.descriptionText.cacheAsBitmap = false;
 
     this.descriptionText.position.x = 0;
     this.descriptionText.position.y = 175;

@@ -240,7 +240,7 @@ export class Item extends Entity {
     this.text.position.x = this.visualLocation.titleX;
     this.text.position.y = this.visualLocation.titleY;
 
-    this.text.cacheAsBitmap = true;
+    this.text.cacheAsBitmap = false;
 
     // setTimeout(()=> {
     // }, 500)

@@ -291,6 +291,7 @@ export class Slider {
     this.interaction = true;
 
     Ticker.shared.start();
+    Ticker.shared.speed = 1;
   }
   setAnimationTargetPercent(targetPercent: number) {
     
@@ -374,7 +375,7 @@ export class Slider {
               const insideLeft = leftBound < adjX;
               const insideRight = adjX < rightBound;
         
-              let changed = Math.abs(dXScaled) > .001;
+              let changed = Math.abs(dXScaled) > .01;
               let newPosition = this.currentX;
                 
               if (insideLeft && insideRight && changed) {
@@ -408,6 +409,7 @@ export class Slider {
 
               } else  {
                 if (this.interaction) {
+                  ticker.speed = .1;
                   ticker.stop();
                 }
                 // ticker.speed = .01;

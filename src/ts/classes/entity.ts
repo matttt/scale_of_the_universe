@@ -32,7 +32,7 @@ export class Entity {
 
     sprite.anchor.set(0.5, 0.5);
     spriteLow.anchor.set(0.5, 0.5);
-    // sprite.cacheAsBitmap = true;
+    sprite.cacheAsBitmap = false;
 
     this.container.scale = new PIXI.Point(scale, scale);
 
@@ -74,7 +74,8 @@ export class Entity {
   cull(scale: number, sizeData: any) {
     //E(3) => 10^3
     // basic culling :)
-    if ((scale < .001 || scale > 12) && !this.cachePeriod) {
+    // if ((scale < .001 || scale > 12) && !this.cachePeriod) {
+    if (scale < .001 || scale > 12) {
     // if (scale < (E(-6)) || scale > E(1)) {
       this.container.visible = false;
       this.culled = true;

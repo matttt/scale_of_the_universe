@@ -1,4 +1,4 @@
-tx=Piksel LCD
+Piksel LCD
 Chociaz rozmiary pikseli róznia sie znacznie to 300 mikrometrów to mniej wiecej ich srednia. Piksel sklada sie z trzech podpikseli w kolorach: czerwonym, zielonym i niebieskim. Piksele sa calkiem fajne ale voksele sa jeszcze lepsze. To sa takie trójwymiarowe piksele.
 Palm Jebel Ali
 Palm Jebel Ali to najwieksza zbudowana przez czlowieka wyspa (nie biorac pod uwage takich wysp jak Flevopolder, gdzie osuszono pewien region Holandii, zeby zdobyc wiecej ziemi).  Palm Jebel Ali nie jest jeszcze ukonczona.  Jest czescia Palm Islands i ma pomiescic domy dla 250,000 osób!

@@ -38,6 +38,22 @@ body {
   box-shadow: 0 0 20px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.25);
 }
 
+#supportEmail {
+  left: 25px !important;
+  bottom: 40px !important;
+  position: absolute;
+  font-size: .8rem;
+  color: #4f4f4f;
+}
+
+#iosLink {
+  left: 25px !important;
+  bottom: 25px !important;
+  position: absolute;
+  font-size: .8rem;
+  color: #4f4f4f;
+}
+
 dialog {
   background-color: var(--bg);
   color: var(--text-color);

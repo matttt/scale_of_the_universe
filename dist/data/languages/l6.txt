@@ -1,4 +1,4 @@
-tx=LCD Pixel
+LCD Pixel
 Även om storleken av pixlar skiljer sig mycket är 300 mikrometer genomsnittsstorleken. En pixel innehåller tre subpixlar som är röda, gröna och blåa. Pixlar är ganska coola men voxlar är ännu häftigare. De är tredimensionella pixlar.
 Palm Jebel Ali
 Palm Jebel Ali är den största ö som människan tillverkat (då räknar vi inte med öar som Flevopolder, där en del av Nederländerna dränerades så det blev mer mark). Palm Jebel Ali är inte komplett. Det är en del av palmöarna och planeras för att inhysa 250 000 människor!
