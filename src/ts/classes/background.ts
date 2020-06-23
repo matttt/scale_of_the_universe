@@ -28,7 +28,7 @@ export class Background {
     this.lightContainer = background(size, lightSprite, 'cover', size);
     this.darkContainer = background(size, darkSprite, 'cover', size);
 
-    this.bgContainer.addChild(this.lightContainer, this.darkContainer);
+    // this.bgContainer.addChild(this.lightContainer, this.darkContainer);
 
     this.darkContainer.alpha = 0;
     this.lightContainer.alpha = 0.6;

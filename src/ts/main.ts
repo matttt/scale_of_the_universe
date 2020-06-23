@@ -16,6 +16,7 @@ import { Tweenable } from "shifty";
 import { Howl, Howler } from "howler";
 import { create } from "domain";
 
+import isMobile from 'ismobilejs';
 declare var ldBar: any;
 
 const titles = [
@@ -98,6 +99,13 @@ console.log(`
   Made with ♥️
 `)
 
+if(isMobile(window.navigator).any) {
+  alert('This version of Scale of the Universe 2 is not designed for phones or tablets. Please find the app on the iOS app store.')
+  document.write('Download the Scale of the Universe iOS app!')
+  document.getElementById('modal').style.opacity = '0';
+};
+
+
 
 let n = 0;
 const fadeOut = new Tweenable();
@@ -137,6 +145,8 @@ muteToggle.onclick = function (ev) {
   muteToggle.classList.toggle('mute')
   Howler.mute(isMuted)
 }
+
+
 
 
 
