@@ -6,6 +6,8 @@ import { getGraphics } from "../helpers/description";
 // import { MotionBlurFilter } from "@pixi/filter-motion-blur";
 import { ExtraText } from '../helpers/powToUnit';
 
+declare const sa_event: any;
+
 interface VisualLocation {
   boundX: number;
   boundY: number;
@@ -280,6 +282,8 @@ export class Item extends Entity {
     const here = this;
     function onButtonDown() {
       here.onClick(here);
+
+      sa_event('item_' + this.sizeData.objectID.toString())
       // alert(this.textDatum.description)
 
       // here.();
