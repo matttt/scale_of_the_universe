@@ -180,7 +180,7 @@ export class Universe {
     let percentFinal = 0;
     if (window.innerHeight < 750) { // 720p
       percentFinal = percent + 0.0065;
-    } else if (window.innerHeight < 1100) {// 1080p
+    } else {// 1080p
       percentFinal = percent + 0.004;
     }
 
