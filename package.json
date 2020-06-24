@@ -32,7 +32,7 @@
     "pixi-pause": "^1.0.3",
     "pixi.js-legacy": "^5.2.3",
     "readable-stream": "^3.5.0",
-    "shifty": "^2.8.3",
+    "shifty": "^2.9.1",
     "stats-js": "^1.0.0",
     "superagent": "^4.1.0",
     "typescript": "^3.7.5",

@@ -32,10 +32,21 @@
 
 
   <div id="frame" style="visibility: hidden;" class="frameStyle">
+    <a href="#" class="forward" id="autoForward">
+      <img src="img/backarrow.png" id="forwardImage" ></img>
+    </a>
+    <a href="#" class="backward" id="autoBackward" >
+      <img src="img/backarrow.png" id="backwardImage"></img>
+    </a>
     <div id="buttons">
       <a href=".">
         <img src="img/lang.svg" class="lang">
       </a>
+      <a href=".">
+        <a class="backarrow" href="https://www.htwins.net">Back</a>
+      </a>
+
+
       <div id="muteToggle">
         <a href="#" class="speaker">
             <span></span>
@@ -43,6 +54,11 @@
       </div>
       <div class="hd hd-click" id="hqToggle">HQ</div>
     </div>
+
+    
+    <div class="bgEarth fullBg" id="earthBgImage"></div>
+    <div class="bgSpace fullBg" id="spaceBgImage"></div>
+    <div id="sotu"></div>
   </div>
 
     <!-- <div class="wrap">
@@ -56,7 +72,7 @@
 
   <dialog class="my-modal" style="font-family: 'Roboto', sans-serif; height: 40%" id="modal" >
     <!-- <progress max="100" value="0"></progress> -->
-    <h1 id="title" style="position: absolute; top: 0%; max-width: 65%">Scale of the Universe</h1>
+    <h1 id="title" style="position: absolute; top: 0%; max-width: 65%; font: .05vh;">Scale of the Universe</h1>
     <h1 id="hoverTitle" style="position: absolute; top: 0%; display: none;" ></h1>
     
     <div class="wrapper" id="langWrapper">
@@ -80,6 +96,8 @@
       <button class="box r" onclick="setLang('r', 1)" onmouseover="setTitle(1)" onmouseout="revealTitle()">עברית</button>
       <button class="box s" onclick="setLang('s', 12)" onmouseover="setTitle(12)" onmouseout="revealTitle()">Esperanto</button>
       <button class="box t" onclick="setLang('t', 17)" onmouseover="setTitle(17)" onmouseout="revealTitle()">Eesti</button>
+      <a href="mailto:scaleoftheuniversedev@gmail.com" id="supportEmail2">Email Us</a>
+
     </div>
 
     <div id="startWrapper" style="display: none">

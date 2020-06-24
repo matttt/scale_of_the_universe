@@ -10,8 +10,12 @@ import { E } from "../helpers/e";
 import { Tweenable } from 'shifty';
 import { start } from "repl";
 import { animate } from '../helpers/variableAnimation'
+
 // import hotkeys from 'hotkeys-js';
 
+enum AutopilotDirection {
+  FORWARD, BACKWARD
+}
 
 const Stats = require( 'stats-js');
 
@@ -43,7 +47,6 @@ export class Slider {
   private targetX: number; 
   private currentX: number;
   private currentPercent: number;
-  private animating: boolean = false; 
   private interaction: boolean = false; 
   private mouseDown: boolean = false; 
   public topY: number;
@@ -51,6 +54,10 @@ export class Slider {
   private h: number;
   public handleW: number;
   private tweenable: Tweenable;
+
+  private autopilot = false;
+  private autopilotInterval: any;
+  private autopilotDir: AutopilotDirection = null;
 
   private startOffset: number = 0;
 
@@ -110,6 +117,7 @@ export class Slider {
     let background = this.backGround();
     let handle = this.handle();
 
+    this.container.removeChildren();
     this.container.addChild(background, handle)
 
     return this.container;
@@ -163,7 +171,89 @@ export class Slider {
     return graphics;
   }
 
+  forwardAutopilot() {
+    if (this.autopilotDir === AutopilotDirection.FORWARD) return this.terminateAutopilot()
+
+
+
+    const forward = document.getElementById('autoForward');
+    const forwardImg = document.getElementById('forwardImage');
+    const backwardImg = document.getElementById('backwardImage');
+
+
+
+    if (this.autopilotDir === AutopilotDirection.BACKWARD || !this.autopilotDir) {
+
+      this.autopilotInterval ? clearInterval(this.autopilotInterval) : '';
+
+      this.autopilotDir = AutopilotDirection.FORWARD;
+      this.autopilot = true
+
+      console.log('hi')
+
+      forwardImg.classList.add('sideSine');
+      backwardImg.classList.remove('sideSine');
+
+      this.autopilotInterval = setInterval(() => {
+        this.setPercent(this.currentPercent+.000005)
+      }, 5)
+    }
+  }
+
+  backwardAutopilot() {
+    if (this.autopilotDir === AutopilotDirection.BACKWARD) return this.terminateAutopilot()
+
+    const backward = document.getElementById('autoBackward');
+    const backwardImg = document.getElementById('backwardImage');
+    const forwardImg = document.getElementById('forwardImage');
+
+
+    if (this.autopilotDir === AutopilotDirection.FORWARD || !this.autopilotDir) {
+      
+      this.autopilotInterval ? clearInterval(this.autopilotInterval) : '';
+
+      this.autopilotDir = AutopilotDirection.BACKWARD
+      backwardImg.classList.add('sideSine');
+      forwardImg.classList.remove('sideSine');
+      this.autopilot = true
+
+      this.autopilotInterval = setInterval(() => {
+        this.setPercent(this.currentPercent-.000005)
+      }, 5)
+    }
+  }
+  public terminateAutopilot() {
+    const forward = document.getElementById('autoForward');
+    const backward = document.getElementById('autoBackward');
+    const forwardImg = document.getElementById('forwardImage');
+    const backwardImg = document.getElementById('backwardImage');
+
+
+    this.autopilotDir = null;
+    this.autopilot = false
+
+    forwardImg.classList.remove('sideSine');
+    backwardImg.classList.remove('sideSine');
+
+
+    if (this.autopilotInterval) {
+      clearInterval(this.autopilotInterval);
+      this.autopilotInterval = null;
+    }
+  }
+
   handle() {
+    const forward = document.getElementById('autoForward');
+
+    forward.addEventListener('click', event => {
+      this.forwardAutopilot();    
+    });
+    const backward = document.getElementById('autoBackward');
+
+    backward.addEventListener('click', event => {
+      this.backwardAutopilot();    
+    });
+
     var graphics = new Graphics();
     graphics.interactive = true;
     // set a fill and a line style again and draw a rectangle
@@ -267,6 +357,7 @@ export class Slider {
 
 
   setTarget(x: number) {
+    this.terminateAutopilot()
     if (x < 0) {
       x = 0;
     }
@@ -275,7 +366,7 @@ export class Slider {
 
   setTargetPercent(percent: number) {
     // HACK: changes constants to speed up the animations
-
+    this.terminateAutopilot()
     if (percent < 0) {
       percent = 0;
     }
@@ -294,11 +385,11 @@ export class Slider {
     Ticker.shared.speed = 1;
   }
   setAnimationTargetPercent(targetPercent: number) {
-    
+    this.terminateAutopilot()
     if (!this.tweenable.isPlaying()) {
-      this.animating = true;
       const deltaPercent = Math.abs(this.currentPercent - targetPercent);
-      const duration = Math.max(50000 * deltaPercent, 250)
+      const duration = Math.min(Math.max(50000 * deltaPercent, 250), 1000)
+
       this.tweenable.setConfig({
         from: { pos: this.currentPercent  },
         to: { pos: targetPercent },
@@ -306,8 +397,8 @@ export class Slider {
         duration,
         step: state => this.setPercent(state.pos)
       });
-  
-      this.tweenable.tween().then(() => this.animating = false);
+
+      this.tweenable.tween().then(() => {})
     }
     
   }
@@ -343,7 +434,7 @@ export class Slider {
     let ticker = Ticker.shared;
 
     ticker.add((deltaTime: number) => {
-      if (!this.animating) {
+      if (!this.tweenable.isPlaying()) {
               // stats.end()
               // stats.begin()
               // difference between current pos and targetX pos
@@ -406,11 +497,10 @@ export class Slider {
                 // ticker.start();
                 this.onChange(newPosition, percent);
                 // this.fpsTarget = 200
-
               } else  {
                 if (this.interaction) {
-                  ticker.speed = .1;
-                  ticker.stop();
+                  // ticker.speed = .1;
+                  // ticker.stop();
                 }
                 // ticker.speed = .01;
 

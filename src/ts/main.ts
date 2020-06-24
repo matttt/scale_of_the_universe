@@ -5,7 +5,6 @@ import 'pixi.js-legacy';
 import { Slider } from "./classes/slider";
 import { Universe } from "./classes/universe";
 import { ScaleText } from "./classes/scaleText";
-import { Background } from "./classes/background";
 
 import { pad } from "./helpers/pad";
 import { E } from "./helpers/e";
@@ -99,8 +98,8 @@ console.log(`
   Made with ♥️
 `)
 
-if(isMobile(window.navigator).any) {
-  alert('This version of Scale of the Universe 2 is not designed for phones or tablets. Please find the app on the iOS app store.')
+if(isMobile(window.navigator).phone) {
+  alert('This version of Scale of the Universe 2 is not designed for phones. Please find the app on the iOS app store.')
   document.write('Download the Scale of the Universe iOS app!')
   document.getElementById('modal').style.opacity = '0';
 };
@@ -154,6 +153,7 @@ titleCarosel();
 const titleCaroselInterval = setInterval(titleCarosel, 3000);
 
 const frame = document.getElementById("frame");
+const sotuFrame = document.getElementById("sotu");
 
 const langWrapper = document.getElementById("langWrapper");
 const startWrapper = document.getElementById("startWrapper");
@@ -163,8 +163,6 @@ const startWrapper = document.getElementById("startWrapper");
 
 const loader = new PIXI.Loader();
 
-loader.add("darkBG", `${staticHostingURL}/dark_background.png`);
-loader.add("lightBG", `${staticHostingURL}/light_background.png`);
 // for (let i = 0; i <= 9; i++) {
 //   const url = `img/items_sheet/item_textures-${i}.json`;
 //   loader.add(url);
@@ -203,14 +201,23 @@ loader.load(async (loader, resources) => {
     app = new PIXI.Application({
       width: frame.offsetWidth,
       height: frame.offsetHeight,
-      backgroundColor: 0xffffff,
+      // backgroundColor: 0xffffff,
       antialias: true,
+      transparent: true,
       // autoDensity: true,
       powerPreference: "high-performance",
-      resolution: globalResolution
+      resolution: globalResolution,
+      forceFXAA: true,
+      sharedTicker:true,
+      resizeTo: sotuFrame
     });
 
+
+
+    // app.view.style.zindex = '200'
+
   } catch (err) {
+    console.log(err)
     app = new PIXI.Application({
       width: frame.offsetWidth,
       height: frame.offsetHeight,
@@ -218,6 +225,7 @@ loader.load(async (loader, resources) => {
       antialias: true,
       // autoDensity: true,
       forceCanvas: true,
+      transparent: true,
       resolution: globalResolution
     });
 
@@ -232,24 +240,41 @@ loader.load(async (loader, resources) => {
   let universe = new Universe(0, slider, app);
   
   let scaleText = new ScaleText((w * 0.9) / globalResolution, (slider.topY - 40), "0");
+
+  window.addEventListener('resize', () => {
+      slider.init()
+  });
   
-  let background = new Background(w, h, loader);
 
   let buttons = document.getElementById('buttons');
 
   
-  
+  const spaceBg = document.getElementById('spaceBgImage')
+  const earthBg = document.getElementById('earthBgImage')
   function onChange(x: number, percent: number) {
     let scaleExp = percent * 62 - 35; //range of 10^-35 to 10^27
   
-    background.setColor(scaleExp);
     scaleText.setColor(scaleExp);
 
+    // .bgSpace {
+    //   background: rgb(11,13,35);
+    //   background: linear-gradient(0deg, rgba(11,13,35,1) 0%, rgba(15,18,52,1) 50%, rgba(11,13,35,1) 100%);
+    //   opacity: 0;
+    // }
+    
+    // .bgEarth {
+    //   background: rgb(229,229,229);
+    //   background: radial-gradient(circle, rgba(229,229,229,1) 0%, rgba(217,217,217,1) 50%, rgba(229,229,229,1) 100%);
+    // }
 
-      if(scaleExp > 5) {
-        let opacity = map(scaleExp, 5,7, 0.1, 100);
+      if(scaleExp > 5 && scaleExp < 7) {
+        let opacity = map(scaleExp, 5, 7, 0.1, 100);
+
+        let opacityNorm = opacity / 100;
   
         buttons.style.filter = `invert(${opacity}%)`;
+        spaceBg.style.opacity = `${opacityNorm}`;
+        // earthBg.style.opacity = `${1 - opacityNorm}`;
       } else {
         if (buttons.style.filter)
           delete buttons.style.filter;
@@ -293,7 +318,20 @@ loader.load(async (loader, resources) => {
       let isHQ = true;
       hqToggle.onclick = function (ev) {
         ev.preventDefault();
+
         isHQ = !isHQ;
+
+        if (!isHQ) {
+          loader.reset();
+          loader.add("assetsLow", `${staticHostingURL}/quarter_items-0-main.json`);
+        } else {
+          for (let i = 0; i <= 5; i++) {
+            // console.log(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
+            loader.add(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
+            // loader.add(`main${i}`, `img/new_textures/new_items_${i}.json`);
+          }
+        }
+
         hqToggle.classList.toggle('hd-click')
         universe.setQuality(isHQ)
       }
@@ -323,7 +361,6 @@ loader.load(async (loader, resources) => {
     // app.stage.addChild(maskGfx);
 
     app.stage.addChild(
-      background.bgContainer,
       universe.container,
       slider.container,
       scaleText.container,
@@ -332,7 +369,7 @@ loader.load(async (loader, resources) => {
 
     
 
-    frame.appendChild(app.view);
+    sotuFrame.appendChild(app.view);
 
     // langWrapper.style.visibility = "hidden";
 

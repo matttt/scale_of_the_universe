@@ -22,6 +22,32 @@ body {
   left: 0;
 }
 
+.bgSpace {
+  background: rgb(11,13,35);
+  background: linear-gradient(0deg, rgba(11,13,35,1) 0%, rgba(15,18,52,1) 50%, rgba(11,13,35,1) 100%);
+  opacity: 0;
+}
+
+.bgEarth {
+  background: rgb(229,229,229);
+  background: radial-gradient(circle, rgba(229,229,229,1) 0%, rgba(217,217,217,1) 50%, rgba(229,229,229,1) 100%);
+}
+
+.fullBg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+}
+
+#sotu {
+  width: 100vw;
+  height: 100vh;
+}
+
 #startBtn {
   /* text-align: center; */
   /* line-height: 100%; */
@@ -54,6 +80,16 @@ body {
   color: #4f4f4f;
 }
 
+.backarrow {
+  position: absolute;
+  font-family: 'roboto', sans-serif;
+  top: 15px;
+  left: 25px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
 dialog {
   background-color: var(--bg);
   color: var(--text-color);
@@ -62,9 +98,17 @@ dialog {
   padding: 2rem;
   border-radius: 6px;
   box-shadow: 0 0 40px rgba(0,0,0,0.1), 0 0 10px rgba(0,0,0,0.25);
-  width: 40vw !important;
+  width: 650px !important;
   top: 10vh;
-  min-height: 45vh !important;
+  height: 425px !important;
+}
+
+#supportEmail2 {
+  left: 25px !important;
+  bottom: 10px !important;
+  position: absolute;
+  font-size: .8rem;
+  color: #4f4f4f;
 }
 
 dialog[open] {
@@ -99,6 +143,59 @@ dialog .actions {
   justify-content: space-around;
 }
 
+.forward {
+  /* transform: rotate(180deg);  */
+  position: absolute;
+  z-index: 300px;
+  bottom: 50px;
+  right: 90px;
+  width: 50px;
+  height: 30px; 
+  opacity: .3;
+}
+
+@keyframes sineMove{
+
+	0%
+	{
+		margin-left: 0px;
+	}
+
+	100%
+	{
+		margin-left: 5px
+	}
+
+}
+
+.sideSine {
+  animation: sineMove 1.5s linear infinite;
+  animation-direction: alternate;
+}
+
+.backward {
+  transform: rotate(180deg); 
+  position: absolute;
+  z-index: 300px;
+  bottom: 50px;
+  right: 150px;
+  width: 50px;
+  height: 30px; 
+  opacity: .3;
+}
+#backwardImage {
+
+  width: 30px;
+  height: 30px; 
+
+}
+#forwardImage {
+
+  width: 30px;
+  height: 30px; 
+
+}
+
 @keyframes appear {
   from {
     opacity: 0;
@@ -130,6 +227,7 @@ body {
   grid-gap: 10px;
   color: #444;
   padding-top: 10%;
+  height: 80%
 }
 
 #startWrapper {
@@ -174,7 +272,6 @@ body {
   grid-row-start: 2;
   grid-row-end: 4;
   height: 20%
-
 }
 
 .box {
@@ -184,7 +281,8 @@ body {
   padding: 20px;
   font-size: 100%;
   box-shadow: 0 0 20px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.25);
-  border: 0px
+  border: 0px;
+  height: 100%;
 }
 
 

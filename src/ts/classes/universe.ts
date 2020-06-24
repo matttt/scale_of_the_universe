@@ -105,6 +105,8 @@ export class Universe {
       item.hideDescription();
       item.text.renderable = true
     }
+
+    this.slider.terminateAutopilot()
     // for (const otherItem of [...this.items, ...this.rings]) {
     //   // hide all other descriptions
     //   otherItem.container.alpha = 1;
@@ -185,6 +187,16 @@ export class Universe {
     this.slider.setAnimationTargetPercent(percentFinal);
     
   }
+
+  clearHighQualityTextures() {
+    for (const item of this.items) {
+      item.clearHighTexture();
+    }
+    for (const ring of this.rings) {
+      ring.clearHighTexture();
+    }
+  }
+
 
   async createItems(textures: any, textData: Array<string>) {
     let allFullTextures: any = {};

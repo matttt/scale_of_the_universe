@@ -1,7 +1,6 @@
-import 'pixi.js-legacy';
+import "pixi.js-legacy";
 import * as PIXI from "pixi.js-legacy";
-import {E} from "../helpers/e";
-
+import { E } from "../helpers/e";
 
 export class Entity {
   public scaleExp: number;
@@ -19,6 +18,8 @@ export class Entity {
 
   public container: PIXI.Container;
 
+  safetyPeriod: boolean = true;
+
   constructor(scaleExp: number, textures: PIXI.Texture[]) {
     this.scaleExp = scaleExp;
     this.texture = textures[0];
@@ -26,7 +27,9 @@ export class Entity {
 
     this.container = new PIXI.Container();
 
-    const scale = E(this.scaleExp)
+    setTimeout(() => (this.safetyPeriod = false), 5000);
+
+    const scale = E(this.scaleExp);
     const sprite = new PIXI.Sprite(this.texture);
     const spriteLow = new PIXI.Sprite(this.textureLow);
 
@@ -43,25 +46,26 @@ export class Entity {
     this.sprite.visible = true;
     this.spriteLow.visible = true;
 
-    
     this.container.addChild(this.spriteLow, this.sprite);
-    
-  } 
+  }
 
-  getContainer () {
+  getContainer() {
     return this.container;
   }
 
-
-  setZoom (globalZoomExp: number, deltaZoom: number) {
+  setZoom(globalZoomExp: number, deltaZoom: number) {
     const scale = E(this.scaleExp - globalZoomExp);
 
-    this.container.scale = new PIXI.Point(scale,scale)
+    this.container.scale = new PIXI.Point(scale, scale);
   }
 
   setQuality(qualityIndex: number) {
     this.sprite.visible = qualityIndex === 1;
     this.spriteLow.visible = qualityIndex === 0;
+  }
+
+  clearHighTexture() {
+    this.sprite.destroy({ baseTexture: true, texture: true });
   }
 
   setItemQuality(isHigh: boolean): void {
@@ -75,17 +79,27 @@ export class Entity {
     //E(3) => 10^3
     // basic culling :)
     // if ((scale < .001 || scale > 12) && !this.cachePeriod) {
-    if (scale < .001 || scale > 12) {
-    // if (scale < (E(-6)) || scale > E(1)) {
-      this.container.visible = false;
+    if (scale < 0.001 || scale > 12) {
+      // if (scale < (E(-6)) || scale > E(1)) {
+      this.container.renderable = false;
       this.culled = true;
+
+      // if (!this.safetyPeriod && this.sprite._destroyed) {
+      //   this.sprite.destroy();
+      //   this.spriteLow.destroy();
+      // }
     } else {
-      this.container.visible = true;
+      this.container.renderable = true;
       this.culled = false;
+
+      // if (!this.safetyPeriod) {
+      //   this.spriteLow = new PIXI.Sprite(this.textureLow);
+      //   this.sprite = new PIXI.Sprite(this.texture);
+      // }
     }
 
-    // low-res for distant objects. Hacked into cull :) 
-    if (scale < .075 || !this.isHighQuality) {
+    // low-res for distant objects. Hacked into cull :)
+    if (scale < 0.075 || !this.isHighQuality) {
       this.setQuality(0);
     } else {
       this.setQuality(1);
@@ -94,7 +108,6 @@ export class Entity {
     // if (this.videoStream && !this.culled) {
     //   this.videoStream.getTracks()[0].requestFrame()
     // }
-
 
     // if (this.hiddenSprites) {
     //   this.setQuality(4)
