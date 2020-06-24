@@ -283,7 +283,7 @@ export class Item extends Entity {
     function onButtonDown() {
       here.onClick(here);
 
-      sa_event('item_' + this.sizeData.objectID.toString())
+      sa_event('item_' + here.sizeData.objectID.toString())
       // alert(this.textDatum.description)
 
       // here.();
