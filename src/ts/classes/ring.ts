@@ -1,34 +1,18 @@
-import 'pixi.js-legacy';
-import * as PIXI from "pixi.js-legacy";
+import {
+  Text,
+  Container,
+  Point,
+  Texture
+} from "pixi.js-legacy";
 import { Entity } from "./entity";
 import { E } from "../helpers/e";
-// import { MotionBlurFilter } from "@pixi/filter-motion-blur";
 import { map } from "../helpers/map";
+import { 
+  VisualLocation,
+  SizeData,
+  textDatum
+} from '../interfaces';
 
-interface visualLocation {
-  boundX: number;
-  boundY: number;
-  boundW: number;
-  boundH: number;
-  titleX: number;
-  titleY: number;
-  titleScale: number;
-  titleWrap: boolean;
-  descriptionX: number;
-  descriptionY: number;
-}
-interface sizeData {
-  objectID: number;
-  exponent: number;
-  coeff: number;
-  cullFac: number;
-  realRatio: number;
-}
-
-interface textDatum {
-  title: string;
-  description: string;
-}
 
 function supFromDig (dig: string) {
   const num = Number(dig);
@@ -45,22 +29,22 @@ function numToSup (num: number) {
 export class Ring extends Entity {
   private coeff: number = 1;
   private realRatio: number = 1;
-  private visualLocation: visualLocation;
+  private visualLocation: VisualLocation;
   private textDatum: textDatum;
-  private text: PIXI.Text;
-  private descriptionText: PIXI.Text;
+  private text: Text;
+  private descriptionText: Text;
   private onClick: Function;
   private idx: number;
-  private sizeData: sizeData;
-  private textContainer: PIXI.Container;
-  private centerVec: PIXI.Point;
+  private sizeData: SizeData;
+  private textContainer: Container;
+  private centerVec: Point;
   private meterPlural: string;
 
   constructor(
     idx: number,
-    sizeData: sizeData,
-    textureLow: PIXI.Texture,
-    visualLocation: visualLocation,
+    sizeData: SizeData,
+    textureLow: Texture,
+    visualLocation: VisualLocation,
     textDatum: textDatum,
     metersText: string
   ) {
@@ -84,10 +68,10 @@ export class Ring extends Entity {
 
     var c = Math.sqrt(dX * dX + dY * dY);
 
-    this.centerVec = new PIXI.Point(dX / c, dY / c);
+    this.centerVec = new Point(dX / c, dY / c);
 
     const scale = E(this.scaleExp) * this.coeff * this.realRatio;
-    this.container.scale = new PIXI.Point(scale, scale);
+    this.container.scale = new Point(scale, scale);
 
     this.createText();
   }
@@ -113,7 +97,7 @@ export class Ring extends Entity {
       this.textContainer.visible = this.textContainer.alpha !== 0;
 
 
-      this.container.scale = new PIXI.Point(scale, scale);
+      this.container.scale = new Point(scale, scale);
     } else {
       const scaleExp = this.scaleExp - globalZoomExp;
 
@@ -162,12 +146,12 @@ export class Ring extends Entity {
     // const expText = this.sizeData.exponent;
     // const expTextFmtd = numToSup(expText);
 
-    const exponentText = new PIXI.Text(`10^${this.sizeData.exponent} ${this.meterPlural}`, expTextStyle);
+    const exponentText = new Text(`10^${this.sizeData.exponent} ${this.meterPlural}`, expTextStyle);
 
     
-    const expTextContainer = new PIXI.Container();
+    const expTextContainer = new Container();
 
-    this.text = new PIXI.Text(titleNoNewLine, textStyle);
+    this.text = new Text(titleNoNewLine, textStyle);
     this.text.anchor.set(0.5, 0);
     this.text.cacheAsBitmap = false;
     
@@ -183,7 +167,7 @@ export class Ring extends Entity {
     this.text.position.x = 0;
     this.text.position.y = -300;
 
-    this.descriptionText = new PIXI.Text(
+    this.descriptionText = new Text(
       this.textDatum.description,
       descriptionStyle
     );
@@ -193,7 +177,7 @@ export class Ring extends Entity {
     this.descriptionText.position.x = 0;
     this.descriptionText.position.y = 175;
 
-    this.textContainer = new PIXI.Container();
+    this.textContainer = new Container();
     this.textContainer.addChild(this.text, this.descriptionText, expTextContainer);
 
     this.container.addChild(this.textContainer);

@@ -1,15 +1,14 @@
-import 'pixi.js-legacy';
-import * as PIXI from "pixi.js-legacy";
-import {map} from '../helpers/map';
+import { Text, Container } from 'pixi.js-legacy';
+import { map } from '../helpers/map';
 
 export class ScaleText {
-  public textSpace:PIXI.Text;
-  public textGround:PIXI.Text;
-  public baseTextSpace:PIXI.Text;
-  public baseTextGround:PIXI.Text;
-  public containerSpace:PIXI.Container;
-  public containerGround:PIXI.Container;
-  public container:PIXI.Container;
+  public textSpace:Text;
+  public textGround:Text;
+  public baseTextSpace:Text;
+  public baseTextGround:Text;
+  public containerSpace:Container;
+  public containerGround:Container;
+  public container:Container;
 
   // flipped I know... in a big hurry
   private textColor = 0x000000;
@@ -17,9 +16,7 @@ export class ScaleText {
 
   constructor(x:number, y: number, text: string) {
 
-
-
-    this.baseTextGround = new PIXI.Text('10', {
+    this.baseTextGround = new Text('10', {
       fontFamily: "Arial",
       fontSize: 32,
       fill: this.textColor,
@@ -28,7 +25,7 @@ export class ScaleText {
     });
 
 
-     this.textGround = new PIXI.Text(text, {
+     this.textGround = new Text(text, {
       fontFamily: "Arial",
       fontSize: 14,
       fill: this.textColor,
@@ -36,7 +33,7 @@ export class ScaleText {
       align: "left",
     });
 
-    this.baseTextSpace = new PIXI.Text('10', {
+    this.baseTextSpace = new Text('10', {
       fontFamily: "Arial",
       fontSize: 32,
       fill: this.textColorSpace,
@@ -44,7 +41,7 @@ export class ScaleText {
       align: "center",
     });
 
-     this.textSpace = new PIXI.Text(text, {
+     this.textSpace = new Text(text, {
       fontFamily: "Arial",
       fontSize: 14,
       fill: this.textColorSpace,
@@ -52,14 +49,14 @@ export class ScaleText {
       align: "left",
     });
 
-    this.containerSpace = new PIXI.Container();
-    this.containerGround = new PIXI.Container();
+    this.containerSpace = new Container();
+    this.containerGround = new Container();
 
     this.containerSpace.addChild(this.baseTextSpace, this.textSpace)
     this.containerGround.addChild(this.baseTextGround, this.textGround)
 
 
-    this.container = new PIXI.Container();
+    this.container = new Container();
 
     this.container.addChild(this.containerGround, this.containerSpace);
     

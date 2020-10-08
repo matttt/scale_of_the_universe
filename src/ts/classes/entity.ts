@@ -1,39 +1,43 @@
-import "pixi.js-legacy";
-import * as PIXI from "pixi.js-legacy";
+import {
+  Sprite,
+  Container,
+  Texture,
+  Point 
+} from "pixi.js-legacy";
 import { E } from "../helpers/e";
 
 export class Entity {
   public scaleExp: number;
-  protected sprite: PIXI.Sprite;
-  protected video: PIXI.Sprite;
+  protected sprite: Sprite;
+  protected video: Sprite;
   public videoStream: any;
-  protected spriteLow: PIXI.Sprite;
-  protected spriteMedium: PIXI.Sprite;
+  protected spriteLow: Sprite;
+  protected spriteMedium: Sprite;
   public culled: boolean = false;
   public cachePeriod: boolean = true;
   public hiddenSprites: boolean = false;
   public isHighQuality: boolean = false;
   public objectID: number;
 
-  public container: PIXI.Container;
+  public container: Container;
 
   safetyPeriod: boolean = true;
 
-  constructor(scaleExp: number, objectID: number, textureLow: PIXI.Texture) {
+  constructor(scaleExp: number, objectID: number, textureLow: Texture) {
     this.scaleExp = scaleExp;
 
     this.objectID = objectID;
-    this.container = new PIXI.Container();
+    this.container = new Container();
 
     setTimeout(() => (this.safetyPeriod = false), 5000);
 
     const scale = E(this.scaleExp);
 
-    const spriteLow = new PIXI.Sprite(textureLow);
+    const spriteLow = new Sprite(textureLow);
 
     spriteLow.anchor.set(0.5, 0.5);
 
-    this.container.scale = new PIXI.Point(scale, scale);
+    this.container.scale = new Point(scale, scale);
 
     this.spriteLow = spriteLow;
 
@@ -44,8 +48,8 @@ export class Entity {
     this.container.addChild(this.spriteLow);
   }
 
-  createHighTexture(objID: Number, texture: PIXI.Texture) {
-    const sprite = new PIXI.Sprite(texture);
+  createHighTexture(objID: Number, texture: Texture) {
+    const sprite = new Sprite(texture);
     sprite.anchor.set(0.5, 0.5);
     this.sprite = sprite;
     this.sprite.visible = true;
@@ -62,7 +66,7 @@ export class Entity {
   setZoom(globalZoomExp: number, deltaZoom: number) {
     const scale = E(this.scaleExp - globalZoomExp);
 
-    this.container.scale = new PIXI.Point(scale, scale);
+    this.container.scale = new Point(scale, scale);
   }
 
   setQuality(qualityIndex: number) {

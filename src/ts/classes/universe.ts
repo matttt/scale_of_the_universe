@@ -1,3 +1,5 @@
+import { Application, Container }  from "pixi.js-legacy";
+const { KawaseBlurFilter } = require('pixi-filters');
 import { Item } from "./item";
 import { Ring } from "./ring";
 import { Entity } from "./entity";
@@ -6,14 +8,12 @@ import { pad } from "../helpers/pad";
 import { map } from "../helpers/map";
 import { getScaleText } from "../helpers/getScaleText";
 import { Slider } from "./slider";
-import * as PIXI from "pixi.js-legacy";
-const {KawaseBlurFilter } = require('pixi-filters');
 
 export class Universe {
   private slider: Slider;
-  public app: PIXI.Application;
-  public container: PIXI.Container;
-  public displayContainer: PIXI.Container;
+  public app: Application;
+  public container: Container;
+  public displayContainer: Container;
   public selectedItem: Item;
   private screenCap: String;
 
@@ -29,12 +29,12 @@ export class Universe {
   constructor(
     startingZoom: number,
     slider: Slider,
-    app: PIXI.Application
+    app: Application
   ) {
     this.currentZoomExp = startingZoom;
     this.prevZoom = startingZoom;
-    this.container = new PIXI.Container();
-    this.displayContainer = new PIXI.Container();
+    this.container = new Container();
+    this.displayContainer = new Container();
 
     setTimeout(() => {
       for (let e of [...this.items, ...this.rings]) {

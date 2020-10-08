@@ -1,4 +1,11 @@
-import * as PIXI from "pixi.js-legacy";
+import {
+  Sprite,
+  Text,
+  Container,
+  Texture,
+  Point, 
+  Polygon
+} from "pixi.js-legacy";
 import { Entity } from "./entity";
 import { E } from "../helpers/e";
 import { map } from "../helpers/map";
@@ -13,27 +20,27 @@ import {
 declare const sa_event: any;
 
 export class Item extends Entity {
-  public descriptionGraphics: PIXI.Container;
+  public descriptionGraphics: Container;
 
   public coeff: number = 1;
   public sizeData: SizeData;
   public realRatio: number = 1;
   public currentScale: number = 1;
   public visualLocation: VisualLocation;
-  public video: PIXI.Sprite;
+  public video: Sprite;
   public videoSrc: any;
   private textDatum: textDatum;
-  public text: PIXI.Text;
+  public text: Text;
   private onClick: Function;
-  private description: PIXI.Container;
+  private description: Container;
   private units: Array<string>;
   private extraText: ExtraText;
 
-  private centerVec: PIXI.Point;
+  private centerVec: Point;
 
   constructor(
     sizeData: SizeData,
-    textureLow: PIXI.Texture,
+    textureLow: Texture,
     visualLocation: VisualLocation,
     textDatum: textDatum,
     extraText: ExtraText,
@@ -58,12 +65,12 @@ export class Item extends Entity {
 
     var c = Math.sqrt(dX * dX + dY * dY);
 
-    this.centerVec = new PIXI.Point(dX / c, dY / c);
+    this.centerVec = new Point(dX / c, dY / c);
 
     this.onClick = onClick;
 
     const scale = E(this.scaleExp) * this.coeff * this.realRatio;
-    this.container.scale = new PIXI.Point(scale, scale);
+    this.container.scale = new Point(scale, scale);
 
     this.createClickableRegion();
     this.createText();
@@ -83,7 +90,7 @@ export class Item extends Entity {
 
     const s = this.visualLocation.descriptionScale;
     if (s) {
-      descriptionGfx.scale = new PIXI.Point(s, s);
+      descriptionGfx.scale = new Point(s, s);
     }
 
     this.container.addChild(descriptionGfx);
@@ -120,7 +127,7 @@ export class Item extends Entity {
       this.text.visible = this.text.alpha !== 0;
 
       this.cull(scale, this.sizeData);
-      this.container.scale = new PIXI.Point(scale, scale);
+      this.container.scale = new Point(scale, scale);
       this.currentScale = scale;
 
       // this.text.opacity = Math.min(0, scaleExp);
@@ -155,7 +162,7 @@ export class Item extends Entity {
       textStyle.fill = 0xdddddd;
     }
 
-    this.text = new PIXI.Text(this.textDatum.title, textStyle);
+    this.text = new Text(this.textDatum.title, textStyle);
     this.text.anchor.set(0.5, 0);
 
     this.text.position.x = this.visualLocation.titleX;
@@ -180,17 +187,17 @@ export class Item extends Entity {
     this.setSpriteEvents(this.sprite);
   }
 
-  setSpriteEvents(sprite: PIXI.Sprite) {
+  setSpriteEvents(sprite: Sprite) {
     const bX1 = this.visualLocation.boundX;
     const bY1 = this.visualLocation.boundY;
     const bX2 = bX1 + this.visualLocation.boundW;
     const bY2 = bY1 + this.visualLocation.boundH;
 
     const points = [
-      new PIXI.Point(bX1, bY1),
-      new PIXI.Point(bX2, bY1),
-      new PIXI.Point(bX2, bY2),
-      new PIXI.Point(bX1, bY2),
+      new Point(bX1, bY1),
+      new Point(bX2, bY1),
+      new Point(bX2, bY2),
+      new Point(bX1, bY2),
     ];
 
     const here = this;
@@ -200,7 +207,7 @@ export class Item extends Entity {
       // sa_event("item_" + here.sizeData.objectID.toString());
     }
 
-    sprite.hitArea = new PIXI.Polygon(points);
+    sprite.hitArea = new Polygon(points);
     sprite.buttonMode = true; //false makes mouse cursor not change when on item
     sprite.interactive = true;
     sprite.on("mousedown", onButtonDown).on("touchstart", onButtonDown);
