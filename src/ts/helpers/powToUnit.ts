@@ -1,14 +1,7 @@
 import {E} from './e'
 import { SizeData } from '../classes/item';
 import * as numeral from 'numeral';
-export interface ExtraText {
-  centimeter: string;
-  centimeters: string;
-  lightyear: string;
-  lightyears: string;
-  meter: string;
-  meters: string;
-}
+import { ExtraText } from '../interfaces';
 
 export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText) {
   const groupPow = sizeData.exponent / 3;
