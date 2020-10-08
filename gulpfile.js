@@ -12,9 +12,6 @@ const replace = require('gulp-replace');
 
 const shell = require('gulp-shell')
 
-
-
-
 const uglifyjs = require('uglify-es'); 
 const composer = require('gulp-uglify/composer');
 const minify = composer(uglifyjs, console);
@@ -85,7 +82,6 @@ function bundle() {
 gulp.task("default", gulp.parallel(["copy-html", "copy-data", "serve"], () =>{
   gulp.watch('src/index.html', gulp.parallel(['copy-html']))
   gulp.watch(paths.data, gulp.parallel(['copy-data']))
-  
   
   bundle()
 }));

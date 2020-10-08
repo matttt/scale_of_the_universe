@@ -17,6 +17,8 @@ import { create } from "domain";
 
 import isMobile from 'ismobilejs';
 declare var ldBar: any;
+let hasPickedLang = false;
+let allHighTextures;
 
 const titles = [
   'The Scale of the Universe 2',
@@ -80,6 +82,10 @@ const frozenStar = new Howl({
   volume: 0.5
 });
 
+let isHQ = true;
+let hasHQ = false;
+
+
 const fadeInApp = new Tweenable();
 fadeInApp.setConfig({
   from: { opacity: 0 },
@@ -104,7 +110,9 @@ if(isMobile(window.navigator).phone) {
   document.getElementById('modal').style.opacity = '0';
 };
 
+const modal: any = document.getElementById("modal");
 
+// modal.showModal();
 
 let n = 0;
 const fadeOut = new Tweenable();
@@ -158,42 +166,28 @@ const sotuFrame = document.getElementById("sotu");
 const langWrapper = document.getElementById("langWrapper");
 const startWrapper = document.getElementById("startWrapper");
 
-// PIXI.WebGLRenderer.batchSize = 100
-// PIXI.WebGLRenderer.batchMode = PIXI.WebGLRenderer.BATCH_SIMPLE;
-
 const loader = new PIXI.Loader();
 
-// for (let i = 0; i <= 9; i++) {
-//   const url = `img/items_sheet/item_textures-${i}.json`;
-//   loader.add(url);
-// }
-// for (let i = 1; i <= 327; i++) {
-//   const url = `img/items_imgs/${pad(i, 3)}.png`;
-//   loader.add(i.toString(), url);
-// }
 
-for (let i = 0; i <= 5; i++) {
-  // console.log(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
-  loader.add(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
-  // loader.add(`main${i}`, `img/new_textures/new_items_${i}.json`);
-}
 
 loader.add("assetsLow", `${staticHostingURL}/quarter_items-0-main.json`);
 
 
 
 // loader.add('assets1', '/img/new/item_textures_0_quarter.json')
-const modal: any = document.getElementById("modal");
 dialogPolyfill.registerDialog(modal);
 
 const globalResolution = 1;
 
+
+const loadingSpin:any = document.getElementById("loadingSpin");
+
 loader.load(async (loader, resources) => {
   // document.getElementById('loadingBar').style.visibility = 'hidden';
-  const loadingSpin:any = document.getElementById("loadingSpin");
+  loadingSpin.visibility = 'hidden';
   loadingSpin.remove();
 
-  modal.showModal();
+  langWrapper.style.visibility = 'visible';
 
   let app
 
@@ -241,9 +235,30 @@ loader.load(async (loader, resources) => {
   
   let scaleText = new ScaleText((w * 0.9) / globalResolution, (slider.topY - 40), "0");
 
-  window.addEventListener('resize', () => {
-      slider.init()
-  });
+  const highLoader = new PIXI.Loader();
+
+  const highJSONCount = 5;
+  for (let i = 0; i <= highJSONCount; i++) {
+    highLoader.add(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
+  }
+
+  highLoader.load(async (highLoader, highResources) => {
+    const hqToggle:any = document.querySelector('#hqToggle');
+   
+    isHQ = true
+    hasHQ = true;
+    allHighTextures = {}
+    for (let key of Object.keys(highResources)) {
+
+      if (!key.includes('_image'))
+        allHighTextures = { ...allHighTextures, ...highResources[key].textures };
+    
+    }
+    hqToggle.classList.add('hd-click')
+    if (hasPickedLang) {
+      universe.hydrateHighTextures(allHighTextures);
+    }
+  })
   
 
   let buttons = document.getElementById('buttons');
@@ -256,43 +271,18 @@ loader.load(async (loader, resources) => {
   
     scaleText.setColor(scaleExp);
 
-    // .bgSpace {
-    //   background: rgb(11,13,35);
-    //   background: linear-gradient(0deg, rgba(11,13,35,1) 0%, rgba(15,18,52,1) 50%, rgba(11,13,35,1) 100%);
-    //   opacity: 0;
-    // }
-    
-    // .bgEarth {
-    //   background: rgb(229,229,229);
-    //   background: radial-gradient(circle, rgba(229,229,229,1) 0%, rgba(217,217,217,1) 50%, rgba(229,229,229,1) 100%);
-    // }
+    if(scaleExp > 5 && scaleExp < 7) {
+      let opacity = map(scaleExp, 5, 7, 0.1, 100);
 
-      if(scaleExp > 5 && scaleExp < 7) {
-        let opacity = map(scaleExp, 5, 7, 0.1, 100);
+      let opacityNorm = opacity / 100;
 
-        let opacityNorm = opacity / 100;
-  
-        buttons.style.filter = `invert(${opacity}%)`;
-        spaceBg.style.opacity = `${opacityNorm}`;
-        // earthBg.style.opacity = `${1 - opacityNorm}`;
-      } else {
-        if (buttons.style.filter)
-          delete buttons.style.filter;
-      }
-  
-      
-
-
-    // for (const item of universe.items) {
-    //   if (item.videoSrc) {
-    //       const scale = (scaleExp+1)*10
-    //       const bounded = 16 - Math.max(Math.min(scale, 16), 0)
-    //       // console.log(bounded)
-    //       item.videoSrc.update({position: bounded});
-          
-        
-    //   }
-    // }
+      buttons.style.filter = `invert(${opacity}%)`;
+      spaceBg.style.opacity = `${opacityNorm}`;
+      // earthBg.style.opacity = `${1 - opacityNorm}`;
+    } else {
+      if (buttons.style.filter)
+        delete buttons.style.filter;
+    }
 
   
     universe.update(scaleExp);
@@ -304,37 +294,34 @@ loader.load(async (loader, resources) => {
     universe.onHandleClicked();
   } 
 
-  
-
-
-  // await universe.createItems(resources, Number(prompt('Enter language index (0-16)')))
-
   window["setLang"] = async (btnClass, langIdx) => {
     const textData = (
       await (await fetch(`data/languages/l${langIdx}.txt`)).text()
     ).split("\n");
 
     const hqToggle:any = document.querySelector('#hqToggle');
-      let isHQ = true;
+
       hqToggle.onclick = function (ev) {
         ev.preventDefault();
 
         isHQ = !isHQ;
 
         if (!isHQ) {
-          loader.reset();
-          loader.add("assetsLow", `${staticHostingURL}/quarter_items-0-main.json`);
+          highLoader.reset();
+          universe.clearHighQualityTextures()
+        hqToggle.classList.remove('hd-click')
+
         } else {
+        hqToggle.classList.add('hd-click')
+
           for (let i = 0; i <= 5; i++) {
-            // console.log(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
-            loader.add(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
-            // loader.add(`main${i}`, `img/new_textures/new_items_${i}.json`);
+            highLoader.add(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
           }
         }
 
-        hqToggle.classList.toggle('hd-click')
         universe.setQuality(isHQ)
       }
+
     const btns:any = document.querySelectorAll('button.box');
 
     for (const button of btns) {
@@ -346,19 +333,11 @@ loader.load(async (loader, resources) => {
 
 
 
-    langWrapper.style.display = 'none';
     startWrapper.style.display = 'block';
 
 
     // start us at scale 0
     slider.setPercent(map(0.1, -35, 27, 0, 1));
-    // let maskGfx = new PIXI.Graphics();
-
-    // maskGfx.beginFill(0xffffff)
-    // maskGfx.drawRoundedRect(0, 0, w / 2, h, 50);
-    // app.stage.mask = maskGfx;
-
-    // app.stage.addChild(maskGfx);
 
     app.stage.addChild(
       universe.container,
@@ -367,12 +346,10 @@ loader.load(async (loader, resources) => {
       universe.displayContainer
     );
 
-    
-
     sotuFrame.appendChild(app.view);
 
-    // langWrapper.style.visibility = "hidden";
-
+    langWrapper.style.visibility = "hidden";
+    langWrapper.remove()
 
     clearInterval(titleCaroselInterval);
     clearTimeout(titleCaroselTimeout);
@@ -395,27 +372,22 @@ loader.load(async (loader, resources) => {
     document.getElementById('clickObjectText').innerHTML = textData[621]
     // document.getElementById('startTitle').innerHtml = textData[619]
 
-
     await universe.createItems(resources, textData);
 
     slider.setPercent(map(0, -35, 27, 0, 1));
     universe.prevZoom = 0;
 
-    
-    document.onkeydown = e => {
-      if (e.key === 'r') {
-        app.renderer.resolution = 1
-      }
+    hasPickedLang = true;
+    if (hasHQ) {
+      universe.hydrateHighTextures(allHighTextures);
     }
-    
+
     window["startSOTU"] = () => {
       
       modal.close();
       frame.style.visibility = "visible";
       
-
       fadeInApp.tween().then();
-
 
       frozenStar.play();
     }

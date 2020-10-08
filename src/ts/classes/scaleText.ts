@@ -17,14 +17,6 @@ export class ScaleText {
 
   constructor(x:number, y: number, text: string) {
 
-    
-    let shadow = {
-      // dropShadowAlpha: 2, 
-      // dropShadow: true,
-      // dropShadowColor: 'white',
-      // dropShadowBlur: 2,
-      // dropShadowDistance: 1
-    }
 
 
     this.baseTextGround = new PIXI.Text('10', {
@@ -33,7 +25,6 @@ export class ScaleText {
       fill: this.textColor,
       stroke: this.textColor,
       align: "center",
-      ...shadow
     });
 
 
@@ -43,7 +34,6 @@ export class ScaleText {
       fill: this.textColor,
       stroke: this.textColor,
       align: "left",
-      ...shadow
     });
 
     this.baseTextSpace = new PIXI.Text('10', {
@@ -52,9 +42,7 @@ export class ScaleText {
       fill: this.textColorSpace,
       stroke: this.textColorSpace,
       align: "center",
-      ...shadow
     });
-
 
      this.textSpace = new PIXI.Text(text, {
       fontFamily: "Arial",
@@ -62,7 +50,6 @@ export class ScaleText {
       fill: this.textColorSpace,
       stroke: this.textColorSpace,
       align: "left",
-      ...shadow
     });
 
     this.containerSpace = new PIXI.Container();

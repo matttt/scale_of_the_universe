@@ -1,7 +1,6 @@
 import {E} from './e'
-import { SizeData } from '../classes/item';
 import * as numeral from 'numeral';
-import { ExtraText } from '../interfaces';
+import { ExtraText, SizeData } from '../interfaces';
 
 export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText) {
   const groupPow = sizeData.exponent / 3;
@@ -70,7 +69,6 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
 
     let formattedVal = numeral(numLYS).format('0,0');
 
-    console.log(relExp, '0,0.' + '0'.repeat(13))
     if (sizeData.objectID === 214) {
       formattedVal = '0.000000000016';
     } else if (sizeData.objectID === 213) {
@@ -92,33 +90,3 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
 
   return output
 }
-
-// const units = [
-//   'yocto',
-//   'zepto',
-//   'atto',
-//   'femto',
-//   'pico',
-//   'nano',
-//   'micro',
-//   'milli',
-//   '',
-//   'kilo',
-//   'mega',
-//   'giga',
-//   'tera',
-//   'peta',
-//   'exa',
-//   'zetta',
-//   'yotta'
-// ]
-
-
-// const tests = [
-//   {expect: 'blank', actual: powToUnit(1, units)}, 
-//   {expect: 'kilo', actual: powToUnit(3, units)}, 
-//   {expect: 'milli', actual: powToUnit(-3, units)}, 
-// ]
-
-// for (const t of tests)
-//   console.log(`expect: ${t.expect} actual ${t.actual}`)

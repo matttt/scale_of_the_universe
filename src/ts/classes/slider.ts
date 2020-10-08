@@ -28,8 +28,8 @@ const SCROLL_SPEED = -1.5;
 let MAX_SCROLL_SPEED = 3; // TODO: FIX: this is modified in runtime to speed up the onclick animation
 let EASING_CONSTANT = 0.005;
 
-var stats = new Stats();
-stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
+// var stats = new Stats();
+// stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
 // document.body.appendChild(stats.dom);
 
 
@@ -131,8 +131,6 @@ export class Slider {
     graphics.lineStyle(2, 0xaaaaaa, 0);
     graphics.beginFill(0xffffff, 1);
 
-    // graphics.drawRect(0, this.h*.9, this.w, this.h*.1);
-
 
     // set a fill and a line style again and draw a rectangle
     graphics.lineStyle(2, 0xaaaaaa, 1);
@@ -148,20 +146,13 @@ export class Slider {
 
     graphics.drawRoundedRect(x, y, w, h, h / 2);
 
-    //ad 
-    graphics.beginFill(0xFFFFFF);
 
-    graphics.drawRect((this.w/2) - (728 / 2), y + (this.h * HEIGHT_PERCENT) + 5, 728, 90);
-
-    graphics.endFill();
-    
     const widthPixels = this.w;
     const handleWidthPixels = this.w * HANDLE_WIDTH_PERCENT;
     
     const scaleWidthPixels = widthPixels - handleWidthPixels / 2;
     
     graphics.lineStyle(3, 0x00ff00, 1);
-    // graphics.drawRect(x, y, w, h);
     
     // blue rectangle
     graphics.lineStyle(3, 0x0000ff, 1);
@@ -373,8 +364,6 @@ export class Slider {
 
     MAX_SCROLL_SPEED = 9;
     EASING_CONSTANT = 0.1;
-
-    
   }
 
  
@@ -520,42 +509,9 @@ export class Slider {
     });
 
 
-    // const getFps = () => this.fpsTarget;
-
-    // // animate(getFps, () => {
-    // //   ticker.update()
-    // //   console.log('tick')
-    // // })
-    // let then = Date.now();
-    // const animate = () => {
-    //   let fpsInterval = 1000 / this.fpsTarget;
-    
-    // // request another frame
   
-    //   requestAnimationFrame(() => animate());
-  
-    //   // calc elapsed time since last loop
-  
-    //   const now = Date.now();
-    //   let elapsed = now - then;
-  
-    //   // if enough time has elapsed, draw the next frame
-  
-    //   if (elapsed > fpsInterval) {
-  
-    //     // Get ready for next frame by setting then=now, but...
-    //     // Also, adjust for fpsInterval not being multiple of 16.67
-    //     then = now - (elapsed % fpsInterval);
-    
-    //     // draw stuff here
-    //     ticker.update()
-    //   }
-
   }
 
-  // animate()
-
-    // ticker.update(time);
 
 }
 

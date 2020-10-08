@@ -4,8 +4,6 @@ import { E } from "../helpers/e";
 
 export class Entity {
   public scaleExp: number;
-  protected texture: PIXI.Texture;
-  protected textureLow: PIXI.Texture;
   protected sprite: PIXI.Sprite;
   protected video: PIXI.Sprite;
   public videoStream: any;
@@ -14,39 +12,47 @@ export class Entity {
   public culled: boolean = false;
   public cachePeriod: boolean = true;
   public hiddenSprites: boolean = false;
-  public isHighQuality: boolean = true;
+  public isHighQuality: boolean = false;
+  public objectID: number;
 
   public container: PIXI.Container;
 
   safetyPeriod: boolean = true;
 
-  constructor(scaleExp: number, textures: PIXI.Texture[]) {
+  constructor(scaleExp: number, objectID: number, textureLow: PIXI.Texture) {
     this.scaleExp = scaleExp;
-    this.texture = textures[0];
-    this.textureLow = textures[1];
 
+    this.objectID = objectID;
     this.container = new PIXI.Container();
 
     setTimeout(() => (this.safetyPeriod = false), 5000);
 
     const scale = E(this.scaleExp);
-    const sprite = new PIXI.Sprite(this.texture);
-    const spriteLow = new PIXI.Sprite(this.textureLow);
 
-    sprite.anchor.set(0.5, 0.5);
+    const spriteLow = new PIXI.Sprite(textureLow);
+
     spriteLow.anchor.set(0.5, 0.5);
-    sprite.cacheAsBitmap = false;
 
     this.container.scale = new PIXI.Point(scale, scale);
 
-    this.sprite = sprite;
     this.spriteLow = spriteLow;
 
     // default visibility
-    this.sprite.visible = true;
+
     this.spriteLow.visible = true;
 
-    this.container.addChild(this.spriteLow, this.sprite);
+    this.container.addChild(this.spriteLow);
+  }
+
+  createHighTexture(objID: Number, texture: PIXI.Texture) {
+    const sprite = new PIXI.Sprite(texture);
+    sprite.anchor.set(0.5, 0.5);
+    this.sprite = sprite;
+    this.sprite.visible = true;
+    this.container.addChild(this.sprite);
+
+    this.setItemQuality(true)
+    this.setQuality(1)
   }
 
   getContainer() {
@@ -60,18 +66,24 @@ export class Entity {
   }
 
   setQuality(qualityIndex: number) {
-    this.sprite.visible = qualityIndex === 1;
-    this.spriteLow.visible = qualityIndex === 0;
+
+      this.sprite ? this.sprite.visible = qualityIndex === 1 : 'bloopdy bloo';
+      this.spriteLow.visible = qualityIndex === 0;
+
   }
 
   clearHighTexture() {
-    this.sprite.destroy({ baseTexture: true, texture: true });
+    // this.sprite ? this.sprite.destroy() : 'boop';
+    // this.sprite = null
+    this.setItemQuality(false);
+    this.setQuality(0)
   }
 
-  setItemQuality(isHigh: boolean): void {
+  public setItemQuality(isHigh: boolean): void {
     this.isHighQuality = isHigh;
 
-    this.sprite.visible = this.isHighQuality;
+    if (this.sprite)
+      this.sprite.visible = this.isHighQuality ;
     this.spriteLow.visible = !this.isHighQuality;
   }
 
@@ -83,19 +95,9 @@ export class Entity {
       // if (scale < (E(-6)) || scale > E(1)) {
       this.container.renderable = false;
       this.culled = true;
-
-      // if (!this.safetyPeriod && this.sprite._destroyed) {
-      //   this.sprite.destroy();
-      //   this.spriteLow.destroy();
-      // }
     } else {
       this.container.renderable = true;
       this.culled = false;
-
-      // if (!this.safetyPeriod) {
-      //   this.spriteLow = new PIXI.Sprite(this.textureLow);
-      //   this.sprite = new PIXI.Sprite(this.texture);
-      // }
     }
 
     // low-res for distant objects. Hacked into cull :)
@@ -105,12 +107,5 @@ export class Entity {
       this.setQuality(1);
     }
 
-    // if (this.videoStream && !this.culled) {
-    //   this.videoStream.getTracks()[0].requestFrame()
-    // }
-
-    // if (this.hiddenSprites) {
-    //   this.setQuality(4)
-    // }
   }
 }

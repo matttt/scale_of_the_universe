@@ -7,7 +7,6 @@
       "target": "es2015",
       "sourceMap": true,
       "baseUrl": ".",
-      "rootDir": "src",
-      "entryPoint": "src/ts/main.ts"
+      "rootDir": "src"  
   }
 }

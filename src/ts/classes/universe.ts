@@ -6,10 +6,8 @@ import { pad } from "../helpers/pad";
 import { map } from "../helpers/map";
 import { getScaleText } from "../helpers/getScaleText";
 import { Slider } from "./slider";
-import 'pixi.js-legacy';
 import * as PIXI from "pixi.js-legacy";
 const {KawaseBlurFilter } = require('pixi-filters');
-// import * as sizes from '../../data/sizes.json';
 
 export class Universe {
   private slider: Slider;
@@ -96,6 +94,26 @@ export class Universe {
     // for (this.items) this.slider.createText();
   }
 
+  public hydrateHighTextures (textures: any) {
+    const is = this.items;
+    const rs = this.rings;
+    const es = [...is, ...rs] as Entity[];
+
+    for (let e of es) {
+      const padded = pad(e.objectID, 3)
+      const texture = textures[padded + ""];
+
+
+      e.createHighTexture(e.objectID, texture);
+      e.setItemQuality(true);
+      e.setQuality(1);
+
+      if (e instanceof Item) {
+        e.setHighSpriteEvents();
+      }
+    }
+  }
+
   setQuality(isHigh: boolean) {
     for (let e of [...this.items, ...this.rings]) e.setItemQuality(isHigh);
   }
@@ -107,10 +125,6 @@ export class Universe {
     }
 
     this.slider.terminateAutopilot()
-    // for (const otherItem of [...this.items, ...this.rings]) {
-    //   // hide all other descriptions
-    //   otherItem.container.alpha = 1;
-    // }
 
     this.container.filters = null;
 
@@ -139,12 +153,13 @@ export class Universe {
 
         this.container.addChild(this.selectedItem.getContainer());  
       }
-      
 
       item.showDescription();
+
       if (item.sizeData.objectID !== 163) {
         item.text.renderable = false
       }
+
       this.displayContainer.addChild(item.getContainer());
 
       this.selectedItem = item;
@@ -188,7 +203,7 @@ export class Universe {
     
   }
 
-  clearHighQualityTextures() {
+  public clearHighQualityTextures() {
     for (const item of this.items) {
       item.clearHighTexture();
     }
@@ -198,24 +213,13 @@ export class Universe {
   }
 
 
-  async createItems(textures: any, textData: Array<string>) {
-    let allFullTextures: any = {};
-    for (let key of Object.keys(textures)) {
-      if (key.includes("main")) {
-        allFullTextures = { ...allFullTextures, ...textures[key].textures };
-      }
-    }
+  async createItems(lowTextures: any, textData: Array<string>) {
 
     const itemSizes = await (await fetch("data/sizes.json")).json();
-    const visualLocations = await (
-      await fetch("data/visualLocations.json")
-    ).json();
+    const visualLocations = await (await fetch("data/visualLocations.json")).json();
 
-    // const visualLocationslp = (await request.get("/data/visualLocations.json").set("accept", "json")).body;
-    // const textData = (await request.get(`/data/languages/l${languageIndex}.txt`)).text.split('\n');
-
-    let meterText = textData[596];
-    let meterPluralText = textData[597];
+    const meterText = textData[596];
+    const meterPluralText = textData[597];
 
     const extraText = {
       centimeter: textData[598],
@@ -226,10 +230,10 @@ export class Universe {
       meters: meterPluralText
     }
 
-    let units = textData.slice(602,618).map(x => x.replace(/\r?\n|\r/g, ''))
+    const units = textData.slice(602,618).map(x => x.replace(/\r?\n|\r/g, ''))
 
 
-    let onClick = (item: Item) => {
+    const onClick = (item: Item) => {
       this.itemClicked(item);
     };
 
@@ -237,53 +241,50 @@ export class Universe {
 
     for (let idx = 0; idx < itemSizes.length; idx++) {
 
-      let textDatum = {
+      const textDatum = {
         title: "",
         description: "",
         metersPlural: meterPluralText,
         meterSingular: meterText
       };
 
-      let sizeData = itemSizes[idx];
-      let visualLocation = visualLocations[idx];
+      const sizeData = itemSizes[idx];
+      const visualLocation = visualLocations[idx];
 
       const padded = pad(idx + 1, 3);
-      const texture = allFullTextures[padded + ""];
-      const textureLow = textures.assetsLow.textures[padded + "_quarter"];
+      const textureLow = lowTextures.assetsLow.textures[padded + "_quarter"];
 
-      // console.log(texture.textureCacheIds, padded + "")
-
+      // items above 29 are all normal items
       if (idx >= 29) {
         textDatum.title = textData[(idx - 29) * 2];
         textDatum.description = textData[(idx - 29) * 2 + 1];
 
-        
-
-        let item = new Item(
+        const item = new Item(
           sizeData,
-          [texture, textureLow],
+          textureLow,
           visualLocation,
           textDatum,
           extraText,
           units,
-          onClick,
-          this.app
+          onClick
         );
 
 
         this.items.push(item);
         this.container.addChild(item.getContainer());
       } else if (idx < 17) {
+        // below 17 are rings 17
+        
         let prefix = textData[idx + 602] || "";
         idx !== 16 ? prefix = prefix.substring(0, prefix.length - 1) : ''; //remove new line
 
         textDatum.title = "1 " + prefix + meterText;
         textDatum.description = getScaleText(sizeData.exponent) + " m";
 
-        let ring = new Ring(
+        const ring = new Ring(
           idx,
           sizeData,
-          [texture, textureLow],
+          textureLow,
           visualLocation,
           textDatum,
           meterPluralText
@@ -338,12 +339,10 @@ export class Universe {
             textData[597];
         }
 
-     
-
-        let ring = new Ring(
+        const ring = new Ring(
           idx,
           sizeData,
-          [texture, textureLow],
+          textureLow,
           visualLocation,
           textDatum,
           meterPluralText

@@ -123,7 +123,6 @@ export function getGraphics (visualLocation, textDatum, extraText, units: string
     descriptionContainer.y -= h/2;
     
     descriptionContainer.addChild(graphics);
-    // descriptionContainer.addChild(titleText, descriptionText);
     descriptionContainer.addChild(titleText, 
                                   descriptionText, 
                                   scaleText, 
@@ -131,6 +130,5 @@ export function getGraphics (visualLocation, textDatum, extraText, units: string
                                   meterText, 
                                   unitFriendlyText);
 
-    // return descriptionContainer;
     return descriptionContainer;
 }

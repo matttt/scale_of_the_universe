@@ -59,12 +59,12 @@ export class Ring extends Entity {
   constructor(
     idx: number,
     sizeData: sizeData,
-    textures: PIXI.Texture[],
+    textureLow: PIXI.Texture,
     visualLocation: visualLocation,
     textDatum: textDatum,
     metersText: string
   ) {
-    super(sizeData.exponent, textures);
+    super(sizeData.exponent, sizeData.objectID, textureLow);
 
     this.idx = idx;
     this.coeff = sizeData.coeff;
@@ -76,16 +76,15 @@ export class Ring extends Entity {
     this.meterPlural = metersText;
 
     const dX =
-      window.innerWidth / 2 - this.texture.trim.x + this.texture.trim.width / 2;
+      window.innerWidth / 2 - textureLow.trim.x + textureLow.trim.width / 2;
     const dY =
       window.innerHeight / 2 -
-      this.texture.trim.y +
-      this.texture.trim.height / 2;
+      textureLow.trim.y +
+      textureLow.trim.height / 2;
 
     var c = Math.sqrt(dX * dX + dY * dY);
 
     this.centerVec = new PIXI.Point(dX / c, dY / c);
-    // this.onClick = onClick;
 
     const scale = E(this.scaleExp) * this.coeff * this.realRatio;
     this.container.scale = new PIXI.Point(scale, scale);
@@ -96,22 +95,6 @@ export class Ring extends Entity {
   setZoom(globalZoomExp: number, deltaZoom: number) {
     const scaleExp = this.scaleExp - globalZoomExp;
     if (!this.culled) {
-      // if (Math.abs(deltaZoom) > 0.05) {
-      //   const x = this.centerVec.x;
-      //   const y = this.centerVec.y;
-      //   const MOTION_BLUR_FACTOR = 100;
-      //   // console.log(x,y)
-      //   const mult = new PIXI.Point(
-      //     x * deltaZoom * MOTION_BLUR_FACTOR,
-      //     y * deltaZoom * MOTION_BLUR_FACTOR
-      //   );
-
-      //   const motionFilter = new MotionBlurFilter(mult, 3, 0);
-      //   this.container.filters = [motionFilter];
-      // } else {
-      //   this.container.filters = [];
-      // }
-
       
       const scale = E(scaleExp) * this.coeff * this.realRatio;
       this.cull(scale, this.sizeData);
