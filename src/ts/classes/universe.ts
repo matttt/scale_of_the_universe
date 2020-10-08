@@ -1,5 +1,4 @@
 import { Application, Container }  from "pixi.js-legacy";
-const { KawaseBlurFilter } = require('pixi-filters');
 import { Item } from "./item";
 import { Ring } from "./ring";
 import { Entity } from "./entity";
@@ -8,6 +7,8 @@ import { pad } from "../helpers/pad";
 import { map } from "../helpers/map";
 import { getScaleText } from "../helpers/getScaleText";
 import { Slider } from "./slider";
+
+const { KawaseBlurFilter } = require('pixi-filters');
 
 export class Universe {
   private slider: Slider;
