@@ -469,41 +469,23 @@ export class Slider {
               }
               
         
-        
               this.handleGfx.position.x = newPosition;
-        
+      
               
               let percent = (newPosition - margin) / (scaleWidthPixels);
         
               percent = Math.floor(percent * E(7)) / E(7)
 
               this.currentPercent = percent;
-              // console.log(newPosition, percent, 'adjx:', adjX, 'rightBound', rightBound, insideRight)
         
-              // console.log(this.interaction)
               if (changed) {
-                // ticker.speed = 1;
-                // ticker.start();
                 this.onChange(newPosition, percent);
-                // this.fpsTarget = 200
               } else  {
-                if (this.interaction) {
-                  // ticker.speed = .1;
-                  // ticker.stop();
-                }
-                // ticker.speed = .01;
-
-                // if (this.interaction === false) {
-                if (!this.dragging) {
-                  // this.fpsTarget = 1;
-
-                }
-                // }
                 
                 this.animStopped() 
               }
         
-              prevDX = dXScaled; //
+              prevDX = dXScaled; 
             
       }
     });
@@ -511,7 +493,4 @@ export class Slider {
 
   
   }
-
-
 }
-

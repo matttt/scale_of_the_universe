@@ -297,7 +297,7 @@ loader.load(async (loader, resources) => {
   window["setLang"] = async (btnClass, langIdx) => {
     const textData = (
       await (await fetch(`data/languages/l${langIdx}.txt`)).text()
-    ).split("\n");
+    ).split("\n").map(x => x.replace(/\r?\n|\r/g, ''));
 
     const hqToggle:any = document.querySelector('#hqToggle');
 
@@ -358,7 +358,7 @@ loader.load(async (loader, resources) => {
     titleEl.innerHTML = textData[619]
     titleEl.style.opacity = '1';
 
-    const startButtonText = textData[622].replace(/\r?\n|\r/g, '');
+    const startButtonText = textData[622];
     const translationCreditText = textData[623];
 
     const startButton = document.querySelector('#startBtn');

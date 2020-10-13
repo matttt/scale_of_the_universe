@@ -129,8 +129,6 @@ export class Item extends Entity {
       this.cull(scale, this.sizeData);
       this.container.scale = new Point(scale, scale);
       this.currentScale = scale;
-
-      // this.text.opacity = Math.min(0, scaleExp);
     } else {
       const scaleExp = this.scaleExp - globalZoomExp;
       if (scaleExp > 2 || scaleExp < -4) {

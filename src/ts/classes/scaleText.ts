@@ -10,7 +10,6 @@ export class ScaleText {
   public containerGround:Container;
   public container:Container;
 
-  // flipped I know... in a big hurry
   private textColor = 0x000000;
   private textColorSpace = 0xFFFFFF;
 

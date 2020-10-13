@@ -27,7 +27,7 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
 
     const unit = val === 1 ? extra.centimeter : extra.centimeters
 
-    return `${val} ${unit.replace(/\r?\n|\r/g, '')}`
+    return `${val} ${unit}`
   }
 
   // single centimeters
@@ -36,7 +36,7 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
 
     const unit = val === 1 ? extra.centimeter : extra.centimeters
 
-    return `${val} ${unit.replace(/\r?\n|\r/g, '')}`
+    return `${val} ${unit}`
   }
 
   // kilometers
@@ -49,7 +49,7 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
 
     const formattedVal = numeral(numKilos).format('0,0');
 
-    return `${formattedVal} ${kilo}${extra.meters}`.replace(/\r?\n|\r/g, '')
+    return `${formattedVal} ${kilo}${extra.meters}`
   }
 
   // light years
@@ -58,12 +58,11 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
 
     const formattedVal = numeral(numLYS).format('0,0');
 
-    return `${formattedVal} ${sizeData.coeff === 1 ? extra.lightyear : extra.lightyears}`.replace(/\r?\n|\r/g, '')
+    return `${formattedVal} ${sizeData.coeff === 1 ? extra.lightyear : extra.lightyears}`
   }
 
   // yoctometers
   if (sizeData.exponent <= -24) {
-    console.log(sizeData)
     const relExp = sizeData.exponent + 24;
     const numLYS = sizeData.coeff * (Math.pow(10, relExp));
 
@@ -77,16 +76,14 @@ export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText
       formattedVal = '0.0000000000093';
     }
 
-    
-
-    return `${formattedVal} ${units[0]}${sizeData.coeff === 1 ? extra.meter : extra.meters}`.replace(/\r?\n|\r/g, '')
+    return `${formattedVal} ${units[0]}${sizeData.coeff === 1 ? extra.meter : extra.meters}`
   }
 
   const val = Number((E(multiplierPow) * sizeData.coeff).toFixed(3));
 
   const suffix = val === 1 ? extra.meter : extra.meters
 
-  const output = `${val} ${units[unitIndex]}${suffix.replace(/\r?\n|\r/g, '')}`
+  const output = `${val} ${units[unitIndex]}${suffix}`
 
   return output
 }

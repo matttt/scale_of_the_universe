@@ -63,14 +63,14 @@ export class Universe {
       false
     );
 
-    // center the rings charlez
+    // center the rings
     this.container.x = this.app.screen.width / 2;
     this.container.y = this.app.screen.height / 2;
 
     this.container.pivot.x = this.container.width / 2;
     this.container.pivot.y = this.container.height / 2;
 
-    // center the rings charlez for display (HACKY)
+    // center the rings for display (HACKY)
     this.displayContainer.x = this.app.screen.width / 2;
     this.displayContainer.y = this.app.screen.height / 2;
 
@@ -89,10 +89,6 @@ export class Universe {
 
   onHandleClicked() {
     this.unHideItems();
-  }
-
-  setLanguage() {
-    // for (this.items) this.slider.createText();
   }
 
   public hydrateHighTextures (textures: any) {
@@ -191,7 +187,6 @@ export class Universe {
     const percent = map(absoluteZoom + zoomOffset, -35, 27, 0, 1);
 
     this.hideAllItemsBut(item);
-    // this.container.setChildIndex(item.container, this.items.length + this.rings.length - 2);
 
     let percentFinal = 0;
     if (window.innerHeight < 750) { // 720p
@@ -231,8 +226,7 @@ export class Universe {
       meters: meterPluralText
     }
 
-    const units = textData.slice(602,618).map(x => x.replace(/\r?\n|\r/g, ''))
-
+    const units = textData.slice(602,618);
 
     const onClick = (item: Item) => {
       this.itemClicked(item);
@@ -256,6 +250,7 @@ export class Universe {
       const textureLow = lowTextures.assetsLow.textures[padded + "_quarter"];
 
       // items above 29 are all normal items
+      // see src/data/readme.txt for info
       if (idx >= 29) {
         textDatum.title = textData[(idx - 29) * 2];
         textDatum.description = textData[(idx - 29) * 2 + 1];
@@ -293,9 +288,6 @@ export class Universe {
         this.rings.push(ring);
         this.container.addChild(ring.getContainer());
       } else {
-        // let prefix = textData[idx+602] || '';
-        // prefix = prefix.substring(0, prefix.length-1) //remove new line
-
         let val;
         let unitPrefix = textData[602];
         if (idx <= 26) {
