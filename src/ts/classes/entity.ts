@@ -96,7 +96,6 @@ export class Entity {
     // basic culling :)
     // if ((scale < .001 || scale > 12) && !this.cachePeriod) {
     if (scale < 0.001 || scale > 12) {
-      // if (scale < (E(-6)) || scale > E(1)) {
       this.container.renderable = false;
       this.culled = true;
     } else {
@@ -104,7 +103,7 @@ export class Entity {
       this.culled = false;
     }
 
-    // low-res for distant objects. Hacked into cull :)
+    // low-res for distant objects. Hacked into cull 
     if (scale < 0.075 || !this.isHighQuality) {
       this.setQuality(0);
     } else {
