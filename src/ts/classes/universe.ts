@@ -121,7 +121,7 @@ export class Universe {
       item.text.renderable = true
     }
 
-    this.slider.terminateAutopilot()
+    // this.slider.terminateAutopilot()
 
     this.container.filters = null;
 
@@ -272,7 +272,6 @@ export class Universe {
         // below 17 are rings 17
         
         let prefix = textData[idx + 602] || "";
-        idx !== 16 ? prefix = prefix.substring(0, prefix.length - 1) : ''; //remove new line
 
         textDatum.title = "1 " + prefix + meterText;
         textDatum.description = getScaleText(sizeData.exponent) + " m";
@@ -304,7 +303,7 @@ export class Universe {
           unitPrefix = textData[605];
         }
 
-        unitPrefix = unitPrefix.substring(0, unitPrefix.length - 1);
+        unitPrefix = unitPrefix.substring(0, unitPrefix.length);
 
         textDatum.title = "";
 
@@ -316,7 +315,7 @@ export class Universe {
         textDatum.description =
           yoctoVal +
           " " +
-          textData[602].substring(0, textData[602].length - 1) +
+          textData[602].substring(0, textData[602].length) +
           textData[597] +
           " ";
 
@@ -328,7 +327,7 @@ export class Universe {
           textDatum.description =
             femptoVal +
             " " +
-            textData[605].substring(0, textData[602].length - 1) +
+            textData[605].substring(0, textData[602].length) +
             textData[597];
         }
 

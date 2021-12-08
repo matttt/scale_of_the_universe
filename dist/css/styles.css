@@ -66,13 +66,20 @@ body {
 
 #supportEmail {
   left: 25px !important;
-  bottom: 40px !important;
+  bottom: 59px !important;
   position: absolute;
   font-size: .8rem;
   color: #4f4f4f;
 }
 
 #iosLink {
+  left: 25px !important;
+  bottom: 42px !important;
+  position: absolute;
+  font-size: .8rem;
+  color: #4f4f4f;
+}
+#youtubeLink {
   left: 25px !important;
   bottom: 25px !important;
   position: absolute;
@@ -214,7 +221,7 @@ body {
   margin: 40px;
 }
 
-#credits {
+.credits {
   right: 25px;
   top: 15px;
   position: absolute;

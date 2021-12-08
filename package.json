@@ -31,7 +31,7 @@
     "numeral": "^2.0.6",
     "pixi-filters": "^3.1.1",
     "pixi-pause": "^1.0.3",
-    "pixi.js-legacy": "^5.2.3",
+    "pixi.js-legacy": "^5.3.3",
     "readable-stream": "^3.5.0",
     "shifty": "^2.9.1",
     "stats-js": "^1.0.0",

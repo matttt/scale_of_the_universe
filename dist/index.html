@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>sotu 2.1</title>
+  <title>The Scale of the Universe 2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -75,38 +75,42 @@
 
   <dialog class="my-modal" style="font-family: 'Roboto', sans-serif; height: 40%" id="modal" open>
     <!-- <progress max="100" value="0"></progress> -->
-    <h1 id="title" style="position: absolute; top: 0%; max-width: 65%; font: .05vh;">Scale of the Universe 2</h1>
+    <h1 id="title" style="position: absolute; top: 0%; max-width: 65%; font: .05vh;">The Scale of the Universe 2</h1>
     <h1 id="hoverTitle" style="position: absolute; top: 0%; display: none;" ></h1>
     
     <div class="wrapper" id="langWrapper" style="visibility: hidden;">
-      <button class="box a" onclick="setLang('a', 0)" onmouseover="setTitle(0)" onmouseout="revealTitle()">English (US)</button>
-      <button class="box b" onclick="setLang('b', 3)" onmouseover="setTitle(3)" onmouseout="revealTitle()">English (British)</button>
-      <button class="box c" onclick="setLang('c', 4)" onmouseover="setTitle(4)" onmouseout="revealTitle()">中文 (简体)</button>
-      <button class="box d" onclick="setLang('d', 10)" onmouseover="setTitle(10)" onmouseout="revealTitle()">中文</button>
-      <button class="box e" onclick="setLang('e', 5)" onmouseover="setTitle(5)" onmouseout="revealTitle()">Español</button>
-      <button class="box f" onclick="setLang('f', 15)" onmouseover="setTitle(15)" onmouseout="revealTitle()">العربية</button>
-      <button class="box g" onclick="setLang('g', 8)" onmouseover="setTitle(8)" onmouseout="revealTitle()">Português</button>
-      <button class="box h" onclick="setLang('h', 9)" onmouseover="setTitle(9)" onmouseout="revealTitle()">Deutsch</button>
-      <button class="box i" onclick="setLang('i', 11)" onmouseover="setTitle(11)" onmouseout="revealTitle()">Français</button>
-      <button class="box j" onclick="setLang('j', 16)" onmouseover="setTitle(16)" onmouseout="revealTitle()">한국어</button>
-      <button class="box k" onclick="setLang('k', 19)" onmouseover="setTitle(19)" onmouseout="revealTitle()">Türkçe</button>
-      <button class="box l" onclick="setLang('l', 7)" onmouseover="setTitle(7)" onmouseout="revealTitle()">Polski</button>
-      <button class="box m" onclick="setLang('m', 18)" onmouseover="setTitle(18)" onmouseout="revealTitle()">فارسی</button>
-      <button class="box n" onclick="setLang('n', 14)" onmouseover="setTitle(14)" onmouseout="revealTitle()">Українська</button>
-      <button class="box o" onclick="setLang('o', 13)" onmouseover="setTitle(13)" onmouseout="revealTitle()">Româna</button>
-      <button class="box p" onclick="setLang('p', 2)" onmouseover="setTitle(2)" onmouseout="revealTitle()">Nederlands</button>
-      <button class="box q" onclick="setLang('q', 6)" onmouseover="setTitle(6)" onmouseout="revealTitle()">Svenska</button>
-      <button class="box r" onclick="setLang('r', 1)" onmouseover="setTitle(1)" onmouseout="revealTitle()">עברית</button>
-      <button class="box s" onclick="setLang('s', 12)" onmouseover="setTitle(12)" onmouseout="revealTitle()">Esperanto</button>
-      <button class="box t" onclick="setLang('t', 17)" onmouseover="setTitle(17)" onmouseout="revealTitle()">Eesti</button>
+      <div class="credits">
+        <p>Created by Cary Huang</p>
+        <p>Ported to Pixi.js by Matthew Martori</p>
+      </div>
+      <button class="box a" onclick="setLang('a', 0)">English (US)</button>
+      <button class="box b" onclick="setLang('b', 3)">English (British)</button>
+      <button class="box c" onclick="setLang('c', 4)">中文 (简体)</button>
+      <button class="box d" onclick="setLang('d', 10)">中文</button>
+      <button class="box e" onclick="setLang('e', 5)">Español</button>
+      <button class="box f" onclick="setLang('f', 15)">العربية</button>
+      <button class="box g" onclick="setLang('g', 8)">Português</button>
+      <button class="box h" onclick="setLang('h', 9)">Deutsch</button>
+      <button class="box i" onclick="setLang('i', 11)">Français</button>
+      <button class="box j" onclick="setLang('j', 16)">한국어</button>
+      <button class="box k" onclick="setLang('k', 19)">Türkçe</button>
+      <button class="box l" onclick="setLang('l', 7)">Polski</button>
+      <button class="box m" onclick="setLang('m', 18)">فارسی</button>
+      <button class="box n" onclick="setLang('n', 14)">Українська</button>
+      <button class="box o" onclick="setLang('o', 13)">Româna</button>
+      <button class="box p" onclick="setLang('p', 2)">Nederlands</button>
+      <button class="box q" onclick="setLang('q', 6)">Svenska</button>
+      <button class="box r" onclick="setLang('r', 1)">עברית</button>
+      <button class="box s" onclick="setLang('s', 12)">Esperanto</button>
+      <button class="box t" onclick="setLang('t', 17)">Eesti</button>
       <a href="mailto:scaleoftheuniversedev@gmail.com" id="supportEmail2">Email Us</a>
 
     </div>
 
     <div id="startWrapper" style="display: none">
-      <div id="credits">
+      <div class="credits">
         <p>Created by Cary Huang</p>
-        <p>Implemented by Matthew Martori</p>
+        <p>Ported to Pixi.js by Matthew Martori</p>
         <p id="translationCredit"></p>
       </div>
 
@@ -131,6 +135,8 @@
       <a href="mailto:scaleoftheuniversedev@gmail.com" id="supportEmail">Email Us</a>
       <a href="https://apps.apple.com/us/app/the-scale-of-the-universe-2/id1062423259" 
         id="iosLink">Check out the iOS app</a>
+      <a href="https://www.youtube.com/user/carykh" 
+        id="youtubeLink">Visit Cary's YouTube Channel</a>
       <button onclick="startSOTU()" id="startBtn">
         <!-- <svg class="bi bi-play-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
           <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 010 1.393z"/>
@@ -144,7 +150,7 @@
  
   <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
   <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
-  <script src="js/bundle.js"></script>
+  <script src="js/bundle.min.js"></script>
 
 
   <script>window.sa_event=window.sa_event||function(){a=[].slice.call(arguments);sa_event.q?sa_event.q.push(a):sa_event.q=[a]};</script>

@@ -1,0 +1,626 @@
+tx=Pixel de LCD
+Apesar de variar muito, o tamanho médio de um pixel é de 300 micrômetros. Um pixel contém três subpixels de cores vermelha, verde e azul. Pixels são legais, mas voxels são ainda mais legais. Eles são pixels tridimensionais.
+Palm Jebel Ali
+Palm Jebel Ali é a maior ilha feita pelo homem (sem incluir ilhas como Flevopolder, onde uma região da Holanda foi drenada para que houvesse mais espaço). Palm Jebel Ali ainda não está completa. Ela faz parte das Palm Islands (Ilhas Palmeira), cujo planejamento é de abrigar 250.000 pessoas!
+Neutrino
+Neutrinos atravessam matéria comum como eu e você o tempo todo! Na verdade, eles estão fazendo isto agora mesmo! Neutrinos não apresentam carga, sendo assim eles só podem ser afetados pela gravidade ou pela força nuclear fraca. Porém, eles são tão pequenos que sua trajetória quase não é afetada.
+Neutrino de alta energia
+Neutrinos de alta energia são maiores. Para saber mais sobre neutrinos, vá para neutrino, que mostra o tamanho médio dessas partículas. Chegam a ser 15.000 vezes menores!
+Palito de fósforo
+O palito de fósforo é uma ferramenta muito útil. Quando riscado em alguma coisa, ele pode pegar fogo. Isto o torna muito perigoso! Por isso nunca é bom brincar com fósforos. Entendeu?
+Ovo de galinha
+Do ovo da galinha normalmente saem pintinhos. Muitas pessoas gostam de comer ovos. Apesar da aparência, não existem diferenças entre ovos de galinha brancos e marrons.
+Ovo de codorna
+Muitas pessoas acham ovos de codorna mais saborosos que ovos de galinha. O ovo de codorna é menor e mais raro de achar que o ovo de galinha, mas mesmo assim algumas pessoas adoram!
+Polegada quadrada
+A polegada é uma medida de comprimento utilizada nos Estados Unidos e em alguns países de língua inglesa. Uma polegada equivale a 2,54 centímetros. Uma Polegada quadrada é a área de um quadrado com uma polegada de lado.", 
+Grão de café
+Este grão de café tem aproximadamente um centímetro de comprimento. Ele é marrom e tem uma listra no meio, e às vezes, quando você olha para ele, você acaba se esquecendo que o seu diâmetro é 10^-29 do diâmetro do universo conhecido.
+Minhoca comum
+Você ama essas minhocas pegajosas e grudentas, não ama? Contrário às lendas urbanas, a maior parte das minhocas irá morrer se você cortá-las ao meio. Às vezes, a cabeça sobrevive e desenvolve uma nova cauda.
+Rigel
+Rigel é uma estrela azul escaldante, a mais brilhante da constelação de Órion. No céu, ela pode ser vista próxima da linha do Equador, por isso é possível vê-la de quase qualquer lugar na Terra.
+Estados Unidos da América
+Os Estados Unidos ficam na América do Norte, é o quarto maior país do mundo, sendo 12% maior que o Brasil em extensão territorial. Apesar de parecer aqui maior que Plutão, este possui uma face oculta atrás, o que significa que Plutão possui maior área de superfície!
+Terra
+A Terra é nossa única casa. Enquanto nós vivemos nela, podemos considerá-la gigante, mas ainda assim é importante cuidar dela. Quando ela for destruída, não terá mais nenhum outro lugar para nós irmos.
+Deneb
+Deneb é a mais brilhante das estrelas da constelação de Cisne. Deneb está a 1.500 anos-luz daqui, o que a torna a mais distante das nossas 25 estrelas mais brilhantes. Se você vivesse em Marte, Deneb apareceria acima do Pólo Norte - e não Polaris.
+VV Cephei A
+Por algum tempo VV Cephei A era considerada a maior das estrelas conhecidas. Agora este título pertence a VY Canis Majoris. O motivo é que novas estrelas são descobertas a todo instante!
+R Doradus
+R Doradus é relativamente grande e está a apenas 200 anos-luz da Terra, logo seu tamanho aparente é o segundo maior do nosso céu! Ela mede 0,05 arco-segundos. O Sol é a maior, com 1.920 arco-segundos  - 40.000 vezes maior.
+Aldebaran
+Aldebaran não deve ser confundida com Alderaan, um dos planetas do filme Guerra nas Estrelas. Alderaan é bastante similar à Terra no que diz respeito a tamanho, duração do dia e disponibilidade de água. Porém, Aldebaran é 5.000 vezes maior em diâmetro, conclui uma rotação a cada 643 dias terrestes e não possui água.
+Pollux
+Na mitologia grega, Pollux é o irmão gêmeo de Castor. Ambos são nomes de estrelas na constelação de Gêmeos. Porém, na verdade, enquanto Pollux é uma única estrela, Castor é composto de três estrelas binárias, dando um total de seis estrelas. Castor é um conjunto de sêxtuplos!
+Arcturus
+Arcturus é a terceira mais brilhante estrela no céu noturno, depois de Sirius e Canopus. Também é a mais brilhante estrela da constelação de Boötes. Você pode localizá-la seguindo a alça do Grande Carro.
+O Sol
+O Sol é uma estrela que está bem perto de nós (em termos astronômicos). A energia do Sol alimenta as plantas e algas na Terra, que por sua vez servem de alimento para os animais e todos os outros organismos. Ou seja: toda a energia necessária para a vida na Terra vem do Sol. O Sol possui um diâmetro aproximadamente 100 vezes maior que o da Terra! A energia solar que atinge nosso planeta é 20.000 vezes maior que a utilizada pela raça humana.
+Alpha Centauri A
+Alpha Centauri A é a maior estrela da constelação de Centauro (composta de três estrelas), que é a constelação mais próxima de nós. Esta estrela também é a quarta mais brilhante do nosso céu à noite.
+Alpha Centauri B
+Alpha Centauri B é a segunda maior estrela da constelação de Centauro. Seu diâmetro é de aproximadamente um milhão de quilômetros, sendo um pouco menor que o Sol. As Alpha Centauri A e B estão tão próximas uma da outra que elas aparecem como se fosse uma única estrela para nós terráqueos.
+Proxima Centauri
+Proxima Centauri é conhecida por ser a estrela mais próxima da Terra com exceção do Sol. Seu nome é auto-explicativo. Proxima Centauri é uma diminuta estrela vermelha. Infelizmente, seu brilho é tão fraco que você precisa de um telescópio para visualizá-la.
+Sirius A
+Sirius é a estrela mais brilhante no céu à noite. É quase duas vezes mais brilhante que Canopus, a segunda mais brilhante. Porém, Sirius não é uma estrela grande. Ela só ostenta todo esse brilho devido a sua curta distância de nós, de apenas oito anos-luz.
+Sirius B
+Sirius B é uma anã branca. Ela é, por muito pouco, maior que a Terra! Visualizá-la é muito difícil porque ela está escondida pela luz ofuscante de Sirius A. Sirius B é conhecida como "O Cachorrinho".
+Vega
+Vega é encontrada na constelação de Lira. Ela também faz parte do Triângulo de Verão, composta de Vega, Altair e Deneb. Vega possui uma rotação tão rápida que é capaz de fazer uma protuberância. Porém, nós a visualizamos a partir de seu pólo, então ela aparenta ser circular.
+Regulus
+Regulus gira tão rapidamente que faz protuberâncias, assim como Altair e Vega. Se Regulus girasse com uma velocidade 16% maior, ela iria se dilacerar! Regulus também é a estrela mais brilhante da constelação de Leão. Também existem Regulus B e C.
+Spica
+Spica é a décima quinta estrela mais brilhante no céu à noite e está na constelação de Virgem. Na verdade, ela é uma estrela binária. As duas estrelas estão bem próximas uma da outra, e elas se orbitam a cada quatro dias.
+Alnitak
+Alnitak ilumina a Nebulosa da Chama. Alnitak também é a estrela mais a Leste das três que formam o Cinturão de Órion. As outras duas são Alnilam e Mintaka, e todas elas são muito bem visíveis do planeta Terra.
+Gacrux
+'Gacrux, também conhecida como Gamma Crucis ou Rubídea, pode ser encontrada na constelação Cruzeiro do Sul. Gacrux é uma estrela binária. A maior das duas é uma gigante vermelha.',
+Urano
+'Muitas pessoas gostam de falar o nome "Urano" como "Ur-ânus". Por isso, prefiro chamá-la de outros nomes, como "Estrela Rei do Céu" ou "Sétimo Planeta".',
+Netuno
+Atualmente, Netuno é o planeta mais distante do Sol no Sistema Solar. Ele leva 164,8 anos terrestres para orbitar o Sol. Você nunca verá Netuno completar uma única órbita em toda a sua vida, a não ser que consigamos aumentar a expectativa de vida.
+Wolf 359
+Wolf 359 é uma pequena anã vermelha, diminuta perto de estrelas normais. É a sexta estrela mais próxima da Terra, atrás apenas do Sol, Proxima Centauri, Alpha Centauri A e B e a Estrela de Barnard. Ainda assim, sua magnitude é de meros +13,5.
+Gliese 229A
+Gliese 229A é uma estrela anã vermelha. Ela é um pouco menor que o Sol. Esta estrela também pode ser escrita como GJ 229 ou GI 229. Faz parte de um sistema binário, com a segunda estrela sendo Gliese 229B.
+Gliese 229B
+Gliese 229B é uma estrela anã marrom. Ela orbita uma outra estrela anã maior, Gliese 229A. Foi cogitado classificá-la como um planeta, mas ela é muito mais densa que Júpiter, tornando sua massa muito grande para considerarem-a um planeta.
+Júpiter
+Júpiter é o maior planeta do Sistema Solar. Porém, ele não é o maior planeta conhecido; este seria TReS-4. Júpiter é um gigante gasoso, sendo assim ele não passa de uma imensa bola de gás. Você não pode aterrissar em nenhum lugar dela. Júpiter também tem 64 luas, incluindo as quatro luas de Galileu.
+Saturno
+Saturno possui os anéis mais largos e visíveis do Sistema Solar. Galileu, o primeiro a visualizar estes anéis, pensou primeiramente que eles eram "orelhas". Dá para imaginar Saturno sem seus anéis? Ele seria só uma bola amarela.
+TReS-4
+TReS-4 é o maior planeta descoberto até agora. Está a 1.400 anos-luz de distância. Nenhum telescópio pode vê-lo, na verdade. Só sabemos de sua existência porque TReS-4 está na frente da estrela a qual ele orbita, escurecendo um pouco o brilho dela.
+Vênus
+Havia um tempo em que se pensava que Vênus e a Terra eram planetas irmãos. Isto não é necessariamente verdade! A superfície de Vênus está sempre acima de 450°C, porque sua atmosfera, que é composta em maior parte de dióxido de carbono, captura o calor irradiado pelo Sol!", 
+Marte
+Marte é conhecido como Planeta Vermelho, devido à alta quantidade de óxido de ferro em seu solo. Muitos acreditam que já existiu água e vida em Marte. Mesmo que isso seja verdade, porém, estes seres não seriam iguais a homenzinhos verdes.
+Mercúrio
+Mercúrio é o planeta mais próximo do Sol. Durante o dia, as temperaturas podem alcançar 400°C, mas à noite, as temperaturas podem cair para -180°C. Um ano mercuriano equivale a 88 dias terrestres.
+Ganímedes
+Ganímedes é a maior lua do Sistema Solar. Ela orbita Júpiter e foi descoberta por Galileu, por isso é considerada uma lua galileana. Cuidado para não confundir com Ganymed, que é um asteroide cujo nome não possui o "es" no final da palavra!
+Calisto
+Calisto é a mais distante das luas galileanas. Sua órbita é a mais externa de todas as luas galileanas, o que explica o fato do planeta ser o mais atingido por meteoros. Todos esses impactos criaram muitas, muitas crateras.
+Io
+Io é lotada de vulcões - os mais numerosos no Sistema Solar! Os gêiseres de Io emitem dióxido de enxofre congelado a mais de 500 km de altura! A paisagem de Io se altera constantemente. Em um ano, ela terá uma aparência bem diferente!
+Europa
+Europa é a mais débil das luas galileanas. Ela está coberta de gelo. Existem faixas misteriosas que cobrem sua superfície. Algumas pessoas acreditam que possa existir água debaixo da camada de gelo, possivelmente existindo até mesmo vida.
+Titã
+Titã é a única lua grande de Saturno. Ela possui uma atmosfera muito grossa, boa parte composta de nitrogênio. A atmosfera da Terra também possui, em sua maioria, nitrogênio. Titã possui mares de metano líquido (temperatura aproximada de 180°C) Existe até mesmo um continente denominado Xanadu.
+A Lua
+A Lua, também conhecida como "Luna", é o objeto mais brilhante do nosso céu à noite. As marés acontecem devido ao movimento da Lua e do Sol. Ela orbita a Terra a cada 27 dias, 7 horas e 43 minutos. Gosto de imaginar como seria ver várias luas dispersas em nosso céu. Seria demais!
+Tritão
+Tritão é a maior das luas de Netuno. Também é o objeto mais gelado de todo o Sistema Solar, com uma temperatura de -240°C. Além disso, Tritão é um lugar muito ventoso, com ventos alcançando quase a velocidade do som!
+Plutão
+Plutão não é mais um planeta. Por que as pessoas sentem simpatia por ele? Ele não tem sentimentos. Mesmo se tivesse, o que iria importar a ele o que um bando de terráqueos pensam dele? É importante lembrar também que o nome oficial de Plutão é, a partir de agora, "134340 Plutão", pois ele é um planeta anão.
+Caronte
+Caronte é a única lua grande de Plutão. Seus tamanhos são bem próximos. São tão próximos, que algumas pessoas consideram Plutão e Caronte um planeta duplo. Você sabia que o mesmo lado de Caronte sempre está virado para Plutão, e o mesmo lado de de Plutão está sempre virado para Caronte? O nome deste fenômeno é "acoplamento de maré", e é o mesmo fenômeno que faz com que sempre vejamos a mesma face da Lua.
+Éris
+Éris é o maior dos planetas anões. É maior até mesmo que plutão, que também é um planeta anão. Éris também está bem longe do Sol. Éris possui uma lua chamada Disnomia.
+Disnomia
+Disnomia é a única lua de Éris e ela foi descoberta no dia 10 de setembro de 2005, num sábado. Você sabia que "Disnomia" se refere a uma dificuldade de aprendizado semelhante à dislexia?
+Sedna
+Sedna possui uma órbita notavelmente elíptica. Ela está tão distante da Terra que leva 10.000 anos terrestres para completar uma órbita. Você deve ter percebido que "Sedna", de trás para frente é "Andes", a maior cordilheira de montanhas do mundo. (localizada na América do Sul) Ambas parecem ser de outro mundo!
+Quaoar
+Quaoar é muito densa devido ao seu enorme núcleo. Quaoar provavelmente era muito maior no passado. Ela provavelmente foi atingida por um objeto do tamanho de Plutão, o que teria arrancado as outras camadas mais externas.
+Ceres
+Ceres não é um lugar muito bom para seres humanos viverem. Ceres também é o maior dos asteroides (sem acento), iniciando o debate sobre a definição de um planeta. Por muito tempo, pensava-se que Ceres era um planeta, mas concluiu-se que não.
+Polaris
+Polaris também é conhecida como Estrela do Norte. Ela está bem próxima do Pólo Norte, então se você quer saber para onde fica o norte, basta achar Polaris. Infelizmente isto não funciona se você estiver no hemisfério Sul.
+Antares
+Antares é uma supergigante vermelha muito próxima da eclíptica, sendo assim ela é ocultada pela Lua com frequência. Antares também pesa septilhões de toneladas e está perdendo massa através dos ventos solares, mas este método é lento. O método mais rápido é explodindo, que ela fará em seguida.
+Altair
+Altair é uma das três estrelas do Triângulo de Verão. O Triângulo de Verão é um triângulo agudo, o que significa que todos os ângulos são menores que 90°! As outras duas estrelas são Vega e Deneb. Como muitas outras estrelas, Altair gira muito rápido, inchando em seu centro!
+La Soberba
+La Soberba é uma das estrelas mais vermelhas do nosso céu. Ela é vermelha devido a todo o carbono-13 que ela gera ao fundir hélio. (O isótopo mais comum do carbono é o carbono-12) La Soberba tem uma temperatura de apenas 2500°C, tornando-a uma das estrelas mais frias conhecidas.
+Estrela da Pistola
+A Estrela da Pistola é uma das estrelas mais luminosas conhecidas. Em vinte segundos, ela irradia a mesma quantidade de energia que o Sol irradia em um ano. Nuvens de poeira interestelar não nos permitem vê-la. Ela se chama Estrela da Pistola não por causa de sua luminosidade, mas por que ela está contida na Nebulosa de Pistola.
+S Doradus
+S Doradus é uma hipergigante, além de ser uma das estrelas mais brilhantes da Grande Nuvem de Magalhães. Para mais informações sobre a Grande Nuvem de Magalhães, diminua o zoom em 8,5 ordens de magnitude.
+Enif
+Enif é uma supergigante laranja. Seu nome significa "nariz" em árabe, devido à constelação de Pégaso; esta estrela fica na posição do "focinho". Coincidentemente,  a palavra "Enif" de trás para frente é "Fine", que em inglês significa "bom".
+Mu Cephei
+Mu Cephei é muito vermelha. Às vezes referem-se a ela como "Herschel's Garnet Star" devido à sua cor rubra. Outro nome alternativo é Erakis, se você não gostar dos dois primeiros nomes.
+KY Cygni
+KY Cygni é 300.000 vezes mais luminosa que o Sol, e o Sol é bem luminoso, não é mesmo? O Sol é tão luminoso que você não pode olhar diretamente para ele! Porém, não tem problema em olhar para a KY Cygni, pois ela está 300 milhões de vezes mais distante.
+V354 Cephei
+V354 Cephei é uma supergigante vermelha, e como ela é gigante. Se esta estrela fosse colocada no Sistema Solar, ela iria se estender para além da órbita de Júpiter. O número 354, além de estar no nome desta estrela, é também o ano em que Santo Agostinho de Hipona nasceu.
+WOH G64
+Já sei... você deve estar pensando, "WOH... que estrela enorme!" Você está certo, porque esta é a segunda maior estrela conhecida pelo homem. WOH G64 é encontrada na Grande Nuvem de Magalhães. Existe uma nuvem circundante à estrela de meio ano-luz de comprimento.
+VY Canis Majoris
+VY Canis Majoris é a maior de todas as estrelas conhecidas. Ela é tão grande que se fosse colocada no Sistema Solar, seu diâmetro ultrapassaria a órbita de Saturno! Levaria 1.200 anos para um avião dar uma volta completa nele.
+Betelgeuse
+A idade de Betelgeuse está na casa dos milhões de anos. Betelgeuse é tão velha, que estima-se que ela vá explodir nos próximos dez mil anos. Estrelas menores podem viver por trilhões de anos. Betelgeuse, porém, é tão grande que acabou envelhecendo mais rápido.
+Albireo
+Albireo é composta de três estrelas no total. Aqui nós estamos mostrando apenas a maior delas. Duas delas estão muito próximas, formando um ponto amarelo. A terceira é azul e mais afastada. A estrela azul e as amarelas estão tão afastadas uma das outras que levaria 100.000 anos para completar uma órbita.
+Estrela de Kapteyn
+A Estrela de Kapteyn está a apenas treze anos-luz de distância. Mesmo assim, sua magnitude é de +9, então você vai precisar de binóculos para visualizá-la. Há dez mil anos atrás, esta estrela estava a apenas sete anos-luz de distância!
+Estrela de Luyten
+A Estrela de Luyten é uma anã vermelha localizada a apenas doze anos-luz daqui. Ela está tão perto de Procyon que esta possui um briho 10 vezes maior se comparado ao brilho de Sirius em relação à Terra.
+Procyon
+Você sabia que nos próximos dez milhões de anos, Procyon irá multiplicar por cem o seu diâmetro e se tornar vermelha? O motivo é porque todo o hidrogênio de Procyon foi consumido e transformado em hélio. O Sol também irá fazer a mesma coisa dentro de alguns bilhões de anos.
+Ásia
+A Ásia é o maior continente da Terra, habitada por mais de quatro bilhões de pessoas  - mais da metade da população mundial. A África é o segundo continente mais populoso, porém possui apenas um bilhão.
+Itália
+A Itália é a terra de Leonardo da Vinci, que foi um inventor, matemático, engenheiro, pintor, escultor, cientista, músico, e muito mais. Muitos outros pintores, como Rafael e Michelângelo, também são italianos.
+Brunei
+Brunei Darussalam é um país localizado no Sudeste Asiático. Ele está completamente cercado pela Malásia e pelo Mar da China Meridional. 400.000 pessoas vivem neste país. Eles dirigem ao lado esquerdo da estrada.
+Ruanda
+Ruanda é um país da África Central Meridional, conhecido como "Terra das Mil Colinas". Você sabia que Ruanda apresenta a 148º maior área do mundo? Isto significa que apenas 147 países são maiores que ele.
+Califórnia
+O estado norte-americano da Califórnia possui a alcunha de "O Estado Dourado". Por isto o pintei de dourado. A população total da Califórnia é de 37 milhões de habitantes, o que equivale a menos de um por cento da população mundial.
+Virgínia Ocidental
+A Virgínia Ocidental era até então uma parte do estado americano da Virgínia. Eles se dividiram em 1863 devido à Guerra Civil Americana. Ainda hoje, a Virgínia Ocidental ainda é um estado! A maior parte das fábricas de bolinha de gude dos Estados Unidos estão neste estado.
+Phobos
+Phobos é a maior das duas luas de Marte. Ainda assim, é bem pequena! Você sabia que se você estivesse em Phobos, a gravidade seria tão fraca que se você lançasse uma bola de beisbol, ela não voltaria?
+Deimos
+Deimos é uma das menores luas conhecidas. Você poderia dar a volta nela caminhando em um dia! Bom, se você pudesse sobreviver confortavelmente no espaço sideral, ou estivesse usando um traje espacial. Eu acho que você não poderia caminhar com uma velocidade normal em um traje desses, na verdade.
+Rhode Island
+Rhode Island é o menor estado dos E. U. A. Porém, ainda assim caberia toda a população da Terra. O Distrito Federal, a menor das unidades federativas do Brasil (lembre-se, não é um estado!), possui mais que o dobro da área em terra de Rhode Island!
+Minhoca gigante
+A minhoca gigante pode crescer até três metros de comprimento. Quando seus filhotes saem de seus casulos, elas medem apenas vinte centímetros. Levam aproximadamente cinco anos para atingirem seu tamanho máximo. Elas se entocam debaixo do solo e fazem sons parecidos com um gargarejo.
+Hidra
+Hidra é uma das luas de Plutão. Seu nome vem da serpente de sete cabeças da mitologia grega. É claro, para cada cabeça da Hidra que você cortar, irão surgir outras duas. Se você quer uma Hidra com n cabeças, tudo que você deve fazer é cortar (n - 7) cabeças! Porém, isto não vai funcionar se você quiser menos de sete.
+Nix
+Nix é a menor lua conhecida de Plutão. Seu nome é o segundo menor concedido a uma lua, sendo Io o menor. O nome vem da deusa grega primordial Nyx, que personificava a noite.
+Cruithne
+Cruithne é conhecida como a segunda lua da Terra. Na verdade, não é bem uma lua da Terra. Ela apenas descreve uma órbita elíptica em torno do Sol que é bem próxima órbita da Terra, e seu ano dura 364 dias, quase igual ao ano terrestre.
+Distância da Terra à Lua
+A Terra e a Lua não estão em escalas corretas. Se a distância fosse um metro, a Terra teria o tamanho de uma moeda de 25 centavos, e a Lua, uma ervilha.
+Distância da Terra ao Sol
+Durante o dia, o Sol não parece tão distante. São, na realidade, 150 milhões de quilômetros de distância. Esta distância é uma Unidade Astronômica, chamada de U.A. para abreviar.
+Distância de Netuno ao Sol
+Netuno é o planeta mais distante do Sistema Solar. A distância entre estes dois astros é maior que o diâmetro de qualquer estrela conhecida!
+Half Dome
+O Half Dome é uma grande cúpula localizada no Parque Nacional de Yosemite, nos E. U. A. Ela é feita de granito. A inclinação da cúpula é quase vertical. Não caia daquele lado a não ser que você queira. Algumas pessoas gostam de escalá-lo, apesar de ser um desafio e tanto!
+Monte Everest
+O Monte Everest é a montanha mais alta da Terra com 8.848 metros. Ele está crescendo constantemente, assim como crianças. Não existem muitas pessoas capazer de escalá-lo sem usar um cilindro de oxigênio.
+Nebulosa Homúnculo
+No centro da Nebulosa Homúnculo existe uma estrela. Esta estrela, chamada Eta Carinae, tinha uma magnitude de -0,8 em 1841 (segunda estrela mais brilhante no céu). Agora, é uma obscura estrela de sexta grandeza.
+Cinturão de Kuiper
+O Cinturão de Kuiper é uma região do Sistema Solar fora da órbita de Netuno onde pequenos corpos orbitam. Muitos planetas anões existem aqui. É como se fosse um grande cinturão de asteroides.
+Ano-luz
+Em um ano, a luz viaja aproximadamente 9,46 trilhões de quilômetros. Esta distância é conhecida como ano-luz. O ano-luz é usado com frequência para medir distâncias astronômicas.
+Nuvem de Oort
+A nuvem de Oort é a região mais externa do Sistema Solar. Água, amônia, metano e cometas congelados preenchem a região esparsamente. O limite da nuvem de Oort também é o limite da atração gravitacional do Sol.
+Distância do Sol à Proxima Centauri
+Proxima Centauri é a estrela mais próxima do Sol. Porém, ainda está muito distante. 30 milhões de Sóis poderiam ser enfileirados entre Proxima Centauri e o Sol em uma linha reta.
+Nebulosa Stingray
+A nebulosa Stingray é uma nebulosa planetária. Ela é relativamente jovem, e está crescendo constantemente. Stingray, do inglês, significa arraia. A pessoa que deu o nome a essa nebulosa talvez pensou que ela parecesse com uma arraia. Você também acha?
+Distância de Proxima Centauri à Alpha Centauri A e B
+Proxima Centauri está muito distante de Alpha Centauri A e B. Equivale a aproximadamente 13.000 vezes a distância do Sol à Terra!
+Nebulosa Olho de Gato
+A Nebulosa Olho de Gato é uma das mais complexas nebulosas conhecidas. Você sabia que a temperatura dessa nebulosa é de 8.000°C? Isto é muito quente! O halo externo é ainda mais quente, a 15.000°C.
+Nebulosa da Formiga
+A Nebulosa da Formiga, também chamada de Mz 3, está se expandindo a 180.000 quilômetros por hora. Ela se parece com uma formiga, o que explica o motivo dela ser denominada Nebulosa da Formiga. Para saber mais sobre formigas, aumente seu zoom em 18 ordens de magnitude.
+Nebulosa Olho que Pisca
+Esta nebulosa planetária na verdade não pisca. Ela apenas aparece e desaparece da vista. Existem dois FLIERs (regiões de rápida emissão de baixa ionização) vermelhos em cada lado oposto da nebulosa.
+Nebulosa do Bumerangue
+A Nebulosa do Bumerangue é muito fria, a apenas um grau do zero absoluto (-272°C)! Isto é mais frio que a radiação natural. Você sabia que a Nebulosa do Bumerangue é o objeto conhecido mais frio do universo?
+Nebulosa do Esquimó
+A Nebulosa do Esquimó foi descoberta em 1787; este é o resultado de uma estrela semelhante ao Sol explodindo. Supostamente, é para parecer uma cabeça vestida por uma parka. Outro nome dado a ela é “Nebulosa Cara de Palhaço”.
+A Grande Pirâmide de Gizé
+Esta figura na verdade representa a Necrópole de Gizé. A Grande Pirâmide é a pirâmide à esquerda. É a mais antiga, construída pelos egípcios antigos em 2.650 a.C. Ela permaneceu como a mais alta estrutura feita pelo homem por quase 4.000 anos.
+A distância percorrida pela Terra (Relativa ao Sol)
+A Terra já percorreu quase meio milhão de anos-luz relativa ao sol desde a sua formação. (Isto são 4,5 bilhões de anos/órbitas) A Terra é 10.000 vezes mais lenta que a luz.
+Hambúrguer de Gomez
+O Hambúrguer de Gomez está a 900 anos-luz daqui! Os “pães” são feitos de poeira refletiva, e a carne, de poeira negra. Isso não soa muito apetitoso.
+Nebulosa da Ampulheta
+A Nebulosa da Ampulheta tem mesmo um formato de ampulheta. Como você pode observar, ela possui dois lobos. O lobo superior é apontado para nós, como o lobo inferior apontado para  a direção oposta.
+Nebulosa do Ovo Podre
+A Nebulosa do Ovo Podre contém um teor de enxofre. Deve ser por isso que a chamam desse nome. Eu acho ela parecida com um ovo cru, com a parte azul parecendo a casca quebrada e a parte amarela, a gema saindo.
+Dia-luz
+Mesmo em apenas vinte e quatro horas, a luz consegue percorrer uma distância de 26 bilhões de quilômetros. Isto é mais longe que o percorrido por qualquer ser humano ou sonda espacial.
+Distância de Voyager 1 à Terra
+Nos últimos 34 anos, Voyager 1 percorreu uma distância de 17 bilhões de quilômetros, tornando-o o objeto construído pelo homem que mais distante conseguiu ir. Você não pode vê-lo, mesmo que você tente achá-la!
+Distância de Sedna ao Sol (ponto mais distante)
+Quando Sedna está sobre o ponto mais distante de sua órbita em torno do Sol, ela está sobre seu afélio! Levam mais de 10.000 anos terrestres para Sedna completar uma órbita.
+Distância do cometa Hale-Bopp ao Sol (ponto mais distante)
+O cometa Hale-Bopp consegue ir bem longe do Sol. Ele leva 2.500 anos terrestres para completar uma órbita.
+Cometa Halley
+O tamanho verdadeiro do cometa Halley é bem pequeno. A cauda que ele forma, porém, mede milhões de quilômetros de comprimento! O cometa Halley perde 10% de sua massa a cada mil órbitas.
+Nebulosa do Anel
+A Nebulosa do Anel parece muito como um anel. Acreditava-se que toda nebulosa planetária tinha o formato de anel como essa aqui, mas hoje sabemos que não é verdade. Existem outras formas que uma nebulosa planetária pode adquirir.
+Nebulosa de Hélix
+A Nebulosa de Hélix é uma das nebulosas planetárias brilhantes mais próximas da Terra. Está a 400 anos-luz de nós! São apenas quatro quadrilhões (4.000.000.000.000.000) de quilômetros! (Está bem perto, astronomicamente falando.)
+Nebulosa da Bolha
+Eu amo estourar bolhas. Blub-blub, pop! Esta nebulosa não é uma bolha; ela só se parece com uma! Ela foi criada por ventos estelares quentes. Ah, e esta é uma nebulosa de emissão, não uma nebulosa planetária.
+Nebulosa do Cone
+A Nebulosa do Cone foi descoberta em 1785, um dia após o Natal. Você sabia que a Nebulosa do Cone é uma nebulosa escura e uma nebulosa difusa? Você pode encontrá-la entre Betelgeuse e Procyon.
+Os Pilares da Criação
+Os Pilares da Criação estão contidos na Nebulosa da Águia, que está a 7.000 anos-luz de nós. Evidências demonstram que os Pilares da Criação foram destruídos por uma supernova há 6.000 anos atrás, então nós só podemos vê-la por mais um milênio.
+Nebulosa da Águia
+A Nebulosa da Águia é um enorme berçário estelar. Consegue ver os Pilares da Criação dentro dele? Aliás, note que esta imagem é baseada em uma fotografia colorida artificialmente. Suas cores originais possuem um tom um pouco mais rosado (assim como a maioria das nebulosas grandes).
+Nebulosa do Caranguejo
+A Nebulosa do Caranguejo é uma das mais famosas nebulosas. Também foi o primeiro objeto catalogado por Messier (M1)! A supernova da Nebulosa do Caranguejo foi vista no ano 1054 e era tão cintilante que era possível de ser vista durante o dia. Ela não tem sequer 1.000 anos de existência!
+Nebulosa de Órion
+A Nebulosa de Órion é uma das nebulosas mais visíveis que existem! Como o nome sugere, ela está na constelação de Órion. Você sabia que existem partículas de gás nesta nebulosa?
+Nebulosa da América do Norte
+O tamanho aparente da Nebulosa da América do Norte é muito grande. Ela cobre uma área em nosso céu quatro vezes maior que a Lua cheia. Seu brilho é muito fraco, porém... então... sabe... você precisa ficar mais tempo exposto às estrelas para poder vê-la.
+O Pináculo
+Essa coisinha é uma parte da Nebulosa da Águia, que é muito maior. Embora pareça pequena em comparação a Nebulosa da Águia, é ainda maior do que o sistema solar, em 10 - 20.000 vezes, dependendo da sua definição de nosso Sistema Solar" , 
+Nebulosa Cabeça de Cavalo
+A Nebulosa Cabeça de Cavalo é uma das nebulosas mais famousas porque se parece com uma cabeça de cavalo. É uma nebulosa escura na frente de gás cor de rosa brilhante. Foi descoberto pela primeira vez em 1888 por Williamina Fleming na chapa fotográfica B2312 do observatório da Universidade de Harvard.
+Nebulosa Roseta
+A nebulosa Roseta é muito grande, mas muito ténue. Parece uma rosa de fogo em um fogo róseo. Está aproximadamente a 5.000 anos-luz de nós e tem uma massa de 10.000 sóis. (3 bilhões de Terras)
+Grande Nebulosa de Carina
+É também chamada de Nebulosa Eta Carinae, que não deve ser confundido com nebulosa Eta Carinae Homunculus (que é provavelmente muito pequena para se ver agora. Está 0.002 anos-luz de diâmetro).
+Nebulosa Caverna
+A Nebulosa Caverna é uma nebulosa muito difusa. Claro, a maioria das nebulosas tão grande como esta, são fracas, então são necessários longos períodos de exposição para vê-las. A Nebulosa da caverna é também chamada de Sh2-155 ou Caldwell 9.
+Capella
+Capella é na verdade uma estrela binária. Ambas as estrelas são estrelas do tipo G gigantes. A maior é a que você vê à esquerda. O Sol é também uma estrela do tipo G, porém ela é de sequência principal.
+Loop de Barnard
+Loop de Barnard é uma nebulosa enorme e está a apenas 1.600 anos-luzde distância. Ela cobre 10 graus do céu (o que é muito). Ela abrange a maior parte da constelação de Orion! No entanto, é tão tênue que você só pode vê-la em noites escuras, ou com longos tempos de exposição. Tão triste. 
+Nebulosa Lagoa
+A Nebulosa Lagoa é uma nebulosa que foi assim nomeadaem 1747, ano em que foi descoberta. Está a 5.000 anos-luz de distância de nós e inclui tornados que emitem luz UV.
+Nebulosa Tarântula
+A Nebulosa Tarântula é a maior nebulosa conhecida. Ela pode ser encontrada na Grande Nuvem de Magalhães. É muito brilhante, com uma magnitude absoluta de -11. É o mais brilhante objeto não-estelar conhecido
+Parsec
+O movimento da Terra em torno do Sol faz com que estrelas próximas pareçam se mover, o que é conhecido como paralaxe. Se uma estrela vizinha é perpendicular ao sistema solar e têm exatamente um parsec de distância, a sua paralaxe será exatamente um segundo de arco (1/3600º) Paralaxe + arcsec (segundo de arco em inglês) = Parsec 
+Gigaparsec
+O gigaparsec é um bilhão de parsecs. É uma das maiores medidas de distância. Não há realmente nenhuma necessidade de ter qualquer medida maior, porque o raio do universo observável têm apenas 14 gigaparsecs.
+Universo
+O Universo é tudo o que conhecemos. Oh, também, o universo pode ser muito maior do que isso, ou poderia até mesmo ser infinito! Não háuma maneira para medir com precisão o tamanho. Também pode há a teoria dos multiversos, mas nós nunca saberemos com certeza. 
+Universo observável
+O raio do universo é de cerca de 46 bilhões de anos luz (metade do diâmetro). Você pode esperar para ver apenas 13,7 bilhões de anos luz de distância porque a luz só teve apenas 13,7 bilhões de anos para viajar, mas, devido à expansão do espaço, os objetos que costumavam estar a 13,7 bilhões anos luz de distância estão agora a 46 bilhões de anos luz distância, e podemos ver estes.
+Grande Muralha Sloan
+A Grande Muralha Sloan é representada por uma grossa faixa verde. É o maior objeto conhecido no universo. É um composto de galáxias, é conhecido como um filamento galáctico. Nós não estamos nela. Na verdade, ele fica a cerca de um bilhão de anos-luz de nós. 
+Vácuo de Eridanus
+Trata-se de uma região no céu noturno que é um pouquinho mais fria que a temperatura normal da radiação cósmica de fundo em micro-ondas (CMB). Atinge 2,7 K, ou -270,5°C. Por muito pouco acima do zero absoluto. Uma teoria aponta que ele é um portal para um universo paralelo. Uau!
+Galáxia anã de Sagitário
+O Sagitário é uma das galáxias satélites da Via Láctea . Está a apenas 70.000 anos-luz de distântcia! É uma galáxia elíptica, e anã também. Ela era desconhecida até 1994.
+Galáxia anã de Cão Maior 
+A galáxia anã de Cão Maior é a galáxia mais próxima de nós, se você não contar a própria Via Láctea. Situa-se entre os braços de nossa galáxia e está sendo rasgada ao meio pela gravidade da nossa galáxia.
+Via Láctea
+A Via Láctea é a galáxia em que vivemos. Você não pode vê-la toda de uma vez, é claro, mas em uma noite escura você poderá ver uma faixa que se estende por todo o céu! Parece leitoso, por isso é a Via Láctea. 
+Galáxia Andrômeda
+A Galáxia Andrômeda é gêmea da Via Láctea. É a galáxia que mais se aproxima em tamanho e forma, semelhante, a nossa Via Láctea. Em alguns bilhões de anos, as duas galáxias colidiram e formaram uma grande galáxia elíptica.
+Pequena Nuvem de Magalhães
+A Pequena Nuvem de Magalhães só é chamado de pequena, porque ela é menor do que uma galáxia próxima a ela, a Grande Nuvem de Magalhães. Se a Grande Nuvem de Magalhães fosse menor, a Pequena Nuvem de Magalhães seria chamada Grande Nuvem de Magalhães!
+Grande Nuvem de Magalhães
+A Grande Nuvem de Magalhães só é chamada de grande porque ele é maior do que a galáxia próxima a ela, a Pequena Nuvem de Magalhães. Se a Pequena Nuvem de Magalhães fosse maior, a Grande Nuvem de Magalhães seria chamada de Pequena Nuvem de Magalhães!
+Galáxia Triângulo
+Esta galáxia não tem forma de um triângulo, só é chamada assim porque ela é encontrado na constelação Triangulum. Você percebe que as três estrelas formam uma "constelação triângulada"? Você pode ter milhões de constelações triânguladas.
+Galáxia Sombrero
+Você acha que a Galáxia Sombrero se parece com um sombrero? Eu não tenho certeza... Oh! Você sabia que existe um buraco negro supermassivo no centro desta galáxia? A maioria das grandes galáxias possuem buracos negros supermassivos. Nossa Via Láctea talvez tenha um!
+ Complexo Superaglomerado de Pisces-Cetus 
+Nós vivemos no Complexo Superaglomerado Pisces-Cetus. É o segundo maior objeto conhecido, após o Grande Muralha de Sloan. Eu acho que o segundo lugar já está de bom tamanho.
+Superaglomerado Virgo
+O Superaglomerado de Virgem, um dos milhões de superaglomerados, contém mais de 100 aglomerados galácticos. Estes incluem o nosso aglomerado, assim como o maior, o Aglomerado de Virgem (que não é super).
+Grupo Local
+O Grupo Local é o aglomerado de galáxias em que vivemos. Contém cerca de trinta galáxias e galáxias anãs. As duas maiores galáxias são a Galáxia de Andrômeda e a nossa, a Via Láctea.
+Aglomerado de Virgem
+O Aglomerado de Virgem é o maior aglomerado no Superaglomerado de Virgem, e está no seu centro. Foi descoberto ao final da década de 1770 , quando suas galáxias foram catalogadas como objetos Messier.
+Aglomerado Fornax
+Nós vivemos no Superaglomerado de Virgem. Na verdade, nós somos parte de um pequeno filamento extendido fora do Aglomerado Fornax. É o segundo maior  aglomerado dentro de 100 milhões de anos-luz!
+IC 1101
+IC 1101 é a maior galáxia conhecida. Ela contém cerca de 100 trilhões de estrelas. Nossa galáxia, a Via Láctea, tem apenas 250 bilhões, assim IC1101 tem 400 vezes mais estrelas do que a Via Láctea.
+Abell 2029
+Abell 2029 é um aglomerado galáctico um bilhão de anos-luz de distância da constelação Serpens. Sua galáxia central, que é a IC 1101, é quase tão grande quanto o aglomerado. Emite 2 trilhões de vezes mais luz que o Sol.(em torno de 10 ^ 39 lâmpadas) 
+Galáxia do Redemoínho
+Acreditava-se que os braços espirais da Galáxia do Redemoínho tenham sido formados a partir da colisão de uma galáxia próxima. Não seria estranho se crescessem novos membros sempre que você colidisse com alguma coisa?
+Galáxia Girino
+A Galáxia Girino tem um rastro de estrelas.  Provavelmente foram formadas quando uma outra galáxia colidiu com ela. Assim como os girinos, a Galáxia do Girino deve perder a sua cauda quando envelhecer.
+Galáxia Pinwheel
+Quando esta galáxia foi descoberta, acreditava-se ser uma nebulosa. Não é, é uma galáxia. É também chamada de Messier 101, porque foi o 101º objeto Messier a ser catalogado.
+Galáxia Cartwheel
+Os astrónomos pensam que o Galáxia Cartwheel teve uma colisão com duas galáxias a 200 milhões de anos atrás. Na verdade, 700 milhões de anos atrás, porque a Galáxia Cartwheel está a 500 milhões de anos-luz de distância, então o que vemos já envelheceu 500 milhões de anos.
+NGC 1232
+NGC 1232 é uma galáxia muito grande. É maior que a nossa, mas não é a maior. Claro, IC 1101 não é a maior galáxia, é apenas a maior galáxia que conhecemos. Há provavelmente muitos mais!
+Omega Centauri
+Omega Centauri é um aglomerado globular. É o mais brilhante aglomerado globular. O centro é muito lotado. Há estrelas que estão á distância de 0,1 anos-luz uma das outras, que é 2% da distância do nosso Sol à estrela mais próxima. (O que é realmente perto!)
+Messier 54
+Messier 54, M54, ou NGC 6715, é outro aglomerado globular. Está localizada na galáxia anã de Sagitário, o que significa que este é o primeiro de seu tipo a ser descoberto fora da Via Láctea.
+Messier 87
+Messier 87 é a maior galáxia do aglomerado de Virgem. Trata-se de uma galáxia elíptica supergigante. Você sabia que o buraco negro em seu centro está emitindo um jato de matéria subatômica que chega a alcançar até 5.000 anos-luz de distância?
+NGC 4889
+Esta gigantesca galáxia, também conhecida como Caldwell 35, é a galáxia mais brilhante do aglomerado de Coma. Ela está se distanciando de nós a 6.500 quilômetros por segundo. Com uma velocidade dessas, ela poderia circunavegar a Terra em menos de sete segundos!
+Galáxia anã de Leão II
+A galáxia anã de Leão II é um satélite da Via Láctea. É um dos vinte e quatro satélites conhecidos de nossa galáxia. As estrela de Leão II são pobres em metais. Elas também são relativamente velhas.
+Galáxia anã de Cães de Caça I
+A galáxia anã de Cães de Caça I está a 720.000 anos-luz de nós. Se você diminuir o zoom para aquela escala, ela estará a apenas alguns pixels de distância.
+NGC 3310
+NGC 3310 é mais uma galáxia que que colidiu com outras galáxias, alterando sua forma. É uma galáxia espiral com braços muito bonitos, e está a 40 milhões de anos-luz daqui.
+Represa Hoover
+A represa Hoover, construída no rio Colorado, armazena o maior reservatório de água dos Estados Unidos, o lago Mead. Ela possui uma usina hidrelética com capacidade de produção de 2 gigawatts, sete vezes menor que a capacidade da represa de Itaipu, localizada no Brasil.
+Grand Canyon
+O Grand Canyon é um dos maiores cânions da Terra. Este desfiladeiro foi esculpido pelo rio Colorado, um trabalho que levou 17 milhões de anos! As camadas de rocha expostas são ainda mais antigas, algumas possuíndo até mesmo 1,8 bilhões de anos!
+Distância ao Grande Atrator
+O Grande Atrator está puxando milhares de galáxias, inclusive a Via Láctea, para si. Sua massa é dezenas de milhares de vezes maior que a de nossa galáxia.
+Distância ao Superaglomerado de Shapley
+Este superaglomerado de galáxias é um dos maiores objetos que realizam um movimento de contração; objetos maiores que isto expandem, junto com o Universo.
+Distância à galáxia de Andrômeda
+A dois milhões de anos-luz de nós, a galáxia de Andrômeda é o objeto mais distante visível a olho nu. Mas sem a ajuda de um telescópio ou um binóculo, ela irá aparecer apenas como um borrão opaco.
+Altura de todos os humanos
+Se todos os 7 bilhões de pessoas fossem empilhadas uma em cima da outra, e os outros 6,99 bilhões não cedessem ao peso, formaria uma coluna de aproximadamente 10 milhões de quilômetros de altura.
+Átomo de hidrogênio
+Hidrogênio é o elemento mais abundante do universo. Normalmente é composto de apenas um próton e um elétron! O átomo de hidrogênio é tão pequeno que você jamais irá conseguir vê-lo a olho nu, não importa o quanto você tente.
+Átomo de hélio
+Os átomos de hidrogênio são maiores que os de hélio porque mais prótons no núcleo puxam os elétrons mais para dentro. Porém, camadas adicionais aumentam o raio atômico. Césio, o maior de todos os átomos possui o maior número de camadas com o menor número de elétrons (excluímos o frâncio, pois ele possui uma meia-vida curtíssima de 22 minutos.)
+Núcelo de hélio
+O núcleo do átomo de hélio é milhares de vezes menor que o átomo propriamente dito, como se fosse uma bolinha de gude no meio de um campo de futebol. O único motivo da matéria ser palpável é por causa das forças de repulsão causadas pelos átomos. Se os átomos não repelissem, toda a matéria iria cair uma em cima da outra!
+Núcleo de cloro
+O núcleo de um átomo de cloro possui 17 prótons e 18 nêutrons, existindo também átomos com 20 nêutrons! Mais raros são os com 19 nêutrons. Não sei por que isto acontece, porém. Você sabe? Conte-me se souber.
+Núcleo de urânio
+Urânio é o maior de todos os elementos naturais. Ele também possui o maior núcleo de todos os elementos naturais. O urânio-238, que é o isótopo mais comum deste elemento, possui uma meia-vida de 4,5 bilhões de anos, equivalente a aproximadamente a idade da Terra.
+Bolinha de gude
+Bolinhas de gude são esféricas, mas se você colocá-las num microscópio, verá que sua superfície é bem áspera. Esta bolinha de de gude é feita de vidro; elas também podem ser feitas de madeira, plástico, metal ou até mesmo terra.
+Humano
+Eu vou presumir que você seja um humano. Eu sou um humano também! Você sabia que existem 7 bilhões de nós? É muita gente! Na verdade, se você fosse conhecer uma pessoa por segundo, levaria cerca de 200 anos para conhecer todos eles! Melhor começar agora!
+Caranguejo-aranha gigante
+O caranguejo-aranha gigante é o maior artrópode existente (lembrando que insetos, aracnídeos, crustáceos e miriápodes são todos artrópodes), mas nem todos os indivíduos desta espécie chegam a esse tamanho. Alguns deles alcançam só um metro de altura. Infelizmente, a pesca predatória está reduzindo a população desta espécie. Pudera, imagine quanta carne esse animal deve ter!
+Torre Eiffel
+Por 41 anos, a Torre Eiffel permaneceu como a estrutura mais alta feita pelo homem no mundo. 200 milhões de pessoas já a visitaram, o que é um pouco mais que a população do Brasil!
+Tamanho aproximado deste aplicativo
+Apesar de diferentes monitores terem diferentes tamanhos de pixel, os objetos na tela são aproximadamente do mesmo tamanho. Este aplicativo mede aproximadamente vinte centímetros!
+Próton
+Prótons são encontrados no núcleo de um átomo. Eles são milhares de vezes menor que o átomo propriamente dito. São compostos de dois quarks up e um quark down, logo a carga do próton pode ser expressa por: +2/3+2/3-1/3 = +1.
+Nêutron
+Nêutrons são encontrados no núcelo de um átomo. Eles são milhares de vezes menor que o átomo propriamente dito. São compostos de dois quarks down e um quark up, logo a carga do nêutron pode ser expressa por: -1/3-1/3+2/3 = 0.
+Ångström
+Um ångström, em homenagem ao físico sueco Anders Jonas Ångström, equivale a um décimo de nanômetro. O símbolo do ångström é um Å, e esta unidade é utilizada para expressar o tamanho dos átomos.
+Átomo de césio
+O tamanho de um átomo é medido da distância do núcleo em ligações covalentes. As camadas não são desse jeito, na verdade. Césio é o maior átomo, mas seu número atômico não é o maior. O porquê? Veja em “átomo de hélio”.
+Espuma quântica
+De acordo com a teoria do espaço-tempo, a espuma quântica, também conhecida como espuma espaço-temporal, é a fundação do tecido do universo. É impossível observá-la diretamente ou medí-la com precisão porque ela é muito pequena.
+Comprimento de Planck
+O comprimento de Planck (lP) é uma unidade de distância. Há tambem um “tempo de Planck”, que é o intervalo de tempo gasto pela luz para percorrer uma unidade de Planck no vácuo. (Extremamente curto!)
+Régua de polegada
+Enquanto nós usamos o sistema métrico, há outros países que aplicam um sistema alternativo: o sistema imperial. Dentre as várias medidas diferentes, eis a polegada, que equivale a aproximadamente 2,5 centímetros. Praticamente tudo no campo científico, porém, dá preferência ao sistema métrico.
+Dodô
+O pássaro dodô entrou em extinção em algum período durante o século XVII. Seu nome vem do som que eles fazem (ou eu deveria dizer faziam, já que eles estão extintos). Então, sim, eles se foram.
+Sequoia
+A sequoia é a árvore mais alta do mundo. Sua altura é maior que a de qualquer humano! O universo, porém, ainda é 10^25 vezes maior.
+Boeing 747
+O Boeing 747 é possívelmente o avião mais famoso de toda a história da aviação. Desde 1969, seu tamanho é menor que o de uma sequoia. Antes dessa data, porém, ele não era maior nem menor, pois ele não existia.
+Saguaro
+Nem todos os indivíduos desta espécie de cacto crescem até 14 metros, infelizmente. Alguns atingem apenas míseros cinco metros de altura. Alguns não possuem braços - estes são chamados de lanças. Levam 75 anos para um saguaro crescer um braço completamente, enquanto um humano precisa de menos de 20.
+Baleia-azul
+A baleia-azul é o maior animal existente. Seu peso (180 toneladas) é maior que o de qualquer outro animal. Infelizmente, a caça comercial desse animal reduziu sua população de 300.000 para 2.000.
+Bola de basquete
+Esta bola de basquete provavelmente é uma de tamanho 7, pois a de tamanho 6 possui um diâmetro de apenas 23 centímetros. O nome do esporte que é praticado com esta bola, traduzido literalmente, chama-se “bola na cesta”.
+Elefante
+O elefante é o maior animal terrestre. Restaram apenas três espécies de elefantes. Eles podem pesar até oito toneladas, o que é aproximadamente dez vezes o peso que qualquer outro ser humano já alcançou!
+Salto Ángel
+O Salto Ángel é, além da maior queda d’água do mundo, a principal atração turística da Venezuela. Quase toda a água fica suspensa no ar em forma de gotículas antes mesmo de tocar o chão.", 
+Burj Khalifa
+O Burj Khalifa, anteriormente chamado Burj Dubai, é o prédio mais alto do mundo. Nenhuma outra construção possui mais que 828.000 milímetros de altura. Há uma piscina no 76° andar.
+Uluru
+Uluru, também conhecido como Ayers Rock, é uma formação gigante de arenito. Com 348 metros de altura, ele é menor que muitas construções, apesar de seu comprimento de três quilômetros. Devido à sua curiosa composição mineral, ele possui diferentes tonalidades de cor dependendo da hora do dia!
+Grande colisor de hádrons
+O Grande Colisor de Hádrons (mais conhecido como LHC) é o maior e mais energético acelerador de partículas do mundo. Ele faz prótons colidirem entre si! Alguns cientistas acreditavam que tal acelerador geraria um buraco negro capaz de destruir a Terra, mas se fosse gerado, ele provavelmente iria ser do tamanho de um grão de areia e iria durar não mais que 10^-27 segundos
+Fábrica da Boeing de Everett
+A fábrica da Boeing localizada em Everett, Washington (EUA) é o maior prédio do mundo, com treze milhões de metros cúbicos de espaço utilizável. A Grande Muralha da China e a Usina de Três Gargantas (também chinesa) não contam como prédios.
+Titanic
+O Titanic afundou ao atingir um iceberg. Apesar de possuir capacidade para armazenar botes salva-vidas para 4.000 pessoas, seus administradores decidiram levar botes para apenas 1.178 pessoas. Haviam 2.228 pessoas no Titanic.
+Vaticano
+O Vaticano é o menor país do mundo. Apesar de ser pequeno, é muito maior que você. Se os tecidos de seu corpo fossem esticados por toda a área do Vaticano de forma uniforme, a camada resultante seria de 200 nanômetros de espessura, o que é mais fino que uma única célula da sua pele!
+Carvalho
+O carvalho é uma árvore. Elas podem viver por muito tempo, mais até mesmo que um humano! Elas produzem um fruto chamado bolota. Infelizmente, não podemos ter bolotas no nosso país tropical (é uma árvore de clima temperado), mas elas são muito apreciadas em Portugal e outros países do hemisfério norte!
+Comprimento de onda da radiação gama
+Raios gama oscilam em uma frequência altíssima. Eles podem se originar de decaimento radioativo. Ah, e a propósito, ele não é azul-piscina como você está vendo.
+Comprimento de onda do raio X
+Apesar dos raios X não possuírem a maior frequência das ondas eletromagnéticas, ainda assim é uma má ideia ficar na frente deles. Não faça isso! Você deveria se proteger atrás de uma camada de chumbo. Quanto mais grossa essa camada for, mais proteção. Porém, alguns raios acabarão passando mesmo assim. O chumbo só diminui a quantidade que passa.
+Comprimento de onda do ultravioleta
+O ultravioleta é responsável por te dar um bronzeado. Eu achava que a luz do sol e o calor chamuscavam sua pele para torná-la mais escura, como uma churrasqueira tornando a comida preta. Agora eu sei que não é bem assim.
+Comprimento de onda da luz violeta
+Também conhecida como roxo, púrpura, ou até mesmo regália, violeta, que pode também ser chamada de lavanda, vinca ou íris, e as vezes até mesmo ametista ou malva, também é denominada como fúscia, índigo ou lilás, e em raras ocasiões, bizâncio, cardo, glicínia, fandango e heliotropo.
+Comprimento de onda da luz vermelha
+Vermelho é a primeira cor do arco-íris. Ela estimula o apetite. Por isso tantas redes de comida usam essa cor em seus logos. Elas querem que você coma! Trocando por miúdos, elas estão tentando tapear o seu cérebro.
+Comprimento de onda Infravermelho
+Comprimento de onda Infravermelho.
+Comprimento de onda das micro-ondas
+Na verdade, a classificação de uma onda como micro-onda é bem abrangente. Ela varia de um milímetro até um metro. Então esta onda eletromagnética, com um comprimento de onda de um centímetro, se encaixa perfeitamente nesta categoria e sendo assim ela é denominada uma micro-onda!
+Comprimento de onda de rádio FM
+F e M são a primeira e sexta letras do alfabeto. “Seis” é um número perfeito, enquanto “treze” não é. Todos nós temos nossas diferenças, e precisamos aprender a aceitá-las. Assim é a única maneira em que viveremos em harmonia.
+Comprimento de onda de rádio AM
+A e M são a primeira e décima-terceira letras do alfabeto. “Um” é um quadrado perfeito, enquanto “treze” não é. Todos nós temos nossas diferenças, e precisamos aprender a aceitá-las. Assim é a única maneira em que viveremos em harmonia.
+DNA
+Uma única célula humana contém três metros de ácido desoxirribonucleico. Esta molécula, apesar de seus poucos nanômetros de largura, carrega consigo 25.000 genes em aproximadamente 3 bilhões de pares de bases conjugadas. É muita coisa!
+Glóbulo branco
+Esses exterminadores também são conhecidos como leucócitos. Existem muitos tipos desta célula de defesa. O mais comum deles, o neutrófilo, possui núcleos múltiplos. Já o maior de todos, o macrófago, tem um diâmetro de impressionantes 21 µm.
+Glóbulo vermelho
+Aproximadamente um quarto de todas as suas células são glóbulos vermelhos. Elas realizam um ciclo (do local de circulação até o coração) a cada vinte segundos, e duram apenas quatro meses. A concavidade no centro confere a ela uma maior área de superfície, permitindo-a carregar mais oxigênio. Ah, e elas não têm núcleo.
+Óvulo (Ovo humano)
+O óvulo é a maior célula presente no corpo humano. Animais que se desenvolvem dentro de ovos dentro da mãe são ovovivíparos, o que não é o caso dos humanos. “Ovovivíparo” é a única palavra no português que começa com “vogal-v-vogal-v-vogal-v-vogal”.
+Menor objeto visível a olho nu
+Para sua informação, 100 micrômetros equivale a aproximadamente um décimo de um milímetro. Espera aí... é EXATAMENTE um décimo de um milímetro. Isto é tão exato que chega a assustar!
+Grafite de lápis
+As pessoas usam muito grafite. Ah, e este é um grafite de lapiseira, na verdade. Por falar nisso, o maior lápis já feito continha 2.000 quilogramas de grafite. Isto é o triplo do peso de um humano! E por humano, quero dizer o humano mais pesado de todos.
+Maiores bactérias
+As maiores bactérias, que são as Thiomargarita namibiensis, têm quase um milímetro de comprimento. Ela vive no oceano ao largo da costa da Namíbia. Você pode imaginar estar no oceano, e vendo essas coisas? Elas são muito visíveis!
+Musaranho
+Musaranhos são grandes coisinhas pequenas. Sua taxa de metabolismo é tão alta que eles devem comer o equivalente a seu peso corporal todos os dias! Além disso, 10% do seu peso corporal é o seu cérebro. Isso é o mais alto de qualquer animal, incluindo os seres humanos!
+HIV
+O HIV infecta 0,6% da população mundial e causa a AIDS. Um vírus HIV é muito pequeno, na verdade, tão pequeno que nenhum ser humano na face deste planeta pode ver a olho nu, ainda assim, pode matar. 
+Grão de Areia
+Claro, nem todos os grãos de areia são do mesmo tamanho. Eles variam muito. Arenófilos são pessoas que coletam amostras de areia. Além disso, você sabia que  a praia de Papakolea  tem areia verde? Isto por causa dos cristais na areia.
+Partículas de lodo
+De acordo com a escala Udden-Wentworth, as partículas de lodo variam da menor 1/256 mm para o maior de 1/16 mm. Esta partícula de lodo à direita se encaixa neste intervalo perfeitamente.
+Partículas de argila
+De tão pequenas, as partículas de argila se tornam bem compactadas, tornando difícil a passagem de água através dela. Por outro lado, a areia é muito mais áspera e a água desliza através dela facinho, facinho.
+Molécula da Água
+Eu gosto de pensar que sempre que eu bebo água, bebo cabeças de Mickey Mouse. Você também? não? Bem, você deveria.
+Chaleira de Russell
+Bertrand Russell disse que havia uma chaleira orbitando o Sol entre a Terra e Marte. Ninguém poderia negar porque tal chaleira não seria visível. Portanto, ninguém deve duvidar de Russell.
+Mundo de Minecraft
+Estendendo as coordenadas +32.000.000 para -32.000.000, um mundo de Minecraft abrange um total de 64.000 quilômetros. Em um mundo há cerca de 130 quatrilhões de blocos! Isso com certeza é muito!
+Quark up
+Existem seis tipos de quarks, eles são: up, down, strange, charm, top, e bottom. Quanto menor for um quark, maior será sua massa. Como resultado, up e down são os mais leves dos quarks. Este quark up possui uma carga de +2/3.
+Quark down
+Existem seis tipos de quarks, eles são: up, down, strange, charm, top, e bottom. Quanto menor for um quark, maior será sua massa. Como resultado, up e down são os mais leves dos quarks. Este quark down possui uma carga de -1/3.
+Quark charm
+Os quarks charm e strange são de segunda geração. Eles irão se desintegrar rapidamente em quarks up e down, que fazem parte da primeira geração da matéria. O quark charm é bem charmoso.
+Quark strange
+Quarks strange são muito estranhos. Eles têm 50 vezes mais massa que quarks up, mas ainda assim são menores! Isto não é estranho? Eu acho que sim! “Matéria estranha” é composta de quarks up, down e strange!
+Quark top
+O quark top é o menor dos quarks, o que significa que ele é o mais massivo: é uma massa 100.000 vezes maior que a do quark up, que é o mais leve dos quarks. A massa do quark top é de 173 bilhões de elétron-volts!
+Quark bottom
+O quark bottom também é conhecido como “quark bonito”, devido à sua impecável beleza. Ele é um quark de terceira geração, e se desintegra rapidamente em quarks de primeira geração, como up e down.
+Menor objeto visível a um microscópio eletrônico
+O microscópio eletrônico permite-nos ver coisas muito pequenas (como átomos) que seriam invisíveis porque elas são menores do que o comprimento de onda da luz visível.
+Comprimentos mais curtos do que isso não estão confirmados.
+Daqui em diante, todos os objetos que são menores do que isto não foram medidos. Os tamanhos que aparecem são apenas estimativas. Algumas coisas, como a espuma quântica, são apenas hipóteses. Não são fatos.
+Distância para o HDF
+O Hubble Deep Field, ou Campo Profundo Observável do Hubble, é uma imagem de um lugar vazio no céu noturno. A imagem tinha quase 3.000 objetos nele - galáxias distantes. Não se sabe onde essas galáxias estão agora, mas onde elas estiveram a 12,7 bilhões de anos atrás, está a 12,7 bilhões de anos-luz de distância de nós.
+Central Park
+O Central Park, que está em Nova York, é o parque urbano mais visitado dos Estados Unidos! Você sabia que 18 pessoas realmente vivem no Central Park? Isso é bem legal!
+Maratona
+Uma maratona tem 42,2 quilômetros, ou 26,2 milhas. A Corrida Internacional de São Silvestre possui 15 km, menos da metade de uma maratona! Segundo a lenda, após a vitória grega na Batalha de Maratona, Fidípides foi enviado à Atenas para contar a notícia. A distância era uma maratona!
+Albatroz-errante
+O albatroz-errante é a ave com maior envergadura nas asas! Eles voam quase todo o tempo, parando apenas para comer e fazer bebês. Sua população está diminuindo lentamente. Agora restam só 26.000, o que não é muito.
+Largura de cabelo humano
+O cabelo humano é incrível. O cabelo liso é quase perfeitamente cilíndrico. Por outro lado, o cabelo cacheado é mais achatado, o que permite ser enrolado, tal qual um laço. Você sabia que, provavelmente, tens de 50.000 a 200.000 fios de cabelo na sua cabeça? você pode contar!
+Formiga
+Você provavelmente não gosta de formigas. Que pena. 15-25% de todos os animais terrestres são formigas! Uau! Isso é um monte de formigas! Para cada pessoa na Terra, há mais de um milhão de formigas!
+Casa média dos EUA
+As casas dos Estados Unidos foram ficando maiores. Nos últimos 40 anos, a média quase dobrou em área! Estas casas são tão grandes, que poderiam abrigar 1.000 pessoas nelas! Porém, seria muito apertado." ,
+Girafa
+A girafa é o mamífero terrestre mais alto, com incríveis 6 metros! Seu pescoço sozinho é quase metade de sua altura total. Girafas adultas são tão altas que o único jeito de um predador matá-las é empurrando-as para algum lado!
+Tyrannosaurus Rex
+Este dinossauro está extinto, mas costumava ter 7 metros de comprimento. Ainda é debatido se o T-Rex era um predador ou um necrófago. Embora o T-Rex fosse muito grande, não era o maior! Distancie-se um pouco mais para ver o maior dinossauro! 
+Amphilicoelias Fragilimus
+Amphilicoelias Fragilimus é o maior dinossauro descoberto! Ele pesava mais de 100 toneladas! É tão grande que você poderia construir sua casa em cima dele, se você quisesse!
+Beija-flor
+Beija-flores batem as asas de 12 a 80 vezes por segundo, que é aproximadamente a mesma frequência das notas mais baixas do piano. Eles podem voar para trás e ficar parados no ar. Habilidades muito legais!
+Módulo Lunar Apollo
+Essa coisa pesa 15.000 kg! Isto é muito! Ele também pousou na Lua. Sua aterrissagem inspirou o jogo de arcade "Lunar Lander", que não é fácil. Quando eu jogo, eu sempre fico sem combustível!
+Campo de Futebol Americano
+Campos de futebol americano possuem 120 jardas (109,7 m) de comprimento, se as ‘end zones’ são incluídas. De qualquer forma, campos de futebol são muitas vezes utilizados para medir objetos grandes. Por exemplo, "O Titanic mede três campos de futebol!". Campos de futebol também são utilizados para jogar futebol.
+Gateway Arch
+O Gateway Arch é a estrutura mais alta em St. Louis. Há uma área de observação no topo, e a partir dela, você pode ver o rio Mississippi.
+Monumento de Washington
+O Monumento de Washington é o mais alto obelisco do mundo, bem como a estrutura de pedra mais alta do mundo. Ela era a mais alta estrutura do mundo de 1884 a 1889. Depois disso foi a Torre Eiffel, que se encontra no canto superior direito.
+Saturno V
+Saturno V é o foguete mais alto e mais pesado que já houve! É bem legal. Foi utilizado de 1968 a 1972 e foi o único veículo utilizado para lançar os seres humanos da Terra, para lugares como a Lua
+EEI (ISS)
+A Estação Espacial Internacional (The International Space Station) é bem legal. Ela flutua em torno da baixa orbita terrerrestre, e você ainda pode vê-la a partir da Terra! A EEI tem tido humanos dentro dela continuamente durante os últimos onze anos, que é um recorde para uma nave espacial. (Eles não eram todos os mesmos seres humanos.) 
+Estátua da Liberdade
+Embora a Estátua da Liberdade seja um símbolo dos Estados Unidos da América, ela foi construída na França. Ela foi baseada em uma antiga estátua grega do deus do sol, Hélios. A Estátua da Liberdade é muito legal, até mesmo sem a tocha, já que a tocha está fechada desde 1916, porque é perigosa. 
+Grande Muralha da China
+A Grande Muralha da China tem 8.850 quilômetros de comprimento. No entanto, ela faz muitas voltas, e a distância que separa seu início e seu fim é de apenas 2.900 quilômetros. A Grande Muralha da China não é visível do espaço, como muita gente pensa. Ela tem menos de 10 metros de largura! A maioria das casas é mais larga que isto.
+Profundidade da Fossa das Marianas
+A Fossa das Marianas é uma fossa muito profunda. Está localizada no Oceano Pacífico. Você sabia que esta fossa encantadora tem sido proposta como um local para despejar lixo nuclear? Isto é algo para se discutir!
+Aguaneve
+A aguaneve, que cai do céu, é feita de pelotas de gelo. Essa bola à esquerda é uma pelota de gelo. A chuva com gelo é semelhante a neve, mas é muito mais densa. Você também pode ter notado que a aguaneve é consideravelmente menor que o granizo.
+Maior granizo
+O maior granizo foi encontrada em Dakota do Sul. No entanto, a maioria das pedras de granizo não chegam nem perto deste tamanho. O diâmetro médio é menor que um centímetro. Ah, eu também gostaria de salientar que nem todas as pedras de granizo são redondas.
+Grão de arroz
+Um monte de gente em nosso belo mundo come arroz. Se você comer uma tigela de arroz por dia, você vai comer cerca de 300 milhões de grãos de arroz em sua vida. Isso também é aproximadamente a população dos Estados Unidos!
+Bola de praia
+Bolas de praia foram inventadas em 1938, que já faz mais de 70 anos. Bolas de praia também são coloridas. Além disso, elas são muito divertidas! A única bola de praia que não é divertida é a ‘beach ball of death’.
+Raflésia
+A Raflésia é a maior flor única no mundo. Ela pode pesar até 10 kg, o que é realmente muito pesado para uma flor. Esta flor tem cheiro de carne podre para atrair moscas, que a polinizam.
+Centavo americano
+Você sabia que em 1912, o centavo de dólar valia o que valem 25 centavos de dólar hoje? Além disso, se você derretesse um centavo de dólar em zinco e cobre, valeriam 1,79 centavos de dólar. Mas isso é ilegal.
+Grão de sal
+O sal é um composto feito de um metal reativo e um gás tóxico. Todo mundo sabe disso. Além disso, não coma muito sal, ou então você poderá morrer. Comer um milésimo de seu peso corporal de uma só vez faria com que isso acontecesse.
+String ou Corda
+Segundo a teoria das cordas, as cordas são unidimensionais, mas vibram em todas as outras dimensões. Esta corda, no entanto, não é a mesma corda que é usada para empinar pipas. Essa corda está entre 10 ^ 32 e 10 ^ 33 vezes maior. 
+Fulereno
+Fulerenos, que também são chamados de buckminsterfulerenos, são feitos de 60 átomos de carbono. Sua forma é a de um icosaedro truncado, que é também a forma de uma bola de futebol! Uma solução feita completamente de buckyballs adquire a coloração roxa.
+Girassol
+Você sabia que a "flor" do girassol na verdade não é uma flor, mas sim um pseudantio com muitas flores bem pequeninas? Cada florzinha se torna uma semente de girassol, invisível nesta escala.
+Cromossomo X
+Cromossomos X são absolutamente incríveis. A maior parte dos cromossomos parecem com um X apesar de não serem cromossomos sexuais – eles são autossomos. Nos mamíferos, as fêmeas possuem dois cromossomos X enquanto machos possuem um cromossomo X e um Y.
+Cromossomo Y
+O cromossomo Y, um cromossomo sexual, aparece apenas em machos. Você sabia que o cromossomo Y continua a encolher à medida que evolui, e que possivelmente irá desaparecer completamente? Eu acho isso muito fascinante!
+Molécula de glicose
+A glicose é um açúcar simples. As plantas produzem a glicose através da fotossíntese e transformam-la em açúcares complexos. Quando nós (os humanos) comemos plantas ou animais que comeram plantas, comemos açúcares complexos, que quebram-se em glicose novamente, que usamos para a energia. 
+Fosfolipídios
+Fosfolipídios são maravilhosas e surpreendentes moléculas pequenas, e você tem milhões de milhões de milhões delas em seu corpo. Fosfolipídios são na verdade um tipo especial de lipídeos que compõem as membranas celulares.
+Bicamada de fosfolipídios
+As membranas celulares são feitas de bicamadas de fosfolípidos. Bicamadas fosfolipídicas podem formar-se naturalmente porque as cabeças atraem-se a água e as caudas repelem a água. Como resultado, as caudas se aglutinam, formando a bicamada.
+Semente de Girassol
+Sementes de girassol são alegremente deliciosas. Elas são tão saborosas, que delas pode ser feito o "pão de semente de girassol"! Sementes de girassol não são sementes reais. Elas são os frutos do girassol! Elas só são chamadas de "sementes" porque se assemelham a outras sementes . 
+Célula da pele
+A camada mais externa da pele, que é também a única camada visível da pele, é constituída por células mortas. Isso porque as células mortas são mais fortes, e pele mais forte proporciona uma protecção maior! Estas células continuamente iram cair. De facto, a poeira é 95% de células mortas da pele! 
+Amebas
+Amebas são unicelulares, o que significa que há apenas uma célula em sua constituição. Algumas amebas podem crescer até incríveis 700 micrômetros, o que é quase um milímetro inteiro.
+E. coli
+E. coli geralmente são inofensivos e vivem em seu intestino, criando a maravilhosa vitamina K2. Eles estão nos intestinos de quase todos. Na verdade, eles colonizam-se nos intestinos de bebês já com dois dias depois de nascidos! Isso é muito rápido!
+Paramécio
+Paramécios variam muito em tamanho, mas geralmente medem em torno de 200 micrômetros. Esses caras são protistas e gostam de nadar na água. Eles podem mover-se dois milímetros por segundo!
+Lentilha
+Estas são lentilhas d'água que flutuam em lagoas e outros corpos de água. Elas não têm caules ou raízes. Por outro lado, elas criam flores, que são as menores de todas as plantas na Terra.
+Gota de névoa
+A névoa pode reduzir a visibilidade um pouco. Ela também pode refletir a luz, então você pode ver raios de luz brilharem através dela. Isso é bem legal. Se você quiser encontrar neblina, vá para o litoral ou para as montanhas. Névoas são mais comum nesses locais. 
+Espessura do papel
+O papel é muito fino. É tão fino que pode cortar-lhe. Você pode fazer um monte de coisas com papel, incluindo a escrever sobre ele, desenhar nele, e até mesmo dobrá-lo em formas como quadrados, triângulos, dodecaedros e outros.
+Porta do Transistor
+Transistores em computadores estão ficando cada vez menores. Em 1971, eles eram 400 vezes maiores, com 10 micrômetros. Agora são fabricados transistores com 25 nanômetros, mas no futuro eles poderão ser ainda menores. Qual será o limite de tamanho para os futuros transistores?
+Maior Virus
+O maior vírus conhecido costumava ser o Mimivirus, cujo nome eu gosto, mas agora é o Megavirus, cujo nome eu também gosto. No entanto, eu não gosto de vírus. Você sabia que Megavirus tem o maior genoma dos vírus? 
+O menor coisa visível ao microscópio óptico
+Microscópios ópticos não podem ver objetos menores que 200 nanômetros, pois os comprimentos de onda da luz visível passaria través delas.
+Alcance da força fraca
+A força fraca é uma das quatro forças fundamentais da natureza, e é a mais fraca das duas forças nucleares. Conforme aumenta a distância, sua força diminui. Em apenas 10 atômetros, a força fraca é tão fraca que é imensurável.
+Mimivirus", 
+Esta coisinha foi descoberta em 1992 dentro de uma ameba, que é apenas 500 vezes maior. Mimivirus costumava ser o maior vírus conhecido, mas agora o maior é o Megavirus.
+Bacteriófago
+O bacteriófago, ou apenas "fago" para o íntimos, é um tipo de vírus que infecta bactérias. Eu acho que eles parecem robôs, e não formas de vida. Mas pode-se dizer que boa parte da comunidade científica não reconhece os vírus como seres vivos.
+Ácaro da poeira
+Os ácaros gostam de comer poeira, o que você provavelmente sabe são apenas células mortas da pele. Muitas pessoas são alérgicas aos ácaros. Algumas pessoas são alérgicas ao seu cocô. De qualquer forma, quase todas as pessoas querem se livrar dessa praga incomoda." ,
+Twip
+Um twip é uma medida tipográfica, o vigésimo ponto tipográfico (em inglês twentieth of a typographical point).
+Mil
+Um Mil (não confundir com o número 1.000) é uma medida de comprimento equivalente a um milésimo de uma polegada. É utilizada para medir o comprimento de corpos vistos com microscópios e é bem requerida para medir espessuras em áreas técnicas (como por exemplo na aplicação de pinturas).
+Espessura da fibra de seda
+A seda é muito valiosa e pode ser usada para confeccionar roupas, que são bem leves. A seda é feita por larvas de mariposa chamadas de bicho-da-seda, o que eu acho bem nojento. Mas também existe a seda sintética, que não é feita por seres pegajosos rastejantes.
+Estrela de nêutrons
+Uma estrela de nêutrons é composta por nêutrons ultracompactados. Como resultado, elas são extremamente densas. Um milímetro do material da estrela de nêutrons pesa 500 bilhões de quilogramas! (Isto é mais que o peso de todos os humanos juntos.)
+Cloroplasto
+As plantas utilizam cloroplastos para converter a energia solar em energia química, que é guardada em moléculas de glicose! Cloroplastos também são responsáveis pela cor verde nas plantas, pois contém clorofila em suas membranas tilacoides.
+Núcleo celular
+Núcleos são bem legais, e eles podem ser encontrados em qualquer célula eucariota. (Células humanas são eucariotas.) O núcleo é o lugar no qual o DNA é guardado. Durante a mitose, o DNA será condensado e transformado em cromossomos, seguido da divisão da célula em dois.
+Texas
+Texas é o único estado dos E.U.A. com a mesma posição tanto no ranking de população quanto no ranking de área em terra (segundo lugar). Se Porto Rico contasse, Mississipi seria o 32° em ambas as categorias, mas isto não ocorre, pois Porto Rico não é um estado norte-americano.
+Elétron (Clássico)
+Elétrons são tão pequenos que seu tamanho não pode ser medido com precisão. O tamanho de um elétron varia fortemente dependendo de como ele é medido, caso seja no modelo quântico ou, nesse caso, no modelo clássico.
+Nanotubo de carbono
+Nanotubos de carbono são o material mais forte já descoberto. Além disso, eles são muito leves. Por isso, eles tem muitas aplicações em potencial, incluindo construções, baterias, painéis solares, e possivelmente até mesmo um elevador espacial.", 
+Alfa-hélice
+A alfa-hélice é uma das estruturas secundárias das proteínas. Muitas proteínas possuem alfa-hélices em sua composição. A hemoglobina e a mioglobina são proteínas feitas de aproximadamente 70% de alfa-hélices!
+Vírus da hepatite B
+A hepatite B infecta milhões de pessoas todo o ano. Inclusive, quase um terço da população mundial foi infectada por esse vírus em algum estágio de sua vida. Este vírus causa vômito, cirrose hepática e, possivelmente, até mesmo morte.
+Circovírus suíno
+O circovírus suíno é um dos menores vírus existentes. Ele precisa de apenas três proteínas para se replicar. Se você considerar os vírus como seres vivos, então o circovírus suíno é a menor coisa viva existente. A maioria das pessoas, porém, concorda que os vírus não são vivos.
+Mitocôndria
+Estas organelas tornam a energia química da glicose em ATP, que pode ser usada mais facilmente para energia em outros processos. Aproximadamente 120,000,000,000,000,000,000,000,000 moléculas de ATP são criadas todo dia em seu corpo por mitocôndrias.
+Átomo de carbono
+O carbono é a base de toda a vida na Terra. Isto ocorre porque os átomos de carbono conseguem criar quatro ligações covalentes, o que os permitem fazer ligações de milhares de formas diferentes com outros átomos de carbono, oxigênio, nitrogênio, hidrogênio e outros elementos.
+Grande Barreira de Coral
+A Grande Barreira de Coral é uma imensa faixa de corais, composta por cerca de 2900 recifes, 600 ilhas continentais e 300 atóis de coral, situada entre as praias do nordeste da Austrália e Papua-Nova Guiné.
+metro
+metros
+centímetro
+centímetros
+ano-luz
+anos-luz
+yoctô
+zeptô
+attô
+femtô
+picô
+nanô
+micrô
+milí
+
+quilô
+mega
+giga
+tera
+peta
+exa
+zetta
+yotta
+A Escala do Universo
+Use a barra de rolagem para ampliar ou diminuir o zoom.
+Clique nos objetos para saber mais.
+Começar
+Traduzido por Guto Souza, Arthur Kemmer, Alex Amorim, Rodolfo Ferraz, Vinicius CB  (escaladouniverso@googlegroups.com)
+Português (Brasileiro)
+Brazilian Portuguese

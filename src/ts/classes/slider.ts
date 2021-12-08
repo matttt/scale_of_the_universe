@@ -55,9 +55,9 @@ export class Slider {
   public handleW: number;
   private tweenable: Tweenable;
 
-  private autopilot = false;
-  private autopilotInterval: any;
-  private autopilotDir: AutopilotDirection = null;
+  // private autopilot = false;
+  // private autopilotInterval: any;
+  // private autopilotDir: AutopilotDirection = null;
 
   private startOffset: number = 0;
 
@@ -162,88 +162,88 @@ export class Slider {
     return graphics;
   }
 
-  forwardAutopilot() {
-    if (this.autopilotDir === AutopilotDirection.FORWARD) return this.terminateAutopilot()
+  // forwardAutopilot() {
+  //   if (this.autopilotDir === AutopilotDirection.FORWARD) return this.terminateAutopilot()
 
 
 
-    const forward = document.getElementById('autoForward');
-    const forwardImg = document.getElementById('forwardImage');
-    const backwardImg = document.getElementById('backwardImage');
+  //   const forward = document.getElementById('autoForward');
+  //   const forwardImg = document.getElementById('forwardImage');
+  //   const backwardImg = document.getElementById('backwardImage');
 
 
 
-    if (this.autopilotDir === AutopilotDirection.BACKWARD || !this.autopilotDir) {
+  //   if (this.autopilotDir === AutopilotDirection.BACKWARD || !this.autopilotDir) {
 
-      this.autopilotInterval ? clearInterval(this.autopilotInterval) : '';
+  //     this.autopilotInterval ? clearInterval(this.autopilotInterval) : '';
 
-      this.autopilotDir = AutopilotDirection.FORWARD;
-      this.autopilot = true
+  //     this.autopilotDir = AutopilotDirection.FORWARD;
+  //     this.autopilot = true
 
-      console.log('hi')
+  //     console.log('hi')
 
-      forwardImg.classList.add('sideSine');
-      backwardImg.classList.remove('sideSine');
+  //     forwardImg.classList.add('sideSine');
+  //     backwardImg.classList.remove('sideSine');
 
-      this.autopilotInterval = setInterval(() => {
-        this.setPercent(this.currentPercent+.000005)
-      }, 5)
-    }
-  }
+  //     this.autopilotInterval = setInterval(() => {
+  //       this.setPercent(this.currentPercent+.000005)
+  //     }, 5)
+  //   }
+  // }
 
-  backwardAutopilot() {
-    if (this.autopilotDir === AutopilotDirection.BACKWARD) return this.terminateAutopilot()
+  // backwardAutopilot() {
+  //   if (this.autopilotDir === AutopilotDirection.BACKWARD) return this.terminateAutopilot()
 
-    const backward = document.getElementById('autoBackward');
-    const backwardImg = document.getElementById('backwardImage');
-    const forwardImg = document.getElementById('forwardImage');
+  //   const backward = document.getElementById('autoBackward');
+  //   const backwardImg = document.getElementById('backwardImage');
+  //   const forwardImg = document.getElementById('forwardImage');
 
 
-    if (this.autopilotDir === AutopilotDirection.FORWARD || !this.autopilotDir) {
+  //   if (this.autopilotDir === AutopilotDirection.FORWARD || !this.autopilotDir) {
       
-      this.autopilotInterval ? clearInterval(this.autopilotInterval) : '';
+  //     this.autopilotInterval ? clearInterval(this.autopilotInterval) : '';
 
-      this.autopilotDir = AutopilotDirection.BACKWARD
-      backwardImg.classList.add('sideSine');
-      forwardImg.classList.remove('sideSine');
-      this.autopilot = true
+  //     this.autopilotDir = AutopilotDirection.BACKWARD
+  //     backwardImg.classList.add('sideSine');
+  //     forwardImg.classList.remove('sideSine');
+  //     this.autopilot = true
 
-      this.autopilotInterval = setInterval(() => {
-        this.setPercent(this.currentPercent-.000005)
-      }, 5)
-    }
-  }
-  public terminateAutopilot() {
-    const forward = document.getElementById('autoForward');
-    const backward = document.getElementById('autoBackward');
-    const forwardImg = document.getElementById('forwardImage');
-    const backwardImg = document.getElementById('backwardImage');
-
-
-    this.autopilotDir = null;
-    this.autopilot = false
-
-    forwardImg.classList.remove('sideSine');
-    backwardImg.classList.remove('sideSine');
+  //     this.autopilotInterval = setInterval(() => {
+  //       this.setPercent(this.currentPercent-.000005)
+  //     }, 5)
+  //   }
+  // }
+  // public terminateAutopilot() {
+  //   const forward = document.getElementById('autoForward');
+  //   const backward = document.getElementById('autoBackward');
+  //   const forwardImg = document.getElementById('forwardImage');
+  //   const backwardImg = document.getElementById('backwardImage');
 
 
-    if (this.autopilotInterval) {
-      clearInterval(this.autopilotInterval);
-      this.autopilotInterval = null;
-    }
-  }
+  //   this.autopilotDir = null;
+  //   this.autopilot = false
+
+  //   forwardImg.classList.remove('sideSine');
+  //   backwardImg.classList.remove('sideSine');
+
+
+  //   if (this.autopilotInterval) {
+  //     clearInterval(this.autopilotInterval);
+  //     this.autopilotInterval = null;
+  //   }
+  // }
 
   handle() {
-    const forward = document.getElementById('autoForward');
+    // const forward = document.getElementById('autoForward');
 
-    forward.addEventListener('click', event => {
-      this.forwardAutopilot();    
-    });
-    const backward = document.getElementById('autoBackward');
+    // forward.addEventListener('click', event => {
+    //   this.forwardAutopilot();    
+    // });
+    // const backward = document.getElementById('autoBackward');
 
-    backward.addEventListener('click', event => {
-      this.backwardAutopilot();    
-    });
+    // backward.addEventListener('click', event => {
+    //   this.backwardAutopilot();    
+    // });
 
     var graphics = new Graphics();
     graphics.interactive = true;
@@ -348,7 +348,7 @@ export class Slider {
 
 
   setTarget(x: number) {
-    this.terminateAutopilot()
+    // this.terminateAutopilot()
     if (x < 0) {
       x = 0;
     }
@@ -357,7 +357,7 @@ export class Slider {
 
   setTargetPercent(percent: number) {
     // HACK: changes constants to speed up the animations
-    this.terminateAutopilot()
+    // this.terminateAutopilot()
     if (percent < 0) {
       percent = 0;
     }
@@ -374,7 +374,7 @@ export class Slider {
     Ticker.shared.speed = 1;
   }
   setAnimationTargetPercent(targetPercent: number) {
-    this.terminateAutopilot()
+    // this.terminateAutopilot()
     if (!this.tweenable.isPlaying()) {
       const deltaPercent = Math.abs(this.currentPercent - targetPercent);
       const duration = Math.min(Math.max(50000 * deltaPercent, 250), 1000)
@@ -455,7 +455,7 @@ export class Slider {
               const insideLeft = leftBound < adjX;
               const insideRight = adjX < rightBound;
         
-              let changed = Math.abs(dXScaled) > .01;
+              let changed = Math.abs(dXScaled) > .005;
               let newPosition = this.currentX;
                 
               if (insideLeft && insideRight && changed) {
@@ -474,7 +474,7 @@ export class Slider {
               
               let percent = (newPosition - margin) / (scaleWidthPixels);
         
-              percent = Math.floor(percent * E(7)) / E(7)
+              // percent = Math.floor(percent * E(8)) / E(8)
 
               this.currentPercent = percent;
         

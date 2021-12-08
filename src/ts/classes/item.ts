@@ -74,6 +74,7 @@ export class Item extends Entity {
 
     this.createClickableRegion();
     this.createText();
+    this.container.sortableChildren = true;
     this.cull(scale, this.sizeData);
   }
 
@@ -92,6 +93,8 @@ export class Item extends Entity {
     if (s) {
       descriptionGfx.scale = new Point(s, s);
     }
+
+    descriptionGfx.zIndex = 2;
 
     this.container.addChild(descriptionGfx);
 
@@ -162,6 +165,7 @@ export class Item extends Entity {
 
     this.text = new Text(this.textDatum.title, textStyle);
     this.text.anchor.set(0.5, 0);
+    this.text.zIndex = 2;
 
     this.text.position.x = this.visualLocation.titleX;
     this.text.position.y = this.visualLocation.titleY;

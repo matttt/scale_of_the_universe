@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const compression = require('compression')
 
-const port = process.env.PORT || 80;
+const port = 3000;
 
 app.listen(port)
 

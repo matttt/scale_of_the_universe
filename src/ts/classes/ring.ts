@@ -141,7 +141,7 @@ export class Ring extends Entity {
     }
     
     //literally done. users will run a couple regexes. 
-    const titleNoNewLine = this.textDatum.title.replace(/(\r\n|\n|\r)/gm, '');
+    // const titleNoNewLine = this.textDatum.title.replace(/(\r\n|\n|\r)/gm, '');
 
     // const expText = this.sizeData.exponent;
     // const expTextFmtd = numToSup(expText);
@@ -151,7 +151,7 @@ export class Ring extends Entity {
     
     const expTextContainer = new Container();
 
-    this.text = new Text(titleNoNewLine, textStyle);
+    this.text = new Text(this.textDatum.title, textStyle);
     this.text.anchor.set(0.5, 0);
     this.text.cacheAsBitmap = false;
     

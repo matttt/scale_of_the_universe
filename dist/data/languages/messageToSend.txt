@@ -1,0 +1,10 @@
+Here's a new file with the 21 language files. I added seven lines at the end for each file, that have the following information:
+1) "The Scale of the Universe"
+2) "Use the scroll bar to zoom in and out."
+3) "Click on objects to learn more."
+4) "Start"
+5) Translated by (translator's name)
+6) The name of the language, in that language
+7) The name of the language, in English
+
+I added the last two, in case it makes stuff easier!

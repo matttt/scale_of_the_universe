@@ -5,6 +5,7 @@ import 'pixi.js-legacy';
 import { Slider } from "./classes/slider";
 import { Universe } from "./classes/universe";
 import { ScaleText } from "./classes/scaleText";
+import { CreditText } from "./classes/creditText";
 
 import { pad } from "./helpers/pad";
 import { E } from "./helpers/e";
@@ -46,14 +47,14 @@ const titles = [
 const titleEl = document.getElementById("title");
 const hoverTitleEl = document.getElementById("hoverTitle");
 let hoverTimeout;
-window['setTitle'] = (idx) => {
-  if (hoverTimeout) 
-    clearTimeout(hoverTimeout);
+// window['setTitle'] = (idx) => {
+//   if (hoverTimeout) 
+//     clearTimeout(hoverTimeout);
 
-  hoverTitleEl.innerHTML = titles[idx];
-  hoverTitleEl.style.display = 'block'
-  titleEl.style.display = 'none';
-}
+//   hoverTitleEl.innerHTML = titles[idx];
+//   hoverTitleEl.style.display = 'block'
+//   titleEl.style.display = 'none';
+// }
 
 window['revealTitle'] = () => {
   if (hoverTimeout) 
@@ -69,14 +70,14 @@ function showTitle () {
 
 
 const dialogPolyfill = require("dialog-polyfill");
-// PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
-// PIXI.settings.RESOLUTION = 2;
-const staticHostingURL = "https://d1w6pmjy03071n.cloudfront.net";
+
+// const staticHostingURL = "https://d1w6pmjy03071n.cloudfront.net";
+const staticHostingURL = "http://localhost:3000";
 
 const frozenStar = new Howl({
   src: [
-    `${staticHostingURL}/frozen_star.webm`,
-    `${staticHostingURL}/frozen_star.mp3`
+    `sound/frozen_star.webm`,
+    `sound/frozen_star.mp3`
   ],
   loop: true,
   volume: 0.5
@@ -114,35 +115,35 @@ const modal: any = document.getElementById("modal");
 
 // modal.showModal();
 
-let n = 0;
-const fadeOut = new Tweenable();
-fadeOut.setConfig({
-  from: { opacity: 1 },
-  to: { opacity: 0 },
-  easing: "easeInOutSine",
-  duration: 500,
-  step: state => (titleEl.style.opacity = state.opacity)
-});
+// let n = 0;
+// const fadeOut = new Tweenable();
+// fadeOut.setConfig({
+//   from: { opacity: 1 },
+//   to: { opacity: 0 },
+//   easing: "easeInOutSine",
+//   duration: 500,
+//   step: state => (titleEl.style.opacity = state.opacity)
+// });
 
-const fadeIn = new Tweenable();
-fadeIn.setConfig({
-  from: { opacity: 0 },
-  to: { opacity: 1 },
-  easing: "easeInOutSine",
-  duration: 500,
-  step: state => (titleEl.style.opacity = state.opacity)
-});
+// const fadeIn = new Tweenable();
+// fadeIn.setConfig({
+//   from: { opacity: 0 },
+//   to: { opacity: 1 },
+//   easing: "easeInOutSine",
+//   duration: 500,
+//   step: state => (titleEl.style.opacity = state.opacity)
+// });
 
-let titleCaroselTimeout;
+// let titleCaroselTimeout;
 
-function titleCarosel() {
-  titleEl.textContent = titles[n++ % (titles.length - 1)];
-  fadeIn.tween().then(
-   titleCaroselTimeout = setTimeout(() => {
-      fadeOut.tween().then();
-    }, 2000)
-  );
-}
+// function titleCarosel() {
+//   titleEl.textContent = titles[n++ % (titles.length - 1)];
+//   fadeIn.tween().then(
+//    titleCaroselTimeout = setTimeout(() => {
+//       fadeOut.tween().then();
+//     }, 2000)
+//   );
+// }
 
 const muteToggle:any = document.querySelector('.speaker');
 let isMuted = false;
@@ -154,11 +155,8 @@ muteToggle.onclick = function (ev) {
 }
 
 
-
-
-
-titleCarosel();
-const titleCaroselInterval = setInterval(titleCarosel, 3000);
+// titleCarosel();
+// const titleCaroselInterval = setInterval(titleCarosel, 3000);
 
 const frame = document.getElementById("frame");
 const sotuFrame = document.getElementById("sotu");
@@ -168,13 +166,8 @@ const startWrapper = document.getElementById("startWrapper");
 
 const loader = new PIXI.Loader();
 
+loader.add("assetsLow", `img/textures/quarter_items-0-main.json`);
 
-
-loader.add("assetsLow", `${staticHostingURL}/quarter_items-0-main.json`);
-
-
-
-// loader.add('assets1', '/img/new/item_textures_0_quarter.json')
 dialogPolyfill.registerDialog(modal);
 
 const globalResolution = 1;
@@ -183,13 +176,12 @@ const globalResolution = 1;
 const loadingSpin:any = document.getElementById("loadingSpin");
 
 loader.load(async (loader, resources) => {
-  // document.getElementById('loadingBar').style.visibility = 'hidden';
   loadingSpin.visibility = 'hidden';
   loadingSpin.remove();
 
   langWrapper.style.visibility = 'visible';
 
-  let app
+  let app;
 
   try {
     app = new PIXI.Application({
@@ -201,14 +193,13 @@ loader.load(async (loader, resources) => {
       // autoDensity: true,
       powerPreference: "high-performance",
       resolution: globalResolution,
-      forceFXAA: true,
+      // forceFXAA: true,
       sharedTicker:true,
       resizeTo: sotuFrame
     });
 
 
 
-    // app.view.style.zindex = '200'
 
   } catch (err) {
     console.log(err)
@@ -235,11 +226,13 @@ loader.load(async (loader, resources) => {
   
   let scaleText = new ScaleText((w * 0.9) / globalResolution, (slider.topY - 40), "0");
 
+  let creditText = new CreditText(w*0.07, h - (100 + (h*0.05)) - 40);
+
   const highLoader = new PIXI.Loader();
 
   const highJSONCount = 5;
   for (let i = 0; i <= highJSONCount; i++) {
-    highLoader.add(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
+    highLoader.add(`main${i}`, `img/textures/new_items_${i}.json`);
   }
 
   highLoader.load(async (highLoader, highResources) => {
@@ -270,6 +263,7 @@ loader.load(async (loader, resources) => {
     let scaleExp = percent * 62 - 35; //range of 10^-35 to 10^27
   
     scaleText.setColor(scaleExp);
+    creditText.setColor(scaleExp);
 
     if(scaleExp > 5 && scaleExp < 7) {
       let opacity = map(scaleExp, 5, 7, 0.1, 100);
@@ -315,7 +309,7 @@ loader.load(async (loader, resources) => {
         hqToggle.classList.add('hd-click')
 
           for (let i = 0; i <= 5; i++) {
-            highLoader.add(`main${i}`, `${staticHostingURL}/new_items_${i}.json`);
+            highLoader.add(`main${i}`, `img/textures/new_items_${i}.json`);
           }
         }
 
@@ -331,8 +325,6 @@ loader.load(async (loader, resources) => {
     }
 
 
-
-
     startWrapper.style.display = 'block';
 
 
@@ -343,6 +335,7 @@ loader.load(async (loader, resources) => {
       universe.container,
       slider.container,
       scaleText.container,
+      creditText.container,
       universe.displayContainer
     );
 
@@ -351,10 +344,10 @@ loader.load(async (loader, resources) => {
     langWrapper.style.visibility = "hidden";
     langWrapper.remove()
 
-    clearInterval(titleCaroselInterval);
-    clearTimeout(titleCaroselTimeout);
-    fadeIn.stop(true);
-    fadeOut.stop(true);
+    // clearInterval(titleCaroselInterval);
+    // clearTimeout(titleCaroselTimeout);
+    // fadeIn.stop(true);
+    // fadeOut.stop(true);
     titleEl.innerHTML = textData[619]
     titleEl.style.opacity = '1';
 

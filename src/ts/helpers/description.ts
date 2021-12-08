@@ -93,7 +93,7 @@ export function getGraphics (visualLocation, textDatum, extraText, units: string
 
     const descriptionContainer = new PIXI.Container();
     const graphics = new PIXI.Graphics();
-    const totalTextHeight = titleText.height + descriptionText.height + scaleText.height + unitFriendlyText.height + 10 + 35;
+    const totalTextHeight = titleText.height + descriptionText.height + scaleText.height + unitFriendlyText.height + 60;
     //shadow
     graphics.beginFill(0x000000, .2);
 

@@ -36,6 +36,7 @@ export class Entity {
     const spriteLow = new Sprite(textureLow);
 
     spriteLow.anchor.set(0.5, 0.5);
+    spriteLow.zIndex = 0;
 
     this.container.scale = new Point(scale, scale);
 
@@ -53,6 +54,7 @@ export class Entity {
     sprite.anchor.set(0.5, 0.5);
     this.sprite = sprite;
     this.sprite.visible = true;
+    this.sprite.zIndex = 1;
     this.container.addChild(this.sprite);
 
     this.setItemQuality(true)
@@ -70,14 +72,15 @@ export class Entity {
   }
 
   setQuality(qualityIndex: number) {
+      if (this.sprite) {
+        this.sprite.visible = qualityIndex === 1
+      }
 
-      this.sprite ? this.sprite.visible = qualityIndex === 1 : 'bloopdy bloo';
       this.spriteLow.visible = qualityIndex === 0;
-
   }
 
   clearHighTexture() {
-    // this.sprite ? this.sprite.destroy() : 'boop';
+    // if(this.sprite) this.sprite.destroy();
     // this.sprite = null
     this.setItemQuality(false);
     this.setQuality(0)
@@ -86,8 +89,9 @@ export class Entity {
   public setItemQuality(isHigh: boolean): void {
     this.isHighQuality = isHigh;
 
-    if (this.sprite)
-      this.sprite.visible = this.isHighQuality ;
+    if (this.sprite) {
+      this.sprite.visible = this.isHighQuality;
+    }
     this.spriteLow.visible = !this.isHighQuality;
   }
 

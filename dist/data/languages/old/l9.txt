@@ -1,0 +1,625 @@
+tx=LCD-Pixel
+Obwohl sich die Größe der Pixel je nach Verwendung stark voneinander unterscheidet, liegt der Durchschnitt um die 300 Mikrometer. Ein Pixel beinhaltet drei verschiedene Unterpixel, das sind rot, grün und blau. Wenn du denkst, dass Pixel schon cool sind, dann solltest du einmal Voxel sehen! Das sind dreidimensionale Pixel.
+Palm Jebel Ali
+Palm Jebel Ali ist die größte menschengemachte Insel (ausgenommen Inseln wie Flevopolder, eine Region der Niederlande, die durch Trockenlegung entstanden ist). Palm Jebel Ali ist noch nicht fertiggestellt. Es ist Teil der Palm Islands und soll einmal 250.000 Personen beherbergen!
+Neutrino
+Neutrinos fliegen die ganze Zeit durch normale Materie wie dich und mich hindurch! Tatsächlich in genau diesem Moment! Neutrinos haben keine Ladung, daher spüren sie nur die Gravitation und die Schwache Kernkraft. Allerdings sind sie so winzig, dass sie auch davon kaum beeinflusst werden.
+Hochenergie-Neutrino
+Neutrinos höherer Energie sind größer. Für mehr Informationen über Neutrinos zoome zum Neutrino, das die durchschnittliche Größe zeigt. Es ist enorme 15.000-mal kleiner!
+Streichholz
+Ein Streichholz ist ein sehr nützliches kleines Werkzeug. Streicht man es über eine raue Oberfläche, so kann es sich entzünden. Diese Eigenschaft macht es sehr gefährlich! Darum ist es keine gute Idee, mit Streichhölzern zu spielen. Kapiert?
+Hühnerei
+Hühnerküken schlüpfen normalerweise aus Hühnereiern. Viele Menschen mögen es Hühnereier zu essen. Von der Erscheinung abgesehen gibt es keinen Unterschied zwischen weißen und braunen Hühnereiern.
+Wachteleier
+Viele Leute glauben, dass Wachteleier besser als Hühnereier sind. Das Wachtelei ist kleiner und seltener, aber das hindert die Leute nicht daran, sie zu mögen!
+Quadratzoll
+Früher – und heute noch in anderen Teilen der Welt – nutzten nicht alle Leute das metrische System. Hier ist zum Beispiel ein Quadratzoll. 2,54 cm ist die Länge einer Seite, nicht die Fläche. (Die wäre in cm².)
+Kaffeebohne
+Die Kaffeebohne ist etwa einen Zentimeter groß – und sie ist eigentlich eine Frucht, die wie eine Bohne aussieht. Sie ist braun und hat Streifen, und manchmal, wenn du sie anstarrst, vergisst du, dass ihr Durchmesser ein 10^29stel des bekannten Universums ist.
+Regenwurm
+Liebst du nicht auch sich windende schleimige Regenwürmer? Trotz des Gerüchtes sterben die meisten Regenwurmarten, wenn man sie halbiert. Manchmal überlebt der Kopf und bildet einen neuen Schwanz aus.
+Rigel
+Rigel ist ein grell-blauer Stern und der hellste des Sternbildes Orion. Er liegt nahe dem Äquator, daher ist er von fast überall auf der Erde sichtbar. Sprich ihn nicht „Riggel“ aus, sondern „Rihgel“.
+Vereinigte Staaten von Amerika
+Das sind die USA. Obwohl sie größer als Pluto aussehen, hat Pluto eine Rückseite, was bedeutet, dass Pluto mehr Oberfläche hat!
+Erde
+Die Erde ist unser einziges Zuhause. Solange wir darauf leben, mag sie uns riesig erscheinen, aber es ist dennoch wichtig, sich um sie zu kümmern. Wenn sie weg ist, können wir nirgendwo sonst hin.
+Deneb
+Deneb ist der hellste Stern des Sternbilds Schwan. Deneb ist 1.500 Lichtjahre entfernt und damit der am weitesten entfernte der 25 hellsten Sterne. Wenn Du auf dem Mars leben würdest, würde Deneb über dem Nordpol erscheinen – nicht der Nordpolarstern.
+V V Cephei A
+Eine Zeitlang war V V Cephei A der größte bekannte Stern. Jetzt gehört dieser Titel VY Canis Majoris. Das liegt daran, dass ständig neue Sterne entdeckt werden!
+R Doradus
+R Doradus ist relativ groß und nur 200 Lichtjahre von der Erde entfernt, daher ist sein scheinbarer Durchmesser der zweitgrößte am Himmel! Er beträgt 0,05 Bogensekunden. Die Sonne hat den größten scheinbaren Durchmesser, 1.920 Bogensekunden – 40.000-mal größer.
+Aldebaran
+Aldebaran darf nicht mit Alderaan verwechselt werden, der ein Planet bei Star Wars ist. Alderaan ist der Erde in Größe, Taglänge und Wasserbedeckung recht ähnlich. Aldebaran hingegen hat einen 5.000-mal größeren Durchmesser, rotiert alle 643 Erdtage einmal und man kann auf ihm kein Wasser finden.
+Pollux
+In der griechischen Mythologie ist Pollux der Bruder von Castor. Beide finden sich im Sternbild der Zwillinge (Gemini) wieder. Pollux ist nur ein einziger Stern, wohingegen Castor aus drei Doppelsternsystemen, also aus insgesamt sechs Sternen besteht. Erst im Fernrohr kann man Castor in drei Sterne trennen. Castor ist ein Satz Sechslinge!
+Arcturus
+Arcturus (oder auch Arktur) ist nach Sirius und Canopus der dritthellste Stern am Nachthimmel. Er ist der hellste Stern im Sternbild des Bärenhüters. Man kann ihn finden, indem man der Deichsel des großen Wagens folgt.
+Die Sonne
+Auch bekannt als Sol; die Sonne gibt der Erde ihre Energie und ermöglicht ihr, Leben zu tragen. Die Sonne ist über 100-mal größer im Durchmesser als die Erde! 20.000-mal mehr solare Energie trifft die Erde, als die Menschheit verbraucht.
+Alpha Centauri A
+Alpha Centauri A ist der größte Stern im Alpha-Centauri-Sternsystem (das aus drei Sternen zusammengesetzt ist), das uns am nächsten stehende Sternsystem. Er ist außerdem der vierthellste Stern am Nachthimmel.
+Alpha Centauri B
+Alpha Centauri B ist der zweitgrößte Stern im Alpha-Centauri-Sternsystem. Sein Durchmesser beträgt etwa eine Million Kilometer, womit er etwas kleiner als die Sonne ist. Alpha Centauri A %26 B stehen so nah beieinander, dass sie uns Erdlingen als ein einzelner Stern erscheinen.
+Proxima Centauri
+Proxima Centauri ist dafür bekannt, der der Erde am nächsten stehende Stern nach der Sonne zu sein. Sein Name kommt vom Wort Proximität (Nähe). Proxima Centauri ist ein kleiner roter Stern. Leider ist er so dunkel, dass man ein Teleskop benötigt, um ihn sehen zu können.
+Sirius A
+Sirius ist der hellste Stern am Nachthimmel. Er ist fast doppelt so hell wie Canopus, der zweithellste Stern. Dennoch ist Sirius kein großer Stern. Er erscheint nur hell, weil er uns sehr nahe steht, er ist nur acht Lichtjahre entfernt.
+Sirius B
+Sirius B ist ein weißer Zwerg. Er ist kaum größer als die Erde! Er ist gewöhnlich schwer zu sehen, weil er durch Sirius A überstrahlt wird. Sirius B wird auch „Pup“ (Jungtier) genannt.
+Wega
+Wega findet sich im Sternbild Leier (Lyra). Sie ist auch Teil des Sommerdreiecks, das sich aus Wega, Altair und Deneb zusammensetzt. Wega dreht sich so schnell, dass sie sich abplattet. Wir schauen jedoch auf ihren Pol, so dass sie uns kreisförmig erscheint.
+Regulus
+Regulus dreht sich so schnell, dass er sich abplattet, genau wie Altair und Wega. Würde Regulus nur 16%25 schneller rotieren, würde es ihn zerreißen! Regulus ist außerdem der hellste Stern des Sternbilds Löwe (Leo). Es gibt auch noch Regulus B %26 C.
+Spica
+Spica ist der fünfzehnthellste Stern am Nachthimmel und liegt im Sternbild Jungfrau (Virgo). Eigentlich ist er ein Doppelsternsystem. Die beiden Sterne sind sich sehr nah und umkreisen sich in nur vier Tagen.
+Alnitak
+Alnitak leuchtet neben dem Flammennebel. Alnitak ist der östlichste Stern vom Gürtel des Orion. Die anderen beiden sind Alnilam und Mintaka, und alle drei erscheinen sehr hell vom Planeten Erde aus.
+Gacrux
+Gacrux kann im Sternbild Kreuz des Südens (Crux) gefunden werden. Gacrux ist ein Doppelstern. Der größere der beiden ist ein Roter Riese.
+Uranus
+Viele Leute glauben, die englische Aussprache von Uranus gleiche „your anus“, also „dein Anus“. Es gibt aber viele andere, und bessere, Aussprachen. Uranus kann im Englischen auch als „Jerahnus“ oder „Seventh Planet“ (siebter Planet) ausgesprochen werden.
+Neptun
+Neptun ist derzeit der am weitesten von der Sonne entfernte Planet unseres Sternsystems. Er braucht 164,8 Erdenjahre, um einmal die Sonne zu umrunden. Man kann keinen kompletten Umlauf in einem Menschenleben beobachten, es sei denn, die Lebenserwartung steigt.
+Wolf 359
+Wolf 359 ist ein kleiner Roter Zwerg, deutlich kleiner als normale Sterne. Er ist der sechstnächste Stern von der Erde aus, nach der Sonne, Proxima Centauri, Alpha Centauri A %26 B und Barnards Pfeilstern. Dennoch beträgt seine Größenordnung nur dunkle +13,5 mag.
+Gliese 229A
+Gliese 229A ist ein Roter Zwerg. Er ist ein wenig kleiner als die Sonne. Dieser Rote Zwerg wird auch GJ 229 oder GI 229 geschrieben. Er ist Teil eines Doppelsternsystems, dessen zweiter Stern Gliese 229B heißt.
+Gliese 229B
+Gliese 229B ist ein Brauner Zwerg. Er umkreist einen größeren Zwergstern, Gliese 229A. Gliese 229B würde als Planet klassifiziert werden, aber er ist viel dichter als Jupiter, wodurch seine Masse zu groß ist, um noch als Planet zu gelten.
+Jupiter
+Jupiter ist der größte Planet unseres Sonnensystems. Dennoch ist er nicht der größte bekannte Planet. Das ist nämlich TReS-4. Jupiter ist ein Gasriese, also ein riesiger, aus Gas bestehender Ball. Es ist unmöglich, auf ihm zu landen. Jupiter besitzt auch 64 Monde, unter ihnen sind auch die vier Galileischen Monde.
+Saturn
+Saturn hat die breitesten und am besten sichtbaren Ringe im Sonnensystem. Galileo, der diese als erster Mensch erblickte, hielt diese Ringe zuerst für Ohren. Kannst du dir Saturn ohne Ringe vorstellen? Er wäre dann nur eine gelbe Kugel.
+TReS-4
+TReS-4 ist der größte Planet, der je entdeckt wurde. Er ist 1.400 Lichtjahre entfernt. Kein Teleskop kann ihn direkt sehen. Wir wissen nur, dass er existiert, weil er vor seinem Stern vorbeizieht und dabei das Licht des Sterns etwas abdunkelt.
+Venus
+Es gab eine Zeit, in der man dachte, dass Venus und Erde Schwesterplaneten waren. Das stimmt natürlich nicht! Die Temperatur der Venus beträgt mehr als 450 °C. Der Grund dafür ist, dass ihre Atmosphäre überwiegend aus Kohlendioxid besteht, und somit wird die Hitze der Sonne quasi gefangen gehalten.
+Mars
+Mars ist bekannt als der Rote Planet. Er ist rot, weil er rostet. Viele Leute glauben, dass es einmal Wasser und Leben auf diesem Planeten gegeben haben soll. Auch wenn das stimmen sollte, es waren definitiv keine grünen Männchen.
+Merkur
+Merkur ist der Planet, der der Sonne am nächsten ist. Er besitzt keine Atmosphäre. Während des Tages kann die Temperatur auf bis zu 400 °C ansteigen, während der Nacht kann sie auf -180 °C fallen. Ein Jahr auf dem Merkur beträgt 88 Erdtage.
+Ganymed
+Ganymed ist der größte Mond unseres Sonnensystems. Er umkreist den Jupiter und wurde von Galileo entdeckt. Somit wurde er einer der vier Galileischen Monde. Ganymed sollte nicht mit dem Asteroiden 1036 Ganymed verwechselt werden, der exakt den gleichen Namen trägt. Im Englischen wird Ganymed (der Mond) mit einem e am Ende geschrieben.
+Kallisto
+Kallisto ist der am weitesten entfernte der Galileischen Monde. Er unkreist den Jupiter außerhalb der Bahnen der anderen Galileischen Monde und wird deshalb am meisten von Meteoriten getroffen. Alle diese Einschläge verursachen viele Krater.
+Io
+Io besitzt eine Menge Vulkane – die meisten im Sonnensystem! Ios Geysire spucken gefrorenes Schwefeldioxid bis zu 500 Kilometer in das All hinaus. Die Landschaft von Io verändert sich ständig. In einem Jahr wird sie komplett anders aussehen als heute.
+Europa
+Europa ist der kleinste der Galileischen Monde. Er ist komplett mit Eis bedeckt. Es gibt mysteriöse Schlieren, die die Oberfläche dieses Mondes durchziehen. Einige Leute glauben, dass möglicherweise flüssiges Wasser unterhalb des Eises existiert, eventuell sogar Leben.
+Titan
+Titan ist der einzige große Mond des Saturn. Er hat eine dichte Atmosphäre, die hauptsächlich aus Stickstoff besteht. Die Atmosphäre der Erde besteht ebenfalls hauptsächlich aus Stickstoff. Titan hat Meere aus flüssigem Methan. (Bei etwa -180 °C.) Es gibt sogar einen Kontinent, der „Xanadu“ genannt wird.
+Der Mond
+Der Mond, auch als „Luna“ bekannt, ist das hellste Objekt am Nachthimmel. Er umrundet die Erde alle 27 Tage, 7 Stunden und 43 Minuten. Ich stelle mir vor, wie es wohl aussehen würde, wenn mehrere Monde den Nachthimmel durchkreuzen würden … sicherlich fantastisch!
+Triton
+Triton ist der größte Mond des Neptun. Er ist mit -240 °C auch das kälteste Objekt im Sonnensystem. Triton ist zudem ein sehr windiger Ort mit Windgeschwindigkeiten nahe der Schallgeschwindigkeit!
+Pluto
+Pluto ist kein Planet mehr. Warum haben die Leute Mitleid mit ihm? Er hat keine Gefühle. Selbst wenn er welche hätte, warum sollte es ihm kümmern, was die Leute auf der fernen Erde denken? Nebenbei, Plutos offizieller Name jetzt „134340 Pluto“, weil er als Zwergplanet gilt.
+Charon
+Charon ist Plutos einziger großer Mond. Ihr Größenunterschied ist so gering, dass manche Leute Pluto und Charon gar als Doppelplanet betrachten. Wusstest du, dass Pluto und Charon einander immer dieselbe Seite zuwenden?
+Eris
+Eris ist der größte Zwergplanet und ist sogar größer als Pluto, der ebenfalls ein Zwergplanet ist. Eris ist sehr weit von der Sonne entfernt. Eris hat einen Mond, der Dysnomia heißt. Wo ist Dysnomia? Direkt unter dem Punkt am Ende dieses letzten Satzes.
+Dysnomia
+Dysnomia ist der einzige Mond von Eris und wurde am 10. September 2005 entdeckt, einem Samstag. Wusstest du, dass Dysnomia auch der Name einer Lernschwäche ist (Wortfindungsstörung), die der Dyslexie (Schreib-/Leseschwäche) ähnelt?
+Sedna
+Sedna hat eine elliptische Umlaufbahn. Sie ist so weit entfernt, dass sie 10.000 Erdjahre braucht, um einen Umlauf zu vollenden. Dir ist vielleicht aufgefallen, dass „Sedna“ rückwärts „Andes“ (die Anden) heißt? Das ist das längste Gebirge der Welt. (Es ist in Südamerika.) Beides wirkt vielleicht etwas fremdweltlich!
+Quaoar
+Quaoar ist sehr dicht, weil sein Kern sehr groß ist. Quaoar ist früher möglicherweise einmal sehr viel größer gewesen. Er wurde vielleicht von einem Objekt der Größe Plutos getroffen, wodurch seine äußeren Schichten weggerissen worden sein könnten.
+Ceres
+Ceres ist für Menschen kein guter Ort zum Leben. Ceres ist der größte Asteroid, und an ihm hat sich die Diskussion über die Definition vom Begriff „Planet“ entzündet. Eine Zeit lang wurde Ceres als Planet betrachtet, heute wird er jedoch nicht als Planet gewertet.
+Nordpolarstern
+Der Nordpolarstern wird auch Polaris genannt. Er ist dem Nordpol sehr nahe. Wenn du wissen willst, wo Norden ist, finde einfach den Nordpolarstern. Verlängere einfach die beiden hinteren Sterne des großen Wagens (gegenüber der Deichsel) um das fünffache nach oben.
+Antares
+Antares ist ein Roter Überriese, der fast auf der Ekliptikebene liegt, daher wird er sehr oft vom Mond verdunkelt. Antares wiegt Quadrilliarden Tonnen und verliert Gewicht durch seinen Sonnenwind, doch diese Methode ist langsam. Die schnellere Methode, Masse zu verlieren, ist durch Explosion, was Antares später tun wird.
+Altair
+Altair ist einer der drei Sterne des Sommerdreiecks. Das Sommerdreieck ist ein spitzes Dreieck, das heißt, dass alle seine Winkel kleiner als 90° sind! Die anderen beiden Sterne im Dreieck sind Wega und Deneb. Wie viele Sterne, rotiert Altair sehr schnell und beult sich dadurch in der Mitte aus!
+La Superba
+La Superba ist einer der rötlichsten Sterne des Nachthimmels.  Der Stern ist so rot aufgrund des vielen Kohlenstoff-13, den er beim Heliumverschmelzen erzeugt. (Normal ist Kohlenstoff-12.) La Superba ist nur 2500 °C heiß und damit einer der kältesten Sterne.
+Pistolenstern
+Der Pistolenstern ist einer der leuchtkräftigsten bekannten Sterne. In zwanzig Sekunden strahlt er so viel Energie ab wie die Sonne in einem ganzen Jahr. Interstellarer Staub verdunkelt ihn für uns. Er heißt nicht wegen seiner Leuchtkraft Pistolenstern, sondern wegen des Pistolennebels.
+S Doradus
+S Doradus ist sowohl ein Hyperriese als auch einer der hellsten Sterne in der Großen Magellanschen Wolke. Um mehr über die Große Magellansche Wolke zu erfahren, zoome um 8,5 Größenordnungen heraus.
+Enif
+Enif ist ein oranger Überriese. Enif ist arabisch und bedeutet Nase. Das passt super, da er im Sternbild Pegasus die Schnauze darstellt. Zufällig ist „Enif“ rückwärts „fine“ (fein).
+Mu Cephei
+Mu Cephei ist sehr rot. Er wird manchmal „Herschels Granatstern“ genannt wegen seiner granatroten Farbe. Ein weiterer Name ist Erakis, falls dir die beiden ersten Namen nicht gefallen.
+KY Cygni
+KY Cygni hat die 30.000-fache Leuchtkraft der Sonne, und die Sonne ist schon ziemlich hell, nicht wahr? Die Sonne leuchtet so hell, dass du sie nicht direkt anschauen solltest! KY Cygni kannst du allerdings bedenkenlos anschauen, denn er ist 300 Millionen mal so weit weg.
+V354 Cephei
+V354 Cephei ist ein Roter Überriese, und er ist gigantisch. In der Mitte des Sonnensystems platziert würde er über die Bahn des Jupiter hinausreichen. Neben dem Namen des Sterns ist 354 auch noch das Jahr, in dem Augustinus von Hippo geboren wurde.
+WOH G64
+Ich weiß … du denkst: „WOH … das ist ein großer Stern!“ Nun, ich glaube du hast recht, denn derzeit ist er der zweitgrößte bekannte Stern. WOH G64 befindet sich in der Großen Magellanschen Wolke. Um ihn herum ist eine Wolke, die sich über ein halbes Lichtjahr erstreckt.
+VY Canis Majoris
+VY Canis Majoris ist der größte bekannte Stern. Würde man ihn in die Mitte des Sonnensystems stellen, würde er bis über die Saturnbahn reichen! Ein Flugzeug bräuchte 1.200 Jahre, um ihn einmal zu umrunden.
+Beteigeuze
+Beteigeuze (auch Betelgeuze, Beteigeuse u. a.) ist nur einige Millionen Jahre alt. Beteigeuze ist in seinem Lebenszyklus so weit fortgeschritten, dass man annimmt, dass er bereits in den nächsten zehntausend Jahren explodieren wird. Kleinere Sterne leben Milliarden Jahre. Beteigeuze ist so groß, dass er schneller alterte.
+Albireo
+Albireo besteht insgesamt aus drei Sternen. Wir zeigen hier nur den größten. Zwei der Sterne stehen sehr nahe beieinander und bilden einen gelben Punkt. Der dritte ist blau und weiter entfernt. Die Distanz zwischen dem blauen Stern und den gelben Sternen ist so groß, dass sie 100.000 Jahre für einen kompletten Umlauf benötigen.
+Kapteyns Stern
+Kapteyns Stern ist nur dreizehn Lichtjahre entfernt. Dennoch ist seine Größenklasse +9 mag, man braucht also ein Fernglas, um ihn zu sehen. Vor etwa 10.000 Jahren war Kapteyns Stern nur sieben Lichtjahre entfernt!
+Luytens Stern
+Luytens Stern ist ein Roter Zwerg in zwölf Lichtjahren Entfernung. Er steht Procyon so nahe, dass Procyon – von Luytens Stern aus betrachtet – zehn mal so hell erscheinen würde wie Sirius uns erscheint. Ich weiß außerdem nicht, wie man den Namen ausspricht. „Luiten“ oder „Loiten“ oder „Luuten“? Ich weiß es einfach nicht! Hilfe bitte!
+Procyon
+Wusstest du, dass Procyon in den nächsten 10 Millionen Jahren auf das hundertfache seiner derzeitigen Größe wachsen und rot werden wird? Das liegt daran, dass Procyons Wasserstoff jetzt komplett zu Helium verschmolzen ist. Der Sonne wird es in einigen Milliarden Jahren ebenso ergehen.
+Asien
+Asien ist der größte Kontinent der Erde und hat mehr als vier Milliarden Einwohner. Das macht mehr als die Hälfte der Erdbevölkerung aus! Afrika hingegen ist der zweitgrößte Kontinent, hat jedoch gerade einmal eine Milliarde Einwohner.
+Italien
+Italien war die Heimat von Leonardo da Vinci. Er war Erfinder, Mathematiker, Ingenieur, Maler, Bildhauer, Wissenschaftler, Musiker und viel mehr. Andere berühmte Maler wie Raphael und Michelangelo kamen ebenfalls aus Italien.
+Brunei
+Brunei ist ein Land in Südostasien. Es wird vollständig von Malaysia und dem Südchinesischen Meer umschlossen. 400.000 Leute leben in diesem Land. Sie haben dort Linksverkehr.
+Ruanda
+Ruanda ist ein Binnenstaat in Ostafrika und bekannt als „das Land der tausend Hügel“. Wusstest du, dass Ruanda von seiner Fläche her den Platz 148 belegt? Das bedeutet, dass es nur 147 größere Länder gibt.
+Kalifornien
+Kalifornien hat den Spitznamen „Der Goldene Staat“. Das ist der Grund, warum es goldfarbig ist. Kalifornien hat 37 Millionen Einwohner, was weniger als ein Prozent der Weltbevölkerung ausmacht.
+West Virginia
+West Virginia war einmal ein Teil von Virginia. Es spaltete sich 1863 wegen des Bürgerkrieges ab. West Virginia ist heute noch ein eigenständiger Staat! Dort werden viele Murmeln hergestellt.
+Phobos
+Phobos ist der größere der beiden Monde des Mars. Er ist dennoch ziemlich klein! Wusstest du, dass Phobos’ Schwerkraft so schwach ist, dass ein dort geworfener Baseball nicht wieder auf Phobos zurückfallen würde?
+Deimos
+Deimos ist einer der kleinsten bekannten Monde. Du könntest ihn an einem Tag zu Fuß umrunden! Zumindest, wenn du im Weltall überleben könntest oder einen Raumanzug an hättest. In einem Raumanzug könntest du allerdings nicht so schnell gehen, denke ich.
+Rhode Island
+Rhode Island ist der kleinste Staat der USA, und dennoch hätte die gesamte Weltbevölkerung in ihm Platz. Wusstest du, dass Rhode Island den längsten offiziellen Staatsnamen hat? („The State of Rhode Island and Providence Plantations“)
+Riesenregenwurm
+Der Riesenregenwurm (Megascolecidae, die eigentlich nicht zu den Regenwürmern gehören) wird bis zu drei Metern lang. Wenn Baby-Riesenregenwürmer aus ihren Kokons schlüpfen, sind sie nur zwanzig Zentimeter lang. Sie brauchen fünf Jahre, um ihre volle Größe zu erreichen. Sie bewohnen das Erdreich und machen gurgelnde Geräusche.
+Hydra
+Hydra ist ein Mond von Pluto, der nach der siebenköpfigen Schlage aus der griechischen Mythologie benannt ist. Natürlich wachsen ihr zwei Köpfe nach, wenn du einen abschlägst. Wenn du eine Hydra mit n Köpfen willst, musst du ihr nur n-7 Köpfe abschlagen! Das wird allerdings nicht funktionieren, wenn du weniger als 7 Köpfe willst.
+Nix
+Nix ist Plutos kleinster Mond. Sie trägt den zweikürzesten Namen aller Monde; der kürzeste ist Io. Der Name stammt von der griechischen Urgöttin Nyx, die die Nacht repräsentiert.
+Cruithne
+Cruithne ist als der zweite Mond der Erde bekannt. Tatsächlich ist dieser Himmelskörper kein Mond der Erde, sondern folgt nur einer elliptischen Bahn um die Sonne, die der Erdbahn nahe steht. Ein Cruithne-Jahr dauert 364 Erdtage und ist damit sehr nah an einem Erdjahr.
+Die Entfernung Erde – Mond
+Die Erde und der Mond sind hier nicht maßstabsgetreu dargestellt. Wäre die Entfernung ein Meter, dann wäre die Erde so groß wie ein 20-Cent-Stück und der Mond wäre so groß wie eine Erbse.
+Die Entfernung Erde – Sonne
+Tagsüber wirkt die Sonne nicht so weit entfernt. Doch tatsächlich ist sie ungefähr 150 Millionen Kilometer weit weg. Diese Entfernung ist eine Astronomische Einheit (AE, „Astronomical Unit“, AU).
+Die Entfernung Neptun – Sonne
+Neptun ist der äußerste Planet des Sonnensystems. Die Entfernung von Neptun zur Sonne ist größer als der Durchmesser jeden bekannten Sterns!
+Half Dome
+Der Half Dome ist ein Berg im Yosemite Nationalpark in Kalifornien. Er besteht aus Granit. Die steile Seite des Domes ist fast senkrecht. Fall dort nicht herunter, es sei denn, du willst das. Manche Leute klettern auf den Half Dome, auch wenn das eine große Herausforderung ist!
+Mount Everest
+Der Mount Everest ist mit 8.848 Metern der höchste Berg der Erde. Er wächst ständig, genau wie Kinder. Es gibt nicht viele Leute, die ihn ohne Sauerstoffflasche besteigen können.
+Homunkulus- nebel
+Im Zentrum des Homunkulusnebels liegt ein Stern. Der Stern, Eta Carinae, hatte 1841 eine Helligkeit von -0,8 mag (und war damit der zweithellste Stern am Himmel). Jetzt ist er ein sehr dunkler Stern sechster Magnitude.
+Kuipergürtel
+Der Kuipergürtel ist eine Region des Sonnensystems jenseits der Neptunbahn, in der kleinere Körper die Sonne umkreisen. Dort gibt es viele Zwergplaneten. Er ist wie ein größerer Asteroidengürtel.
+Lichtjahr
+In einem Jahr legt das Licht ungefähr 9,46 Billiarde Kilometer zurück. Diese Entfernung wird Lichtjahr genannt. Die Einheit wird häufig verwendetet, um astronomische Entfernungen anzugeben.
+Oortsche Wolke
+Die Oortsche Wolke ist die äußerste Region unseres Sonnensystems. Wassereis, Ammoniakeis, Methaneis und Kometen besiedeln die Region dünn. Die Grenze der Oortschen Wolke ist auch die Grenze der Schwerkraft der Sonne. (Gravitation hat keine prinzipielle Reichweitengrenze, sie verliert aber irgendwo an Bedeutung.)
+Die Entfernung Sonne – Proxima Centauri
+Proxima Centauri ist der der Sonne am nächsten stehende Stern. Aber auch dieser ist ziemlich weit weg. 30 Millionen Sonnen passen zwischen Proxima Centauri und die Sonne in einer geraden Linie.
+Stingray-Nebel
+Der Stingray-Nebel („Stachelrochen-Nebel“) ist ein planetarer Nebel. Er ist relativ jung und wächst beständig. Wer auch immer den Nebel benannt hat, dachte wohl, dass er einem Rochen ähnelt. Was meinst du?
+Die Entfernung Proxima Centauri – Alpha Centauri A
+Proxima Centauri ist sehr weit von Alpha Centauri A %26 B entfernt.
+Katzenaugen- nebel
+Der Katzenaugennebel ist einer der komplexesten bekannten Nebel. Wusstest du, dass der Katzenaugennebel 8.000 °C heiß ist? Das ist ganz schön heiß! Sein äußerer Halo ist sogar noch heißer bei etwa 15.000 °C.
+Ameisennebel
+Der Ameisennebel, auch Mz 3 genannt, dehnt sich mit 180.000 km/h aus. Er ähnelt einer Ameise so sehr, dass er daher seinen Namen bekam. Um mehr über Ameisen zu erfahren, zoome um 18 Größenordnungen hinein.
+Blinknebel
+Der Blinknebel (NGC 6826) ist ein planetarer Nebel, der eigentlich nicht blinkt. Er scheint nur zu erscheinen und zu verschwinden, wenn man den ihn überstrahlenden Zentralstern betrachtet. Er hat zwei FLIERs (Fast Low-Ionization Emission Regions) auf den entgegengesetzten Seiten des Nebels.
+Bumerangnebel
+Der Bumerangnebel ist sehr kalt, nur ein Grad über dem absoluten Nullpunkt (-272 °C)! Das ist kälter als die Hintergrundstrahlung. Wusstest du, dass der Bumerangnebel das kälteste Objekt im Universum ist?
+Eskimo- nebel
+Der Eskimonebel wurde 1787 entdeckt und ist das Ergebnis der Explosion eines sonnenähnlichen Sterns. Er sieht schätzungsweise wie ein Kopf in einer Pelzkapuze aus. Man bezeichnet ihn auch als Clownkopfnebel.
+Cheops-Pyramide
+Das Bild ist eine Darstellung der Nekropole von Gizeh. Die Cheops-Pyramide ist die Pyramide auf der linken Seite. Sie ist die älteste und wurde von den Ägyptern um 2560 v. Chr. erbaut. Sie war das höchste menschengemachte Bauwerk für fast 4.000 Jahre.
+Die zurückgelegte Entfernung der Erde (relativ zur Sonne)
+Die Erde hat seit ihrer Entstehung fast eine halbe Million Lichtjahre zurückgelegt, relativ zur Sonne. (Das sind 4.5 Milliarden Jahre bzw. Umläufe.) Die Erde ist 10.000 mal langsamer als das Licht.
+Gomez' Hamburger
+Gomez' Hamburger ist 900 Lichtjahre weit weg! Die Brötchenhälften bestehen aus reflektierendem Staub und das Fleisch in der Mitte aus dunklem Staub. Das klingt nicht sehr appetitlich.
+Stundenglas- nebel
+Der Stundenglasnebel ist tatsächlich geformt wie eine Sanduhr. Wie du sehen kannst, gibt es zwei Kolben. Der obere Kolben ist uns zugeneigt, der untere ist von uns weggedreht.
+Faules-Ei-Nebel
+Der „Faules-Ei-Nebel“ enthält Schwefel. Das ist vermutlich der Grund, warum der Nebel nach einem faulen Ei benannt ist. Ich finde, er sieht ein bisschen nach einem rohen Ei aus, wobei das Blaue die zerbrochene Schale ist, und das Gelbe ist der auslaufende Dotter.
+Lichttag
+In nur vierundzwanzig Stunden schafft es das Licht, 26 Milliarden Kilometer zurückzulegen. Diese Entfernung ist mehr als jeder Mensch oder jede Raumsonde je zurückgelegt hat.
+Die Entfernung Voyager 1 – Erde
+In der letzten 34 Jahren hat Voyager 1 eine Entfernung von 17 Milliarden Kilometern zurückgelegt und ist damit das am weitesten gereiste menschengemachte Objekt. Du kannst es nicht sehen, auch wenn du noch so intensiv starrst!
+Maximale Entfernung Sedna – Sonne
+Wenn Sedna am weitesten von der Sonne entfernt ist, ist sie sehr weit weg. Dieser Punkt ihrer Umlaufbahn wird „Aphelion“ genannt! Sedna braucht für einen Umlauf 10.000 Erdjahre.
+Maximale Entfernung Komet Hale-Bopp – Sonne
+Der Komet Hale-Bopp entfernt sich sehr weit von der Sonne. Er braucht 2.500 Jahre für einen Umlauf.
+Halleyscher Komet
+Die eigentliche Größe des Halleyschen Kometen ist eher gering. Der Schweif, der sich an ihm bildet, kann jedoch Millionen Kilometer lang werden. Der Halleysche Komet verliert 10%25 seiner Masse mit jeweils tausend Umläufen.
+Ringnebel
+Der Ringnebel sieht sehr nach einem Ring aus. Früher glaubte man, dass alle planetaren Nebel ringförmig seien, doch jetzt weiß man, dass das nicht stimmt. Planetare Nebel können auch andere Formen haben.
+Helixnebel
+Der Helixnebel ist einer der der Erde am nächsten stehenden hellen planetaren Nebel. Er ist 400 Lichtjahre von der Erde entfernt! Das sind nur vier Billiarden (4.000.000.000.000.000) Kilometer! (In astronomischen Maßstäben ist das nichts.)
+Blasennebel
+Ich liebe es, Seifenblasen zu machen. Blub-blub, pop! Dieser Nebel ist keine Blase, er sieht nur so aus! Er wurde durch heißen Sternenwind erzeugt. Oh, und es ist ein Emissionsnebel, kein planetarer Nebel. (Emissionsnebel sind Selbstleuchter und nicht Reflektierer; planetare Nebel können auch selbst Licht emittieren.)
+Konusnebel
+Der Konusnebel wurde 1785 am zweiten Weihnachtsfeiertag entdeckt. Wusstest du, dass der Konusnebel eine Dunkelwolke und ein diffuser Nebel ist? Du kannst ihn zwischen Beteigeuze und Procyon finden.
+Die Säulen der Schöpfung
+Die Säulen der Schöpfung („The Pillars of Creation“) befinden sich im Adlernebel. Der Adlernebel ist 7.000 Lichtjahre von uns entfernt. Beweise zeigen, dass die Säulen der Schöpfung vor etwa 6.000 Jahren durch eine Supernova zerstört worden sind. Wir haben also nur noch etwa ein Jahrtausend, um sie zu betrachten.
+Adlernebel
+Der Adlernebel ist eine gigantische Sternenbrutstätte. Kannst du die Säulen der Schöpfung darin erkennen? Bitte beachte, dass dieses Bild einem Falschfarbenbild entspringt. Die echte Farbe des Nebels ist etwas mehr in Richtung rosa, das liegt an der stark ausgeprägten H-Alpha Spektralline von ionisierten Wasserstoffs.
+Krebsnebel
+Der Krebsnebel ist einer der berühmtesten Nebel. Er war auch das erste Messier-Objekt im Katalog (M1)! Die Supernova des Krebsnebels wurde im Jahr 1054 beobachtet und war damals so hell, dass sie tagsüber zu sehen war. Der Krebsnebel ist also nicht einmal 1.000 Jahre alt!
+Orionnebel
+Der Orionnebel ist einer der am besten zu sehenden Nebel überhaupt! Wie der Name andeutet, liegt er im Sternbild Orion. Wusstest du, dass es Kugeln aus Gas in diesem Nebel gibt?
+Nordamerika- nebel
+Der Nordamerikanebel erscheint sehr groß. Er hat fast die vierfache Ausdehnung des Vollmondes. Er ist nur sehr dunkel … daher … weißt du … braucht man lange Belichtungszeiten, um ihn zu sehen.
+Der Turm
+Dieses kleine Ding ist ein Teil des viel größeren Adlernebels. Auch wenn es im Vergleich mit dem Adlernebel klein erscheint, ist es immer noch um das zehn- bis zwanzigtausendfache größer als unser Sonnensystem.
+Pferdekopfnebel
+Der Pferdekopfnebel ist einer der berühmtesten Nebel, weil er wie ein Pferdekopf aussieht. Er ist ein dunkler Nebel vor rosa leuchtendem Gas. Er wurde 1888 entdeckt. Magst du all die Achten? Mir gefallen sie.
+Rosettennebel
+Der Rosettennebel ist sehr groß, aber sehr dünn. Er sieht aus wie eine feurige Rose und wie ein rosiges Feuer. Er ist etwa 5.000 Lichtjahre von uns entfernt und hat eine Masse von 10.000 Sonnen (3 Milliarden Erden).
+Carinanebel
+Auch Eta-Carinae-Nebel genannt, nicht zu verwechseln mit dem Homunkulusnebel von Eta Carinae (der vermutlich jetzt zu klein ist, um erkannt zu werden, denn er ist nur 0,002 Lichtjahre groß).
+Höhlennebel
+Der Höhlennebel ist ein sehr diffuser Nebel. Natürlich sind die meisten so großen Nebel dünn, daher braucht man lange Belichtungszeiten, um sie zu sehen. Der Höhlennebel wird auch Sh2-155 oder Caldwell 9 genannt.
+Capella
+Capella ist ein Doppelstern. Beide Sterne sind Riesen vom Typ G. Den größeren kannst du links sehen. Die Sonne ist ebenfalls ein Stern vom Typ G, aber einer aus der Hauptreihe.
+Barnard's Loop
+Barnard's Loop („Barnards Schleife“) ist ein gewaltiger Nebel und nur 1.600 Lichtjahre entfernt. Er bedeckt 10 Grad des Himmels (was viel ist). Er verteilt sich über den Großteil des Orion! Leider ist er so lichtschwach, dass man ihn nur in sehr dunklen Nächten sehen kann oder mit langen Belichtungszeiten. Zu schade.
+Lagunennebel
+Der Lagunennebel ist 1747, im Jahr seiner Entdeckung, so benannt worden. Er ist 5.000 Lichtjahre entfernt und enthält Wirbelstürme, die UV-Licht aussenden.
+Tarantelnebel
+Der Tarantelnebel ist der größte bekannte Nebel. Er befindet sich in der Großen Magellanschen Wolke. Er ist sehr hell mit einer absoluten Helligkeit von -11. Er ist das hellste bekannte nicht-stellare Objekt.
+Parsec
+Die Bewegung der Erde um die Sonne (und damit die sich verändernde Perspektive) lässt die Position der nahen Sterne optisch leicht schwanken; diese veränderte Sicht wird Parallaxe genannt. Wenn ein naher Stern senkrecht zum Sonnensystem steht und genau ein Parsec weit weg ist, dann wird seine Parallaxe genau eine Bogensekunde (arcsec, 1/3600°) betragen. Parallaxe + Arcsec = Parsec.
+Gigaparsec
+Ein Gigaparsec ist eine Milliarde Parsec. Es ist eine der größten Längeneinheiten. Für noch größere Einheiten besteht kein Bedarf, denn der Radius des beobachtbaren Universums beträgt gerade einmal 14 Gigaparsec.
+Das Universum
+Das Universum ist alles was wir kennen. Das Universum ist vielleicht noch viel größer, oder könnte sogar unendlich sein. Es gibt einfach keine Möglichkeit die genaue Größe zu messen. Vielleicht gibt es sogar Multiversen, aber wir werden es niemals mit Sicherheit wissen.
+Beobachtbares Universum
+Sein Radius beträgt etwa 46 Mrd. Lichtjahre (der halbe Durchmesser). Du hast vielleicht nur 13,7 Mrd. Lichtjahre erwartet, weil das Licht nur 13,7 Mrd. Jahre Zeit für seine Reise hatte, aber durch die Expansion des Raumes sind die Objekte, die 13,7 Mrd. Lichtjahre weit weg waren, jetzt 46 Mrd. Lichtjahre weit entfernt, und diese können wir sehen.
+Sloan Great Wall
+Die „Sloan Great Wall“ wird durch den dicken grünen Streifen dargestellt. Sie ist das größte bekannte Objekt im Universum. Sie besteht aus Galaxien und wird Filament genannt. Wir befinden uns nicht darin. Sie befindet sich hingegen etwa eine Mrd. Lichtjahre von uns entfernt.
+Eridanus Supervoid
+Dies ist eine Region am Nachthimmel, die etwas kühler ist als die normale CMB-Temperatur (CMB = Kosmische Mikrowellen-Hintergrundstrahlung). Diese beträgt 2,7 K oder -270,5 °C. Das ist nur wenig über dem absoluten Nullpunkt. Eine Theorie besagt, dass diese Region zu einem Paralleluniversum führt. Wow!
+Sagittarius-Zwerggalaxie
+Die Sagittarius-Zwerggalaxie ist eine Satellitengalaxie der Milchstraße. Sie ist nur 70.000 Lichtjahre von uns entfernt. Sie ist eine elliptische Galaxie und ebenso ein Zwerg. Sie wurde nicht vor 1994 entdeckt.
+Canis-Major-Zwerggalaxie
+Die Canis-Major-Zwerggalaxie ist die uns am nächsten stehende Galaxie, die Milchstraße nicht mitgezählt. Sie liegt zwischen den Armen der Milchstraße und wird von deren Schwerkraft zerrissen.
+Milchstraße
+Die Milchstraße ist die Galaxie, in der wir leben. Selbstverständlich kannst du nicht die ganze Galaxie auf einmal sehen, aber in sternklaren Nächten siehst du vielleicht ein helles Band, das den Nachthimmel durchzieht. Es sieht milchig aus, deshalb Milchstraße.
+Andromeda- galaxie
+Die Andromedagalaxie ist der Zwilling der Milchstraße. Sie ist die nächstgelegene Galaxie, die ungefähr die selbe Größe und Form besitzt wie unsere. In einigen Milliarden Jahren werden die beiden Galaxien kollidieren und eine große elliptische Galaxie bilden – Milkomeda
+Kleine Magellansche Wolke
+Die Kleine Magellansche Wolke wird nur so genannt, weil sie kleiner als die Galaxie neben ihr ist, die Große Magellansche Wolke. Wenn die Große Magellansche Wolke kleiner wäre, dann würde die Kleine Magellansche Wolke die Große Magellansche Wolke genannt werden.
+Große Magellansche Wolke
+Die Große Magellansche Wolke wird nur so genannt, weil sie größer als die Galaxie neben ihr ist, die Kleine Magellansche Wolke. Wenn die Kleine Magellansche Wolke größer wäre, dann würde die Große Magellansche Wolke die Kleine Magellansche Wolke genannt werden.
+Dreiecksnebel
+Der Dreiecksnebel (eine Spiralgalaxie) ist nicht wie ein Dreieck geformt. Er wird nur so genannt, weil er im Sternbild Dreieck zu finden ist. Ist dir aufgefallen, dass du ein Dreieck aus beliebigen Sternen formen kannst? Es müssen nur drei sein. Du könntest Millionen von Dreieck-Sternbildern erschaffen!
+Sombreronebel
+Findest du, dass der Sombreronebel (eigentlich eine Galaxie) wie ein Sombrero aussieht? Ich weiß nicht. Oh! Wusstest du, dass im Zentrum dieser Galaxie ein supermassives Schwarzes Loch liegt? Die meisten Galaxien haben supermassive Schwarze Löcher in ihrem Zentrum. Unsere Milchstraße vermutlich auch!
+Pisces-Cetus Superhaufen-Komplex
+Wir leben im Pisces-Cetus Superhaufen-Komplex. Es ist das zweitgrößte bekannte Objekt (nach der Sloan Great Wall). Ich finde, Platz zwei ist auch ganz gut.
+Virgo-Superhaufen
+Der Virgo-Superhaufen, einer von Millionen Superhaufen, enthält über 100 Galaxienhaufen. Diese enthalten sowohl unseren Galaxienhaufen als auch den größten, den Virgo-Galaxienhaufen (der nicht super ist).
+Lokale Gruppe
+Die Lokale Gruppe ist der Galaxienhaufen, in dem wir leben. Sie enthält etwa dreißig Galaxien und Zwerggalaxien. Die beiden größten sind die Andromeda-Galaxie und unsere eigene, die Milchstraße.
+Virgo-Galaxienhaufen
+Der Virgo-Galaxienhaufen ist der größte Galaxienhaufen im Virgo-Superhaufen, und er liegt in seiner Mitte. Er wurde in den späten 70ern des achtzehnten Jahrhunderts entdeckt, als man begann, Galaxien als Messier-Objekte zu katalogisieren.
+Fornax-Galaxienhaufen
+Wir leben im Virgo-Superhaufen. Wir sind Teil eines kleinen Filaments, das aus dem Fornax-Galaxienhaufen ragt. Er ist der zweitgrößte Galaxienhaufen im Umkreis von 100 Millionen Lichtjahren!
+IC 1101
+IC 1101 ist die größte bekannte Galaxie. Sie enthält 100 Billionen Sterne. Unsere Galaxie, die Milchstraße, hat nur 250 Milliarden, daher hat IC 1101 also 400-mal so viele Sterne wie die Milchstraße.
+Abell 2029
+Abell 2029 ist ein Galaxienhaufen, eine Milliarde Lichtjahre entfernt, im Sternbild Schlange (Serpens). Seine Zentralgalaxie, IC 1101, nimmt fast seinen gesamten Raum ein. Er sendet etwa 2-Billionen-mal so viel Licht aus wie die Sonne. (Etwa 10^39 Glühbirnen.)
+Whirlpool-Galaxie
+Früher dachte man, dass die Spiralarme der Whirlpool-Galaxie durch eine Kollision mit einer benachbarten Galaxie entstanden seien. Wäre es nicht seltsam, wenn dir immer ein neuer Arm wachsen würde, wenn du gegen etwas stößt?
+Kaulquappen- galaxie
+Die Kaulquappengalaxie (UGC 10214) zieht eine Spur aus Sternen hinter sich her. Diese formte sich wahrscheinlich, als eine andere Galaxie mit ihr kollidierte. Wie bei Kaulquappen wird erwartet, dass die Kaulquappengalaxie ihren Schwanz verlieren wird, wenn sie älter wird.
+Feuerrad-Galaxie
+Als diese Galaxie entdeckt wurde, dachte man, sie sei ein Nebel. Sie ist jedoch eine Galaxie. Sie wird auch Messier 101 genannt, weil sie das 101. Objekt war, das in den Messier-Katalog aufgenommen wurde.
+Wagenrad-Galaxie
+Astronomen glauben, dass die Wagenrad-Galaxie vor 200 Millionen Jahren eine Kollision mit zwei anderen Galaxien erlebte. Eigentlich vor 700 Millionen Jahren, denn die Wagenrad-Galaxie ist 500 Millionen Lichtjahre entfernt, daher ist das, was wir sehen, bereits 500 Millionen Jahre alt.
+NGC 1232
+NGC 1232 ist eine ziemlich große Galaxie. Sie ist größer als unsere, aber nicht die größte. IC 1101 ist natürlich auch nicht die größte Galaxie, sondern nur die größte, von der wir wissen. Vermutlich gibt es noch viel mehr!
+Omega Centauri
+Omega Centauri ist der hellste Kugelsternhaufen. In seinem Zentrum stehen die Sterne sehr dicht beieinander. Sie sind dort 0,1 Lichtjahre voneinander entfernt, das ist 2%25 des Abstandes der Sonne zum nächsten Stern. (Das ist wirklich nah!)
+Messier 54
+Messier 54, auch M54 oder NGC 6715 genannt, ist ein Kugelsternhaufen. Er ist in der Sagittarius-Zwerggalaxie anzutreffen, was bedeutet, dass er der erste entdeckte Kugelsternhaufen außerhalb der Milchstraße ist.
+Virgo A
+Virgo A ist die größte Galaxie im Virgo-Haufen. Sie ist eine elliptische Riesengalaxie. Wusstest du, dass das Schwarze Loch in ihrem Zentrum einen 5.000 Lichtjahre langen Strahl subatomarer Materie ausstößt?
+NGC 4889
+Diese sehr große Galaxie, die auch als Caldwell 35 bekannt ist, ist die hellste Galaxie im Coma-Galaxienhaufen. Sie entfernt sich von uns mit 6.500 Kilometern pro Sekunde. Bei dieser Geschwindigkeit könnte sie die Erde in weniger als sieben Sekunden umkreisen!
+Leo-II Zwerg-Galaxie
+Die Leo-II Zwerg-Galaxie ist einer von 24 bekannten Satelliten der Milchstraße. Die Sterne in Leo-II sind arm an Metall. Sie sind außerdem relativ alt.
+Canes-Venatici-Zwerggalaxie I
+Diese Zwerggalaxie im Sternbild der Jagdhunde (Canes Venatici) ist 720.000 Lichtjahre von uns entfernt. Wenn du so weit herauszoomst, wird die Galaxie nur noch ein paar Pixel groß sein.
+NGC 3310
+NGC 3310 ist eine weitere dieser Galaxien, die mit anderen Galaxien kollidiert sind und dadurch ihre Form verändert haben. Sie ist eine Spiralgalaxie mit sehr schönen Armen und ist über 40 Millionen Lichtjahre entfernt.
+Hoover-Talsperre
+Die Hoover-Talsperre, die am Fluss Colorado gebaut wurde, hält das größte Wasserreservoir der Vereinigten Staaten, den Lake Mead. Die Hoover-Talsperre hält nicht nur das Wasser zurück, ihre Turbinen erzeugen auch Elektrizität.
+Grand Canyon
+Der Grand Canyon ist einer der größten Canyons auf der Erde. Er wurde durch den Fluss Colorado gebildet. Dieser Vorgang dauerte ca. 17 Millionen Jahre! Die freigelegten Steinschichten sind sogar noch älter, einige bis zu 1,8 Milliarden Jahre!
+Entfernung zum Großen Attraktor
+Der Große Attraktor zieht tausende von Galaxien zu sich, darunter ist auch die Milchstraße. Seine Masse ist zehntausende Mal größer als die der Milchstraße.
+Entfernung zum Shapley-Superhaufen
+Der Shapley-Superhaufen ist ein Galaxien-Superhaufen. Er ist eines der größten Objekte, die noch durch ihre Gravitation zusammengehalten werden. Alles Größere driftet auseinander wie das gesamte Universum.
+Entfernung zur Andromeda-Galaxie
+Mit einem Abstand von zwei Millionen Lichtjahren ist die Andromeda-Galaxie das entfernteste Objekt, das mit bloßem Auge gesehen werden kann. Mit einem Feldstecher oder einem Fernrohr kann sie als blasser Schatten wahrgenommen werden.
+Größe der Menschheit
+Wenn alle 7 Milliarden Menschen einen Turm bauen würden, indem sie auf dem Kopf eines anderen stehen würden, und die unteren 6,99 Milliarden Menschen nicht unter dem Gewicht zusammenbrechen würden, dann wäre dieser menschliche Turm ungefähr 10 Millionen Kilometer hoch.
+Wasserstoff-Atom
+Wasserstoff ist das häufigste Element im Universum. Gewöhnlich besteht es nur aus einem Proton und einem Elektron! Ein Wasserstoff-Atom ist so klein, dass du es mit bloßem Auge nicht sehen kannst, egal wie sehr du dich anstrengst.
+Helium-Atom
+H-Atome sind größer als He-Atome, weil sie mehr Protonen im Kern haben, und diese ziehen die Elektronen dichter heran. Jedenfalls, die größere Anzahl Schalen sorgt für die eigentliche Größe. P. S.: Das größte Atom hat die meisten Schalen mit den wenigsten Elektronen.
+Helium-Kern
+Ein Helium-Kern ist tausendmal kleiner als das Atom, wie eine Murmel auf einem Fußballfeld. Der einzige Grund, warum sich Materie so fest anfühlt ist, dass Atome sich abstoßen. Würden sie das nicht tun, würde alles durcheinander hindurchfallen!
+Chlor-Atomkern
+Der Chlor-Atomkern hat 17 Protonen. Üblicherweise sind dort auch noch 18 oder 20 Neutronen! Nur selten sind es 19 Neutronen. Allerdings bin ich nicht sicher, wieso. Weißt du warum? Sag’s mir, wenn du’s weißt.
+Uran-Kern
+Uran ist das Element mit der höchsten Ordnungszahl. Es hat auch den größten Kern von allen natürlich vorkommenden Elementen. Uran-238, das häufigste Isotop, hat eine Halbwertzeit von 4,5 Milliarden Jahren, ungefähr die Zeitspanne seit dem Entstehen der Erde.
+Glasmurmel
+Glasmurmeln sind rund, aber eigentlich sind sie doch recht rau, wenn man sie unter dem Mikroskop betrachtet. Diese Murmel hier ist eine Zahnpasta-Murmel. Andere Murmeln können aus Holz, Plastik, Metall oder sogar Dreck bestehen.
+Der Mensch
+Ich nehme an, dass du ein Mensch bist. Ich bin auch ein Mensch! Wusstest du, dass es über 7 Milliarden von uns gibt? Das ist ganz schön viel. Wenn du jedem Menschen nur eine Sekunde lang begegnen würdest, dann würdest du über 200 Jahre benötigen, um alle zu treffen. Fang lieber gleich an!
+Japanische Riesenkrabbe
+Die Japanische Riesenkrabbe ist der größte Gliederfüßer. Dennoch werden nicht alle Japanischen Riesenkrabben so groß. Einige sind nur einen Meter groß. Leider haben Fischer viele von ihnen getötet. Das ist eine ganze Menge Krabbenfleisch!
+Eiffelturm
+41 Jahre lang war der Eiffelturm das höchste menschengemachte Bauwerk der Welt. Seit seiner Fertigstellung besuchten mehr als 200 Millionen Besucher den Turm. Das ist fast soviel wie die Einwohnerzahl der USA!
+Ungefähre Größe dieser Anzeige
+Obwohl verschiedene Monitore unterschiedliche Pixel-Größen besitzen, werden Dinge auf dem Bildschirm etwa gleich groß dargestellt. Das hier sind etwa 20 Zentimeter!
+Proton
+Protonen befinden sich in Atomkernen. Sie sind einige tausend Mal kleiner als das Atom selbst. Sie bestehen aus zwei Up-Quarks und einem Down-Quark. Daher ist die Ladung eines Atoms +?+?-? = +1.
+Neutron
+Neutronen befinden sich in Atomkernen. Sie sind tausendmal kleiner als Atome. Sie bestehen aus zwei Down-Quarks und ein Up-Quark. Daher ist ihre Ladung -?-?+? = 0.
+Angstrom
+Ein Angstrom, das nach dem Schwedischen Physiker Anders Jonas Ångstrom benannt wurde, ist ein Zehntel von einem Nanometer. Das Symbol für ein Angstrom ist Å. Das Angstrom wird benutzt, um die Größe von Atomen anzugeben.
+Cäsium-Atom
+Atomgrößen werden durch den Abstand der Atomkerne in kovalenten Bindungen definiert. Die Schalen sehen nicht wirklich so aus. Cäsium ist das größte Atom, doch seine Ordnungszahl ist nicht die höchste. Warum? Schau dir doch mal das Helium Atom an.
+Quantenschaum
+Gemäß der Raumzeit-Theorie ist der Quantenschaum, auch Raumzeitschaum genannt, die Grundlage der Struktur des Universums. Allerdings ist er unmöglich direkt beobachtbar oder messbar, weil er so klein ist.
+Planck-Länge
+Die Planck-Länge (lp) ist eine Längeneinheit. Es gibt auch eine Planck-Zeit, das ist die Zeit, die das Licht für eine Planck-Länge im Vakuum braucht. (Super kurz!)
+Zoll-Lineal
+Für all die Leute, die mit dem metrischen System nicht vertraut sind, ist hier ein Zoll-Lineal zur Orientierung, das etwa einen Fuß lang ist. Leider ist fast alles andere im metrischen System.
+Dodo
+Der Dodo ist im 17. Jahrhundert ausgestorben. Der Name stammt vom Geräusch, das die Vögel machen (oder sollte ich sagen „machten“, sie sind ja jetzt ausgestorben). Tja, sie sind weg.
+Riesenmammut- baum
+Der Riesenmammutbaum ist der höchste Baum der Welt. Zusammen mit einer Ameise ist er größer als jeder Mensch! Das Universum ist jedoch noch 10^25 mal größer.
+Boeing 747
+Die Boeing 747 kann fliegen, sie ist ein Flugzeug. Seit 1969 ist sie kürzer als ein Riesenmammutbaum. Davor existierte sie nicht, also war sie weder kürzer noch länger. Ihre Flügelspannweite ist größer als die Länge des ersten Fluges der Gebrüder Wright (37 Meter).
+Carnegiea gigantea
+Leider erreichen nicht alle Carnegiea gigantea, auch Saguaro genannt, eine Höhe von bis zu 14 Metern. Einige von ihnen werden gerade mal miserable fünf Meter groß. Einige besitzen keine Arme, diese werden Speere genannt. Der Saguaro benötigt 75 Jahre, um einen ausgewachsenen Arm sprießen zu lassen. Ein Mensch braucht weniger als 20 Jahre dazu.
+Blauwal
+Der Blauwal ist das größte Tier, das es gibt. Sein Gewicht, 180 Tonnen, ist größer als das aller anderen Tiere. Leider hat der Walfang die Population von 300.000 auf 2.000 reduziert.
+Basketball
+Dieser Basketball hier ist wahrscheinlich ein Basketball der Größe 7, weil ein Basketball der Größe 6 nur einen Durchmesser von 23 Zentimetern hat. Dieser Basketball, der sehr rund ist, wird sehr oft durch einen Ring geworfen.
+Elefant
+Der Elefant ist das größte Lebewesen auf dem Land. Es haben nur noch drei verschiedene Arten von Elefanten überlebt. Sie können bis zu 8 Tonnen wiegen, das ist 10-mal mehr als das größte Gewicht, das ein Mensch jemals erreicht hat!
+Salto Ángel
+Der Salto Ángel ist der höchste Wasserfall der Welt. Er ist die touristische Hauptattraktion in Venezuela. Das meiste Wasser wird vom Winde verweht, bevor es seiner Bestimmung, die Erde zu benetzen, gerecht werden kann. Das ist doch zu schade. Oder ist es gut? Es ist gut!
+Burj Khalifa
+Der Burj Khalifa, auch Burj Dubai genannt, ist das höchste Gebäude der Welt. Kein anderes Gebäude ist höher als 828.000 Millimeter. Auf dem Stockwerk 76 gibt es sogar Schwimmbecken.
+Uluru
+Uluru, auch als Ayers Rock bekannt, ist ein Fels. Mit einer Höhe von 348 Metern ist er kleiner als viele Gebäude. Andererseits ist er drei Kilometer lang, das wiederum macht ihn länger als alle Gebäude.
+Large Hadron Collider
+Der Large Hadron Collider (LHC) ist der größte und energiereichste Teilchenbeschleuniger der Welt. Er schleudert Protonen gegeneinander. Das ist wirklich gemein, wie damals in der Schule, wo die Rabauken die kleinen Kinder gegeneinander schubsten.
+Boeing-Werk Everett
+Das Boeing-Werk Everett ist mit 13 Millionen Kubikmetern das größte Gebäude in der Welt. Die Chinesische Mauer und die Drei-Schluchten-Talsperre werden nicht als Gebäude angesehen.
+Titanic
+Die Titanic sank nach einer Kollision mit einem Eisberg. Sie hätte problemlos Rettungsboote für 4.000 Personen tragen können, doch man entschied, dass sie nur Rettungsboote für 1.178 Menschen brauche. An Bord waren allerdings 2.228 Leute.
+Vatikanstadt
+Der Staat Vatikanstadt ist das kleinste Land. Er ist, obwohl er sehr klein ist, größer als du! Wenn du dein Fleisch über den Vatikanstadt spannen würdest, so dass es gleichmäßig verteilt wäre, dann würde die Beschichtung etwa 200 Nanometer dick sein. Das ist weniger als eine einzige Hautzelle!
+Eiche
+Die Eiche ist ein Baum. Eichen können sehr alt werden, sogar älter als Menschen! Eichen produzieren tausende von Eicheln jedes Jahr. Eicheln sind gut. Fast so gut wie Eiswürfel.
+Wellenlänge von Gammastrahlung
+Gammastrahlen haben eine sehr hohe Frequenz. Sie können bei radioaktivem Zerfall auftreten. Oh, und nebenbei gesagt, sie sind in Wirklichkeit nicht hellblau, so wie sie links zu sehen ist.
+Wellenlänge von Röntgenstrahlung
+Auch wenn Röntgenstrahlung nicht die höchsten Frequenzen haben, ist es keine gute Idee, sich ihnen auszusetzen. Halte dich von ihnen fern! Üblicherweise solltest du einen Schutz aus Blei benutzen. Je dicker das Blei ist, desto besser der Schutz. Einige Röntgenstrahlen werden aber immer hindurchkommen. Dickeres Blei senkt nur die Intensität.
+Wellenlänge von ultraviolettem Licht
+Ultraviolettes Licht kann bräunen. Ich habe früher gedacht, dass Sonnenlicht und Hitze die Haut verbrennen und sie dadurch bräunen, wie ein Grill das Fleisch schwärzt. Jetzt weiß ich, dass das nicht stimmt.
+Wellenlänge von violettem Licht
+Auch bekannt als mauve, purpur oder sogar indigo, lavender oder veil, und manchmal auch amethyst, aubergine, fuchsia, lila und in seltenen Fällen gar pink, rosa, fandango, pflaumenfarben, orchideenfarben oder heliotrop.
+Wellenlänge von rotem Licht
+Rot ist die erste Farbe im Regenbogen. Es stimuliert den Appetit. Darum haben so viele Lebensmittelfirmen rot in ihrem Logo. Die wollen, dass du isst! Kurz gesagt versuchen sie, dein Gehirn auszutricksen.
+Wellenlänge von infrarotem Licht
+Infrarotes Licht ist gar nicht rot, denn infra bedeutet unter. Es ist also unter-rotes Licht. Es ist aber genauso unter dem roten Licht, wie das rote Licht unter dem grünen ist. Man könnte rotes Licht dann also auch infragrünes Licht nennen, oder grünes Licht infrablau. Oder sogar blaues Licht infraviolett und violettes infraultraviolett. Aber infra und ultra zusammen würde das wirklich unnötig kompliziert machen.
+Wellenlänge von Mikrowellen
+Das Band der Mikrowellen ist ziemlich groß. Alles im Bereich von einem Millimeter bis zu einem Meter wird Mikrowellen genannt. Du siehst also, diese elektromagnetische Welle mit einer Wellenlänge von einem Zentimeter passt genau in diesen Bereich und ist daher eine Mikrowelle!
+Wellenlänge von UKW-Radiowellen
+F und M (aus „FM-radio“, der englischen Bezeichnung für UKW-Radio) sind der sechste und der dreizehnte Buchstabe des Alphabets. Die Sechs ist eine perfekte Zahl, die Dreizehn ist keine. Wir sind alle unterschiedlich und müssen lernen, das zu akzeptieren. Nur auf diese Weise können wir in Harmonie leben.
+Wellenlänge von MW-Radiowellen
+A und M (aus „AM-radio“, der englischen Bezeichnung für MW-Radio) sind der erste und der dreizehnte Buchstabe des Alphabets. Die Eins ist ein perfektes Quadrat, die Dreizehn ist das nicht. Wir sind alle unterschiedlich und müssen lernen, das zu akzeptieren. Nur auf diese Weise können wir in Harmonie leben.
+DNS
+Eine einzige menschliche Zelle enthält drei Meter Desoxyribonukleinsäure. Obwohl sie nur wenige Nanometer breit ist, enthält diese DNS etwa 25.000 Gene in etwa drei Milliarden Basenpaaren. Das ist eine Menge!
+Weißes Blutkörperchen
+Diese Massenmörder werden auch Leukozyten genannt. Es gibt eine Menge verschiedener Sorten von diesen krankheitsbekämpfenden Zellen. Die häufigsten, die Neutrophilen, haben mehrere Kerne. Die größten Typen, die Makrophagen, haben einen Durchmesser von gewaltigen 21 µm.
+Rotes Blutkörperchen
+Etwa ein Viertel aller Zellen im menschlichen Körper sind Blutzellen. Sie vollziehen einen Umlauf in ungefähr 20 Sekunden und leben nur etwa vier Monate. Die Delle in den Blutkörperchen dient zur Erhöhung der Oberfläche, was den Sauerstofftransport erleichtert. Oh, und sie haben keinen Zellkern.
+Menschliche Eizelle
+Eine Eizelle ist die größte Zelle im menschlichen Körper. Tiere, die sich in Eiern in ihren Müttern entwickeln, werden ovovivipar genannt, was Menschen nicht sind. Ovovivipar ist das einzige Wort, das mit Vokal-v-Vokal-v-Vokal-v-Vokal beginnt.
+Das kleinste mit bloßem Auge sichtbare Objekt
+Nur zu deiner Information, 100 Mikrometer sind etwa das gleiche wie ein Zehntelmillimeter. Warte mal … es ist GENAU ein Zehntelmillimeter. Das ist so genau, dass man fast Angst bekommt!
+Bleistiftmine
+Bleistiftminen sind viel in Gebrauch. Oh, nebenbei, das hier sind Minen von Druckbleistiften. Eine weitere Anmerkung, der größte Bleistift enthielt 2.000 Kilogramm Graphit. Das ist etwa dreimal so schwer wie ein Mensch! Und dabei rede ich von den schwersten Menschen, die je gelebt haben.
+Größte Bakterie
+Die größte Bakterie, die Thiomargarita Namibiensis heißt, ist fast einen Millimeter lang. Sie lebt im Ozean vor der Küste Namibias. Kannst du dir vorstellen im Ozean zu schwimmen und solche Dinger zu sehen? Die sind doch unsichtbar!
+Spitzmaus
+Spitzmäuse sind großartige kleine Biester. Ihr Stoffwechsel ist derart hoch, dass sie jeden Tag ihr eigenes Gewicht an Nahrung zu sich nehmen müssen! Zudem macht ihr Gehirn 10%25 ihres Körpergewichtes aus. Das ist die höchste Quote bei allen Tieren, inklusive dem Menschen!
+HIV
+0,6%25 der Weltbevölkerung sind mit HIV infiziert, also mit dem Virus, das AIDS auslöst. Ein einzelnes Virus ist sehr klein, tatsächlich so klein, dass kein Mensch auf diesem Planeten es mit bloßem Auge sehen kann, und dennoch kann es töten.
+Sandkorn
+Natürlich sind nicht alle Sandkörner gleich groß. Sie unterscheiden sich stark. Arenophile sind Menschen, die Sandproben sammeln. Wusstest du zum Beispiel, dass am Papakolea-Strand grüner Sand liegt? Das liegt an Kristallen im Sand. Oder so.
+Schluffkorn
+Nach der Udden-Wentworth-Skala hat Schluff (auch Silt genannt) Korngrößen im Bereich von 1/256 mm bis 1/16 mm. Der Schulffpartikel zur Rechten liegt deutlich in diesem Bereich.
+Tonkorn
+Weil Tonkörner so klein sind, können sie so dicht aneinander gepackt werden, dass Wasser nicht mehr hindurchfließen kann. Sand hingegen ist sehr grob. Wasser schlüpft direkt hindurch. Kinderleicht.
+Wassermolekül
+Wenn ich Wasser trinke, stelle ich mir gerne vor, ich trinke Micky-Maus-Köpfe. Du auch? Oh, du nicht? Tja, solltest du mal versuchen.
+Russells Teekanne
+Bertrand Russell sagte, dass zwischen Erde und Mars eine Teekanne die Sonne umkreist. Niemand konnte diese Aussage widerlegen, denn so ein Teekanne wäre nicht sichtbar. Daher sollte niemand an Russells Aussage zweifeln.
+Minecraft-Welt
+Die Minecraft-Welt erstreckt sich von den Koordinaten -32.000.000 bis +32.000.000 und hat daher eine Gesamtlänge von 64.000 Kilometern. Diese Welt enthält ungefähr 130 Billiarden Blöcke. Das ist sicher eine Menge!
+Up-Quark
+Es gibt sechs Sorten Quarks. Sie heißen Up, Down, Strange, Charm, Top und Bottom. Je kleiner ein Quark ist, desto mehr Masse hat es. Im Ergebnis sind die Up- und die Down-Quarks am leichtesten. Dieses Down-Quark hat eine Ladung von +?.
+Down-Quark
+Es gibt sechs Sorten Quarks. Sie heißen Up, Down, Strange, Charm, Top und Bottom. Je kleiner ein Quark ist, desto mehr Masse hat es. Im Ergebnis sind die Up- und die Down-Quarks am leichtesten. Dieses Down-Quark hat eine Ladung von -?.
+Charm-Quark
+Das Charm-Quark und das Strange-Quark sind die zweite Generation der Materie. Sie zerfallen schnell in Up- und Down-Quarks, die die erste Generation bilden. Das Charm-Quark ist charmant.
+Strange-Quark
+Strange-Quarks sind sehr seltsam („strange“). Sie haben 50-mal so viel Masse wir ein Up-Quark, sind aber noch kleiner! Ist das nicht seltsam? Sehr sogar! „Seltsame Materie“ besteht aus Up-, Down- und Strange-Quarks!
+Top-Quark
+Das Top-Quark ist das kleinste Quark, und darum ist es das massereichste. Es ist fast 100.000-mal so schwer wie das Up-Quark, das das leichteste Quark ist. Die Masse des Top-Quarks beträgt 173 Milliarden Elektronenvolt!
+Bottom-Quark
+Das Bottom-Quark wird auch Beauty-Quark (Schönheits-Quark) genannt, weil es so makellos schön ist. Es gehört zur dritten Generation von Quarks und zerfällt schnell in Quarks der ersten Generation wie Up- und Down-Quarks.
+Das kleinste mit einem Elektronenmikroskop sichtbare Objekt
+Mit Elektronenmikroskopen können wir sehr kleine Dinge sehen (Atome zum Beispiel), die sonst unsichtbar wären, weil sie kleiner als die Wellenlänge von sichtbarem Licht sind.
+Längen unter dieser Grenze sind nicht bestätigt.
+Alle Objekte, die kleiner sind als diese Länge, konnten oder können nicht gemessen werden. Die hier genannten Größen sind nur Schätzungen. Einige Dinge, wie der Quantenschaum, sind nur hypothetisch. Sie sind keine Fakten.
+Entfernung zum HDF
+Das Hubble Deep Field ist ein Bild von einem leeren Fleck am Nachthimmel. Das Bild enthält fast 3.000 Objekte – weit entfernte Galaxien. Es ist nicht bekannt, wo diese Galaxien jetzt sind, doch vor 12,7 Milliarden Jahre waren sie 12,7 Milliarden Lichtjahre von uns entfernt.
+Central Park
+Der Central Park in New York ist der populärste Stadtpark in den Vereinigten Staaten von Amerika! Wusstest du, dass 18 Leute im Central Park wohnen? Das ist ziemlich cool!
+Marathon
+Ein Marathon sind 42,2 Kilometer oder 26,2 Meilen. Etwa jeder tausendste Amerikaner ist einen Marathon gelaufen. Gemäß der Legende wurde Pheidippides nach dem griechischen Sieg bei Marathon nach Athen gesandt, um die Botschaft zu verkünden. Diese Strecke war ein Marathon!
+Wander- albatross
+Der Wanderalbatross ist der Vogel mit der größten Flügelspannweite. Sie fliegen fast ihr gesamtes Leben lang und landen nur, um zu fressen und um sich zu paaren. Ihre Population sinkt langsam. Sie liegt derzeit bei 26.000, was nicht sehr viel ist.
+Breite eines Menschenhaares
+Menschliches Haar ist faszinierend. Glattes Haar ist fast perfekt zylindrisch. Lockiges Haar hingegen ist flacher, wodurch es sich kringeln kann wie Geschenkband. Wusstest du, dass du vermutlich 50.000 bis 200.000 Haare auf dem Kopf hast? Du kannst ja mal zählen!
+Ameise
+Vermutlich magst du keine Ameisen. Schade. 15-25%25 aller Landtiere sind Ameisen! Wow! Das sind viele Ameisen! Für jede Person auf der Erde gibt es mehr als eine Million Ameisen!
+Amerikanisches Durchschnittshaus
+Die Häuser in den Vereinigten Staaten sind gewachsen. In den letzten 40 Jahren sind die Häuser fast doppelt so groß geworden! Diese Häuser sind so groß, dass man 1.000 Personen in ihnen unterbringen könnte. Es wäre allerdings ziemlich gedrängt.
+Giraffe
+Die Giraffe ist das höchste Landtier mit schwindelerregenden sechs Metern! Fast die Hälfte ihrer Höhe wird schon von ihrem Hals allein erreicht. Raubtiere können erwachsene Giraffen nur töten, indem sie sie auf die Seite werfen!
+Tyrannosaurus Rex
+Dieser Dinosaurier ist heute ausgestorben, war aber dafür sieben Meter lang. Heute wird immer noch darüber diskutiert, ob der T-Rex ein Raubtier oder ein Aasfresser war. Obwohl der T-Rex sehr groß war, war er nicht der größte! Zoom ein bisschen hinaus, um größere Dinosaurier zu sehen!
+Amphilicoelias Fragilimus
+Der Amphilicoelias Fragilimus war der größte Dinosaurier! Er wog über 100 Tonnen! Er war so groß, dass man auf ihm Häuser hätte bauen können!
+Kolibri
+Kolibris schlagen mit ihren Flügeln 12 bis 80 mal pro Sekunde, was ungefähr dieselbe Frequenz der tiefsten Pianonote ist. Sie können auch rückwärts fliegen und in der Luft schweben. Beeindruckende Begabung!
+Apollo-Mondlandemodul
+Dieses Ding wiegt 15.000 Kilogramm! Das ist eine Menge! Es landete auf dem Mond. Seine Landung inspirierte das Videospiel „Lunar Lander“, was ziemlich knifflig ist. Wenn ich das spiele, geht mir immer der Treibstoff aus!
+Fußballfeld
+Fußballfelder sind im Schnitt 110 Meter lang. Überhaupt werden Fußballfelder zur Messung von großen Objekten benutzt. Die Titanic ist beispielsweise drei Fußballfelder lang. Fußballfelder werden auch zum Fußballspielen benutzt. Da unser Zeichner ein Amerikaner ist, sehen wir hier ein Feld für American Football. Jedoch besitzen beide Felder ähnliche Größen!
+Gateway Arch
+Der Gateway Arch („Torbogen“) ist das höchste Gebäude in St. Louis. An seiner höchsten Stelle gibt es eine Aussichtskammer von der aus man den Mississippi sehen kann. Du solltest es in der nächsten Zeit einmal besuchen!
+Washington Monument
+Das Washington Monument ist sowohl der größte Obelisk der Welt als auch die höchste Steinstruktur. Von 1884 bis 1889 war es das höchste Gebäude der Welt. Danach wurde es vom Eiffelturm abgelöst, den du hier oben rechts sehen kannst.
+Saturn V
+Die Saturn V ist die größte und schwerste Rakete, die jemals gebaut wurde. Sie wurde von 1968 bis 1972 genutzt und war das einzige Transportmittel, das Menschen weit weg von der Erde schießen konnte, beispielsweise zum Mond.
+ISS
+Die Internationale Raumstation (kurz ISS) ist ziemlich beeindruckend. Sie schwebt in einer niedrigen Erdumlaufbahn und kann sogar von der Erde aus gesehen werden! Die ISS ist seit elf Jahren ständig von Menschen besetzt. Das ist Rekord für ein Raumfahrzeug! Allerdings wechselte die Besatzung regelmäßig.
+Freiheitsstatue
+Obwohl die Freiheitsstatue ein Symbol von Amerika ist, wurde sie eigentlich in Frankreich gebaut. Sie wurde auf der Basis des griechischen Sonnengottes Helios entworfen. Die Freiheitsstatue ist einen Besuch wert, auch wenn die Fackel im Jahre 1916 geschlossen wurde, weil das Betreten zu gefährlich war.
+Die Chinesische Mauer
+Die Chinesische Mauer ist 8850 Kilometer lang. Sie windet und schlängelt sich, so dass die Distanz von Anfangs- und Endpunkt eigentlich nur 2900 Kilometer beträgt. Auch wenn es viele behaupten, die Chinesische Mauer ist nicht aus dem Weltall sichtbar. Der Grund ist, dass sie nur 10 Meter breit ist. Die meisten Wohnhäuser sind breiter als die Mauer.
+Tiefe des Mariannen- grabens
+Der Mariannengraben ist ein ziemlich tiefer Graben. Er liegt im Pazifischen Ozean. Wusstest du, dass dieser wunderbare Graben als Endlagerstätte für nukleare Abfälle vorgeschlagen worden ist? Das ist ein ziemlich tiefgründiges Thema!
+Eisregen
+Eisregen, der vom Himmel fällt, besteht aus Eispellets. Der Ball auf der linken Seite ist ein Eispellet. Eisregen ist ähnlich wie Schnee aufgebaut, nur viel dichter. Du hast bestimmt auch bemerkt, dass Eisregen viel kleiner als Hagel ist.
+Größtes Hagelkorn
+Das größte Hagelkorn wurde in South Dakota gefunden. Die meisten Hagelkörner erreichen nicht annähernd die Größe des gefundenen. Der durchschnittliche Durchmesser von Hagelkörnern beträgt nicht einmal einen mickrigen Zentimeter. Ich möchte noch darauf hinweisen, dass nicht alle Hagelkörner rund sind!
+Reiskorn
+Viele Leute auf unserer schönen Erde essen Reis. Wenn du jeden Tag eine Schüssel Reis isst, wirst du in deinem Leben etwa 300 Millionen Reiskörner essen. Das entspricht ungefähr der Bevölkerung der USA!
+Wasserball
+Wasserbälle wurden 1938 erfunden, also vor über 70 Jahren. Wasserbälle sind außerdem bunt und machen sehr viel Spaß! Der einzige Wasserball, der keinen Spaß macht, ist der Wasserball des Todes (eine Fehleranzeige bei Apple-Computern).
+Rafflesie
+Die Rafflesie ist die größte einzelne Blume der Welt. Sie kann bis zu 10 Kilogramm wiegen, was ziemlich schwer ist. Die Blume riecht wie verrottendes Fleisch, um Fliegen als Bestäuber anzulocken.
+U.S. Penny
+Wusstest du, dass 1912 ein Penny so viel wert war wie heute ein Quarter (25¢)? Wenn du einen Penny zu Zink und Kupfer einschmelzen würdest, wäre er 1,79 Cent wert. Aber das wäre illegal, also tu das nicht.
+Salzkorn
+Salz ist eine Verbindung aus einem reaktiven Metall und einem giftigen Gas. Das weiß doch jeder. Iss nicht zu viel Salz, sonst könntest du sterben. Ein Tausendstel deines Körpergewichtes reicht in der Regel.
+String
+Laut der String-Theorie sind Strings eindimensional, vibrieren aber in allen anderen Dimensionen. Dieser String ist allerdings etwas ganz anderes als Drachenschnur. Drachenschnur ist um 32 bis 33 Zehnerpotenzen größer.
+Fulleren
+Ein Fulleren-Molekül (auch Buckminsterfulleren oder kurz Buckyball genannt) besteht aus 60 Kohlenstoffatomen. Seine Form ist die eines abgeschnittenen Ikosahedrons, die gleiche, die ein Fußball hat! Gelöstes Fulleren ist purpur-farben.
+Sonnenblume
+Wusstest du, dass die „Blüte“ der Sonnenblume keine einzelne Blüte ist? Eigentlich besteht der Blütenkopf aus tausenden von kleinen Blüten. Diese kleinen Blüten werden Röschen genannt. Die Röschen in der Mitte werden einmal zu Sonnenblumenkernen, deren Größe man auf dieser Skala hier sehen kann.
+X-Chromosom
+X-Chromosome sind absolut wunderbar. Die meisten Chromosome sehen aus wie ein X, auch wenn sie keine Geschlechtschromosome (und daher Autosome) sind. Weibliche Individuen haben zwei X-Chromosome, männliche haben ein X- und ein Y-Chromosom.
+Y-Chromosom
+Das Y-Chromosom, ein Geschlechtschromosom, tritt nur bei männlichen Individuen auf. Wusstest du, dass das Y-Chromosom im Laufe der Evolution schrumpft und möglicherweise irgendwann vollständig verschwinden wird? Ich finde das sehr faszinierend!
+Glukose-Molekül
+Glukose ist ein einfacher Zucker. Pflanzen erzeugen Glukose durch Photosynthese und verwandeln ihn in komplexere Zucker. Wenn wir (Menschen) Pflanzen essen oder Tiere, die Pflanzen gegessen haben, dann essen wir komplexe Zucker, die wir wieder in Glukose verwandeln, den wir zur Energiegewinnung nutzen.
+Phospholipide
+Phospholipide sind wunderschöne und ganz erstaunliche kleine Moleküle, von denen du Millionen über Millionen über Millionen in deinem Körper hast. Phospholipide sind besondere Fettverbindungen, aus denen Zellmembranen bestehen.
+Doppellipidschicht
+Zellmembranen bestehen aus einer Doppellipidschicht. Doppellipidschichten bilden sich selbständig, weil ihre Köpfe hydrophil (wasseranziehend) und ihre Schwänze hydrophob (wasserabstoßend) sind. Im Ergebnis verklumpen sich die Schwänze und formen die Doppelschicht.
+Sonnenblumen- kern
+Sonnenblumenkerne sind geradezu köstlich. Sie sind derart lecker, dass man daraus „Sonnenblumenkernbrot“ machen kann! Sonnenblumenkerne sind keine richtigen Samen, sie sind die Früchte der Sonnenblume! Sie werden nur Kerne genannt, weil sie anderen Kernen ähneln.
+Hautzelle
+Die äußerste Schicht der Haut, die auch die einzige sichtbare Hautschicht ist, besteht aus toten Zellen. Tote Zellen sind am robustesten, und robuste Haut bietet besseren Schutz! Diese Zellen lösen sich ständig von unserer Haut. Staub besteht tatsächlich zu 95%25 aus toten Hautzellen!
+Amöbe
+Amöben sind Einzeller, sie bestehen also nur aus einer Zelle. Einige Amöben können beinahe 700 Mikrometer groß werden, das ist fast ein ganzer Millimeter.
+E. coli
+E. coli sind überlicherweise harmlose Bakterien, die im Darm leben und wunderbares Vitamin K2 bilden. Sie finden sich im Verdauungstrakt fast jedes Menschen. Sie besiedeln die Därme von Neugeborenen bereits in den ersten zwei Tagen nach der Geburt. Das ist ziemlich schnell!
+Pantoffel- tierchen
+Pantoffeltierchen gibt es in sehr unterschiedlicher Größe, aber üblicherweise sind sie etwa 200 Mikrometer groß. Diese kleinen Kerlchen sind Protisten und schwimmen gerne im Wasser. Sie können zwei Millimeter pro Sekunde zurücklegen!
+Entengrütze
+Entengrütze sind Wasserlinsengewächse, die auf Tümpeln und anderen Gewässern schwimmen. Sie haben weder Stengel noch Wurzel. Blüten bilden sie aber aus, die kleinsten aller Pflanzen der Erde.
+Nebeltröpfchen
+Nebel kann die Sichtweite ein wenig einschränken. Er kann auch Licht reflektieren, daher kann man Lichtstrahlen sehen, die durch Nebel gehen. Das ist ziemlich cool. Wenn du Nebel finden willst, besuche die Küste oder die Berge. Dort gibt es mehr Nebel.
+Dicke von Papier
+Papier ist sehr dünn. Es ist so dünn, dass man sich daran schneiden kann. Man kann viele Dinge mit Papier tun, zum Beispiel darauf schreiben, darauf zeichnen, man kann es sogar in Formen wie Quadrate, Dreiecke, Dodekahedrons und anderes falten.
+Gate-Elektrode eines Transistors
+Transistoren in Computern werden immer kleiner. 1971 waren sie mit 10 Mikrometern noch 400-mal so groß wie heute. Jetzt sind wir bei 25 Nanometern, aber in Zukunft werden sie weiter schrumpfen. Wie klein die wohl werden?
+Größtes Virus
+Das größte Virus, das wir kennen, wird Mimivirus genannt. Ich mag den Namen. Ab jetzt ist es das Megavirus, dessen Namen ich auch mag. Wie auch immer, ich mag eigentlich überhaupt keine Viren. Wusstest du, dass das Megavirus das längste Genom aller Viren besizt?
+Das kleinste sichtbare Ding durch ein optisches Mikroskop
+Mit optischen Mikroskopen kann man keine Objekte sehen, die kleiner als 200 Nanometer sind. Der Grund ist, dass die Wellenlänge des Lichtes direkt durch diese Objekte hindurch gehen würde.
+Reichweite der schwachen Kernkraft
+Die schwache Kernkraft ist eine der grundlegenden Naturkräfte und ist die schwächere der beiden Kernkräfte. Mit zunehmendem Abstand nimmt ihre Stärke ab. Schon bei 10 Attometern ist sie so schwach, dass sie unmessbar wird.
+Mimivirus
+Dieses kleine Ding wurde 1992 in einer Amöbe entdeckt, die nur 500-mal so groß ist. Eine Zeit lang war das Mimivirus das größte bekannte Virus, doch dann hat man das Megavirus entdeckt.
+Bakteriophage
+Bakteriophagen (kurz Phagen) sind Bakterien-infizierende Viren. Ich finde, sie sehen wie Roboter aus, nicht wie Lebewesen. Andererseits ist auch umstritten, ob Viren überhaupt zu den Lebewesen gezählt werden sollen.
+Staubmilbe
+Staubmilben essen Staub, der, wie du vielleicht weißt, aus toten Hautzellen besteht. Viele Leute sind allergisch gegen Staubmilben. Einige sind allergisch gegen ihre Ausscheidungen. Wie auch immer, alle wollen die Plagegeister loswerden.
+Twip
+Ein Twip („TWenteeth of an Inch Point“) ist ein Zwanzigstel eines typografischen Punktes (1/72 Zoll). Ein 12-Punkt-Font ist also etwa 240 Twips groß. Twip klingt außerdem so ähnlich wie TUIP („The Universe In Perspective“), der alte Name für „The Scale of the Universe“.
+Thou
+Obwohl das Wort „thou“ meist die altenglische Anrede ist, haben wir es hier mit einem anderen „Thou“ zu tun, nämlich mit einer Maßeinheit. Ein Thou ist ein Tausendstel Zoll. Seinen Namen hat es vom englischen „thousandth“ für Tausendstel. Ziemlich cool.
+Dicke eines Seidenfadens
+Seide ist wertvoll und kann zu Kleidung verwoben werden, die gewöhnlich sehr weich ist. Seide wird von den Larven der Seidenraupe hergestellt, was ich ziemlich eklig finde. Aber es gibt auch synthetische Seide, die nicht von widerlichen kleinen Krabblern gemacht wird.
+Neutronenstern
+Neutronensterne bestehen aus dichten Neutronenpaketen. Im Ergebnis besitzen sie eine extrem hohe Dichte. Ein Millimeter Material eines Neutronensterns wiegt 500 Milliarden Kilogramm! (Das ist ungefähr die Masse aller Menschen zusammen.)
+Chloroplasten
+Pflanzen benutzen Chloroplasten, um die Sonnenenergie in chemische Energie umzuwandeln. Diese wird in Glucosemolekülen gespeichert. Chloroplasten verleihen den Pflanzen auch ihre grüne Farbe, denn sie haben das sagenhafte Chlorophyll in ihren Thylakoiden.
+Zellkern
+Kerne sind ziemlich cool, und man findet sie in allen Eukaryoten. (Alle menschlichen Zellen sind auch Eukaryoten.) Die Zellkerne speichern die DNA. Während der Mitose kondensiert die DNA zu Chromosomen, und dann teilt sich die Zelle in zwei Teile.
+Texas
+Texas ist der einzige Staat, der bei der Bevölkerung und der Landmasse denselben Rang belegt, nämlich den zweiten Platz. Wenn Puerto Rico gezählt würde, dann würde Mississippi auf der 32sten Position in beiden Kategorien stehen. Allerdings wird Mississippi nicht gezählt, da es kein Staat ist.
+Elektron (klassisch)
+Elektronen sind so klein, dass ihre Größe nicht genau gemessen werden kann. Die Größe eines Elektrons variiert und hängt von der Art und Weise ab wie sie gemessen wird. Entweder basiert sie auf dem Quantenmodell oder auf dem klassischen Modell der Physik.
+Kohlenstoffnanoröhren
+Die Kohlenstoffnanoröhre (CNT) ist das stärkste bisher entdeckte Material. Ein weiterer Vorteil ist, dass sie sehr leicht sind. Somit gibt es eine Menge von Anwendungsmöglichkeiten für Kohlenstoffnanoröhren, zum Beispiel in Gebäuden, Batterien, Sonnenkollektoren und möglicherweise sogar in einem Fahrstuhl in den Weltraum.
+Alpha-Helix
+Die Alpha-Helix ist ein häufig auftretendes Motiv der Sekundärstruktur eines Polypeptids bzw. Proteins. Viele Proteine besitzen Alpha-Helixe. Hämoglobin und Myoglobin sind Proteine, die zu mehr als 70%25 aus Alpha-Helixen bestehen.
+Hepatitis-B-Virus
+Hepatitis B infiziert viele Menschen. Tatsächlich sind fast ein drittel der gesamten Weltbevölkerung infiziert. Die Folgen des Virus sind Erbrechen, Leberentzündung und sogar Tod.
+Porcines Circovirus
+Das Porcines Circovirus ist eines der kleinsten Viren. Es benötigt nur drei Proteine, um sich zu vermehren. Wenn man den Standpunkt vertritt, dass Viren auch Lebewesen sind, dann ist das Porcines Circovirus eines der kleinsten lebendigen Dinge. Allerdings glauben die meisten Menschen, dass Viren nicht lebendig sind.
+Mitochondrium
+Diese Organellen können die chemische Energie von Glucose in ATP (Adenosintriphosphat) umwandeln. Etwa 120.000.000.000.000.000.000.000.000 ATP-Moleküle werden jeden Tag von Mitochondrien in deinem Körper erzeugt.
+Kohlenstoff-Atom
+Kohlenstoff bildet die Basis allen Lebens auf der Erde. Der Grund dafür ist, dass das Kohlenstoff-Atom vier kovalente Bindungen eingehen kann. Das heißt, es kann sich auf vielerlei Weise mit Sauerstoff, Stickstoff, Wasserstoff, Kohlenstoff und anderen Elementen verbinden.
+Great Barrier Reef
+Das Great Barrier Reef vor der Küste Australiens ist das größte Korallenriff der Erde.  Das Great Barrier Reef liegt nordöstlich von Australien an der Ostküste des Bundesstaates Queensland im Südpazifik und erstreckt sich von der Torres-Straße vor Papua-Neuguinea bis zur Lady-Elliot-Insel, die etwa 75 Kilometer nordöstlich von Bundaberg liegt.
+
+
+Zentimeter
+Zentimeter
+Lichtjahr
+Lichtjahre
+"Yoctometer
+Zeptometer
+Attometer
+Femtometer
+Picometer
+Nanometer
+Micrometer
+Millimeter
+Meter
+Kilometer
+Megameter
+Gigameter
+Terameter
+Petameter
+Exameter
+Zettameter
+Yottameter
+Die Proportionen des Universums
+Benutze die Scrollleiste um hinein oder hinaus zu zoomen.
+Klicke auf ein Objekt, um mehr zu erfahren.
+Übersetzt von Alfe
+Deutsch
+German
