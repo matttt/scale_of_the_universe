@@ -107,15 +107,8 @@ dialog {
   box-shadow: 0 0 40px rgba(0,0,0,0.1), 0 0 10px rgba(0,0,0,0.25);
   width: 650px !important;
   top: 10vh;
-  height: 425px !important;
-}
-
-#supportEmail2 {
-  left: 25px !important;
-  bottom: 10px !important;
-  position: absolute;
-  font-size: .8rem;
-  color: #4f4f4f;
+  height: auto;
+  min-height: 500px;
 }
 
 dialog[open] {
@@ -250,7 +243,6 @@ body {
   border-radius: 5px;
   font-size: 16px;
   padding: 30px;
-  height: 30%;
 }
 
 .nw {
@@ -258,14 +250,12 @@ body {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
-  height: 20%
 }
 .ne {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
-  height: 20%
 
 }
 .sw {
@@ -273,7 +263,6 @@ body {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 4;
-  height: 20%
 
 }
 .se {
@@ -281,7 +270,6 @@ body {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 4;
-  height: 20%
 }
 
 .box {
@@ -420,6 +408,12 @@ body {
         grid-row-start: 5;
         grid-row-end: 6;
     }
+    .u {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 6;
+      grid-row-end: 7;
+  }
 
 
 

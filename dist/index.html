@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>The Scale of the Universe 2</title>
+  <meta name="description" content="Шкала масштабов вселенной на русском, адаптация известного flash приложения" />
+  <title>Шкала масштабов вселенной 2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -26,29 +27,27 @@
 
   <div id="frame" style="visibility: hidden;" class="frameStyle">
     <a href="#" class="forward" id="autoForward">
-      <img src="img/backarrow.png" id="forwardImage" ></img>
+      <img src="img/backarrow.png" id="forwardImage"></img>
     </a>
-    <a href="#" class="backward" id="autoBackward" >
+    <a href="#" class="backward" id="autoBackward">
       <img src="img/backarrow.png" id="backwardImage"></img>
     </a>
     <div id="buttons">
       <a href=".">
         <img src="img/lang.svg" class="lang">
       </a>
-      <a href=".">
-        <a class="backarrow" href="https://www.htwins.net">Back</a>
-      </a>
-      
+      <button class="backarrow" onclick="window.location.reload()">Back</button>
+
 
 
       <div id="muteToggle">
         <a href="#" class="speaker">
-            <span></span>
+          <span></span>
         </a>
       </div>
       <div class="hd" id="hqToggle">HQ</div>
     </div>
-  
+
     <div class="sk-chase" id="loadingSpin" style="margin-left: auto; margin-left: auto; top: 20%;">
       <div class="sk-chase-dot"></div>
       <div class="sk-chase-dot"></div>
@@ -57,14 +56,14 @@
       <div class="sk-chase-dot"></div>
       <div class="sk-chase-dot"></div>
     </div>
-  
-    
+
+
     <div class="bgEarth fullBg" id="earthBgImage"></div>
     <div class="bgSpace fullBg" id="spaceBgImage"></div>
     <div id="sotu"></div>
   </div>
 
-    <!-- <div class="wrap">
+  <!-- <div class="wrap">
       <input id="muteToggle" type="checkbox">
       <span class="first"></span>
       <span class="second"></span>
@@ -73,11 +72,11 @@
   <!-- <div id="frame" style="display: none;" class="frameStyle"></div> -->
 
 
-  <dialog class="my-modal" style="font-family: 'Roboto', sans-serif; height: 40%" id="modal" open>
+  <dialog class="my-modal" style="font-family: 'Roboto', sans-serif" id="modal" open>
     <!-- <progress max="100" value="0"></progress> -->
     <h1 id="title" style="position: absolute; top: 0%; max-width: 65%; font: .05vh;">The Scale of the Universe 2</h1>
-    <h1 id="hoverTitle" style="position: absolute; top: 0%; display: none;" ></h1>
-    
+    <h1 id="hoverTitle" style="position: absolute; top: 0%; display: none;"></h1>
+
     <div class="wrapper" id="langWrapper" style="visibility: hidden;">
       <div class="credits">
         <p>Created by Cary Huang</p>
@@ -103,8 +102,7 @@
       <button class="box r" onclick="setLang('r', 1)">עברית</button>
       <button class="box s" onclick="setLang('s', 12)">Esperanto</button>
       <button class="box t" onclick="setLang('t', 17)">Eesti</button>
-      <a href="mailto:scaleoftheuniversedev@gmail.com" id="supportEmail2">Email Us</a>
-
+      <button class="box u" onclick="setLang('u', 20)">Русский</button>
     </div>
 
     <div id="startWrapper" style="display: none">
@@ -115,28 +113,27 @@
       </div>
 
       <div id="startGrid">
-        
-          
-      
-          <div class="tutBox nw">
-            <img style="height: 75px" src="img/slider.png">
-          </div>
-          <div class="tutBox sw">
-            <h2 id="moveSliderText" style="height: 25px"></h2>
-          </div>
-          <div class="tutBox ne">
-            <img style="height: 75px" src="img/object.png">
-          </div>
-          <div class="tutBox se">
-            <h2 id="clickObjectText" style="height: 25px"></h2>
-          </div>
+
+
+
+        <div class="tutBox nw">
+          <img style="height: 75px" src="img/slider.png">
+        </div>
+        <div class="tutBox sw">
+          <h2 id="moveSliderText" style="margin: 0"></h2>
+        </div>
+        <div class="tutBox ne">
+          <img style="height: 75px" src="img/object.png">
+        </div>
+        <div class="tutBox se">
+          <h2 id="clickObjectText" style="margin: 0"></h2>
+        </div>
 
       </div>
       <a href="mailto:scaleoftheuniversedev@gmail.com" id="supportEmail">Email Us</a>
-      <a href="https://apps.apple.com/us/app/the-scale-of-the-universe-2/id1062423259" 
-        id="iosLink">Check out the iOS app</a>
-      <a href="https://www.youtube.com/user/carykh" 
-        id="youtubeLink">Visit Cary's YouTube Channel</a>
+      <a href="https://apps.apple.com/us/app/the-scale-of-the-universe-2/id1062423259" id="iosLink">Check out the iOS
+        app</a>
+      <a href="https://www.youtube.com/user/carykh" id="youtubeLink">Visit Cary's YouTube Channel</a>
       <button onclick="startSOTU()" id="startBtn">
         <!-- <svg class="bi bi-play-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
           <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 010 1.393z"/>
@@ -144,30 +141,27 @@
       </button>
     </div>
 
-    
+
   </dialog>
 
- 
+
   <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
   <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
-  <script src="js/bundle.min.js"></script>
+  <script src="js/bundle.js"></script>
 
 
-  <script>window.sa_event=window.sa_event||function(){a=[].slice.call(arguments);sa_event.q?sa_event.q.push(a):sa_event.q=[a]};</script>
+  <script>window.sa_event = window.sa_event || function () { a = [].slice.call(arguments); sa_event.q ? sa_event.q.push(a) : sa_event.q = [a] };</script>
   <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
-  /></noscript>
-  
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" /></noscript>
+
   <div style="position: absolute; width: 728px; height: 90px; left: calc(50vw - 364px); bottom: 0px; z-index: 1000">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Scale of the Universe 2.1 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-8441223715044524"
-     data-ad-slot="2018216847"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+    <!-- Scale of the Universe 2.1 -->
+    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"
+      data-ad-client="ca-pub-8441223715044524" data-ad-slot="2018216847"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
   </div>
 
 
