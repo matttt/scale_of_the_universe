@@ -39,7 +39,7 @@
     "typescript": "^3.7.5",
     "typings": "^2.1.1",
     "uglify-es": "^3.3.9",
-    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony",
+    "uglify-js": "^3.17.4",
     "vinyl-source-stream": "^2.0.0",
     "watchify": "^3.11.0"
   },
