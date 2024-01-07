@@ -1,22 +1,22 @@
-import {E} from './e'
+import { E } from './e'
 import * as numeral from 'numeral';
 import { ExtraText, SizeData } from '../interfaces';
 
-export function powToUnit (sizeData: SizeData, units: string[], extra: ExtraText) {
+export function powToUnit(sizeData: SizeData, units: string[], extra: ExtraText) {
   const groupPow = sizeData.exponent / 3;
   const unitPow = Math.floor(groupPow)
   const unitIndex = unitPow + 8; //offset in text data, example below
-  
+
   let multiplierPow = 0;
-  
+
   const pos = sizeData.exponent > 0
   const gropPowDec = (Math.abs(sizeData.exponent)) % 3;
-  switch(gropPowDec) {
-    case 1: 
+  switch (gropPowDec) {
+    case 1:
       multiplierPow = pos ? 1 : 2
-      break; 
-    case 2: 
-      multiplierPow = pos ? 2 : 1 
+      break;
+    case 2:
+      multiplierPow = pos ? 2 : 1
       break;
   }
 

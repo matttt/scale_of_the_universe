@@ -57,13 +57,13 @@ let hoverTimeout;
 // }
 
 window['revealTitle'] = () => {
-  if (hoverTimeout) 
+  if (hoverTimeout)
     clearTimeout(hoverTimeout);
 
   hoverTimeout = setTimeout(showTitle, 1000);
 }
 
-function showTitle () {
+function showTitle() {
   titleEl.style.display = 'block';
   hoverTitleEl.style.display = 'none'
 }
@@ -105,10 +105,8 @@ console.log(`
   Made with ♥️
 `)
 
-if(isMobile(window.navigator).phone) {
+if (isMobile(window.navigator).phone) {
   alert('This version of Scale of the Universe 2 is not designed for phones. Please find the app on the iOS app store.')
-  document.write('Download the Scale of the Universe iOS app!')
-  document.getElementById('modal').style.opacity = '0';
 };
 
 const modal: any = document.getElementById("modal");
@@ -145,7 +143,7 @@ const modal: any = document.getElementById("modal");
 //   );
 // }
 
-const muteToggle:any = document.querySelector('.speaker');
+const muteToggle: any = document.querySelector('.speaker');
 let isMuted = false;
 muteToggle.onclick = function (ev) {
   ev.preventDefault();
@@ -173,7 +171,7 @@ dialogPolyfill.registerDialog(modal);
 const globalResolution = 1;
 
 
-const loadingSpin:any = document.getElementById("loadingSpin");
+const loadingSpin: any = document.getElementById("loadingSpin");
 
 loader.load(async (loader, resources) => {
   loadingSpin.visibility = 'hidden';
@@ -194,7 +192,7 @@ loader.load(async (loader, resources) => {
       powerPreference: "high-performance",
       resolution: globalResolution,
       // forceFXAA: true,
-      sharedTicker:true,
+      sharedTicker: true,
       resizeTo: sotuFrame
     });
 
@@ -215,18 +213,18 @@ loader.load(async (loader, resources) => {
     });
 
   }
-  
+
   const w: number = app.renderer.width;
   const h: number = app.renderer.height;
-  
+
   let slider = new Slider(app, w, h, globalResolution, onChange, onHandleClicked);
   slider.init();
-  
+
   let universe = new Universe(0, slider, app);
-  
+
   let scaleText = new ScaleText((w * 0.9) / globalResolution, (slider.topY - 40), "0");
 
-  let creditText = new CreditText(w*0.07, h - (100 + (h*0.05)) - 40);
+  let creditText = new CreditText(w * 0.07, h - (100 + (h * 0.05)) - 40);
 
   const highLoader = new PIXI.Loader();
 
@@ -236,8 +234,8 @@ loader.load(async (loader, resources) => {
   }
 
   highLoader.load(async (highLoader, highResources) => {
-    const hqToggle:any = document.querySelector('#hqToggle');
-   
+    const hqToggle: any = document.querySelector('#hqToggle');
+
     isHQ = true
     hasHQ = true;
     allHighTextures = {}
@@ -245,27 +243,27 @@ loader.load(async (loader, resources) => {
 
       if (!key.includes('_image'))
         allHighTextures = { ...allHighTextures, ...highResources[key].textures };
-    
+
     }
     hqToggle.classList.add('hd-click')
     if (hasPickedLang) {
       universe.hydrateHighTextures(allHighTextures);
     }
   })
-  
+
 
   let buttons = document.getElementById('buttons');
 
-  
+
   const spaceBg = document.getElementById('spaceBgImage')
   const earthBg = document.getElementById('earthBgImage')
   function onChange(x: number, percent: number) {
     let scaleExp = percent * 62 - 35; //range of 10^-35 to 10^27
-  
+
     scaleText.setColor(scaleExp);
     creditText.setColor(scaleExp);
 
-    if(scaleExp > 5 && scaleExp < 7) {
+    if (scaleExp > 5 && scaleExp < 7) {
       let opacity = map(scaleExp, 5, 7, 0.1, 100);
 
       let opacityNorm = opacity / 100;
@@ -278,45 +276,45 @@ loader.load(async (loader, resources) => {
         delete buttons.style.filter;
     }
 
-  
+
     universe.update(scaleExp);
-  
+
     scaleText.setText(`${Math.round(scaleExp * 10) / 10}`);
   }
-  
+
   function onHandleClicked() {
     universe.onHandleClicked();
-  } 
+  }
 
   window["setLang"] = async (btnClass, langIdx) => {
     const textData = (
       await (await fetch(`data/languages/l${langIdx}.txt`)).text()
     ).split("\n").map(x => x.replace(/\r?\n|\r/g, ''));
 
-    const hqToggle:any = document.querySelector('#hqToggle');
+    const hqToggle: any = document.querySelector('#hqToggle');
 
-      hqToggle.onclick = function (ev) {
-        ev.preventDefault();
+    hqToggle.onclick = function (ev) {
+      ev.preventDefault();
 
-        isHQ = !isHQ;
+      isHQ = !isHQ;
 
-        if (!isHQ) {
-          highLoader.reset();
-          universe.clearHighQualityTextures()
+      if (!isHQ) {
+        highLoader.reset();
+        universe.clearHighQualityTextures()
         hqToggle.classList.remove('hd-click')
 
-        } else {
+      } else {
         hqToggle.classList.add('hd-click')
 
-          for (let i = 0; i <= 5; i++) {
-            highLoader.add(`main${i}`, `img/textures/new_items_${i}.json`);
-          }
+        for (let i = 0; i <= 5; i++) {
+          highLoader.add(`main${i}`, `img/textures/new_items_${i}.json`);
         }
-
-        universe.setQuality(isHQ)
       }
 
-    const btns:any = document.querySelectorAll('button.box');
+      universe.setQuality(isHQ)
+    }
+
+    const btns: any = document.querySelectorAll('button.box');
 
     for (const button of btns) {
       if (button.classList[1] !== btnClass) {
@@ -376,17 +374,17 @@ loader.load(async (loader, resources) => {
     }
 
     window["startSOTU"] = () => {
-      
+
       modal.close();
       frame.style.visibility = "visible";
-      
+
       fadeInApp.tween().then();
 
       frozenStar.play();
     }
   };
 
-  
+
 });
 
 // let loadingBar = new ldBar("#loadingBar");

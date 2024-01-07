@@ -2,18 +2,18 @@ import { Text, Container } from 'pixi.js-legacy';
 import { map } from '../helpers/map';
 
 export class ScaleText {
-  public textSpace:Text;
-  public textGround:Text;
-  public baseTextSpace:Text;
-  public baseTextGround:Text;
-  public containerSpace:Container;
-  public containerGround:Container;
-  public container:Container;
+  public textSpace: Text;
+  public textGround: Text;
+  public baseTextSpace: Text;
+  public baseTextGround: Text;
+  public containerSpace: Container;
+  public containerGround: Container;
+  public container: Container;
 
   private textColor = 0x000000;
   private textColorSpace = 0xFFFFFF;
 
-  constructor(x:number, y: number, text: string) {
+  constructor(x: number, y: number, text: string) {
 
     this.baseTextGround = new Text('10', {
       fontFamily: "Roboto",
@@ -24,7 +24,7 @@ export class ScaleText {
     });
 
 
-     this.textGround = new Text(text, {
+    this.textGround = new Text(text, {
       fontFamily: "Roboto",
       fontSize: 14,
       fill: this.textColor,
@@ -40,7 +40,7 @@ export class ScaleText {
       align: "center",
     });
 
-     this.textSpace = new Text(text, {
+    this.textSpace = new Text(text, {
       fontFamily: "Roboto",
       fontSize: 14,
       fill: this.textColorSpace,
@@ -58,7 +58,7 @@ export class ScaleText {
     this.container = new Container();
 
     this.container.addChild(this.containerGround, this.containerSpace);
-    
+
     this.textGround.x = x + 27;
     this.textGround.y = y;
 
@@ -72,15 +72,15 @@ export class ScaleText {
     this.baseTextSpace.y = y;
   }
 
-  setText (str:string) {
+  setText(str: string) {
     this.textSpace.text = Number(str).toFixed(1);
     this.textGround.text = Number(str).toFixed(1);
   }
 
   setColor(scaleExp: number) {
 
-    if(scaleExp > 5) {
-      let opacity = map(scaleExp, 5,7, 0.1, 1);
+    if (scaleExp > 5) {
+      let opacity = map(scaleExp, 5, 7, 0.1, 1);
 
       this.containerSpace.alpha = opacity;
     } else {

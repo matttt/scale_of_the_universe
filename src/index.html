@@ -9,13 +9,15 @@
   <meta name="yandex-verification" content="3e16199ee8c2f02c" />
   <meta name="google-site-verification" content="9M7zMGneCxS-CE6wBWrS-WiSl2Mp3syPWU2UEpBGKg4" />
   <title>Шкала масштабов Вселенной 2</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/spin.css">
   <link rel="stylesheet" type="text/css" href="css/dialog-polyfill.css">
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 
 <body>
@@ -77,15 +79,14 @@
 
   <dialog class="my-modal" style="font-family: 'Roboto', sans-serif" id="modal" open>
     <!-- <progress max="100" value="0"></progress> -->
-    <h1 id="title" style="position: absolute; top: 0%; max-width: 65%; font: .05vh;">Шкала масштабов Вселенной 2</h1>
+    <h1 id="title" style="position: absolute; top: 16px; max-width: 65%; font-size: 24px;">Шкала масштабов Вселенной 2
+    </h1>
     <h1 id="hoverTitle" style="position: absolute; top: 0%; display: none;"></h1>
 
     <div class="wrapper" id="langWrapper" style="visibility: hidden;">
       <div class="credits">
         <p>Created by Cary Huang</p>
         <p>Ported to Pixi.js by Matthew Martori</p>
-        <p>Переведено на русский: <a target="_blank"
-            href="https://github.com/pawfrolow/scale_of_the_universe">pawfrolow</a>, 2023</p>
       </div>
       <button class="box a" onclick="setLang('a', 0)">English (US)</button>
       <button class="box b" onclick="setLang('b', 3)">English (British)</button>
@@ -114,8 +115,6 @@
       <div class="credits">
         <p>Created by Cary Huang</p>
         <p>Ported to Pixi.js by Matthew Martori</p>
-        <p>Переведено на русский: <a target="_blank"
-            href="https://github.com/pawfrolow/scale_of_the_universe">pawfrolow</a>, 2023</p>
         <p id="translationCredit"></p>
       </div>
 

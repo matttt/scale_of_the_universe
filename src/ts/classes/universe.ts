@@ -1,4 +1,4 @@
-import { Application, Container }  from "pixi.js-legacy";
+import { Application, Container } from "pixi.js-legacy";
 import { Item } from "./item";
 import { Ring } from "./ring";
 import { Entity } from "./entity";
@@ -91,7 +91,7 @@ export class Universe {
     this.unHideItems();
   }
 
-  public hydrateHighTextures (textures: any) {
+  public hydrateHighTextures(textures: any) {
     const is = this.items;
     const rs = this.rings;
     const es = [...is, ...rs] as Entity[];
@@ -148,7 +148,7 @@ export class Universe {
           this.displayContainer.removeChildAt(0);
         }
 
-        this.container.addChild(this.selectedItem.getContainer());  
+        this.container.addChild(this.selectedItem.getContainer());
       }
 
       item.showDescription();
@@ -196,7 +196,7 @@ export class Universe {
     }
 
     this.slider.setAnimationTargetPercent(percentFinal);
-    
+
   }
 
   public clearHighQualityTextures() {
@@ -226,7 +226,7 @@ export class Universe {
       meters: meterPluralText
     }
 
-    const units = textData.slice(602,618);
+    const units = textData.slice(602, 618);
 
     const onClick = (item: Item) => {
       this.itemClicked(item);
@@ -270,7 +270,7 @@ export class Universe {
         this.container.addChild(item.getContainer());
       } else if (idx < 17) {
         // below 17 are rings 17
-        
+
         let prefix = textData[idx + 602] || "";
 
         textDatum.title = "1 " + prefix + meterText;
@@ -342,9 +342,9 @@ export class Universe {
         this.rings.push(ring);
         this.container.addChild(ring.getContainer());
       }
-      
-      
-      
+
+
+
 
     }
   }

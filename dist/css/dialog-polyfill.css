@@ -35,3 +35,9 @@ dialog.fixed {
   top: 50%;
   transform: translate(0, -50%);
 }
+
+@media screen and (max-width: 668px) {
+  dialog {
+    zoom: 50%;
+  }
+}

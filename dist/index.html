@@ -4,15 +4,20 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Шкала масштабов вселенной на русском, адаптация известного flash приложения" />
-  <title>Шкала масштабов вселенной 2</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Переведенная на русский язык презентация The Scale of the Universe демонстрирует соотношение размеров различных объектов (от элементарных частиц до галактик)." />
+  <meta name="yandex-verification" content="3e16199ee8c2f02c" />
+  <meta name="google-site-verification" content="9M7zMGneCxS-CE6wBWrS-WiSl2Mp3syPWU2UEpBGKg4" />
+  <title>Шкала масштабов Вселенной 2</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/spin.css">
   <link rel="stylesheet" type="text/css" href="css/dialog-polyfill.css">
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 
 <body>
@@ -74,15 +79,14 @@
 
   <dialog class="my-modal" style="font-family: 'Roboto', sans-serif" id="modal" open>
     <!-- <progress max="100" value="0"></progress> -->
-    <h1 id="title" style="position: absolute; top: 0%; max-width: 65%; font: .05vh;">The Scale of the Universe 2</h1>
+    <h1 id="title" style="position: absolute; top: 16px; max-width: 65%; font-size: 24px;">Шкала масштабов Вселенной 2
+    </h1>
     <h1 id="hoverTitle" style="position: absolute; top: 0%; display: none;"></h1>
 
     <div class="wrapper" id="langWrapper" style="visibility: hidden;">
       <div class="credits">
         <p>Created by Cary Huang</p>
         <p>Ported to Pixi.js by Matthew Martori</p>
-        <p>Translated by russian by <a target="_blank"
-            href="https://github.com/pawfrolow/scale_of_the_universe">pawfrolow</a></p>
       </div>
       <button class="box a" onclick="setLang('a', 0)">English (US)</button>
       <button class="box b" onclick="setLang('b', 3)">English (British)</button>
@@ -111,8 +115,6 @@
       <div class="credits">
         <p>Created by Cary Huang</p>
         <p>Ported to Pixi.js by Matthew Martori</p>
-        <p>Translated by russian by <a target="_blank"
-            href="https://github.com/pawfrolow/scale_of_the_universe">pawfrolow</a></p>
         <p id="translationCredit"></p>
       </div>
 
@@ -147,7 +149,7 @@
 
   <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
   <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
-  <script src="js/bundle.min.js"></script>
+  <script src="js/bundle.js"></script>
 
 
   <script>window.sa_event = window.sa_event || function () { a = [].slice.call(arguments); sa_event.q ? sa_event.q.push(a) : sa_event.q = [a] };</script>
