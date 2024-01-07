@@ -1,7 +1,7 @@
-import { 
-  Graphics, 
-  Application, 
-  Container, 
+import {
+  Graphics,
+  Application,
+  Container,
   Point,
   Ticker
 } from "pixi.js-legacy";
@@ -17,14 +17,14 @@ enum AutopilotDirection {
   FORWARD, BACKWARD
 }
 
-const Stats = require( 'stats-js');
+const Stats = require('stats-js');
 
 const WIDTH_PERCENT = 0.9;
 const HEIGHT_PERCENT = 0.05;
 const BOTTOM_MARGIN = 100;
 const HANDLE_WIDTH_PERCENT = 0.04;
 const BORDER_RADIUS = 15;
-const SCROLL_SPEED = -1.5; 
+const SCROLL_SPEED = -1.5;
 let MAX_SCROLL_SPEED = 3; // TODO: FIX: this is modified in runtime to speed up the onclick animation
 let EASING_CONSTANT = 0.005;
 
@@ -44,11 +44,11 @@ export class Slider {
   public dragging: Boolean = false;
   private fpsTarget: number = 200;
   private margin: number;
-  private targetX: number; 
+  private targetX: number;
   private currentX: number;
   private currentPercent: number;
-  private interaction: boolean = false; 
-  private mouseDown: boolean = false; 
+  private interaction: boolean = false;
+  private mouseDown: boolean = false;
   public topY: number;
   private w: number;
   private h: number;
@@ -66,12 +66,12 @@ export class Slider {
   public handleWidthPixels: number;
   public scaleWidthPixels: number;
 
-  constructor(app: Application, 
-              w: number, 
-              h: number, 
-              globalRes: number,
-              onChange: Function, 
-              onHandleClicked: Function) {
+  constructor(app: Application,
+    w: number,
+    h: number,
+    globalRes: number,
+    onChange: Function,
+    onHandleClicked: Function) {
     this.app = app;
     this.onChange = onChange;
     this.onHandleClicked = onHandleClicked;
@@ -99,7 +99,7 @@ export class Slider {
     //   const target = Number(prompt('Jump to percent'));
     //   this.setTargetPercent(target)
     // });
-    
+
 
     document.addEventListener("mousewheel", (e: any) => {
       var e = window.event || e; // old IE support
@@ -107,7 +107,7 @@ export class Slider {
       this.startOffset = 0;
 
       this.interact();
-      
+
 
       this.moveTarget(delta * SCROLL_SPEED)
     }, false);
@@ -149,11 +149,11 @@ export class Slider {
 
     const widthPixels = this.w;
     const handleWidthPixels = this.w * HANDLE_WIDTH_PERCENT;
-    
+
     const scaleWidthPixels = widthPixels - handleWidthPixels / 2;
-    
+
     graphics.lineStyle(3, 0x00ff00, 1);
-    
+
     // blue rectangle
     graphics.lineStyle(3, 0x0000ff, 1);
     graphics.cacheAsBitmap = true;
@@ -200,7 +200,7 @@ export class Slider {
 
 
   //   if (this.autopilotDir === AutopilotDirection.FORWARD || !this.autopilotDir) {
-      
+
   //     this.autopilotInterval ? clearInterval(this.autopilotInterval) : '';
 
   //     this.autopilotDir = AutopilotDirection.BACKWARD
@@ -270,7 +270,7 @@ export class Slider {
 
 
     graphics.lineStyle(3, 0xff00ff, 1);
-    
+
     // graphics.drawRect(w/2, -25, 3, 25);
     // graphics.anchor.set()
 
@@ -294,7 +294,7 @@ export class Slider {
       this.startOffset = event.data.global.x - here.handleGfx.position.x
 
       here.interact();
-      
+
       this.data = event.data;
       this.alpha = 0.75;
       this.dragging = true;
@@ -315,7 +315,7 @@ export class Slider {
       here.interact();
 
       let diff = here.currentX - here.targetX;
-      let dir = diff/Math.abs(diff);
+      let dir = diff / Math.abs(diff);
 
       let newDiff = diff / 3;
 
@@ -366,8 +366,8 @@ export class Slider {
     EASING_CONSTANT = 0.1;
   }
 
- 
-  interact():void {
+
+  interact(): void {
     this.interaction = true;
 
     Ticker.shared.start();
@@ -380,16 +380,16 @@ export class Slider {
       const duration = Math.min(Math.max(50000 * deltaPercent, 250), 1000)
 
       this.tweenable.setConfig({
-        from: { pos: this.currentPercent  },
+        from: { pos: this.currentPercent },
         to: { pos: targetPercent },
         easing: 'easeInOutSine',
         duration,
         step: state => this.setPercent(state.pos)
       });
 
-      this.tweenable.tween().then(() => {})
+      this.tweenable.tween().then(() => { })
     }
-    
+
   }
 
   animStopped() {
@@ -424,73 +424,74 @@ export class Slider {
 
     ticker.add((deltaTime: number) => {
       if (!this.tweenable.isPlaying()) {
-              // stats.end()
-              // stats.begin()
-              // difference between current pos and targetX pos
-              
-              let dX = (this.targetX - this.currentX) * deltaTime; //
-              const widthPixels = this.w * WIDTH_PERCENT;
-              const handleWidthPixels = this.w * HANDLE_WIDTH_PERCENT;
-              const scaleWidthPixels = widthPixels - handleWidthPixels;
-        
-              // const oppWidth = ((this.w * (1 - WIDTH_PERCENT)) / 2);
-              const margin = (this.w - widthPixels) / 2; // left/right margin for slider bg
-        
-              const leftBound = margin + handleWidthPixels / 2; // allow slider to get to left most edge
-              const rightBound = margin + widthPixels - handleWidthPixels / 2; // ^^ but right edge
-        
-        
-              let dXScaled = dX * EASING_CONSTANT;
-              const dir = dXScaled / Math.abs(dXScaled);
-        
-        
-              if (Math.abs(dXScaled) > MAX_SCROLL_SPEED) {
-                dXScaled = MAX_SCROLL_SPEED * dir
-              }
-              
-        
-              const newX = this.currentX + dXScaled;
-              const adjX = newX + handleWidthPixels / 2;
-        
-              const insideLeft = leftBound < adjX;
-              const insideRight = adjX < rightBound;
-        
-              let changed = Math.abs(dXScaled) > .005;
-              let newPosition = this.currentX;
-                
-              if (insideLeft && insideRight && changed) {
-                newPosition = newX;
-                this.currentX = newX;
-              }
+        // stats.end()
+        // stats.begin()
+        // difference between current pos and targetX pos
 
-              if (adjX > rightBound + 5) {
-                newPosition = rightBound - 1 - handleWidthPixels / 2;
-                this.currentX =  rightBound -1 - handleWidthPixels / 2;
-              }
-              
-        
-              this.handleGfx.position.x = newPosition;
-      
-              
-              let percent = (newPosition - margin) / (scaleWidthPixels);
-        
-              // percent = Math.floor(percent * E(8)) / E(8)
+        let dX = (this.targetX - this.currentX) * deltaTime; //
+        const widthPixels = this.w * WIDTH_PERCENT;
+        const handleWidthPixels = this.w * HANDLE_WIDTH_PERCENT;
+        const scaleWidthPixels = widthPixels - handleWidthPixels;
 
-              this.currentPercent = percent;
-        
-              if (changed) {
-                this.onChange(newPosition, percent);
-              } else  {
-                
-                this.animStopped() 
-              }
-        
-              prevDX = dXScaled; 
-            
+        // const oppWidth = ((this.w * (1 - WIDTH_PERCENT)) / 2);
+        const margin = (this.w - widthPixels) / 2; // left/right margin for slider bg
+
+        const leftBound = margin + handleWidthPixels / 2; // allow slider to get to left most edge
+        const rightBound = margin + widthPixels - handleWidthPixels / 2 + 5; // ^^ but right edge
+        console.log(rightBound)
+
+
+        let dXScaled = dX * EASING_CONSTANT;
+        const dir = dXScaled / Math.abs(dXScaled);
+
+
+        if (Math.abs(dXScaled) > MAX_SCROLL_SPEED) {
+          dXScaled = MAX_SCROLL_SPEED * dir
+        }
+
+
+        const newX = this.currentX + dXScaled;
+        const adjX = newX + handleWidthPixels / 2;
+
+        const insideLeft = leftBound < adjX;
+        const insideRight = adjX < rightBound;
+
+        let changed = Math.abs(dXScaled) > .005;
+        let newPosition = this.currentX;
+
+        if (insideLeft && insideRight && changed) {
+          newPosition = newX;
+          this.currentX = newX;
+        }
+
+        if (adjX > rightBound + 5) {
+          newPosition = rightBound - 1 - handleWidthPixels / 2;
+          this.currentX = rightBound - 1 - handleWidthPixels / 2;
+        }
+
+
+        this.handleGfx.position.x = newPosition;
+
+
+        let percent = (newPosition - margin) / (scaleWidthPixels);
+
+        // percent = Math.floor(percent * E(8)) / E(8)
+
+        this.currentPercent = percent;
+
+        if (changed) {
+          this.onChange(newPosition, percent);
+        } else {
+
+          this.animStopped()
+        }
+
+        prevDX = dXScaled;
+
       }
     });
 
 
-  
+
   }
 }
