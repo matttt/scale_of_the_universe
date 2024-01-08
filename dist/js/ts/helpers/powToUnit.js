@@ -44,7 +44,6 @@ export function powToUnit(sizeData, units, extra) {
     }
     // yoctometers
     if (sizeData.exponent <= -24) {
-        console.log(sizeData);
         const relExp = sizeData.exponent + 24;
         const numLYS = sizeData.coeff * (Math.pow(10, relExp));
         let formattedVal = numeral(numLYS).format('0,0');

@@ -87,16 +87,6 @@ body {
   color: #4f4f4f;
 }
 
-.backarrow {
-  position: absolute;
-  font-family: 'roboto', sans-serif;
-  top: 12px;
-  left: 12px;
-  font-size: 12px;
-  color: #333;
-  /* text-decoration: none; */
-}
-
 dialog {
   background-color: var(--bg);
   color: var(--text-color);

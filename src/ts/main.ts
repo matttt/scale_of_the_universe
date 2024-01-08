@@ -214,7 +214,7 @@ loader.load(async (loader, resources) => {
 
   }
 
-  const w: number = app.renderer.width;
+  const w: number = app.renderer.width + 3;
   const h: number = app.renderer.height;
 
   let slider = new Slider(app, w, h, globalResolution, onChange, onHandleClicked);

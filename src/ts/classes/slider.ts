@@ -180,8 +180,6 @@ export class Slider {
   //     this.autopilotDir = AutopilotDirection.FORWARD;
   //     this.autopilot = true
 
-  //     console.log('hi')
-
   //     forwardImg.classList.add('sideSine');
   //     backwardImg.classList.remove('sideSine');
 
@@ -437,9 +435,7 @@ export class Slider {
         const margin = (this.w - widthPixels) / 2; // left/right margin for slider bg
 
         const leftBound = margin + handleWidthPixels / 2; // allow slider to get to left most edge
-        const rightBound = margin + widthPixels - handleWidthPixels / 2 + 5; // ^^ but right edge
-        console.log(rightBound)
-
+        const rightBound = margin + widthPixels - handleWidthPixels / 2 + 3; // ^^ but right edge
 
         let dXScaled = dX * EASING_CONSTANT;
         const dir = dXScaled / Math.abs(dXScaled);

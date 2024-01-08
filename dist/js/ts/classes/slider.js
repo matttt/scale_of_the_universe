@@ -99,7 +99,6 @@ export class Slider {
             this.autopilotInterval ? clearInterval(this.autopilotInterval) : '';
             this.autopilotDir = AutopilotDirection.FORWARD;
             this.autopilot = true;
-            console.log('hi');
             forwardImg.classList.add('sideSine');
             backwardImg.classList.remove('sideSine');
             this.autopilotInterval = setInterval(() => {
@@ -310,8 +309,6 @@ export class Slider {
                 let percent = (newPosition - margin) / (scaleWidthPixels);
                 percent = Math.floor(percent * E(7)) / E(7);
                 this.currentPercent = percent;
-                // console.log(newPosition, percent, 'adjx:', adjX, 'rightBound', rightBound, insideRight)
-                // console.log(this.interaction)
                 if (changed) {
                     // ticker.speed = 1;
                     // ticker.start();
