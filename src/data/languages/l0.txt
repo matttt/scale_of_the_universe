@@ -449,9 +449,9 @@ Bertrand Russell said that there was a teapot orbiting the Sun between Earth and
 Minecraft World
 Stretching from the coordinates +32,000,000 to -32,000,000, the Minecraft world spans a total of 64,000 kilometers.  This world has approximately 130 quadrillion blocks in it!  That sure is a lot!
 Up Quark
-There are six flavors of quarks.  They are up, down, strange charm, top, and bottom.  The smaller a quark is, the more mass it has.  As a result, the up and down quarks are actually the lightest of the quarks.  This up quark has a charge of +2/3.
+There are six flavors of quarks.  They are up, down, strange, charm, top and bottom.  The smaller a quark is, the more mass it has.  As a result, the up and down quarks are actually the lightest of the quarks.  This up quark has a charge of +2/3.
 Down Quark
-There are six flavors of quarks.  They are up, down, strange charm, top, and bottom.  The smaller a quark is, the more mass it has.  As a result, the up and down quarks are actually the lightest of the quarks.  This down quark has a charge of -1/3.
+There are six flavors of quarks.  They are up, down, strange, charm, top and bottom.  The smaller a quark is, the more mass it has.  As a result, the up and down quarks are actually the lightest of the quarks.  This down quark has a charge of -1/3.
 Charm Quark
 The charm quark and the strange quark are the second generation of matter.  They will quickly decay into up and down quarks, which are the first generation of matter.  The charm quark is charming.
 Strange Quark
